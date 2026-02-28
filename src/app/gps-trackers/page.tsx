@@ -90,9 +90,10 @@ export default function GPSTrackersComparison() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {articles.map((slug) => {
               const titles: Record<string, string> = {
-                "gps-vs-bluetooth-pet-tracker": "GPS vs Bluetooth Pet Trackers: Range, Battery, and Subscription Costs",
-                "best-gps-tracker-escape-prone-dogs": "Best GPS Trackers for Escape-Prone Dogs with Real-Time Alerts",
-                "gps-tracker-monthly-costs-comparison": "Monthly Subscription Costs for Pet GPS Trackers",
+                "gps-vs-bluetooth-pet-tracker": "GPS vs Bluetooth Pet Trackers: Range, Battery, and Subscription Costs Compared",
+                "best-gps-trackers-for-cats": "Best GPS Trackers for Cats: Lightweight, Waterproof, and Cat-Specific Picks",
+                "pet-tracker-subscription-cost-comparison": "Pet Tracker Subscription Costs Compared: Hidden Monthly Fees and True Total Cost of Ownership",
+                "gps-pet-fence-vs-traditional-fence": "GPS Pet Fence vs Traditional Fence: Virtual Boundaries, Training, and Real-World Reliability",
               };
               return (
                 <Link

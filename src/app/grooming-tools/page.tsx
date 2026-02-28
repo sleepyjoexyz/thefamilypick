@@ -90,9 +90,10 @@ export default function GroomingToolsComparison() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {articles.map((slug) => {
               const titles: Record<string, string> = {
-                "vacuum-groomer-vs-traditional-clippers": "Vacuum Groomers vs Traditional Clippers: Mess-Free Grooming",
-                "best-cordless-dog-clippers": "Best Cordless Dog Clippers for Easy At-Home Grooming",
-                "nail-grinder-vs-traditional-trimmers": "Nail Grinders vs Traditional Nail Trimmers: Safety and Comfort",
+                "vacuum-groomer-vs-traditional-clippers": "Vacuum Groomers vs Traditional Clippers: Mess-Free Grooming Comparison",
+                "best-deshedding-tools-by-coat-type": "Best Deshedding Tools by Coat Type: Short, Medium, Long & Double Coats",
+                "dog-nail-grinding-vs-clipping": "Dog Nail Grinding vs Clipping: Safety, Comfort & Technique Comparison",
+                "home-grooming-starter-kit-guide": "Home Grooming Starter Kit Guide: Essential Tools for Beginners",
               };
               return (
                 <Link

@@ -90,9 +90,10 @@ export default function AutomaticFeedersComparison() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {articles.map((slug) => {
               const titles: Record<string, string> = {
-                "smart-vs-basic-automatic-feeder": "Smart WiFi Automatic Feeders vs Basic Timed Feeders",
-                "automatic-feeder-for-multiple-pets": "Automatic Feeders for Multiple Pets: Avoiding Food Stealing",
-                "best-automatic-feeder-for-weight-control": "Weight Management: Best Automatic Feeders for Portion Control",
+                "smart-vs-basic-automatic-feeder": "Smart WiFi Automatic Feeders vs Basic Timed Feeders: Features, Cost, and Convenience",
+                "best-automatic-feeders-for-cats": "Best Automatic Pet Feeders for Cats: Portion Control and Weight Management Guide",
+                "automatic-feeder-portion-control-guide": "Automatic Pet Feeder Portion Control Guide: Weight Management and Calorie Counting",
+                "gravity-vs-timed-pet-feeder": "Gravity Pet Feeders vs. Timed Automatic Feeders: Which is More Reliable?",
               };
               return (
                 <Link
