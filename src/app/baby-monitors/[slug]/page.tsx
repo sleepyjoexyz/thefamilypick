@@ -4,6 +4,7 @@ import {
 } from "@/data/baby-monitor-articles";
 import { babyMonitors } from "@/data/baby-monitors";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 
@@ -267,6 +268,9 @@ export default async function ArticlePage({ params }: PageProps) {
           </p>
         </div>
       </section>
+
+      {/* Comments */}
+      <Comments pagePath={`/baby-monitors/${slug}`} siteName="thefamilypick" />
     </article>
   );
 }

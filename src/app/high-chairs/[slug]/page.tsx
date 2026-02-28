@@ -1,5 +1,6 @@
 import { getHighChairArticle, getAllHighChairArticleSlugs } from "@/data/high-chair-articles";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 
@@ -228,6 +229,9 @@ export default async function ArticlePage({ params }: PageProps) {
           commissions from Amazon purchases made through links in this article.
         </p>
       </section>
+
+      {/* Comments */}
+      <Comments pagePath={`/high-chairs/${slug}`} siteName="thefamilypick" />
     </article>
   );
 }

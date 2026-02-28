@@ -4,6 +4,7 @@ import {
 } from "@/data/gps-tracker-articles";
 import { gpsTrackers } from "@/data/gps-trackers";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 
@@ -249,6 +250,9 @@ export default async function ArticlePage({ params }: PageProps) {
       </section>
 
       {/* Disclaimer */}
+      {/* Comments */}
+      <Comments pagePath={`/gps-trackers/${slug}`} siteName="thefamilypick" />
+
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
           <p className="text-sm text-gray-600">

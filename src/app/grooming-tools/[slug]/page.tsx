@@ -4,6 +4,7 @@ import {
 } from "@/data/grooming-tool-articles";
 import { groomingTools } from "@/data/grooming-tools";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 
@@ -249,6 +250,9 @@ export default async function ArticlePage({ params }: PageProps) {
       </section>
 
       {/* Disclaimer */}
+      {/* Comments */}
+      <Comments pagePath={`/grooming-tools/${slug}`} siteName="thefamilypick" />
+
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
           <p className="text-sm text-gray-600">
