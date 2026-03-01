@@ -247,13 +247,8 @@ export default function CarSeatsComparison() {
                     key={product.id}
                     className={index % 2 === 0 ? "bg-white" : "bg-gray-50"}
                   >
-                    <td className="border border-gray-300 px-4 py-2 font-semibold">
-                      <Link
-                        href={`/car-seats/${product.id}`}
-                        className="text-blue-600 hover:underline"
-                      >
-                        {product.brand} {product.model}
-                      </Link>
+                    <td className="border border-gray-300 px-4 py-2 font-semibold text-gray-900">
+                      {product.brand} {product.model}
                     </td>
                     <td className="border border-gray-300 px-4 py-2 text-right">
                       {formatPrice(product.price)}
@@ -384,12 +379,6 @@ export default function CarSeatsComparison() {
                 </div>
 
                 <div className="mt-4 flex gap-2">
-                  <Link
-                    href={`/car-seats/${product.id}`}
-                    className="flex-1 bg-blue-600 text-white px-3 py-2 rounded text-center text-sm font-semibold hover:bg-blue-700"
-                  >
-                    Details
-                  </Link>
                   {getAmazonLink(product.amazonAsin) && (
                     <a
                       href={getAmazonLink(product.amazonAsin) || "#"}
