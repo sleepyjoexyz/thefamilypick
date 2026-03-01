@@ -3,9 +3,9 @@
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { gpsTrackers } from "@/data/gps-trackers";
+import { gpsTrackerArticles } from "@/data/gps-tracker-articles";
 import { GPSTracker } from "@/data/gps-trackers";
 import Link from "next/link";
-import { getAllGPSTrackerArticleSlugs } from "@/data/gps-tracker-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 
 export default function GPSTrackersComparison() {
@@ -14,7 +14,6 @@ export default function GPSTrackersComparison() {
   const [priceRange, setPriceRange] = useState<string>("all");
   const [hasGeofencing, setHasGeofencing] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("name");
-  const articles = getAllGPSTrackerArticleSlugs();
 
   const filteredProducts = useMemo(() => {
     let result = [...gpsTrackers];
@@ -84,28 +83,24 @@ export default function GPSTrackersComparison() {
       </section>
 
       {/* Articles Section */}
-      {articles.length > 0 && (
+      {Object.keys(gpsTrackerArticles).length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Helpful Guides</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {articles.map((slug) => {
-              const titles: Record<string, string> = {
-                "gps-vs-bluetooth-pet-tracker": "GPS vs Bluetooth Pet Trackers: Range, Battery, and Subscription Costs Compared",
-                "best-gps-trackers-for-cats": "Best GPS Trackers for Cats: Lightweight, Waterproof, and Cat-Specific Picks",
-                "pet-tracker-subscription-cost-comparison": "Pet Tracker Subscription Costs Compared: Hidden Monthly Fees and True Total Cost of Ownership",
-                "gps-pet-fence-vs-traditional-fence": "GPS Pet Fence vs Traditional Fence: Virtual Boundaries, Training, and Real-World Reliability",
-              };
-              return (
-                <Link
-                  key={slug}
-                  href={`/gps-trackers/${slug}`}
-                  className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-                >
-                  <h3 className="font-semibold text-blue-600 hover:underline">{titles[slug] || slug}</h3>
-                  <p className="text-sm text-gray-600 mt-1">Read our in-depth guide →</p>
-                </Link>
-              );
-            })}
+            {Object.values(gpsTrackerArticles).map((article) => (
+              <Link
+                key={article.slug}
+                href={`/gps-trackers/${article.slug}`}
+                className="border border-gray-200 rounded-lg p-6 hover:border-blue-500 hover:shadow-lg transition"
+              >
+                <h3 className="font-bold text-lg text-gray-900 mb-2">
+                  {article.title}
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  {article.description}
+                </p>
+              </Link>
+            ))}
           </div>
         </section>
       )}

@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { highChairs } from "@/data/high-chairs";
+import { highChairArticles } from "@/data/high-chair-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
 
@@ -105,40 +106,27 @@ export default function HighChairsComparison() {
       </section>
 
       {/* Articles Link */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-gray-50 border-l-4 border-blue-500 p-4">
-          <h3 className="font-semibold text-gray-900 mb-2">Learn More About High Chairs</h3>
-          <p className="text-sm text-gray-600 mb-4">
-            Read our detailed guides on safety, materials, timing, and space-saving options:
-          </p>
-          <div className="space-y-2">
-            <Link
-              href="/high-chairs/best-high-chairs-for-small-spaces"
-              className="block text-sm text-blue-600 hover:underline"
-            >
-              → Best High Chairs for Small Spaces & Apartments
-            </Link>
-            <Link
-              href="/high-chairs/wooden-vs-plastic-high-chairs"
-              className="block text-sm text-blue-600 hover:underline"
-            >
-              → Wood vs Plastic High Chairs: Durability, Cleaning & Aesthetics
-            </Link>
-            <Link
-              href="/high-chairs/high-chair-safety-checklist"
-              className="block text-sm text-blue-600 hover:underline"
-            >
-              → High Chair Safety Checklist: Harness, Stability & Recall Info
-            </Link>
-            <Link
-              href="/high-chairs/when-to-start-using-a-high-chair"
-              className="block text-sm text-blue-600 hover:underline"
-            >
-              → When to Start Using a High Chair: Developmental Readiness Guide
-            </Link>
+      {Object.keys(highChairArticles).length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="bg-gray-50 border-l-4 border-blue-500 p-4">
+            <h3 className="font-semibold text-gray-900 mb-2">Learn More About High Chairs</h3>
+            <p className="text-sm text-gray-600 mb-4">
+              Read our detailed guides on safety, materials, timing, and space-saving options:
+            </p>
+            <div className="space-y-2">
+              {Object.values(highChairArticles).map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`/high-chairs/${article.slug}`}
+                  className="block text-sm text-blue-600 hover:underline"
+                >
+                  → {article.title}
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

@@ -3,9 +3,9 @@
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { automaticFeeders } from "@/data/automatic-feeders";
+import { automaticFeederArticles } from "@/data/automatic-feeder-articles";
 import { AutoFeeder } from "@/data/automatic-feeders";
 import Link from "next/link";
-import { getAllAutoFeederArticleSlugs } from "@/data/automatic-feeder-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 
 export default function AutomaticFeedersComparison() {
@@ -14,7 +14,6 @@ export default function AutomaticFeedersComparison() {
   const [priceRange, setPriceRange] = useState<string>("all");
   const [hasApp, setHasApp] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("name");
-  const articles = getAllAutoFeederArticleSlugs();
 
   const filteredProducts = useMemo(() => {
     let result = [...automaticFeeders];
@@ -84,28 +83,24 @@ export default function AutomaticFeedersComparison() {
       </section>
 
       {/* Articles Section */}
-      {articles.length > 0 && (
+      {Object.keys(automaticFeederArticles).length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Helpful Guides</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {articles.map((slug) => {
-              const titles: Record<string, string> = {
-                "smart-vs-basic-automatic-feeder": "Smart WiFi Automatic Feeders vs Basic Timed Feeders: Features, Cost, and Convenience",
-                "best-automatic-feeders-for-cats": "Best Automatic Pet Feeders for Cats: Portion Control and Weight Management Guide",
-                "automatic-feeder-portion-control-guide": "Automatic Pet Feeder Portion Control Guide: Weight Management and Calorie Counting",
-                "gravity-vs-timed-pet-feeder": "Gravity Pet Feeders vs. Timed Automatic Feeders: Which is More Reliable?",
-              };
-              return (
-                <Link
-                  key={slug}
-                  href={`/automatic-feeders/${slug}`}
-                  className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-                >
-                  <h3 className="font-semibold text-blue-600 hover:underline">{titles[slug] || slug}</h3>
-                  <p className="text-sm text-gray-600 mt-1">Read our in-depth guide →</p>
-                </Link>
-              );
-            })}
+            {Object.values(automaticFeederArticles).map((article) => (
+              <Link
+                key={article.slug}
+                href={`/automatic-feeders/${article.slug}`}
+                className="border border-gray-200 rounded-lg p-6 hover:border-blue-500 hover:shadow-lg transition"
+              >
+                <h3 className="font-bold text-lg text-gray-900 mb-2">
+                  {article.title}
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  {article.description}
+                </p>
+              </Link>
+            ))}
           </div>
         </section>
       )}

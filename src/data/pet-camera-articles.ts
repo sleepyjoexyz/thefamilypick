@@ -705,6 +705,700 @@ Cameras with free local microSD storage (Wyze Cam Pan v3 at $49, or eufy Pet Cam
 
 For serious behavior analysis or multiple cameras, budget $60-120/year in cloud fees. It's worthwhile insurance against losing important behavioral data that could guide professional training or veterinary decisions.`,
   },
+
+  "night-vision-pet-cameras-ir-vs-starlight": {
+    slug: "night-vision-pet-cameras-ir-vs-starlight",
+    title: "Night Vision in Pet Cameras: Infrared vs Starlight Technology Compared",
+    description:
+      "Compare infrared and starlight night vision technologies in pet cameras. Understand image quality, false alarms, battery drain, and which low-light technology is best for your pet monitoring.",
+    category: "pet-cameras",
+    content: `## Introduction
+
+When choosing a pet camera, daytime video quality matters—but what happens when the lights go out? Night vision technology determines whether you can see your pet's nocturnal behavior or just a dark void. Most pet cameras use either infrared (IR) night vision or newer starlight technology, and these two approaches offer dramatically different image quality, power consumption, and reliability. This guide compares both technologies so you can choose the right night vision setup for your home.
+
+## How Infrared Night Vision Works
+
+Infrared (IR) night vision is the standard technology in most security and pet cameras under $150.
+
+### How IR Night Vision Works
+
+Infrared night vision works like this:
+
+1. **LED array** — The camera has an array of infrared LEDs (invisible to human eyes) mounted around the camera lens
+2. **IR light emission** — These LEDs illuminate the dark room with infrared light (similar to the light from a TV remote control)
+3. **IR sensor** — The camera's image sensor detects the reflected infrared light and converts it to a visible image
+4. **Night vision image** — You see a grayscale or very slightly colored image, often with reduced detail compared to day vision
+
+The image quality depends on the IR LED power and the sensor's sensitivity to infrared wavelengths.
+
+### Advantages of IR Night Vision
+
+- **Proven, reliable technology** — Used in security cameras for 20+ years
+- **Affordable** — Most IR cameras cost $30-150
+- **Works completely in darkness** — Zero ambient light needed (even in pitch black rooms)
+- **Fast switching** — Automatically switches to IR when light drops below threshold
+- **Wide availability** — Nearly all budget pet cameras offer IR
+- **Low cost compared to alternatives** — Starlight cameras cost 2-3x more
+
+### Disadvantages of IR Night Vision
+
+- **Reduced image detail** — IR video is grainier and less sharp than day vision
+- **Grayscale or faded color** — Colors disappear at night; everything is greenish/grayscale
+- **IR reflection issues** — Mirrors, glass, and reflective surfaces create bright spots and washout
+- **Eyeshine effect** — Pet eyes reflect IR light brightly, creating eerie reflections
+- **False motion alerts** — Dust particles in the air reflect IR light, triggering false alerts
+- **Battery drain (portable models)** — IR LEDs consume significant power; batteries drain 2-3x faster
+- **Range limitations** — Effective range typically 15-30 feet (depends on IR LED power)
+- **Not true color** — Can't distinguish red from brown, dark gray from black at night
+
+### IR Night Vision Issues in Real-World Scenarios
+
+**Problem 1: Dust and Floating Particles**
+
+Infrared light bounces off floating dust, pet hair, and particles in the air. This causes:
+- Visible "spots" or "flares" on the video
+- Motion detection false alarms (dust particle movement triggers alerts)
+- Blurred night vision video quality
+
+Pet owners with older homes, basements, or dusty rooms see this constantly. A single floating dust particle reflects IR light and appears on screen as a bright point.
+
+**Problem 2: Glass and Reflective Surfaces**
+
+If the camera is behind glass (common in enclosures), IR light bounces back and blinds the sensor:
+- Completely unusable video
+- Looks like a bright white wash
+- Common in cat enclosures, pet room windows
+
+**Problem 3: Close-Range Reflection**
+
+Pets that approach the camera very closely reflect so much IR light that the image whites out:
+- Close-up video is washed out
+- Pet details disappear at 1-3 feet from camera
+- Especially problematic if pets interact with the camera
+
+## Starlight Night Vision Technology
+
+Starlight (also called low-light or ultra-low-light imaging) is newer technology that captures visible light extremely efficiently instead of relying on IR LEDs.
+
+### How Starlight Night Vision Works
+
+Starlight cameras use different principles:
+
+1. **Sensitive image sensor** — Uses special sensor design (larger pixels, higher ISO capability) that captures minimal light extremely well
+2. **AI image enhancement** — Processing algorithms brighten and clarify low-light images
+3. **No IR LEDs** — Works by amplifying ambient light (moonlight, streetlight, etc.) or minimal supplementary light
+4. **Color night vision** — Preserves color information instead of converting to grayscale
+
+Think of it like night-vision goggles used by military personnel—they amplify available light instead of creating their own.
+
+### How Well Does Starlight Work in Complete Darkness?
+
+This is the key limitation: starlight technology requires *some* ambient light to work.
+
+**In various darkness conditions:**
+
+- **Well-lit room (lamps on)** — Excellent color video, looks almost like day
+- **Dim room (one bedside lamp)** — Good color video with visible details
+- **Moonlit room (full moon, window)** — Color visible; details clear
+- **Street-lit room (light through window)** — Good color video
+- **Complete darkness (no ambient light)** — Severely degraded or unusable video
+
+**Key insight:** Starlight is superior when *any* ambient light exists, but infrared is better in pitch-black rooms.
+
+### Advantages of Starlight Night Vision
+
+- **Superior image quality** — Color video at night (not grayscale)
+- **No false motion alerts** — Dust doesn't trigger IR reflection issues
+- **Better for detailed behavior** — Can actually see what pet is doing at night
+- **No eyeshine reflections** — Pet eyes don't glow eerily in starlight
+- **Works through glass** — No IR reflection washout
+- **Lower power consumption (passive models)** — No IR LEDs means less battery drain
+- **True-color viewing** — Can distinguish color differences in dim light
+- **More natural appearance** — Less "creepy" surveillance video feel
+- **Clearer close-up video** — No washout when pet approaches camera
+
+### Disadvantages of Starlight Night Vision
+
+- **Requires ambient light** — Doesn't work well in absolute darkness
+- **More expensive** — Starlight pet cameras cost $150-400 (vs $30-100 for IR)
+- **Slower adoption** — Fewer pet camera models offer starlight (mostly premium brands)
+- **Requires good room lighting** — Moonlight or streetlight must be present
+- **Degraded in complete darkness** — Falls back to very poor low-light mode
+- **May require supplementary lighting** — For best results, you might need a small night light
+
+## Technology Comparison: IR vs Starlight
+
+| Factor | IR Night Vision | Starlight Technology |
+|--------|-----------------|----------------------|
+| **Image quality (dim light)** | Grayscale, grainy | Color, clear |
+| **Works in darkness** | Yes (pitch black) | No (needs light) |
+| **Works in moonlight** | Works but grayscale | Excellent color |
+| **False motion alerts** | Common (dust, particles) | Rare |
+| **Video behind glass** | Washed out (IR reflection) | Clear and normal |
+| **Pet eyeshine** | Eerie glowing eyes | Natural appearance |
+| **Battery drain** | High (IR LEDs) | Lower (passive) |
+| **Color information** | None (grayscale) | Full color |
+| **Cost** | $30-150 | $150-400 |
+| **Use case: Dark room** | Better | Inferior |
+| **Use case: Dim room** | Poor | Excellent |
+| **Processing power needed** | Low | High (AI upscaling) |
+| **Privacy (bedroom)** | Better (grayscale less intrusive) | Better (realistic vision) |
+
+## Real-World Scenarios: Which Technology Wins?
+
+### Scenario 1: Bedroom with Curtains (Complete Darkness)
+
+**Your situation:** Cat in dark bedroom; no ambient light; want to see nighttime behavior
+
+**IR wins:**
+- Starlight can't capture image (pitch black, no light to amplify)
+- IR works fine (IR LEDs illuminate the room)
+- Trade-off: Grayscale video, possible dust artifacts, but actual visible behavior
+
+**Solution:** Use IR camera, or supplement starlight camera with small nightlight (4W LED, ~2 lumens)
+
+### Scenario 2: Living Room with Street Lights (Dim but Lit)
+
+**Your situation:** Dog sleeps in living room; street lights visible through windows; moderate ambient light
+
+**Starlight wins:**
+- Captures excellent color video
+- Shows your dog's sleeping position, colors of toys, furniture placement
+- No dust artifact issues
+- No IR reflection problems
+
+**IR alternative:** Works, but gives you grayscale video and dust artifacts; less detail
+
+**Solution:** Starlight camera is ideal here ($150-250). IR works but provides inferior quality.
+
+### Scenario 3: Basement Playroom (Dark, No Windows)
+
+**Your situation:** Basement playroom for puppies; no ambient light; completely dark at night
+
+**IR wins (no contest):**
+- Starlight produces no image (no ambient light to amplify)
+- IR only viable option
+
+**Solutions:**
+1. Use IR camera; accept grayscale video
+2. Install a small nightlight (4W LED); use starlight camera
+3. Combine both: IR camera + nightlight (provides both IR and starlight capability)
+
+**Note:** This is a case where supplementary lighting becomes necessary for starlight to work.
+
+### Scenario 4: Multiple Pet Monitoring (Living Room + Bedroom)
+
+**Your situation:** Want to monitor dog in living room (has street light) and cat in bedroom (pitch black)
+
+**Hybrid solution (best option):**
+- Living room: Starlight camera (excellent color, clear detail)
+- Bedroom: IR camera (only option for pitch black)
+- Total cost: $150 (starlight) + $50 (IR) = $200
+
+This gives you the best of both technologies tailored to each location's lighting conditions.
+
+## Hybrid Approach: Combining IR and Starlight
+
+Many pet owners use a combination approach:
+
+**Living areas with ambient light:**
+- Use starlight camera for excellent color video
+- Cost: $150-250 per camera
+
+**Dark bedrooms or basements:**
+- Use IR camera; cost: $50-100
+- Or add small nightlight to allow starlight camera to work
+
+**Multiple pets:**
+- Choose technology based on room lighting, not camera count
+- Example: 2 starlight (living room, kitchen) + 1 IR (bedroom) = $400-500 total
+
+## Power Consumption: IR vs Starlight Battery Life
+
+For battery-powered or portable cameras:
+
+**IR camera (battery-powered):**
+- IR LEDs use significant power (5-10W continuous)
+- Battery life: 2-4 weeks on rechargeable
+- Frequent charging required
+
+**Starlight camera (battery-powered):**
+- No IR LEDs; uses minimal power
+- Battery life: 6-12 weeks on rechargeable
+- 2-4x longer battery life than IR
+
+**Plug-in cameras:** Power consumption matters less (always powered); choose based on image quality and features
+
+## Choosing Between IR and Starlight
+
+### Choose IR if:
+- Your pet room has zero ambient light (pitch-black darkness)
+- You're on a strict budget ($30-100)
+- You want proven, reliable technology
+- Battery life isn't critical (plug-in cameras)
+- You have many dark rooms (IR cameras abundant and affordable)
+
+### Choose Starlight if:
+- Your pet room has any ambient light (moonlight, streetlight, lamp)
+- Image quality and color are priorities
+- False motion alerts frustrate you (IR dust artifacts)
+- You want natural-looking video (not grayscale)
+- You have a battery-powered camera (starlight lasts longer)
+- Your budget allows ($150-400)
+
+### Choose Both if:
+- You have multiple rooms with different lighting
+- You want best quality everywhere
+- You can afford 2+ cameras ($200-400)
+- One room is dark (IR), others have light (starlight)
+
+## Supplementary Lighting Strategy
+
+If you have a dark room and prefer starlight:
+
+**Add a small, pet-safe nightlight:**
+- 4W LED nightlight (~2 lumens, very dim)
+- Cost: $10-20
+- Placement: High shelf out of pet reach
+- Result: Provides enough light for starlight to work excellently
+- Pet impact: Minimal; dogs/cats adapt quickly; often don't notice the light
+
+This is the best of both worlds: starlight's superior image quality plus a budget nightlight solution.
+
+## Cost Breakdown: Night Vision Solutions
+
+### Budget Approach (IR camera)
+- IR camera: $40-80
+- **Total: $40-80**
+- **Best for:** Dark rooms, tight budgets
+- Trade-off: Grayscale video, dust artifacts
+
+### Mid-Range (Starlight + IR Hybrid)
+- Starlight camera: $150-200
+- IR camera: $50-80
+- Nightlight (if needed): $15
+- **Total: $215-295**
+- **Best for:** Multiple rooms with different lighting
+
+### Premium (Starlight + Supplementary Light)
+- Starlight camera: $250-350
+- Nightlight: $15
+- **Total: $265-365**
+- **Best for:** Single room with dark conditions; maximum image quality
+
+### Professional Setup (Multiple Cameras)
+- 2-3 starlight cameras: $300-700
+- 1-2 IR cameras (backup): $80-150
+- Nightlights (if needed): $30
+- **Total: $410-880**
+- **Best for:** Multi-pet, multi-room monitoring
+
+## Conclusion
+
+Infrared and starlight represent different trade-offs in the night vision world. IR excels in pitch-black conditions but sacrifices color and image detail. Starlight provides superior image quality and color but requires ambient light.
+
+The best choice depends on your room's lighting:
+- **Dark room (no ambient light):** IR camera is your only practical option
+- **Dim room (moonlight, streetlight):** Starlight camera is superior
+- **Well-lit room (lamps, windows):** Starlight is excellent; IR unnecessary
+- **Multiple rooms:** Hybrid approach (starlight for lit areas, IR for dark areas)
+
+Many pet owners find a combination of both technologies provides the best monitoring experience. Starlight captures your pet's natural behavior in color, while IR provides backup for pitch-black situations. If budget is tight, invest in IR for dark rooms and accept grayscale video—the savings justify the trade-off.`,
+  },
+
+  "multi-pet-monitoring-camera-setup": {
+    slug: "multi-pet-monitoring-camera-setup",
+    title: "Multi-Pet Monitoring with Cameras: Setup Guide for Multiple Dogs and Cats",
+    description:
+      "Design a multi-camera pet monitoring system for households with multiple pets. Learn camera placement, app organization, alert management, and managing different pet behaviors across rooms.",
+    category: "pet-cameras",
+    content: `## Introduction
+
+Monitoring multiple pets presents unique challenges: Which camera watches which pet? What happens when you have alerts from three cameras simultaneously? How do you organize video footage from multiple devices? How do you prevent alert fatigue from every pet movement? This guide covers everything you need to set up an effective multi-pet monitoring system, from camera placement to app management and alert strategies.
+
+## Why Multi-Pet Monitoring Is Complex
+
+### Challenges of Monitoring Multiple Pets
+
+**Volume problem:** One pet camera generates 1-50 alerts per day (motion, sound, activity). Three cameras? That's 3-150 alerts. Managing alert overload is critical.
+
+**Behavior differentiation:** Normal behavior (dog playing) versus concerning behavior (cat in distress) look similar on video. You need context for each pet.
+
+**Technical complexity:** Pairing three cameras, managing three separate apps (or one app with poor multi-camera interface), organizing footage from multiple devices.
+
+**Battery management:** If using portable cameras, you're charging 3+ devices instead of 1.
+
+**WiFi bandwidth:** Multiple cameras streaming simultaneously stresses your home WiFi; poor connectivity affects video quality.
+
+**Storage explosion:** Three cameras recording all day = gigabytes of storage daily. Cloud subscriptions add up quickly.
+
+**Alert fatigue:** Constant notifications from multiple cameras cause you to ignore even important alerts (alert blindness).
+
+## Multi-Pet Monitoring System Architecture
+
+### System Components
+
+A complete multi-pet monitoring system includes:
+
+1. **Cameras** (one per pet or shared area)
+2. **WiFi network** (robust router; adequate bandwidth)
+3. **Cloud or local storage** (backup for footage)
+4. **Mobile app** (unified management and alerts)
+5. **Alert rules** (smart filtering to prevent overwhelm)
+6. **Power management** (charging docks or plug-in considerations)
+
+### Bandwidth Requirements
+
+**Per-camera streaming:**
+- 1080p video: 1-4 Mbps
+- 2K video: 2-6 Mbps
+- Audio (two-way): 0.1-0.5 Mbps
+
+**Example:** Two 1080p cameras + one 2K camera = ~6-14 Mbps continuous
+Your home WiFi should have 30+ Mbps download speed to comfortably handle multiple cameras plus other devices (computers, phones, gaming).
+
+**Test your setup:**
+Use a speed test app (Ookla Speedtest) while cameras stream. If speeds drop below 10 Mbps, you'll experience buffering, lag, or dropped connections.
+
+**Solutions for limited bandwidth:**
+- Use wired Ethernet cameras (avoid WiFi)
+- Reduce video resolution (1080p instead of 2K)
+- Enable motion-triggered recording (not continuous)
+- Position cameras closer to router (reduce interference)
+
+## Camera Placement for Multiple Pets
+
+### Placement Strategy by Pet Type
+
+**High-activity areas (dogs playing):**
+- Main living room: Wide-angle camera captures play area
+- Kitchen: Captures feeding area and food-stealing attempts
+- Basement/playroom: Full room overview
+
+**Quiet rest areas (cats sleeping):**
+- Bedroom: Elevated position overlooking cat bed
+- Cat room: Centered to see all furniture levels
+- Window perch: Captures outdoor bird-watching behavior
+
+**Exits and transitions:**
+- Doors between rooms: Captures pet movement between spaces
+- Stairways: Monitors safe descent/ascent
+- Pet enclosures: Ensures escape prevention
+
+### Positioning Best Practices
+
+**Height and angle:**
+- Mount at 4-6 feet height (eye level of adult human looking down at pets)
+- Angle slightly down 15-20 degrees (captures pet behavior clearly)
+- Avoid pointing directly at windows (backlighting ruins image)
+
+**Coverage overlap:**
+- Adjacent rooms: 10-20% overlap area (ensures no blind spots)
+- Don't over-lap unnecessarily (wastes storage, creates redundancy)
+
+**Field of view:**
+- 130-160 degrees for general monitoring
+- Wider angles (150-180°) for large rooms
+- Narrower angles (100-120°) for focused areas (cat bed, crate)
+
+### Example 3-Pet Setup
+
+**Household:** 2 dogs (large + small) + 1 cat
+
+**Camera placement:**
+1. **Living room** — Pan/tilt 1080p camera, wide-angle
+   - Covers both dogs' play area
+   - Height: 5 feet (upper shelf)
+   - Why: Main activity area; one camera can cover multiple pets
+
+2. **Bedroom** — Fixed 1080p camera, narrow angle
+   - Covers cat bed/furniture; bedroom pet rest area
+   - Height: 6 feet (top of dresser)
+   - Why: Monitors cat's nighttime behavior separately from dogs
+
+3. **Kitchen** — Fixed 1080p camera, moderate wide-angle
+   - Covers feeding station and dining area
+   - Height: 4 feet (mounted on wall near feeder)
+   - Why: Captures food guarding, feeding conflicts, food theft
+
+**Total cost:** $150-300 (assuming $50-100 per camera)
+
+**Coverage:** Living room + bedroom + kitchen = 80% of pet activity spaces
+
+**Gaps:** Hallways, bathrooms (less critical for pet monitoring)
+
+## Multi-Camera App Management
+
+### Unified App Approach (Best Option)
+
+Use cameras that work with a single app ecosystem. Examples:
+
+**Best multi-camera apps:**
+
+**1. Wyze App**
+- Supports unlimited cameras in one app
+- Excellent multi-camera interface (grid view)
+- Free cloud storage (limited) + paid storage ($1.99/mo)
+- Device support: Wyze Cam v3 ($49), Wyze Cam Pan v3 ($59), budget-friendly
+- Best for: Budget-conscious multi-pet households
+
+**2. Eufy App (Anker)**
+- Supports multiple cameras in one interface
+- Better video quality than Wyze (1440p standard)
+- Free local storage (no cloud required!)
+- Cameras: Eufy IndoorCam 2K ($99), Pan/Tilt ($119)
+- Best for: Privacy-conscious owners; no subscription requirement
+
+**3. PETKIT App**
+- Purpose-built for pet cameras
+- Pet-specific interface (alerts for pet activity, not just motion)
+- Multiple camera support
+- Cameras: PETKIT Enabot ($99), Enabot Pan ($129)
+- Best for: Pet-specific features like pet recognition
+
+**4. Furbo App**
+- Popular for pet-specific features (treat dispensing)
+- Multi-camera interface available (premium)
+- Focus on interactive features (talk, treat toss)
+- Cameras: Furbo ($249), Furbo 360 ($299)
+- Best for: Interaction and training focus
+
+### Fragmented App Approach (Avoid)
+
+Some pet cameras don't integrate into unified apps:
+- You have separate apps for each camera brand
+- Switching between three apps to check on pets is tedious
+- Alerts come from separate notifications (notification overload)
+- Video organization is fragmented (different file systems)
+
+**Avoid this situation** if possible. Choose cameras with unified app support.
+
+## Alert Management: Preventing Alert Fatigue
+
+### Understanding Alert Fatigue
+
+Alert fatigue occurs when constant notifications cause you to ignore even important alerts. Pet owners report checking phones hundreds of times per day, eventually tuning out notifications entirely.
+
+"I had so many false alerts from dust and shadows that I stopped checking. Then my dog actually escaped, and I missed the alert."
+
+### Smart Alert Rules
+
+Configure alerts to reduce noise without missing important events:
+
+**Rule 1: Motion-Based Alerts Only During Specific Hours**
+
+Example setup:
+- **7:00am - 9:00pm:** Motion alerts enabled (active pet times)
+- **9:00pm - 7:00am:** Only sound/unusual activity alerts enabled (sleeping pets don't need motion alerts)
+- **Result:** Eliminates thousands of false motion alerts from sleeping pets
+
+**Rule 2: Sound-Based Alerts for Unusual Behavior**
+
+Enable alerts only for:
+- Excessive barking (dogs in distress)
+- Crying or meowing (cats in pain/stress)
+- Unusual sounds (breaking glass, aggressive barking)
+
+Disable alerts for:
+- Normal barking (ignore >2 barks)
+- Regular sounds (lapping water, eating kibble)
+
+**Rule 3: Pet-Specific Zones**
+
+Define zones for each pet's normal behavior:
+- **Dog zone (living room):** Motion alerts normal
+- **Cat zone (bedroom):** Only sound alerts (cats are quiet; motion is normal)
+- **Kitchen zone (feeding):** Motion alerts 7am-9am only (feeding time)
+
+**Rule 4: Alert Cooldown Periods**
+
+Most apps allow alert cooldown (e.g., "no alert within 5 minutes of last alert from same camera"):
+- Prevents duplicate alerts for same event
+- Reduces notification volume by 50-70%
+- Recommended: 5-10 minute cooldown
+
+**Example alert configuration for 3 cameras:**
+- Living room: Motion + sound alerts, 7am-11pm, 10-minute cooldown
+- Bedroom: Sound-only alerts (crying/distress), all hours, 15-minute cooldown
+- Kitchen: Motion alerts, 7am-9am + 5pm-7pm (feeding times), 5-minute cooldown
+
+**Result:** ~3-10 alerts per day (manageable) vs. 50-150 (unsustainable)
+
+### Custom Alert Examples
+
+| Pet Behavior | Alert Setting | Purpose |
+|---|---|---|
+| Dog barking in living room | Sound alert if >5 barks in 30 sec | Alerts to excessive barking only |
+| Cat in bedroom at night | No motion alerts (cats move normally at night) | Eliminates false alerts while sleeping |
+| Dog at feeding station | Motion alert 7-9am + 5-7pm | Captures feeding time activities |
+| Unusual activity | Motion + sound alerts all hours | Captures potential emergency situations |
+
+## Video Organization and Storage
+
+### Storage Strategy for Multiple Cameras
+
+**Local storage (no cloud):**
+- Each camera stores footage on microSD card
+- Cost: $10-30 per camera (microSD cards)
+- Retention: 7-30 days depending on card size
+- Advantage: Privacy, no monthly fees
+- Disadvantage: Manual management; footage lost if camera stolen
+
+**Cloud storage (paid subscriptions):**
+- Example: Wyze cloud storage at $1.99/mo per camera
+- 3 cameras = $6/mo ($72/year)
+- Retention: 14-30 days
+- Advantage: Automatic backup; accessible from anywhere; searchable
+- Disadvantage: Monthly cost adds up; privacy concerns; data vulnerability
+
+**Hybrid approach (best):**
+- Local microSD storage as primary (cheap, private)
+- Cloud backup for critical incidents (subscription for video evidence if needed)
+- Cost: $30-50 (cards) + $5-10/month (optional cloud) = ~$100/year
+
+### Organization Tips
+
+**Naming convention:** Name cameras by location
+- "Living Room - Dog"
+- "Bedroom - Cat"
+- "Kitchen - Feeding Station"
+
+**Search tools:** Use app search features
+- Search by date/time
+- Search by pet name (if app supports tagging)
+- Search by alert type (motion, sound)
+
+**Backup critical footage:** Download important videos to computer
+- Escape attempts
+- Behavioral incidents
+- Medical events (seizures, injuries)
+- Training milestones
+
+**Archive old footage:** Delete footage older than 30 days
+- Saves storage space
+- Keeps library manageable
+- Prevents storage overflow
+
+## Power Management for Multiple Cameras
+
+### Plug-in Cameras vs Battery-Powered
+
+**Plug-in cameras:**
+- Advantages: Always on, no charging needed, better performance
+- Disadvantages: Limited placement (need nearby outlets)
+- Cost per camera: $50-300 (once)
+
+**Battery-powered cameras:**
+- Advantages: Flexible placement, no outlets needed
+- Disadvantages: Frequent charging, battery degrades over time
+- Cost: $100-200 per camera + charging dock ($30-50)
+
+### Recommended Multi-Pet Setup
+
+**For 3-camera household:**
+- 1-2 plug-in cameras (living room, kitchen): Always on
+- 1 battery camera (bedroom): Flexible placement, charge weekly
+- Charging dock: $30-50 (charges while you sleep)
+
+**Charging schedule for battery cameras:**
+- Charge every 3-5 days
+- Weekly full charge recommended
+- Keep spare battery (2-3 cameras require 2+ batteries)
+- Use quick-charge USB-C models (15-30 minute full charge)
+
+## Troubleshooting Multi-Camera Issues
+
+### Problem: Frequent Disconnections
+
+**Causes:**
+- WiFi too far from router
+- WiFi channel congestion
+- Weak router signal
+
+**Solutions:**
+1. Move router closer to cameras (central location)
+2. Switch WiFi to less congested channel (use WiFi analyzer app)
+3. Upgrade to WiFi 6 router ($100-200)
+4. Use wired Ethernet cameras (no WiFi needed)
+5. Add WiFi extender ($50-100)
+
+### Problem: Video Lag or Buffering
+
+**Causes:**
+- Insufficient bandwidth
+- Too many devices on network
+- Low WiFi signal
+
+**Solutions:**
+1. Reduce camera resolution (1080p instead of 2K)
+2. Enable motion-triggered recording (not continuous)
+3. Limit number of simultaneous streams
+4. Check internet speed (should be 30+ Mbps download)
+5. Connect camera to 5GHz WiFi band (faster than 2.4GHz)
+
+### Problem: Alert Overload
+
+**Causes:**
+- Alert settings too sensitive
+- Dust, shadows, reflections triggering motion
+- No cooldown periods configured
+
+**Solutions:**
+1. Implement alert rules (section above)
+2. Enable motion zones (ignore hallways, focus on pet areas)
+3. Add 5-10 minute alert cooldown
+4. Disable motion alerts during sleeping hours
+5. Use sound-based alerts (more specific than motion)
+
+### Problem: Lost Footage
+
+**Causes:**
+- Storage full
+- Camera power loss
+- Cloud account issues
+
+**Solutions:**
+1. Check storage regularly
+2. Delete old footage manually
+3. Enable automatic cloud backup (if available)
+4. Download critical footage before storage fills
+5. Use multiple storage methods (local + cloud)
+
+## Cost Breakdown: Multi-Pet Camera System
+
+### Budget Setup (3 Cameras)
+- 3× Wyze Cam v3: $49 × 3 = $147
+- MicroSD cards: $15 × 3 = $45
+- Charging dock (2 USB ports): $20
+- **Total: $212**
+- Monthly cost: $0 (free cloud tier) or $6 (paid cloud)
+
+### Mid-Range Setup (3 Cameras)
+- 2× Eufy IndoorCam 2K: $99 × 2 = $198
+- 1× Eufy Pan/Tilt: $119
+- Storage: Local only, no subscription needed
+- **Total: $317**
+- Monthly cost: $0 (no subscriptions)
+
+### Premium Setup (3 Cameras)
+- 3× Furbo 360: $299 × 3 = $897
+- Cloud storage: $10/mo ($120/year)
+- Treat refill subscription: $15/mo ($180/year)
+- **Total: $897 upfront + $300/year**
+- Monthly cost: $25
+
+## Conclusion
+
+Multi-pet monitoring requires thoughtful camera placement, unified app management, and smart alert rules to avoid overwhelming yourself with notifications. The ideal setup includes:
+
+1. **One camera per major pet area** (living room for dogs, bedroom for cat)
+2. **Unified app management** (one app for all cameras, not separate apps)
+3. **Smart alert rules** (time-based, zone-based, sound-triggered to reduce false alarms)
+4. **Local + cloud storage** (microSD for privacy, cloud for backup)
+5. **Balanced power management** (mix of plug-in + battery cameras)
+
+Start with 2-3 cameras covering main activity areas, configure smart alerts to eliminate noise, and expand to additional cameras only if you identify gaps. The goal is monitoring peace of mind, not alert fatigue. A well-configured 2-camera system beats a poorly configured 5-camera system every time.`,
+  },
 };
 
 export function getPetCameraArticle(slug: string): PetCameraArticle | undefined {

@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { babyMonitors } from "@/data/baby-monitors";
 import { BabyMonitor } from "@/data/baby-monitors";
 import Link from "next/link";
-import { getAllBabyMonitorArticleSlugs } from "@/data/baby-monitor-articles";
+import { babyMonitorArticles } from "@/data/baby-monitor-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 
 export default function BabyMonitorsComparison() {
@@ -15,7 +15,6 @@ export default function BabyMonitorsComparison() {
   const [panTiltZoom, setPanTiltZoom] = useState<string>("all");
   const [hasApp, setHasApp] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("name");
-  const articles = getAllBabyMonitorArticleSlugs();
 
   const filteredProducts = useMemo(() => {
     let result = [...babyMonitors];
@@ -91,28 +90,24 @@ export default function BabyMonitorsComparison() {
       </section>
 
       {/* Articles Section */}
-      {articles.length > 0 && (
+      {Object.keys(babyMonitorArticles).length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Helpful Guides</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {articles.map((slug) => {
-              const titles: Record<string, string> = {
-                "wifi-vs-non-wifi-baby-monitor": "WiFi vs Non-WiFi Baby Monitors: Privacy and Security",
-                "best-baby-monitors-for-twins": "Best Baby Monitors for Twins: Multi-Camera Guide",
-                "baby-monitor-security-guide": "Baby Monitor Security: Encryption and Hacking Prevention",
-                "smart-baby-monitor-features-worth-paying-for": "Smart Features Worth Paying For vs Marketing Hype",
-              };
-              return (
-                <Link
-                  key={slug}
-                  href={`/baby-monitors/${slug}`}
-                  className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-                >
-                  <h3 className="font-semibold text-blue-600 hover:underline">{titles[slug] || slug}</h3>
-                  <p className="text-sm text-gray-600 mt-1">Read our in-depth guide →</p>
-                </Link>
-              );
-            })}
+            {Object.values(babyMonitorArticles).map((article) => (
+              <Link
+                key={article.slug}
+                href={`/baby-monitors/${article.slug}`}
+                className="border border-gray-200 rounded-lg p-6 hover:border-blue-500 hover:shadow-lg transition"
+              >
+                <h3 className="font-bold text-lg text-gray-900 mb-2">
+                  {article.title}
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  {article.description}
+                </p>
+              </Link>
+            ))}
           </div>
         </section>
       )}

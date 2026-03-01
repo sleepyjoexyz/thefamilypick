@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProductCard from "@/components/ProductCard";
 import { petCameras, PetCamera } from "@/data/pet-cameras";
+import { petCameraArticles } from "@/data/pet-camera-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
 
@@ -415,78 +416,32 @@ export default function PetCamerasComparison() {
       </section>
 
       {/* Articles Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          Expert Guides & Articles
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Link
-            href="/pet-cameras/best-pet-cameras-with-treat-dispenser"
-            className="bg-gray-50 rounded-lg p-6 border border-gray-200 hover:shadow-lg transition-shadow"
-          >
-            <h3 className="font-bold text-lg text-gray-900 mb-2">
-              Treat Dispensers: Worth the Premium?
-            </h3>
-            <p className="text-gray-600 mb-4">
-              Compare interactive pet cameras with treat dispensers. Learn how
-              they work and whether they justify the cost for training and
-              engagement.
-            </p>
-            <span className="text-blue-600 hover:underline font-medium">
-              Read Article →
-            </span>
-          </Link>
-
-          <Link
-            href="/pet-cameras/pet-camera-vs-security-camera"
-            className="bg-gray-50 rounded-lg p-6 border border-gray-200 hover:shadow-lg transition-shadow"
-          >
-            <h3 className="font-bold text-lg text-gray-900 mb-2">
-              Pet Camera vs Security Camera
-            </h3>
-            <p className="text-gray-600 mb-4">
-              Understand the differences between pet cameras and security
-              cameras. Learn what features matter for monitoring pets versus
-              home security.
-            </p>
-            <span className="text-blue-600 hover:underline font-medium">
-              Read Article →
-            </span>
-          </Link>
-
-          <Link
-            href="/pet-cameras/do-pet-cameras-help-with-separation-anxiety"
-            className="bg-gray-50 rounded-lg p-6 border border-gray-200 hover:shadow-lg transition-shadow"
-          >
-            <h3 className="font-bold text-lg text-gray-900 mb-2">
-              Pet Cameras & Separation Anxiety
-            </h3>
-            <p className="text-gray-600 mb-4">
-              Explore whether pet cameras and remote interaction can reduce
-              separation anxiety. Learn what science says about effectiveness.
-            </p>
-            <span className="text-blue-600 hover:underline font-medium">
-              Read Article →
-            </span>
-          </Link>
-
-          <Link
-            href="/pet-cameras/pet-camera-cloud-storage-costs"
-            className="bg-gray-50 rounded-lg p-6 border border-gray-200 hover:shadow-lg transition-shadow"
-          >
-            <h3 className="font-bold text-lg text-gray-900 mb-2">
-              Cloud Storage Costs Explained
-            </h3>
-            <p className="text-gray-600 mb-4">
-              Compare free vs paid cloud storage plans for pet cameras. Understand
-              what's included and when paid tiers are worth the investment.
-            </p>
-            <span className="text-blue-600 hover:underline font-medium">
-              Read Article →
-            </span>
-          </Link>
-        </div>
-      </section>
+      {Object.keys(petCameraArticles).length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Expert Guides & Articles
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {Object.values(petCameraArticles).map((article) => (
+              <Link
+                key={article.slug}
+                href={`/pet-cameras/${article.slug}`}
+                className="bg-gray-50 rounded-lg p-6 border border-gray-200 hover:shadow-lg transition-shadow"
+              >
+                <h3 className="font-bold text-lg text-gray-900 mb-2">
+                  {article.title}
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  {article.description}
+                </p>
+                <span className="text-blue-600 hover:underline font-medium">
+                  Read Article →
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Footer CTA */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center border-t border-gray-200">

@@ -3,9 +3,9 @@
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { carSeats } from "@/data/car-seats";
+import { carSeatArticles } from "@/data/car-seat-articles";
 import { CarSeat } from "@/data/car-seats";
 import Link from "next/link";
-import { getAllCarSeatArticleSlugs } from "@/data/car-seat-articles";
 import { getAmazonLink, formatPrice } from "@/lib/utils";
 
 export default function CarSeatsComparison() {
@@ -15,7 +15,6 @@ export default function CarSeatsComparison() {
     useState<string>("all");
   const [installMethod, setInstallMethod] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("name");
-  const articles = getAllCarSeatArticleSlugs();
 
   const filteredProducts = useMemo(() => {
     let result = [...carSeats];
@@ -81,33 +80,21 @@ export default function CarSeatsComparison() {
         </p>
 
         {/* Articles Section */}
-        {articles.length > 0 && (
+        {Object.keys(carSeatArticles).length > 0 && (
           <div className="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6">
             <h3 className="text-lg font-semibold text-blue-900 mb-4">
               Car Seat Guides & Articles
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              {articles.map((slug) => {
-                const titles: Record<string, string> = {
-                  "infant-vs-convertible-car-seat":
-                    "Infant vs Convertible: Which Should You Buy?",
-                  "best-car-seats-for-small-cars":
-                    "Best Car Seats for Small Cars",
-                  "car-seat-installation-guide":
-                    "Car Seat Installation Guide: LATCH vs Seatbelt",
-                  "when-to-switch-car-seat-stages":
-                    "When to Switch Car Seat Stages",
-                };
-                return (
-                  <Link
-                    key={slug}
-                    href={`/car-seats/${slug}`}
-                    className="text-blue-600 hover:underline text-sm"
-                  >
-                    → {titles[slug] || slug}
-                  </Link>
-                );
-              })}
+              {Object.values(carSeatArticles).map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`/car-seats/${article.slug}`}
+                  className="text-blue-600 hover:underline text-sm"
+                >
+                  → {article.title}
+                </Link>
+              ))}
             </div>
           </div>
         )}

@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { strollers, Stroller } from "@/data/strollers";
+import { strollerArticles } from "@/data/stroller-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 import Link from "next/link";
 
@@ -291,58 +292,20 @@ export default function StrollersComparison() {
           Stroller Guides & Articles
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Link
-            href="/strollers/full-size-vs-lightweight-stroller"
-            className="border border-gray-200 rounded-lg p-6 hover:border-blue-500 hover:shadow-lg transition"
-          >
-            <h3 className="font-bold text-lg text-gray-900 mb-2">
-              Full-Size vs Lightweight Strollers
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Compare the trade-offs between storage, maneuverability, comfort,
-              and portability to choose the stroller that matches your lifestyle.
-            </p>
-          </Link>
-
-          <Link
-            href="/strollers/best-strollers-under-500"
-            className="border border-gray-200 rounded-lg p-6 hover:border-blue-500 hover:shadow-lg transition"
-          >
-            <h3 className="font-bold text-lg text-gray-900 mb-2">
-              Best Strollers Under $500
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Find premium features at mid-range prices. Discover value-packed
-              strollers that don't sacrifice quality for budget-friendly pricing.
-            </p>
-          </Link>
-
-          <Link
-            href="/strollers/jogging-stroller-buying-guide"
-            className="border border-gray-200 rounded-lg p-6 hover:border-blue-500 hover:shadow-lg transition"
-          >
-            <h3 className="font-bold text-lg text-gray-900 mb-2">
-              Jogging Stroller Buying Guide
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Learn what separates quality jogging strollers from gimmicks.
-              Compare suspension, wheels, brakes, and features for serious
-              runners.
-            </p>
-          </Link>
-
-          <Link
-            href="/strollers/stroller-car-seat-compatibility-guide"
-            className="border border-gray-200 rounded-lg p-6 hover:border-blue-500 hover:shadow-lg transition"
-          >
-            <h3 className="font-bold text-lg text-gray-900 mb-2">
-              Stroller & Car Seat Compatibility Guide
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Understand travel systems, adapters, and compatibility. Learn
-              which stroller-car seat combinations work seamlessly together.
-            </p>
-          </Link>
+          {Object.values(strollerArticles).map((article) => (
+            <Link
+              key={article.slug}
+              href={`/strollers/${article.slug}`}
+              className="border border-gray-200 rounded-lg p-6 hover:border-blue-500 hover:shadow-lg transition"
+            >
+              <h3 className="font-bold text-lg text-gray-900 mb-2">
+                {article.title}
+              </h3>
+              <p className="text-gray-600 text-sm">
+                {article.description}
+              </p>
+            </Link>
+          ))}
         </div>
       </section>
 

@@ -3,9 +3,9 @@
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { groomingTools } from "@/data/grooming-tools";
+import { groomingToolArticles } from "@/data/grooming-tool-articles";
 import { GroomingTool } from "@/data/grooming-tools";
 import Link from "next/link";
-import { getAllGroomingToolArticleSlugs } from "@/data/grooming-tool-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 
 export default function GroomingToolsComparison() {
@@ -14,7 +14,6 @@ export default function GroomingToolsComparison() {
   const [priceRange, setPriceRange] = useState<string>("all");
   const [isCordless, setIsCordless] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("name");
-  const articles = getAllGroomingToolArticleSlugs();
 
   const filteredProducts = useMemo(() => {
     let result = [...groomingTools];
@@ -84,28 +83,24 @@ export default function GroomingToolsComparison() {
       </section>
 
       {/* Articles Section */}
-      {articles.length > 0 && (
+      {Object.keys(groomingToolArticles).length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Helpful Guides</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {articles.map((slug) => {
-              const titles: Record<string, string> = {
-                "vacuum-groomer-vs-traditional-clippers": "Vacuum Groomers vs Traditional Clippers: Mess-Free Grooming Comparison",
-                "best-deshedding-tools-by-coat-type": "Best Deshedding Tools by Coat Type: Short, Medium, Long & Double Coats",
-                "dog-nail-grinding-vs-clipping": "Dog Nail Grinding vs Clipping: Safety, Comfort & Technique Comparison",
-                "home-grooming-starter-kit-guide": "Home Grooming Starter Kit Guide: Essential Tools for Beginners",
-              };
-              return (
-                <Link
-                  key={slug}
-                  href={`/grooming-tools/${slug}`}
-                  className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-                >
-                  <h3 className="font-semibold text-blue-600 hover:underline">{titles[slug] || slug}</h3>
-                  <p className="text-sm text-gray-600 mt-1">Read our in-depth guide →</p>
-                </Link>
-              );
-            })}
+            {Object.values(groomingToolArticles).map((article) => (
+              <Link
+                key={article.slug}
+                href={`/grooming-tools/${article.slug}`}
+                className="border border-gray-200 rounded-lg p-6 hover:border-blue-500 hover:shadow-lg transition"
+              >
+                <h3 className="font-bold text-lg text-gray-900 mb-2">
+                  {article.title}
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  {article.description}
+                </p>
+              </Link>
+            ))}
           </div>
         </section>
       )}

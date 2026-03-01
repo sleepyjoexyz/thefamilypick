@@ -590,6 +590,447 @@ For cost: air fryer wins if you're buying new; skip it if you have a convection 
 
 Don't be swayed by marketing claims about air fryer "technology." The real value is compact design, fast cooking, and excellent crisping—all enabled by the same convection heating that's been around since the 1950s. Buy based on your actual cooking needs, not hype.`,
   },
+
+  "air-fryer-cleaning-and-longevity": {
+    slug: "air-fryer-cleaning-and-longevity",
+    title: "Air Fryer Cleaning Guide and Longevity Tips: Keep Your Unit Running for Years",
+    description:
+      "Learn proper air fryer cleaning methods, maintenance schedules, and how to extend the lifespan of your unit without damaging the non-stick coating.",
+    category: "air-fryers",
+    content: `## Introduction
+
+Air fryers are durable kitchen appliances, but they require consistent maintenance to stay in top shape. The non-stick coating, heating element, and fan can deteriorate if not cleaned properly. This guide covers the correct cleaning methods, maintenance schedule, and longevity strategies to keep your air fryer performing like new for 5+ years.
+
+## Why Proper Cleaning Matters
+
+An air fryer's efficiency depends on clean air pathways and an intact heating element. When grease and food particles build up, they can:
+- Reduce air circulation efficiency (slower cooking)
+- Cause uneven heating (cold spots)
+- Generate smoke and burnt odors
+- Void warranties (many manufacturers require regular cleaning)
+- Reduce the lifespan of the non-stick coating
+
+Proper cleaning prevents all of these issues.
+
+## Daily Post-Cook Cleaning
+
+### The Basket and Tray
+
+After each use, while the fryer is still warm (but cool enough to touch safely):
+
+1. **Remove loose debris** — Shake out the basket over a trash can to dislodge food particles
+2. **Wipe with paper towel** — A dry wipe removes most grease
+3. **Wash with warm soapy water** — Use a soft sponge or non-abrasive cloth
+4. **Avoid the dishwasher** — Most baskets have non-stick coatings that degrade in dishwashers (read your manual; some are dishwasher-safe)
+5. **Dry completely** — Moisture left in the basket can rust the mesh or cause corrosion
+
+### The Main Unit Exterior
+
+- Wipe down the outside with a dry cloth
+- For sticky spots, use a lightly damp cloth (never pour water into the unit)
+- Never immerse the body in water
+
+## Weekly Deep Clean
+
+Once a week, perform a deeper cleaning of the interior:
+
+1. **Cool the unit completely** — Wait 30 minutes after the last use
+2. **Remove the basket and tray**
+3. **Wipe the interior chamber** — Use a soft, damp cloth to clean the heating element area
+   - Do NOT spray water directly at the heating element
+   - Use a slightly damp (not wet) cloth
+   - Wipe gently to avoid damaging coatings
+4. **Check air vents** — Look for any grease or debris buildup
+   - Use a soft brush (old toothbrush works) to gently clear vents
+   - Never use metal brushes; they scratch surfaces
+5. **Reassemble carefully** — Ensure the basket sits properly before plugging in
+
+## Dealing With Stubborn Buildup
+
+If grease has hardened on the basket or interior:
+
+1. **Soak the basket** — Place it in warm soapy water for 15-20 minutes
+2. **Soak the interior** — Fill the interior chamber with warm soapy water and let sit for 10 minutes, then drain and wipe
+3. **Use a soft scrub** — Never use steel wool or abrasive pads
+4. **Try baking soda** — For tough grease, make a baking soda paste, apply, let sit 5 minutes, then gently scrub
+5. **White vinegar** — A 50/50 vinegar and water solution can dissolve stubborn grease. Spray on interior surfaces, let sit 5 minutes, wipe clean
+
+## What NOT to Do
+
+- **Don't use abrasive cleaners** — Steel wool, scouring pads, or rough sponges damage non-stick coatings
+- **Don't use harsh chemicals** — Oven cleaners, bleach, or acetone can destroy coatings and plastic components
+- **Don't spray water into the heating element area** — Water near the coil can cause rust or electrical damage
+- **Don't immerse the main unit** — Only the removable basket and tray should be submerged
+- **Don't use the dishwasher** (usually) — Check your manual; most non-stick baskets degrade in high-heat cycles
+- **Don't forget the drain hole** — Some models have a drainage hole for excess moisture; ensure it's clear
+
+## Preventing Non-Stick Coating Damage
+
+The non-stick coating is the fryer's most fragile component. Proper care extends its life:
+
+1. **Use parchment paper or air fryer liners** — Paper liners catch grease and debris, reducing direct contact with the coating
+2. **Don't preheat dry** — Preheating without food can accelerate coating degradation
+3. **Use the right temperatures** — Extreme overheating stresses the coating; stick to manufacturer recommendations
+4. **Avoid acidic foods directly on the basket** — Tomato-based foods can sometimes erode coatings over time; use a liner
+5. **Allow proper cooling** — Don't immediately expose hot baskets to cold water; thermal shock can damage coatings
+
+## Maintenance Schedule
+
+**After every use:**
+- Remove debris and wipe with paper towel
+- Quick wash with soapy water
+
+**Weekly:**
+- Deep clean the interior with soft cloth and brush
+- Check air vents and heating element area
+- Clean interior drain hole
+
+**Monthly:**
+- Deep soak and scrub of basket and interior
+- Check for any signs of wear or corrosion
+- Verify all components fit properly
+
+**Every 6 months:**
+- Full inspection of the heating element (for visible damage)
+- Check all seals and gaskets for cracks
+- Test temperature accuracy (if you have a thermometer)
+- Examine non-stick coating for peeling or wear
+
+## When to Replace Your Air Fryer
+
+Most air fryers last 5-10 years with proper care. Signs it's time to replace:
+
+- **Severe peeling of non-stick coating** — When coating visibly flakes, particles enter your food; replace immediately
+- **Heating element doesn't heat** — Indicates internal corrosion or component failure (not user-fixable)
+- **Uneven cooking across the basket** — Suggests heating element damage
+- **Excessive smoke during normal operation** — May indicate internal corrosion
+- **Electrical damage (sparking, burning smell)** — Safety hazard; stop using immediately
+
+## Common Problems and Solutions
+
+### Brown/Burnt Residue
+
+**Problem:** Brown, caramelized buildup on the basket or interior
+
+**Solution:**
+- Soak in warm soapy water for 20 minutes
+- Use a soft scrub brush with baking soda paste
+- For the interior, soak with soapy water and wipe
+
+### Rust Spots on Mesh
+
+**Problem:** Small rust dots appearing on the metal mesh basket
+
+**Solution:**
+- Wipe dry immediately after washing (moisture is the culprit)
+- For existing rust, gently scrub with a soft brush and vinegar
+- Apply a light coat of food-safe mineral oil to prevent future rust
+
+### Grease Splatter on Interior Walls
+
+**Problem:** Greasy film accumulating on the internal chamber
+
+**Solution:**
+- Use paper liners to catch grease during cooking
+- Weekly: wipe interior with a damp cloth and baking soda
+- Avoid foods that splatter excessively (very oily foods)
+
+### Non-Stick Coating Peeling
+
+**Problem:** Visible flaking of the non-stick coating
+
+**Solution:**
+- Stop using the fryer (risk of ingesting coating particles)
+- Contact the manufacturer; many offer warranties
+- If out of warranty, replacement is safer than continued use
+
+## Storage and Off-Season Care
+
+If you won't use your air fryer for weeks or months:
+
+1. **Clean thoroughly** — Remove all grease and food residue
+2. **Dry completely** — Run the dryer cycle or air dry for 24 hours
+3. **Store in a cool, dry place** — Humidity causes rust and coating degradation
+4. **Keep the power cord loosely coiled** — Tight coiling can damage internal wiring
+5. **Cover with a cloth** — Dust accumulation reduces efficiency when you return to using it
+6. **Do NOT wrap in plastic** — Traps moisture and promotes mold
+
+Before using again after storage:
+- Visual inspection for damage
+- Run the unit for 5 minutes empty to clear any dust
+- Test cook a small batch to verify performance
+
+## Extending Warranty and Maximizing Lifespan
+
+Most air fryers carry 1-3 year warranties. To stay within coverage:
+
+- Keep your receipt and warranty documentation
+- Register the product with the manufacturer (some give extended warranties)
+- Follow the manual's cleaning and maintenance instructions exactly
+- Don't modify or disassemble the unit
+- Use the recommended voltage and outlet type
+- Document any issues with photos for warranty claims
+
+## Conclusion
+
+Proper air fryer maintenance requires only 10 minutes per week. Daily wipe-downs and weekly deep cleans prevent the buildup that causes efficiency loss and coating damage. Use soft, non-abrasive materials, avoid water near the heating element, and dry components completely after washing. With consistent care, your air fryer will remain efficient and safe for 5-10 years. The investment in maintenance pays off through extended lifespan, consistent cooking performance, and continued food safety.`,
+  },
+
+  "best-air-fryer-accessories-worth-buying": {
+    slug: "best-air-fryer-accessories-worth-buying",
+    title: "Best Air Fryer Accessories Worth Buying: Liners, Racks, and More",
+    description:
+      "Discover which air fryer accessories genuinely improve cooking and longevity, which are gimmicks, and how much each costs to help you prioritize purchases.",
+    category: "air-fryers",
+    content: `## Introduction
+
+Air fryer accessory companies want you to buy dozens of specialty tools: silicone molds, rotating baskets, pizza pans, wooden skewers, and more. Some are genuinely useful; many are marketing fluff. This guide separates the essential accessories from the gimmicks and helps you decide which are worth your money based on what you actually cook.
+
+## Essential Accessories (Buy These First)
+
+### Air Fryer Liners and Parchment Paper
+
+**Cost:** $8-15 for a pack of 50-100
+
+**What they do:** Paper liners catch grease and food particles before they contact your basket, reducing cleanup and protecting the non-stick coating.
+
+**Why buy:** This is the single best investment for air fryer longevity. Paper liners reduce cleaning time by 80% and prevent grease from accumulating on the mesh.
+
+**How to use:**
+- Place a liner in the basket before adding food
+- Use for any greasy items (chicken thighs, beef ribs, bacon)
+- Safe up to 400°F (check manufacturer specs)
+- Compostable and disposable
+
+**Verdict:** Essential. Buy this.
+
+### Silicone Reusable Liners
+
+**Cost:** $12-25 for a set (usually 2-4)
+
+**What they do:** Reusable silicone mats that catch grease, eliminating paper waste after hundreds of uses.
+
+**Why buy:** If you cook 3+ times per week, reusable liners save money and reduce waste after 1 year.
+
+**Drawbacks:**
+- Take up storage space
+- Must be washed after each use
+- Food can stick to silicone edges
+- Less effective at catching small particles compared to paper
+
+**Verdict:** Optional but worthwhile for frequent users. Paper liners are cheaper initially; silicone breaks even after 50-60 uses.
+
+### Cooking Spray for Air Fryers
+
+**Cost:** $5-8 per can
+
+**What they do:** Avocado or olive oil spray helps foods crisp and prevents sticking without excessive oil.
+
+**Why buy:** Regular non-stick spray can damage air fryer coatings (they contain lecithin that builds up). Air fryer-specific sprays avoid this.
+
+**Verdict:** Essential if you cook vegetables or lean proteins that stick. Regular cooking spray works but risks coating damage.
+
+## Highly Useful Accessories
+
+### Wire Racks and Stackable Trays
+
+**Cost:** $15-30
+
+**What they do:** Double or triple your basket capacity by stacking layers. Multiple items cook simultaneously without touching.
+
+**Best for:** Cooking large batches (20+ wings, whole meals with sides)
+
+**Drawbacks:**
+- Only work in larger (10+ quart) air fryers
+- Require careful placement so hot air circulates
+- Some racks are poorly designed and trap grease
+
+**Verdict:** Useful if you frequently cook multiple items or have a large family. Skip if you have a small fryer.
+
+### Metal Skewers and Kebab Holders
+
+**Cost:** $8-15
+
+**What they do:** Hold food upright (kebabs, chicken skewers) for even cooking from all sides.
+
+**Best for:** Marinated vegetables, shrimp, chicken skewers
+
+**Drawbacks:**
+- Limited use cases
+- Handle gets hot; needs tongs to manage
+- Wooden skewers (soaked) work similarly free
+
+**Verdict:** Useful for kebab enthusiasts; skip if you rarely cook skewered food.
+
+### Grill Pan or Mesh Tray
+
+**Cost:** $12-20
+
+**What they do:** A flat perforated tray lets you cook food that would fall through the basket (smaller vegetables, delicate fish).
+
+**Best for:** Asparagus, shrimp, fish fillets, sliced vegetables
+
+**Drawbacks:**
+- Requires frequent turning for even cooking
+- Can trap grease in grooves (harder to clean)
+- Reduces air circulation below the tray
+
+**Verdict:** Useful for specific foods, but paper liners achieve similar results for delicate items.
+
+## Sometimes Useful Accessories
+
+### Rotisserie Basket or Rotating Rack
+
+**Cost:** $25-45
+
+**What they do:** Automatically rotate food during cooking for even browning (if your air fryer has a rotation setting).
+
+**Best for:** Whole chickens, large cuts that need all-sides crisping
+
+**Drawbacks:**
+- Only works in compatible fryers
+- Takes up more vertical space
+- Rotisseries are usually available only on premium models
+
+**Verdict:** Nice if your fryer has a rotisserie function; otherwise, manual flipping works fine.
+
+### Pizza Stone or Shallow Baking Pan
+
+**Cost:** $10-20
+
+**What they do:** Adds a flat surface for cooking items that normally require oven baking (pizza, pastries, casseroles).
+
+**Best for:** Small pizzas (6-8 inch), reheating leftovers, baking cookies
+
+**Drawbacks:**
+- Takes up significant basket space
+- Doesn't always fit well (depends on fryer size)
+- Oven or actual pizza maker often works better
+
+**Verdict:** Useful only if you regularly make small pizzas or bake in the air fryer.
+
+## Gimmicks (Skip These)
+
+### Specialized Silicone Molds
+
+**Cost:** $15-30
+
+**What they do:** Silicone molds shaped like muffins, cupcakes, or breakfast portions.
+
+**Why skip:** You can achieve the same results with a regular ramekin or muffin tin, which costs less and are easier to clean.
+
+## Verdict: Skip.
+
+### Air Fryer Liners With High Sides
+
+**Cost:** $15-20
+
+**What they do:** Deeper paper liners that supposedly prevent leaks and catch more grease.
+
+**Why skip:** Standard liners work fine; high-sided versions often don't fit well and add unnecessary cost.
+
+**Verdict:** Skip standard liners instead.
+
+### Wooden Skewers and Grill Mats
+
+**Cost:** $8-12
+
+**What they do:** Wooden skewers (you soak in water) or wooden grilling mats.
+
+**Why skip:** You already have utensils at home. Soak wooden skewers from your kitchen drawer, or use metal skewers.
+
+**Verdict:** Skip; you have these already.
+
+### Specialized Oil or Seasoning Sprays
+
+**Cost:** $8-15
+
+**What they do:** Pre-mixed oils and seasonings optimized for air frying.
+
+**Why skip:** Make your own blend (olive oil + desired spices) for a fraction of the cost.
+
+**Verdict:** Skip; DIY blends work identically.
+
+### Cleaning Brushes Sold as "Air Fryer Brushes"
+
+**Cost:** $10-18
+
+**What they do:** Soft-bristled brushes marketed specifically for air fryer cleaning.
+
+**Why skip:** A regular soft toothbrush or kitchen brush costs $2-5 and works the same.
+
+**Verdict:** Skip; buy a regular brush.
+
+## Smart Accessory Combinations by Cooking Style
+
+### For Batch Cooking
+
+Buy: Paper liners, wire racks (if fryer is large), cooking spray.
+
+**Total cost:** $25-40
+
+**Benefit:** Maximize basket capacity, minimize cleanup.
+
+### For Vegetable-Heavy Cooking
+
+Buy: Grill pan, cooking spray, air fryer liner.
+
+**Total cost:** $20-35
+
+**Benefit:** Cook delicate vegetables without losing them, easy cleanup.
+
+### For Rotisserie/Whole Protein Cooking
+
+Buy: Cooking spray, liners, optional rotisserie basket (if compatible).
+
+**Total cost:** $15-50
+
+**Benefit:** Even browning, minimal cleanup, extended equipment life.
+
+### For Frequent Cooking (3+ times per week)
+
+Buy: Reusable silicone liners, wire racks, cooking spray, mesh tray.
+
+**Total cost:** $50-80
+
+**Benefit:** Reduced waste, faster cleanup, extended basket life.
+
+## Storage Organization
+
+If you buy multiple accessories, organize them smartly:
+
+- **Stack racks and trays** vertically in a cabinet or drawer
+- **Store liners** in a labeled container (prevents them from scattering)
+- **Keep cooking spray** near the air fryer for easy grab-and-spray
+- **Label everything** so family members know what each tool is for
+
+## Warranty and Safety Considerations
+
+Before buying third-party accessories:
+
+1. **Check your fryer's manual** — Some aftermarket accessories void warranties
+2. **Verify temperature ratings** — All accessories must be safe to your fryer's max temperature (typically 400-450°F)
+3. **Confirm size compatibility** — Accessories must fit your specific fryer model
+4. **Read reviews specifically for your model** — A rack that works for Cosori may not fit Ninja
+
+## Money-Saving Strategy
+
+**Start minimal:** Paper liners + cooking spray.
+
+**If you like cooking, add:** Wire racks (if you have a large fryer).
+
+**If you cook frequently, add:** Reusable silicone liners and grill pan.
+
+**Skip:** Everything else until you have a specific need.
+
+Most people end up using only 3-4 accessories regularly. Resist the urge to buy the full set; many air fryer accessory packs include items you'll never use.
+
+## Conclusion
+
+The best air fryer accessories are paper liners and cooking spray—they protect your equipment, reduce cleanup, and cost under $20 combined. Wire racks are useful for large families or batch cooking. Everything else is optional and depends on what you cook. Skip expensive specialty molds, pre-mixed sprays, and brand-name cleaning tools; your existing kitchen tools work identically.
+
+Invest accessory money only if you use your air fryer multiple times per week. For casual users, paper liners alone solve most problems. For serious cooks, a combination of liners, racks, and a grill pan unlocks versatility without breaking the budget.`,
+  },
 };
 
 export function getAirFryerArticle(slug: string): AirFryerArticle | null {
