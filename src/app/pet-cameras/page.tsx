@@ -257,13 +257,8 @@ export default function PetCamerasComparison() {
                   key={camera.id}
                   className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}
                 >
-                  <td className="border border-gray-300 px-4 py-3 font-medium">
-                    <Link
-                      href={`/pet-cameras/${camera.id}`}
-                      className="text-blue-600 hover:underline"
-                    >
+                  <td className="border border-gray-300 px-4 py-3 font-medium text-gray-900">
                       {camera.brand} {camera.model}
-                    </Link>
                   </td>
                   <td className="border border-gray-300 px-4 py-3 text-right font-semibold">
                     ${camera.price}
@@ -413,12 +408,6 @@ export default function PetCamerasComparison() {
                     View on Amazon
                   </a>
                 ) : null}
-                <Link
-                  href={`/pet-cameras/${camera.id}`}
-                  className="block w-full text-center border border-gray-300 text-gray-700 py-2 rounded-lg hover:bg-gray-50 transition-colors font-medium"
-                >
-                  Details
-                </Link>
               </div>
             </div>
           ))}
