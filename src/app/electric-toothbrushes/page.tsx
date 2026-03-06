@@ -1,10 +1,4 @@
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Best Electric Toothbrushes Compared 2025-2026 | The Family Pick",
-  description: "Compare electric toothbrushes by technology, features, and price. Upgrade your dental care routine.",
-  alternates: { canonical: "https://thefamilypick.com/electric-toothbrushes" },
-};
 
 "use client";
 

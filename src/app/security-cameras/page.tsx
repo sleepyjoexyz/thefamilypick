@@ -1,10 +1,4 @@
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Best Home Security Cameras Compared 2025-2026 | The Family Pick",
-  description: "Compare home security cameras with night vision, 2-way audio, and smart features.",
-  alternates: { canonical: "https://thefamilypick.com/security-cameras" },
-};
 
 "use client";
 

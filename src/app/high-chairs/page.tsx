@@ -7,13 +7,7 @@ import { highChairArticles } from "@/data/high-chair-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
 import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Best High Chairs Compared 2025-2026 | The Family Pick",
-  description: "Compare high chairs side-by-side. Filter by price, material, features, and safety. Find the perfect feeding solution for your family.",
-  alternates: { canonical: "https://thefamilypick.com/high-chairs" },
-};
 
 export default function HighChairsComparison() {
   const [priceRange, setPriceRange] = useState<string>("all");

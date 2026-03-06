@@ -8,13 +8,7 @@ import Link from "next/link";
 import { babyMonitorArticles } from "@/data/baby-monitor-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Best Baby Monitors Compared 2025-2026 | The Family Pick",
-  description: "Compare the top baby monitors side-by-side. Filter by price, video quality, range, and features. Data-driven recommendations for every budget.",
-  alternates: { canonical: "https://thefamilypick.com/baby-monitors" },
-};
 
 export default function BabyMonitorsComparison() {
   const [monitorType, setMonitorType] = useState<string>("all");
