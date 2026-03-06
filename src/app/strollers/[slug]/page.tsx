@@ -4,7 +4,7 @@ import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
-import { ArticleSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import { ArticleSchema } from "@/components/JsonLd";
 interface PageProps {
   params: Promise<{
     slug: string;
@@ -86,7 +86,6 @@ export default async function ArticlePage({ params }: PageProps) {
         datePublished="2025-03-06"
         dateModified="2026-03-06"
       />
-      <BreadcrumbSchema items={breadcrumbItems} />
       {/* Breadcrumbs */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

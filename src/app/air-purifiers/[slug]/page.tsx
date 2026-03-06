@@ -4,7 +4,7 @@ import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
-import { ArticleSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import { ArticleSchema } from "@/components/JsonLd";
 
 interface PageProps {
   params: Promise<{

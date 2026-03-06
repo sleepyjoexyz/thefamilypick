@@ -6,7 +6,6 @@ import { highChairs } from "@/data/high-chairs";
 import { highChairArticles } from "@/data/high-chair-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
-import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
 
 
 export default function HighChairsComparison() {
@@ -65,27 +64,9 @@ export default function HighChairsComparison() {
     return result;
   }, [priceRange, chairType, foldable, dishwasherTray, footrest, sortBy]);
 
-  const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "High Chairs", url: "https://thefamilypick.com/high-chairs" }
-  ];
-
-  const productListItems = highChairs.map((p) => ({
-    name: p.model || p.name,
-    brand: p.brand,
-    price: p.price,
-    rating: p.rating,
-    description: p.summary || ""
-  }));
 
   return (
     <div className="bg-white">
-      <BreadcrumbSchema items={breadcrumbItems} />
-      <ProductListSchema
-        products={productListItems}
-        categoryName="High Chairs"
-        categoryUrl="https://thefamilypick.com/high-chairs"
-      />
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

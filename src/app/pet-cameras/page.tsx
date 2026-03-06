@@ -7,7 +7,6 @@ import { petCameras, PetCamera } from "@/data/pet-cameras";
 import { petCameraArticles } from "@/data/pet-camera-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
-import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
 
 
 export default function PetCamerasComparison() {
@@ -71,27 +70,9 @@ export default function PetCamerasComparison() {
     return result;
   }, [priceRange, treatDispenser, laserToy, barkAlert, cloudStorage, sortBy]);
 
-  const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Pet Cameras", url: "https://thefamilypick.com/pet-cameras" }
-  ];
-
-  const productListItems = petCameras.map((p) => ({
-    name: p.model || p.name,
-    brand: p.brand,
-    price: p.price,
-    rating: p.rating,
-    description: p.summary || ""
-  }));
 
   return (
     <div className="bg-white">
-      <BreadcrumbSchema items={breadcrumbItems} />
-      <ProductListSchema
-        products={productListItems}
-        categoryName="Pet Cameras"
-        categoryUrl="https://thefamilypick.com/pet-cameras"
-      />
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

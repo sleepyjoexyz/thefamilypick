@@ -28,67 +28,10 @@ export default function AirFryersComparison() {
     return result;
   }, [sortBy]);
 
-  const breadcrumbItems = [
-
-
-    { name: "Home", url: "https://thefamilypick.com" },
-
-
-    { name: "Air Fryers", url: "https://thefamilypick.com/air-fryers" }
-
-
-  ];
-
-
-
-  const productListItems = airFryers.map((p) => ({
-
-
-    name: p.model || p.name,
-
-
-    brand: p.brand,
-
-
-    price: p.price,
-
-
-    rating: p.rating,
-
-
-    description: p.summary || ""
-
-
-  }));
 
 
 
   return (
-
-
-    <div className="bg-white">
-
-
-      <BreadcrumbSchema items={breadcrumbItems} />
-
-
-      <ProductListSchema
-
-
-        products={productListItems}
-
-
-        categoryName="Air Fryers"
-
-
-        categoryUrl="https://thefamilypick.com/air-fryers"
-
-
-      />
-
-
-
-  
     <div className="bg-white">
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">

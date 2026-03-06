@@ -7,7 +7,6 @@ import { carSeatArticles } from "@/data/car-seat-articles";
 import { CarSeat } from "@/data/car-seats";
 import Link from "next/link";
 import { getAmazonLink, formatPrice } from "@/lib/utils";
-import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
 
 
 export default function CarSeatsComparison() {
@@ -69,13 +68,6 @@ export default function CarSeatsComparison() {
 
   return (
     <div className="bg-white">
-      <BreadcrumbSchema items={breadcrumbItems} />
-      <ProductListSchema
-        products={productListItems}
-        categoryName="Car Seats"
-        categoryUrl="https://thefamilypick.com/car-seats"
-      />
-
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

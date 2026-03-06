@@ -6,7 +6,6 @@ import { strollers, Stroller } from "@/data/strollers";
 import { strollerArticles } from "@/data/stroller-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 import Link from "next/link";
-import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
 
 
 export default function StrollersComparison() {
@@ -56,28 +55,9 @@ export default function StrollersComparison() {
     return result;
   }, [strollerType, priceMin, priceMax, carSeatCompatible, oneBoardFold, sortBy]);
 
-  const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Strollers", url: "https://thefamilypick.com/strollers" }
-  ];
-
-  const productListItems = strollers.map((p) => ({
-    name: p.model,
-    brand: p.brand,
-    price: p.price,
-    rating: p.rating,
-    description: p.summary || ""
-  }));
 
   return (
     <div className="bg-white">
-      <BreadcrumbSchema items={breadcrumbItems} />
-      <ProductListSchema
-        products={productListItems}
-        categoryName="Strollers"
-        categoryUrl="https://thefamilypick.com/strollers"
-      />
-
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

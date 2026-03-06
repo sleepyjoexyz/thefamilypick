@@ -7,7 +7,6 @@ import { BabyMonitor } from "@/data/baby-monitors";
 import Link from "next/link";
 import { babyMonitorArticles } from "@/data/baby-monitor-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
-import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
 
 
 export default function BabyMonitorsComparison() {
@@ -79,13 +78,6 @@ export default function BabyMonitorsComparison() {
 
   return (
     <div className="bg-white">
-      <BreadcrumbSchema items={breadcrumbItems} />
-      <ProductListSchema
-        products={productListItems}
-        categoryName="Baby Monitors"
-        categoryUrl="https://thefamilypick.com/baby-monitors"
-      />
-
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

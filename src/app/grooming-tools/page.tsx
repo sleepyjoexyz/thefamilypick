@@ -7,7 +7,6 @@ import { groomingToolArticles } from "@/data/grooming-tool-articles";
 import { GroomingTool } from "@/data/grooming-tools";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
-import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
 
 
 export default function GroomingToolsComparison() {
@@ -57,27 +56,9 @@ export default function GroomingToolsComparison() {
     return result;
   }, [toolType, petType, priceRange, isCordless, sortBy]);
 
-  const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Grooming Tools", url: "https://thefamilypick.com/grooming-tools" }
-  ];
-
-  const productListItems = groomingTools.map((p) => ({
-    name: p.model || p.name,
-    brand: p.brand,
-    price: p.price,
-    rating: p.rating,
-    description: p.summary || ""
-  }));
 
   return (
     <div className="bg-white">
-      <BreadcrumbSchema items={breadcrumbItems} />
-      <ProductListSchema
-        products={productListItems}
-        categoryName="Grooming Tools"
-        categoryUrl="https://thefamilypick.com/grooming-tools"
-      />
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs
