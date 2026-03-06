@@ -7,6 +7,14 @@ import { groomingToolArticles } from "@/data/grooming-tool-articles";
 import { GroomingTool } from "@/data/grooming-tools";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Pet Grooming Tools Compared 2025-2026 | The Family Pick",
+  description: "Compare pet grooming tools and clippers. Find professional-quality grooming solutions for your pet.",
+  alternates: { canonical: "https://thefamilypick.com/grooming-tools" },
+};
 
 export default function GroomingToolsComparison() {
   const [toolType, setToolType] = useState<string>("all");
@@ -55,8 +63,27 @@ export default function GroomingToolsComparison() {
     return result;
   }, [toolType, petType, priceRange, isCordless, sortBy]);
 
+  const breadcrumbItems = [
+    { name: "Home", url: "https://thefamilypick.com" },
+    { name: "Grooming Tools", url: "https://thefamilypick.com/grooming-tools" }
+  ];
+
+  const productListItems = groomingTools.map((p) => ({
+    name: p.model || p.name,
+    brand: p.brand,
+    price: p.price,
+    rating: p.rating,
+    description: p.summary || ""
+  }));
+
   return (
     <div className="bg-white">
+      <BreadcrumbSchema items={breadcrumbItems} />
+      <ProductListSchema
+        products={productListItems}
+        categoryName="Grooming Tools"
+        categoryUrl="https://thefamilypick.com/grooming-tools"
+      />
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

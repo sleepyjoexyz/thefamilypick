@@ -4,6 +4,7 @@ import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/JsonLd";
 interface PageProps {
   params: Promise<{
     slug: string;
@@ -52,6 +53,12 @@ export default async function ArticlePage({ params }: PageProps) {
   if (!article) {
     notFound();
   }
+
+  const breadcrumbItems = [
+    { name: "Home", url: "https://thefamilypick.com" },
+    { name: "Massage Guns", url: "https://thefamilypick.com/massage-guns" },
+    { name: article.title, url: `https://thefamilypick.com/massage-guns/${slug}` }
+  ];
 
   return (
     <div className="bg-white">

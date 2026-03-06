@@ -4,6 +4,7 @@ import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/JsonLd";
 interface PageProps {
   params: Promise<{
     slug: string;
@@ -53,8 +54,22 @@ export default async function ArticlePage({ params }: PageProps) {
     notFound();
   }
 
+  const breadcrumbItems = [
+    { name: "Home", url: "https://thefamilypick.com" },
+    { name: "High Chairs", url: "https://thefamilypick.com/high-chairs" },
+    { name: article.title, url: `https://thefamilypick.com/high-chairs/${slug}` }
+  ];
+
   return (
     <article className="bg-white">
+      <ArticleSchema
+        title={article.title}
+        description={article.description}
+        url={`https://thefamilypick.com/high-chairs/${slug}`}
+        datePublished="2025-03-06"
+        dateModified="2026-03-06"
+      />
+      <BreadcrumbSchema items={breadcrumbItems} />
       {/* Breadcrumbs */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs
@@ -70,7 +85,8 @@ export default async function ArticlePage({ params }: PageProps) {
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           {article.title}
         </h1>
-        <p className="text-lg text-gray-600">{article.description}</p>
+        <p className="text-sm text-gray-500 mt-2">Last updated: March 2026</p>
+        <p className="text-lg text-gray-600 mt-4">{article.description}</p>
       </section>
 
       {/* Article Content */}

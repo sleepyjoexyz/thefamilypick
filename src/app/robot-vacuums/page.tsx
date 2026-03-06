@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Robot Vacuums Compared 2025-2026 | The Family Pick",
+  description: "Compare robot vacuums by cleaning power, smart features, and price. Automate your home cleaning.",
+  alternates: { canonical: "https://thefamilypick.com/robot-vacuums" },
+};
 
 "use client";
 
@@ -29,7 +36,67 @@ export default function RobotVacuumsComparison() {
     return result;
   }, [sortBy]);
 
+  const breadcrumbItems = [
+
+
+    { name: "Home", url: "https://thefamilypick.com" },
+
+
+    { name: "Robot Vacuums", url: "https://thefamilypick.com/robot-vacuums" }
+
+
+  ];
+
+
+
+  const productListItems = robotVacuums.map((p) => ({
+
+
+    name: p.model || p.name,
+
+
+    brand: p.brand,
+
+
+    price: p.price,
+
+
+    rating: p.rating,
+
+
+    description: p.summary || ""
+
+
+  }));
+
+
+
   return (
+
+
+    <div className="bg-white">
+
+
+      <BreadcrumbSchema items={breadcrumbItems} />
+
+
+      <ProductListSchema
+
+
+        products={productListItems}
+
+
+        categoryName="Robot Vacuums"
+
+
+        categoryUrl="https://thefamilypick.com/robot-vacuums"
+
+
+      />
+
+
+
+  
     <div className="bg-white">
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">

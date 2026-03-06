@@ -82,6 +82,19 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Legal Links */}
+        <div className="border-t border-gray-800 pt-8 mb-8">
+          <h3 className="text-white font-semibold mb-4">Legal</h3>
+          <div className="flex flex-wrap gap-4 text-sm">
+            <Link href="/privacy" className="text-gray-400 hover:text-white transition">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="text-gray-400 hover:text-white transition">
+              Terms of Service
+            </Link>
+          </div>
+        </div>
+
         {/* Affiliate Disclaimer */}
         <div className="border-t border-gray-800 pt-8 mb-8">
           <p className="text-xs text-gray-500">

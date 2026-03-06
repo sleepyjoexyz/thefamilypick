@@ -7,6 +7,14 @@ import { automaticFeederArticles } from "@/data/automatic-feeder-articles";
 import { AutoFeeder } from "@/data/automatic-feeders";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Automatic Pet Feeders Compared 2025-2026 | The Family Pick",
+  description: "Compare automatic pet feeders by capacity, features, and price. Smart feeding solutions for busy pet parents.",
+  alternates: { canonical: "https://thefamilypick.com/automatic-feeders" },
+};
 
 export default function AutomaticFeedersComparison() {
   const [feederType, setFeederType] = useState<string>("all");
@@ -55,8 +63,27 @@ export default function AutomaticFeedersComparison() {
     return result;
   }, [feederType, petType, priceRange, hasApp, sortBy]);
 
+  const breadcrumbItems = [
+    { name: "Home", url: "https://thefamilypick.com" },
+    { name: "Automatic Feeders", url: "https://thefamilypick.com/automatic-feeders" }
+  ];
+
+  const productListItems = automaticFeeders.map((p) => ({
+    name: p.model || p.name,
+    brand: p.brand,
+    price: p.price,
+    rating: p.rating,
+    description: p.summary || ""
+  }));
+
   return (
     <div className="bg-white">
+      <BreadcrumbSchema items={breadcrumbItems} />
+      <ProductListSchema
+        products={productListItems}
+        categoryName="Automatic Feeders"
+        categoryUrl="https://thefamilypick.com/automatic-feeders"
+      />
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

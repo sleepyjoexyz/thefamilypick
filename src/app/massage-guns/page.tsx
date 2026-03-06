@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Massage Guns Compared 2025-2026 | The Family Pick",
+  description: "Compare massage guns by power, speed, attachments, and price. Find your perfect recovery tool.",
+  alternates: { canonical: "https://thefamilypick.com/massage-guns" },
+};
 
 "use client";
 
@@ -29,7 +36,67 @@ export default function MassageGunsComparison() {
     return result;
   }, [sortBy]);
 
+  const breadcrumbItems = [
+
+
+    { name: "Home", url: "https://thefamilypick.com" },
+
+
+    { name: "Massage Guns", url: "https://thefamilypick.com/massage-guns" }
+
+
+  ];
+
+
+
+  const productListItems = massageGuns.map((p) => ({
+
+
+    name: p.model || p.name,
+
+
+    brand: p.brand,
+
+
+    price: p.price,
+
+
+    rating: p.rating,
+
+
+    description: p.summary || ""
+
+
+  }));
+
+
+
   return (
+
+
+    <div className="bg-white">
+
+
+      <BreadcrumbSchema items={breadcrumbItems} />
+
+
+      <ProductListSchema
+
+
+        products={productListItems}
+
+
+        categoryName="Massage Guns"
+
+
+        categoryUrl="https://thefamilypick.com/massage-guns"
+
+
+      />
+
+
+
+  
     <div className="bg-white">
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">

@@ -7,6 +7,14 @@ import { gpsTrackerArticles } from "@/data/gps-tracker-articles";
 import { GPSTracker } from "@/data/gps-trackers";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best GPS Pet Trackers Compared 2025-2026 | The Family Pick",
+  description: "Compare GPS pet trackers by range, battery life, accuracy, and price. Keep tabs on your furry friend.",
+  alternates: { canonical: "https://thefamilypick.com/gps-trackers" },
+};
 
 export default function GPSTrackersComparison() {
   const [trackingType, setTrackingType] = useState<string>("all");
@@ -55,8 +63,27 @@ export default function GPSTrackersComparison() {
     return result;
   }, [trackingType, petType, priceRange, hasGeofencing, sortBy]);
 
+  const breadcrumbItems = [
+    { name: "Home", url: "https://thefamilypick.com" },
+    { name: "GPS Trackers", url: "https://thefamilypick.com/gps-trackers" }
+  ];
+
+  const productListItems = gpsTrackers.map((p) => ({
+    name: p.model || p.name,
+    brand: p.brand,
+    price: p.price,
+    rating: p.rating,
+    description: p.summary || ""
+  }));
+
   return (
     <div className="bg-white">
+      <BreadcrumbSchema items={breadcrumbItems} />
+      <ProductListSchema
+        products={productListItems}
+        categoryName="GPS Trackers"
+        categoryUrl="https://thefamilypick.com/gps-trackers"
+      />
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

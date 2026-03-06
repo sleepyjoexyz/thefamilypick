@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between" aria-label="Main navigation">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <div className="text-2xl font-bold text-blue-600">The Family Pick</div>
@@ -20,7 +20,7 @@ export default function Header() {
         <div className="hidden md:flex items-center gap-8">
           {/* Baby Gear Dropdown */}
           <div className="relative group">
-            <button className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium">
+            <button className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium" aria-label="Open baby gear menu">
               Baby Gear
               <span className="text-xs ml-1">▼</span>
             </button>
@@ -42,7 +42,7 @@ export default function Header() {
 
           {/* Pet Tech Dropdown */}
           <div className="relative group">
-            <button className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium">
+            <button className="flex items-center gap-1 text-gray-700 hover:text-blue-600 font-medium" aria-label="Open pet tech menu">
               Pet Tech
               <span className="text-xs ml-1">▼</span>
             </button>
@@ -78,6 +78,8 @@ export default function Header() {
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="md:hidden p-2 text-gray-700 hover:text-blue-600"
+          aria-label="Toggle menu"
+          aria-expanded={mobileMenuOpen}
         >
           {mobileMenuOpen ? <span className="text-2xl">✕</span> : <span className="text-2xl">☰</span>}
         </button>

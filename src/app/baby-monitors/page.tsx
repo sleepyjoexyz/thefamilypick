@@ -7,6 +7,14 @@ import { BabyMonitor } from "@/data/baby-monitors";
 import Link from "next/link";
 import { babyMonitorArticles } from "@/data/baby-monitor-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Baby Monitors Compared 2025-2026 | The Family Pick",
+  description: "Compare the top baby monitors side-by-side. Filter by price, video quality, range, and features. Data-driven recommendations for every budget.",
+  alternates: { canonical: "https://thefamilypick.com/baby-monitors" },
+};
 
 export default function BabyMonitorsComparison() {
   const [monitorType, setMonitorType] = useState<string>("all");
@@ -62,8 +70,28 @@ export default function BabyMonitorsComparison() {
     return result;
   }, [monitorType, wifiRequired, priceRange, panTiltZoom, hasApp, sortBy]);
 
+  const breadcrumbItems = [
+    { name: "Home", url: "https://thefamilypick.com" },
+    { name: "Baby Monitors", url: "https://thefamilypick.com/baby-monitors" }
+  ];
+
+  const productListItems = babyMonitors.map((p) => ({
+    name: p.model,
+    brand: p.brand,
+    price: p.price,
+    rating: p.rating,
+    description: p.summary || ""
+  }));
+
   return (
     <div className="bg-white">
+      <BreadcrumbSchema items={breadcrumbItems} />
+      <ProductListSchema
+        products={productListItems}
+        categoryName="Baby Monitors"
+        categoryUrl="https://thefamilypick.com/baby-monitors"
+      />
+
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs

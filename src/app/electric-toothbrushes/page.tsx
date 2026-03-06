@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Electric Toothbrushes Compared 2025-2026 | The Family Pick",
+  description: "Compare electric toothbrushes by technology, features, and price. Upgrade your dental care routine.",
+  alternates: { canonical: "https://thefamilypick.com/electric-toothbrushes" },
+};
 
 "use client";
 
@@ -29,7 +36,67 @@ export default function ElectricToothbrushesComparison() {
     return result;
   }, [sortBy]);
 
+  const breadcrumbItems = [
+
+
+    { name: "Home", url: "https://thefamilypick.com" },
+
+
+    { name: "Electric Toothbrushes", url: "https://thefamilypick.com/electric-toothbrushes" }
+
+
+  ];
+
+
+
+  const productListItems = electricToothbrushes.map((p) => ({
+
+
+    name: p.model || p.name,
+
+
+    brand: p.brand,
+
+
+    price: p.price,
+
+
+    rating: p.rating,
+
+
+    description: p.summary || ""
+
+
+  }));
+
+
+
   return (
+
+
+    <div className="bg-white">
+
+
+      <BreadcrumbSchema items={breadcrumbItems} />
+
+
+      <ProductListSchema
+
+
+        products={productListItems}
+
+
+        categoryName="Electric Toothbrushes"
+
+
+        categoryUrl="https://thefamilypick.com/electric-toothbrushes"
+
+
+      />
+
+
+
+  
     <div className="bg-white">
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">

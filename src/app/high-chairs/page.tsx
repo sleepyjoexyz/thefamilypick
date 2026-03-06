@@ -6,6 +6,14 @@ import { highChairs } from "@/data/high-chairs";
 import { highChairArticles } from "@/data/high-chair-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
+import { BreadcrumbSchema, ProductListSchema } from "@/components/JsonLd";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best High Chairs Compared 2025-2026 | The Family Pick",
+  description: "Compare high chairs side-by-side. Filter by price, material, features, and safety. Find the perfect feeding solution for your family.",
+  alternates: { canonical: "https://thefamilypick.com/high-chairs" },
+};
 
 export default function HighChairsComparison() {
   const [priceRange, setPriceRange] = useState<string>("all");
@@ -63,8 +71,27 @@ export default function HighChairsComparison() {
     return result;
   }, [priceRange, chairType, foldable, dishwasherTray, footrest, sortBy]);
 
+  const breadcrumbItems = [
+    { name: "Home", url: "https://thefamilypick.com" },
+    { name: "High Chairs", url: "https://thefamilypick.com/high-chairs" }
+  ];
+
+  const productListItems = highChairs.map((p) => ({
+    name: p.model || p.name,
+    brand: p.brand,
+    price: p.price,
+    rating: p.rating,
+    description: p.summary || ""
+  }));
+
   return (
     <div className="bg-white">
+      <BreadcrumbSchema items={breadcrumbItems} />
+      <ProductListSchema
+        products={productListItems}
+        categoryName="High Chairs"
+        categoryUrl="https://thefamilypick.com/high-chairs"
+      />
       {/* Breadcrumbs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs
