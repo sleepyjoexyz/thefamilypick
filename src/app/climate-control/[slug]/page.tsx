@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
-
+import { notFound } from "next/navigation";
 interface PageProps {
   params: Promise<{
     slug: string;
@@ -33,6 +33,9 @@ export async function generateMetadata(
   return {
     title: `${article.title} | The Family Pick`,
     description: article.description,
+    alternates: {
+      canonical: `https://thefamilypick.com/climate-control/${slug}`,
+    },
     openGraph: {
       title: article.title,
       description: article.description,
@@ -47,15 +50,7 @@ export default async function ArticlePage({ params }: PageProps) {
   const article = getClimateControlArticle(slug);
 
   if (!article) {
-    return (
-      <div className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold text-gray-900">Article Not Found</h1>
-        <p className="text-gray-600 mt-2">The article you're looking for doesn't exist.</p>
-        <Link href="/climate-control" className="text-blue-600 hover:underline mt-4 inline-block">
-          Back to Climate Control
-        </Link>
-      </div>
-    );
+    notFound();
   }
 
   return (

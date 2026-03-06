@@ -4,6 +4,7 @@ import {
 } from "@/data/car-seat-articles";
 import { carSeats } from "@/data/car-seats";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import { notFound } from "next/navigation";
 import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
@@ -37,6 +38,9 @@ export async function generateMetadata(
   return {
     title: `${article.title} | The Family Pick`,
     description: article.description,
+    alternates: {
+      canonical: `https://thefamilypick.com/car-seats/${slug}`,
+    },
     openGraph: {
       title: article.title,
       description: article.description,
@@ -51,19 +55,7 @@ export default async function ArticlePage({ params }: PageProps) {
   const article = getCarSeatArticle(slug);
 
   if (!article) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-2xl font-bold text-gray-900">Article not found</h1>
-        <p className="text-gray-600 mt-4">
-          <Link
-            href="/car-seats"
-            className="text-blue-600 hover:underline"
-          >
-            Back to car seats
-          </Link>
-        </p>
-      </div>
-    );
+    notFound();
   }
 
   return (
