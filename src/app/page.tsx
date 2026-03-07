@@ -1,8 +1,18 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'The Family Pick — Data-Driven Baby & Pet Product Comparisons',
   description: 'Expert comparisons of baby gear (monitors, strollers, car seats, high chairs) and pet tech (feeders, cameras, trackers, grooming tools). Evidence-based reviews for families.',
+  alternates: {
+    canonical: 'https://thefamilypick.com',
+  },
+  openGraph: {
+    title: 'The Family Pick — Data-Driven Baby & Pet Product Comparisons',
+    description: 'Expert comparisons of baby gear and pet technology products with detailed buying guides.',
+    type: 'website',
+    url: 'https://thefamilypick.com',
+  },
 };
 
 export default function Home() {
@@ -14,33 +24,83 @@ export default function Home() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
             The Family Pick
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-600 mb-2">
+          <p className="text-xl sm:text-2xl text-gray-600 mb-6">
             Data-Driven Baby & Pet Product Comparisons
           </p>
-          <p className="text-lg text-gray-500 mb-8">
-            8 categories • 100+ products • 32 in-depth guides
+          <p className="text-lg text-gray-700 font-medium mb-2">
+            Compare before you buy. Every spec verified. No sponsored rankings.
           </p>
+          <p className="text-gray-600 mb-8">
+            Evidence-based product research for families.
+          </p>
+
+          {/* Stats Section */}
+          <div className="bg-white border border-gray-200 rounded-lg inline-block px-8 py-6 mb-2">
+            <p className="text-sm text-gray-600 font-medium">
+              <span className="text-2xl font-bold text-blue-600">8</span> categories •
+              <span className="text-2xl font-bold text-blue-600 ml-2">100+</span> products •
+              <span className="text-2xl font-bold text-blue-600 ml-2">32</span> in-depth guides
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* How We Compare Section */}
+      <section className="bg-gray-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+            How We Compare
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-lg font-bold">
+                1
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Research Every Spec</h3>
+              <p className="text-gray-600">
+                We analyze product specifications, safety features, and real user feedback from verified sources.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-lg font-bold">
+                2
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Side-by-Side Comparison</h3>
+              <p className="text-gray-600">
+                Compare features, prices, and suitability across products in detailed comparison tables.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-lg font-bold">
+                3
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">You Decide — No Bias</h3>
+              <p className="text-gray-600">
+                We never accept sponsorships. Your decision is based on unbiased facts and your family's needs.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Baby Gear Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">Baby Gear</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Baby Monitors */}
           <Link href="/baby-monitors" className="group">
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 h-full">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-2xl">📹</span>
+            <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition-shadow p-6 h-full flex flex-col">
+              <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-lg mb-4 flex-shrink-0">
+                <div className="text-2xl font-bold text-blue-600">📹</div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition">
+              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition">
                 Baby Monitors
               </h3>
-              <p className="text-gray-600 text-sm">
-                WiFi and non-WiFi monitors for real-time infant monitoring and peace of mind.
+              <p className="text-gray-600 text-sm mb-4 flex-grow">
+                WiFi and non-WiFi monitors for real-time infant monitoring.
               </p>
-              <div className="flex items-center mt-4 text-blue-600 group-hover:gap-2 transition-all">
-                <span className="text-sm font-medium">Explore</span>
+              <div className="flex items-center text-blue-600 group-hover:gap-2 transition-all font-medium text-sm">
+                <span>Compare</span>
                 <span className="ml-1">→</span>
               </div>
             </div>
@@ -48,18 +108,18 @@ export default function Home() {
 
           {/* Strollers */}
           <Link href="/strollers" className="group">
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 h-full">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-2xl">🛒</span>
+            <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition-shadow p-6 h-full flex flex-col">
+              <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-lg mb-4 flex-shrink-0">
+                <div className="text-2xl font-bold text-blue-600">🛒</div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition">
+              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition">
                 Strollers
               </h3>
-              <p className="text-gray-600 text-sm">
-                Full-size, lightweight, and jogging strollers compared for lifestyle fit.
+              <p className="text-gray-600 text-sm mb-4 flex-grow">
+                Full-size, lightweight, and jogging strollers for lifestyle fit.
               </p>
-              <div className="flex items-center mt-4 text-blue-600 group-hover:gap-2 transition-all">
-                <span className="text-sm font-medium">Explore</span>
+              <div className="flex items-center text-blue-600 group-hover:gap-2 transition-all font-medium text-sm">
+                <span>Compare</span>
                 <span className="ml-1">→</span>
               </div>
             </div>
@@ -67,18 +127,18 @@ export default function Home() {
 
           {/* Car Seats */}
           <Link href="/car-seats" className="group">
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 h-full">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-2xl">🚗</span>
+            <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition-shadow p-6 h-full flex flex-col">
+              <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-lg mb-4 flex-shrink-0">
+                <div className="text-2xl font-bold text-blue-600">🚗</div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition">
+              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition">
                 Car Seats
               </h3>
-              <p className="text-gray-600 text-sm">
-                Infant and convertible car seats for safety and compatibility guidance.
+              <p className="text-gray-600 text-sm mb-4 flex-grow">
+                Infant and convertible car seats for safety and compatibility.
               </p>
-              <div className="flex items-center mt-4 text-blue-600 group-hover:gap-2 transition-all">
-                <span className="text-sm font-medium">Explore</span>
+              <div className="flex items-center text-blue-600 group-hover:gap-2 transition-all font-medium text-sm">
+                <span>Compare</span>
                 <span className="ml-1">→</span>
               </div>
             </div>
@@ -86,18 +146,18 @@ export default function Home() {
 
           {/* High Chairs */}
           <Link href="/high-chairs" className="group">
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 h-full">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-2xl">🪑</span>
+            <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition-shadow p-6 h-full flex flex-col">
+              <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-lg mb-4 flex-shrink-0">
+                <div className="text-2xl font-bold text-blue-600">🪑</div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition">
+              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition">
                 High Chairs
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm mb-4 flex-grow">
                 Convertible and foldable high chairs for various spaces and budgets.
               </p>
-              <div className="flex items-center mt-4 text-blue-600 group-hover:gap-2 transition-all">
-                <span className="text-sm font-medium">Explore</span>
+              <div className="flex items-center text-blue-600 group-hover:gap-2 transition-all font-medium text-sm">
+                <span>Compare</span>
                 <span className="ml-1">→</span>
               </div>
             </div>
@@ -106,23 +166,23 @@ export default function Home() {
       </section>
 
       {/* Pet Tech Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">Pet Tech</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Automatic Feeders */}
           <Link href="/automatic-feeders" className="group">
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 h-full">
-              <div className="w-12 h-12 bg-green-100 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-2xl">🍽️</span>
+            <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition-shadow p-6 h-full flex flex-col">
+              <div className="bg-gradient-to-br from-green-100 to-green-50 p-4 rounded-lg mb-4 flex-shrink-0">
+                <div className="text-2xl font-bold text-green-600">🍽️</div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-green-600 transition">
+              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-green-600 transition">
                 Automatic Feeders
               </h3>
-              <p className="text-gray-600 text-sm">
-                Smart and timed pet feeders for convenient, scheduled meal dispensing.
+              <p className="text-gray-600 text-sm mb-4 flex-grow">
+                Smart and timed pet feeders for convenient meal dispensing.
               </p>
-              <div className="flex items-center mt-4 text-green-600 group-hover:gap-2 transition-all">
-                <span className="text-sm font-medium">Explore</span>
+              <div className="flex items-center text-green-600 group-hover:gap-2 transition-all font-medium text-sm">
+                <span>Compare</span>
                 <span className="ml-1">→</span>
               </div>
             </div>
@@ -130,18 +190,18 @@ export default function Home() {
 
           {/* Pet Cameras */}
           <Link href="/pet-cameras" className="group">
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 h-full">
-              <div className="w-12 h-12 bg-green-100 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-2xl">📷</span>
+            <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition-shadow p-6 h-full flex flex-col">
+              <div className="bg-gradient-to-br from-green-100 to-green-50 p-4 rounded-lg mb-4 flex-shrink-0">
+                <div className="text-2xl font-bold text-green-600">📷</div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-green-600 transition">
+              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-green-600 transition">
                 Pet Cameras
               </h3>
-              <p className="text-gray-600 text-sm">
-                Interactive pet cameras with treat dispensers and behavior monitoring.
+              <p className="text-gray-600 text-sm mb-4 flex-grow">
+                Interactive cameras with treat dispensers and behavior monitoring.
               </p>
-              <div className="flex items-center mt-4 text-green-600 group-hover:gap-2 transition-all">
-                <span className="text-sm font-medium">Explore</span>
+              <div className="flex items-center text-green-600 group-hover:gap-2 transition-all font-medium text-sm">
+                <span>Compare</span>
                 <span className="ml-1">→</span>
               </div>
             </div>
@@ -149,18 +209,18 @@ export default function Home() {
 
           {/* GPS Trackers */}
           <Link href="/gps-trackers" className="group">
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 h-full">
-              <div className="w-12 h-12 bg-green-100 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-2xl">📍</span>
+            <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition-shadow p-6 h-full flex flex-col">
+              <div className="bg-gradient-to-br from-green-100 to-green-50 p-4 rounded-lg mb-4 flex-shrink-0">
+                <div className="text-2xl font-bold text-green-600">📍</div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-green-600 transition">
+              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-green-600 transition">
                 GPS Trackers
               </h3>
-              <p className="text-gray-600 text-sm">
-                GPS and Bluetooth pet trackers for real-time location monitoring.
+              <p className="text-gray-600 text-sm mb-4 flex-grow">
+                GPS and Bluetooth trackers for real-time location monitoring.
               </p>
-              <div className="flex items-center mt-4 text-green-600 group-hover:gap-2 transition-all">
-                <span className="text-sm font-medium">Explore</span>
+              <div className="flex items-center text-green-600 group-hover:gap-2 transition-all font-medium text-sm">
+                <span>Compare</span>
                 <span className="ml-1">→</span>
               </div>
             </div>
@@ -168,18 +228,18 @@ export default function Home() {
 
           {/* Grooming Tools */}
           <Link href="/grooming-tools" className="group">
-            <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 h-full">
-              <div className="w-12 h-12 bg-green-100 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-2xl">✂️</span>
+            <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition-shadow p-6 h-full flex flex-col">
+              <div className="bg-gradient-to-br from-green-100 to-green-50 p-4 rounded-lg mb-4 flex-shrink-0">
+                <div className="text-2xl font-bold text-green-600">✂️</div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-green-600 transition">
+              <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-green-600 transition">
                 Grooming Tools
               </h3>
-              <p className="text-gray-600 text-sm">
-                Clippers, vacuum groomers, and grooming systems for home pet care.
+              <p className="text-gray-600 text-sm mb-4 flex-grow">
+                Clippers, vacuum groomers, and grooming systems for pet care.
               </p>
-              <div className="flex items-center mt-4 text-green-600 group-hover:gap-2 transition-all">
-                <span className="text-sm font-medium">Explore</span>
+              <div className="flex items-center text-green-600 group-hover:gap-2 transition-all font-medium text-sm">
+                <span>Compare</span>
                 <span className="ml-1">→</span>
               </div>
             </div>

@@ -95,13 +95,21 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Affiliate Disclaimer */}
-        <div className="border-t border-gray-800 pt-8 mb-8">
-          <p className="text-xs text-gray-500">
-            The Family Pick is a participant in the Amazon Services LLC Associates Program and other affiliate advertising programs.
-            We earn a commission from qualifying purchases. This helps support our research and enables us to provide independent,
-            unbiased product reviews.
-          </p>
+        {/* Affiliate & AI Disclosure */}
+        <div className="border-t border-gray-800 pt-8 mb-8 space-y-4">
+          <div>
+            <p className="font-semibold text-gray-300 mb-2">Affiliate Disclosure</p>
+            <p className="text-xs text-gray-500">
+              The Family Pick is a participant in the Amazon Services LLC Associates Program and other affiliate advertising programs.
+              We earn a commission from qualifying purchases.
+            </p>
+          </div>
+          <div>
+            <p className="font-semibold text-gray-300 mb-2">AI Disclosure</p>
+            <p className="text-xs text-gray-500">
+              This website was prepared with AI-assisted research. It is provided for informational purposes only and does not constitute legal, financial, or investment advice. All data should be independently verified before use.
+            </p>
+          </div>
         </div>
 
         {/* Copyright */}
