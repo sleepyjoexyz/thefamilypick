@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { automaticFeeders } from "@/data/automatic-feeders";
 import { automaticFeederArticles } from "@/data/automatic-feeder-articles";
 import { AutoFeeder } from "@/data/automatic-feeders";
@@ -55,6 +56,86 @@ export default function AutomaticFeedersContent() {
     return result;
   }, [feederType, petType, priceRange, hasApp, sortBy]);
 
+  // ProductFinder configuration
+  const finderSteps: FinderStep[] = [
+    {
+      id: "budget",
+      question: "What's your budget? 💰",
+      subtitle: "Choose a price range to narrow down options",
+      options: [
+        { value: "any", label: "Any budget", icon: "✅" },
+        { value: "budget", label: "Budget (under $100)", icon: "💵" },
+        { value: "mid", label: "Mid-Range ($100-$200)", icon: "💳" },
+        { value: "premium", label: "Premium ($200+)", icon: "👑" },
+      ],
+      filterFn: (product: AutoFeeder, value: string) => {
+        if (value === "any") return true;
+        if (value === "budget") return product.price < 100;
+        if (value === "mid") return product.price >= 100 && product.price < 200;
+        if (value === "premium") return product.price >= 200;
+        return true;
+      },
+    },
+    {
+      id: "petType",
+      question: "What type of pet? 🐾",
+      subtitle: "Feeders are designed for cats, dogs, or both",
+      options: [
+        { value: "any", label: "Either dogs or cats", icon: "✅" },
+        { value: "cat", label: "Cats (smaller portions)", icon: "🐱" },
+        { value: "dog", label: "Dogs (larger meals)", icon: "🐕" },
+      ],
+      filterFn: (product: AutoFeeder, value: string) => {
+        if (value === "any") return true;
+        return product.petType === value || product.petType === "both";
+      },
+    },
+    {
+      id: "feederType",
+      question: "What type of feeder? 🍽️",
+      subtitle: "Gravity, timed, smart, or microchip-controlled",
+      options: [
+        { value: "any", label: "Any type", icon: "✅" },
+        { value: "gravity", label: "Gravity (simplest)", icon: "⬇️" },
+        { value: "timed", label: "Timed (scheduled meals)", icon: "⏰" },
+        { value: "smart", label: "Smart WiFi (app control)", icon: "📱" },
+        { value: "microchip", label: "Microchip (per-pet)", icon: "🔐" },
+      ],
+      filterFn: (product: AutoFeeder, value: string) => {
+        if (value === "any") return true;
+        return product.feederType === value;
+      },
+    },
+    {
+      id: "features",
+      question: "Want app control? 📲",
+      subtitle: "Smart feeders let you control portions from your phone",
+      options: [
+        { value: "any", label: "Not important", icon: "✅" },
+        { value: "yes", label: "Yes, app control", icon: "📲" },
+        { value: "no", label: "No, manual is fine", icon: "🪀" },
+      ],
+      filterFn: (product: AutoFeeder, value: string) => {
+        if (value === "any") return true;
+        if (value === "yes") return product.hasApp === true;
+        if (value === "no") return product.hasApp === false;
+        return true;
+      },
+    },
+  ];
+
+  const resultConfig: FinderResultConfig = {
+    getName: (p: AutoFeeder) => `${p.brand} ${p.model}`,
+    getPrice: (p: AutoFeeder) => p.price,
+    getRating: (p: AutoFeeder) => p.rating,
+    getSummary: (p: AutoFeeder) => p.summary,
+    getAsin: (p: AutoFeeder) => p.amazonAsin || null,
+    displayFields: [
+      { label: "Type", getValue: (p: AutoFeeder) => p.feederType },
+      { label: "Capacity", getValue: (p: AutoFeeder) => `${p.foodCapacityLbs} lbs` },
+      { label: "Portions", getValue: (p: AutoFeeder) => `${p.mealPortions} portions` },
+    ],
+  };
 
   return (
     <div className="bg-white">
@@ -105,6 +186,17 @@ export default function AutomaticFeedersContent() {
           </div>
         </section>
       )}
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-200">
+        <ProductFinder
+          title="Find Your Perfect Pet Feeder"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={automaticFeeders}
+          resultConfig={resultConfig}
+        />
+      </section>
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">

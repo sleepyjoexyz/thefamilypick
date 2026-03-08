@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { electricToothbrushes } from "@/data/electric-toothbrushes";
 import { ElectricToothbrush } from "@/data/electric-toothbrushes";
 import { electricToothbrushArticles } from "@/data/electric-toothbrush-articles";

@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { securityCameras } from "@/data/security-cameras";
 import { SecurityCamera } from "@/data/security-cameras";
 import { securityCameraArticles } from "@/data/security-camera-articles";

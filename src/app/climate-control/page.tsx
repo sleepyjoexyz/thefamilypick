@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { climateDevices } from "@/data/climate-control";
 import { ClimateDevice } from "@/data/climate-control";
 import { climateControlArticles } from "@/data/climate-control-articles";
@@ -28,8 +29,20 @@ export default function ClimateControlContent() {
     return result;
   }, [sortBy]);
 
-
-
+  const finderSteps: FinderStep[] = [
+    { id: "type", question: "Device type? 🌡️", options: [{ value: "any", label: "Any", icon: "✅" }], filterFn: () => true },
+  ];
+  const resultConfig: FinderResultConfig = {
+    getName: (p: ClimateDevice) => `${p.brand} ${p.model}`,
+    getPrice: (p: ClimateDevice) => p.price,
+    getRating: (p: ClimateDevice) => p.rating,
+    getSummary: (p: ClimateDevice) => p.bestFor,
+    getAsin: (p: ClimateDevice) => p.amazonAsin || null,
+    displayFields: [
+      { label: "Type", getValue: (p: ClimateDevice) => p.deviceType },
+      { label: "Range", getValue: (p: ClimateDevice) => `${p.roomSizeSqFt} sqft` },
+    ],
+  };
 
   return (
     <div className="bg-white">
@@ -80,6 +93,17 @@ export default function ClimateControlContent() {
           </div>
         </section>
       )}
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-200">
+        <ProductFinder
+          title="Find Your Perfect Climate Device"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={climateDevices}
+          resultConfig={resultConfig}
+        />
+      </section>
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">

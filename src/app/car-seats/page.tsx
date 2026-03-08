@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { carSeats } from "@/data/car-seats";
 import { carSeatArticles } from "@/data/car-seat-articles";
 import { CarSeat } from "@/data/car-seats";
@@ -65,6 +66,83 @@ export default function CarSeatsContent() {
     description: p.summary || ""
   }));
 
+  // ProductFinder configuration
+  const finderSteps: FinderStep[] = [
+    {
+      id: "budget",
+      question: "What's your budget? 💰",
+      subtitle: "Choose a price range to narrow down options",
+      options: [
+        { value: "any", label: "Any budget", icon: "✅" },
+        { value: "0-199", label: "Under $200", icon: "💵" },
+        { value: "200-299", label: "$200-$299", icon: "💳" },
+        { value: "300-399", label: "$300-$399", icon: "💎" },
+        { value: "400-Infinity", label: "$400+", icon: "👑" },
+      ],
+      filterFn: (product: CarSeat, value: string) => {
+        if (value === "any") return true;
+        const [min, max] = value.split("-").map(Number);
+        return product.price >= min && (max === Infinity ? true : product.price <= max);
+      },
+    },
+    {
+      id: "seatType",
+      question: "What type of seat do you need? 👶",
+      subtitle: "Infant seats, convertible, all-in-one, or booster",
+      options: [
+        { value: "any", label: "Any type", icon: "✅" },
+        { value: "infant", label: "Infant (newborn-35 lbs)", icon: "👼" },
+        { value: "convertible", label: "Convertible (grow with child)", icon: "🔄" },
+        { value: "all-in-one", label: "All-in-One (infant to booster)", icon: "🎯" },
+        { value: "booster", label: "Booster seat", icon: "📈" },
+      ],
+      filterFn: (product: CarSeat, value: string) => {
+        if (value === "any") return true;
+        return product.seatType === value;
+      },
+    },
+    {
+      id: "installation",
+      question: "How would you like to install it? 🔧",
+      subtitle: "LATCH system or standard seatbelt",
+      options: [
+        { value: "any", label: "Any method", icon: "✅" },
+        { value: "LATCH", label: "LATCH (easiest)", icon: "🔗" },
+        { value: "Seatbelt", label: "Seatbelt", icon: "🎫" },
+      ],
+      filterFn: (product: CarSeat, value: string) => {
+        if (value === "any") return true;
+        return product.installMethod.includes(value);
+      },
+    },
+    {
+      id: "safety",
+      question: "Safety feature priorities? 🛡️",
+      subtitle: "Side impact protection for maximum safety",
+      options: [
+        { value: "any", label: "Any level", icon: "✅" },
+        { value: "yes", label: "Side impact protection essential", icon: "🛡️" },
+      ],
+      filterFn: (product: CarSeat, value: string) => {
+        if (value === "any") return true;
+        return product.sideImpactProtection === true;
+      },
+    },
+  ];
+
+  const resultConfig: FinderResultConfig = {
+    getName: (p: CarSeat) => `${p.brand} ${p.model}`,
+    getPrice: (p: CarSeat) => p.price,
+    getRating: (p: CarSeat) => p.rating,
+    getSummary: (p: CarSeat) => p.summary,
+    getAsin: (p: CarSeat) => p.amazonAsin || null,
+    displayFields: [
+      { label: "Type", getValue: (p: CarSeat) => p.seatType },
+      { label: "Weight", getValue: (p: CarSeat) => `${p.weightRangeMin}-${p.weightRangeMax} lbs` },
+      { label: "Installation", getValue: (p: CarSeat) => p.installMethod },
+    ],
+  };
+
   return (
     <div className="bg-white">
       {/* Breadcrumbs */}
@@ -111,6 +189,17 @@ export default function CarSeatsContent() {
             </div>
           </div>
         )}
+      </section>
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <ProductFinder
+          title="Find Your Perfect Car Seat"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={carSeats}
+          resultConfig={resultConfig}
+        />
       </section>
 
       {/* Filters */}

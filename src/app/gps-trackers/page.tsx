@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { gpsTrackers } from "@/data/gps-trackers";
 import { gpsTrackerArticles } from "@/data/gps-tracker-articles";
 import { GPSTracker } from "@/data/gps-trackers";
@@ -55,6 +56,86 @@ export default function GPSTrackersContent() {
     return result;
   }, [trackingType, petType, priceRange, hasGeofencing, sortBy]);
 
+  // ProductFinder configuration
+  const finderSteps: FinderStep[] = [
+    {
+      id: "budget",
+      question: "What's your budget? 💰",
+      subtitle: "Choose a price range to narrow down options",
+      options: [
+        { value: "any", label: "Any budget", icon: "✅" },
+        { value: "budget", label: "Budget (under $100)", icon: "💵" },
+        { value: "mid", label: "Mid-Range ($100-$250)", icon: "💳" },
+        { value: "premium", label: "Premium ($250+)", icon: "👑" },
+      ],
+      filterFn: (product: GPSTracker, value: string) => {
+        if (value === "any") return true;
+        if (value === "budget") return product.price < 100;
+        if (value === "mid") return product.price >= 100 && product.price < 250;
+        if (value === "premium") return product.price >= 250;
+        return true;
+      },
+    },
+    {
+      id: "petType",
+      question: "What type of pet? 🐾",
+      subtitle: "Choose the pet you want to track",
+      options: [
+        { value: "any", label: "Either dogs or cats", icon: "✅" },
+        { value: "dog", label: "Dogs", icon: "🐕" },
+        { value: "cat", label: "Cats", icon: "🐱" },
+      ],
+      filterFn: (product: GPSTracker, value: string) => {
+        if (value === "any") return true;
+        return product.petType === value || product.petType === "both";
+      },
+    },
+    {
+      id: "tracking",
+      question: "What tracking technology? 📡",
+      subtitle: "GPS for real-time tracking, Bluetooth for short range, GPS+LTE for backup",
+      options: [
+        { value: "any", label: "Any technology", icon: "✅" },
+        { value: "GPS", label: "GPS (real-time location)", icon: "🛰️" },
+        { value: "Bluetooth", label: "Bluetooth (short range)", icon: "📶" },
+        { value: "GPS+LTE", label: "GPS+LTE (cellular backup)", icon: "🌐" },
+        { value: "GPS+WiFi", label: "GPS+WiFi (hybrid)", icon: "📡" },
+      ],
+      filterFn: (product: GPSTracker, value: string) => {
+        if (value === "any") return true;
+        return product.trackingType === value;
+      },
+    },
+    {
+      id: "features",
+      question: "Must-have feature? 🎯",
+      subtitle: "Geofencing creates virtual boundaries to alert you if pet strays",
+      options: [
+        { value: "any", label: "Any features", icon: "✅" },
+        { value: "yes", label: "Geofencing (boundary alerts)", icon: "🚨" },
+        { value: "no", label: "Not needed", icon: "📍" },
+      ],
+      filterFn: (product: GPSTracker, value: string) => {
+        if (value === "any") return true;
+        if (value === "yes") return product.geofencing === true;
+        if (value === "no") return product.geofencing === false;
+        return true;
+      },
+    },
+  ];
+
+  const resultConfig: FinderResultConfig = {
+    getName: (p: GPSTracker) => `${p.brand} ${p.model}`,
+    getPrice: (p: GPSTracker) => p.price,
+    getRating: (p: GPSTracker) => p.rating,
+    getSummary: (p: GPSTracker) => p.summary,
+    getAsin: (p: GPSTracker) => p.amazonAsin || null,
+    displayFields: [
+      { label: "Type", getValue: (p: GPSTracker) => p.trackingType },
+      { label: "Battery", getValue: (p: GPSTracker) => `${p.batteryLifeDays}d` },
+      { label: "Waterproof", getValue: (p: GPSTracker) => p.waterproofRating },
+    ],
+  };
 
   return (
     <div className="bg-white">
@@ -105,6 +186,17 @@ export default function GPSTrackersContent() {
           </div>
         </section>
       )}
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-200">
+        <ProductFinder
+          title="Find Your Perfect GPS Tracker"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={gpsTrackers}
+          resultConfig={resultConfig}
+        />
+      </section>
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">

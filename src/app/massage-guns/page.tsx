@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { massageGuns } from "@/data/massage-guns";
 import { MassageGun } from "@/data/massage-guns";
 import { massageGunArticles } from "@/data/massage-gun-articles";

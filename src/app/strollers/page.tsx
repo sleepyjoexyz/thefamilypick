@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { strollers, Stroller } from "@/data/strollers";
 import { strollerArticles } from "@/data/stroller-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
@@ -54,6 +55,88 @@ export default function StrollersContent() {
     return result;
   }, [strollerType, priceMin, priceMax, carSeatCompatible, oneBoardFold, sortBy]);
 
+  // ProductFinder configuration
+  const finderSteps: FinderStep[] = [
+    {
+      id: "budget",
+      question: "What's your budget? 💰",
+      subtitle: "Choose a price range to narrow down options",
+      options: [
+        { value: "any", label: "Any budget", icon: "✅" },
+        { value: "0-300", label: "Under $300 (lightweight/jogging)", icon: "💵" },
+        { value: "300-600", label: "$300-$600 (mid-range)", icon: "💳" },
+        { value: "600-1000", label: "$600-$1000 (premium)", icon: "💎" },
+        { value: "1000-1500", label: "$1000+ (luxury)", icon: "👑" },
+      ],
+      filterFn: (product: Stroller, value: string) => {
+        if (value === "any") return true;
+        const [min, max] = value.split("-").map(Number);
+        return product.price >= min && product.price <= max;
+      },
+    },
+    {
+      id: "strollerType",
+      question: "What type of stroller? 👶",
+      subtitle: "Full-size, lightweight, jogging, double, or travel system",
+      options: [
+        { value: "any", label: "Any type", icon: "✅" },
+        { value: "full-size", label: "Full-size (reversible, features)", icon: "🛴" },
+        { value: "lightweight", label: "Lightweight (portable, easy)", icon: "🪶" },
+        { value: "jogging", label: "Jogging (active parents)", icon: "🏃" },
+        { value: "double", label: "Double (two kids)", icon: "👶👶" },
+        { value: "travel-system", label: "Travel system (with car seat)", icon: "🚗" },
+      ],
+      filterFn: (product: Stroller, value: string) => {
+        if (value === "any") return true;
+        return product.strollerType === value;
+      },
+    },
+    {
+      id: "carSeat",
+      question: "Do you need car seat compatibility? 🚗",
+      subtitle: "Match with infant car seats for travel systems",
+      options: [
+        { value: "any", label: "Not important", icon: "✅" },
+        { value: "yes", label: "Yes, car seat compatible", icon: "🚗" },
+        { value: "no", label: "No, standard use only", icon: "👶" },
+      ],
+      filterFn: (product: Stroller, value: string) => {
+        if (value === "any") return true;
+        if (value === "yes") return product.carSeatCompatible === true;
+        if (value === "no") return product.carSeatCompatible === false;
+        return true;
+      },
+    },
+    {
+      id: "fold",
+      question: "Do you want one-hand fold? 🙌",
+      subtitle: "Convenient for parents on the go",
+      options: [
+        { value: "any", label: "Not important", icon: "✅" },
+        { value: "yes", label: "Yes, one-hand fold", icon: "🙌" },
+        { value: "no", label: "Standard fold is fine", icon: "📦" },
+      ],
+      filterFn: (product: Stroller, value: string) => {
+        if (value === "any") return true;
+        if (value === "yes") return product.oneBoardFold === true;
+        if (value === "no") return product.oneBoardFold === false;
+        return true;
+      },
+    },
+  ];
+
+  const resultConfig: FinderResultConfig = {
+    getName: (p: Stroller) => `${p.brand} ${p.model}`,
+    getPrice: (p: Stroller) => p.price,
+    getRating: (p: Stroller) => p.rating,
+    getSummary: (p: Stroller) => p.summary,
+    getAsin: (p: Stroller) => p.amazonAsin || null,
+    displayFields: [
+      { label: "Type", getValue: (p: Stroller) => p.strollerType },
+      { label: "Weight", getValue: (p: Stroller) => `${p.weightLbs} lbs` },
+      { label: "Recline", getValue: (p: Stroller) => `${p.reclinePositions} positions` },
+    ],
+  };
 
   return (
     <div className="bg-white">
@@ -81,6 +164,17 @@ export default function StrollersContent() {
           stroller that matches your lifestyle. Our methodology is based on
           manufacturer specifications, real-world testing, and parent feedback.
         </p>
+      </section>
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <ProductFinder
+          title="Find Your Perfect Stroller"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={strollers}
+          resultConfig={resultConfig}
+        />
       </section>
 
       {/* Filters */}

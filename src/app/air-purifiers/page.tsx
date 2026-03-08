@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { airPurifiers } from "@/data/air-purifiers";
 import { AirPurifier } from "@/data/air-purifiers";
 import { airPurifierArticles } from "@/data/air-purifier-articles";

@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { babyMonitors } from "@/data/baby-monitors";
 import { BabyMonitor } from "@/data/baby-monitors";
 import Link from "next/link";
@@ -75,6 +76,89 @@ export default function BabyMonitorsContent() {
     description: p.summary || ""
   }));
 
+  // ProductFinder configuration
+  const finderSteps: FinderStep[] = [
+    {
+      id: "budget",
+      question: "What's your budget? 💰",
+      subtitle: "Choose a price range to narrow down options",
+      options: [
+        { value: "any", label: "Any budget", icon: "✅" },
+        { value: "budget", label: "Budget (under $150)", icon: "💵" },
+        { value: "mid", label: "Mid-Range ($150-$250)", icon: "💳" },
+        { value: "premium", label: "Premium ($250+)", icon: "👑" },
+      ],
+      filterFn: (product: BabyMonitor, value: string) => {
+        if (value === "any") return true;
+        if (value === "budget") return product.price < 150;
+        if (value === "mid") return product.price >= 150 && product.price < 250;
+        if (value === "premium") return product.price >= 250;
+        return true;
+      },
+    },
+    {
+      id: "monitorType",
+      question: "What type of monitor? 📱",
+      subtitle: "Audio-only, video, smart WiFi, or wearable sensor",
+      options: [
+        { value: "any", label: "Any type", icon: "✅" },
+        { value: "audio", label: "Audio only (simplest)", icon: "🔊" },
+        { value: "video", label: "Video monitor (closed system)", icon: "📹" },
+        { value: "smart", label: "Smart WiFi (remote access)", icon: "📱" },
+        { value: "wearable", label: "Wearable sensor", icon: "⌚" },
+      ],
+      filterFn: (product: BabyMonitor, value: string) => {
+        if (value === "any") return true;
+        return product.monitorType === value;
+      },
+    },
+    {
+      id: "connectivity",
+      question: "Privacy preference? 🔒",
+      subtitle: "WiFi-connected for anywhere access, or closed system for privacy",
+      options: [
+        { value: "any", label: "Any connectivity", icon: "✅" },
+        { value: "no", label: "Closed system (no WiFi, more private)", icon: "🔒" },
+        { value: "yes", label: "WiFi-connected (remote access)", icon: "📡" },
+      ],
+      filterFn: (product: BabyMonitor, value: string) => {
+        if (value === "any") return true;
+        if (value === "yes") return product.wifiRequired === true;
+        if (value === "no") return product.wifiRequired === false;
+        return true;
+      },
+    },
+    {
+      id: "ptz",
+      question: "Do you want pan/tilt/zoom? 🎥",
+      subtitle: "Move camera remotely to follow your baby",
+      options: [
+        { value: "any", label: "Not important", icon: "✅" },
+        { value: "yes", label: "Yes, pan/tilt/zoom", icon: "🎥" },
+        { value: "no", label: "Fixed camera is fine", icon: "📷" },
+      ],
+      filterFn: (product: BabyMonitor, value: string) => {
+        if (value === "any") return true;
+        if (value === "yes") return product.panTiltZoom === true;
+        if (value === "no") return product.panTiltZoom === false;
+        return true;
+      },
+    },
+  ];
+
+  const resultConfig: FinderResultConfig = {
+    getName: (p: BabyMonitor) => `${p.brand} ${p.model}`,
+    getPrice: (p: BabyMonitor) => p.price,
+    getRating: (p: BabyMonitor) => p.rating,
+    getSummary: (p: BabyMonitor) => p.summary,
+    getAsin: (p: BabyMonitor) => p.amazonAsin || null,
+    displayFields: [
+      { label: "Type", getValue: (p: BabyMonitor) => p.monitorType },
+      { label: "Resolution", getValue: (p: BabyMonitor) => p.resolution },
+      { label: "Range", getValue: (p: BabyMonitor) => p.range },
+    ],
+  };
+
   return (
     <div className="bg-white">
       {/* Breadcrumbs */}
@@ -124,6 +208,17 @@ export default function BabyMonitorsContent() {
           </div>
         </section>
       )}
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-200">
+        <ProductFinder
+          title="Find Your Perfect Baby Monitor"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={babyMonitors}
+          resultConfig={resultConfig}
+        />
+      </section>
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">

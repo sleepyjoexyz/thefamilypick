@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { groomingTools } from "@/data/grooming-tools";
 import { groomingToolArticles } from "@/data/grooming-tool-articles";
 import { GroomingTool } from "@/data/grooming-tools";

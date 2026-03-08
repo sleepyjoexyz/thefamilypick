@@ -2,7 +2,8 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { highChairs } from "@/data/high-chairs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
+import { highChairs, HighChair } from "@/data/high-chairs";
 import { highChairArticles } from "@/data/high-chair-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
@@ -63,6 +64,88 @@ export default function HighChairsContent() {
     return result;
   }, [priceRange, chairType, foldable, dishwasherTray, footrest, sortBy]);
 
+  // ProductFinder configuration
+  const finderSteps: FinderStep[] = [
+    {
+      id: "budget",
+      question: "What's your budget? 💰",
+      subtitle: "Choose a price range to narrow down options",
+      options: [
+        { value: "any", label: "Any budget", icon: "✅" },
+        { value: "0-150", label: "Under $150 (budget-friendly)", icon: "💵" },
+        { value: "150-250", label: "$150-$250 (mid-range)", icon: "💳" },
+        { value: "250-500", label: "$250-$500 (premium)", icon: "💎" },
+        { value: "500-1000", label: "$500+ (luxury)", icon: "👑" },
+      ],
+      filterFn: (product: HighChair, value: string) => {
+        if (value === "any") return true;
+        const [min, max] = value.split("-").map(Number);
+        return product.price >= min && product.price <= max;
+      },
+    },
+    {
+      id: "chairType",
+      question: "What type of high chair? 👶",
+      subtitle: "Full-size, portable, hook-on, booster, or convertible",
+      options: [
+        { value: "any", label: "Any type", icon: "✅" },
+        { value: "full-size", label: "Full-size (feature-rich)", icon: "🪑" },
+        { value: "portable", label: "Portable (small space)", icon: "🎒" },
+        { value: "hook-on", label: "Hook-on (table-mounted)", icon: "🪝" },
+        { value: "booster", label: "Booster (toddler seat)", icon: "📈" },
+        { value: "convertible", label: "Convertible (grows with child)", icon: "🔄" },
+      ],
+      filterFn: (product: HighChair, value: string) => {
+        if (value === "any") return true;
+        return product.chairType === value;
+      },
+    },
+    {
+      id: "easyClean",
+      question: "Easy cleanup priority? 🧼",
+      subtitle: "Dishwasher-safe tray makes feeding less messy",
+      options: [
+        { value: "any", label: "Not important", icon: "✅" },
+        { value: "yes", label: "Yes, dishwasher-safe tray", icon: "🧼" },
+        { value: "no", label: "Hand wash is fine", icon: "🧽" },
+      ],
+      filterFn: (product: HighChair, value: string) => {
+        if (value === "any") return true;
+        if (value === "yes") return product.trayDishwasherSafe === true;
+        if (value === "no") return product.trayDishwasherSafe === false;
+        return true;
+      },
+    },
+    {
+      id: "portability",
+      question: "Do you need to fold it? 🎒",
+      subtitle: "Foldable models save space when not in use",
+      options: [
+        { value: "any", label: "Not important", icon: "✅" },
+        { value: "yes", label: "Yes, foldable for storage", icon: "📦" },
+        { value: "no", label: "Stationary is fine", icon: "🪑" },
+      ],
+      filterFn: (product: HighChair, value: string) => {
+        if (value === "any") return true;
+        if (value === "yes") return product.foldable === true;
+        if (value === "no") return product.foldable === false;
+        return true;
+      },
+    },
+  ];
+
+  const resultConfig: FinderResultConfig = {
+    getName: (p: HighChair) => `${p.brand} ${p.model}`,
+    getPrice: (p: HighChair) => p.price,
+    getRating: (p: HighChair) => p.rating,
+    getSummary: (p: HighChair) => p.summary,
+    getAsin: (p: HighChair) => p.amazonAsin || null,
+    displayFields: [
+      { label: "Type", getValue: (p: HighChair) => p.chairType },
+      { label: "Age Range", getValue: (p: HighChair) => p.ageRange },
+      { label: "Weight Capacity", getValue: (p: HighChair) => `${p.weightCapacityLbs} lbs` },
+    ],
+  };
 
   return (
     <div className="bg-white">
@@ -128,6 +211,17 @@ export default function HighChairsContent() {
           </div>
         </section>
       )}
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <ProductFinder
+          title="Find Your Perfect High Chair"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={highChairs}
+          resultConfig={resultConfig}
+        />
+      </section>
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { robotVacuums } from "@/data/robot-vacuums";
 import { RobotVacuum } from "@/data/robot-vacuums";
 import { robotVacuumArticles } from "@/data/robot-vacuum-articles";

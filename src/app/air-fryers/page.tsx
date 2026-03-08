@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { airFryers } from "@/data/air-fryers";
 import { AirFryer } from "@/data/air-fryers";
 import { airFryerArticles } from "@/data/air-fryer-articles";
@@ -27,6 +28,71 @@ export default function AirFryersContent() {
 
     return result;
   }, [sortBy]);
+
+  // ProductFinder configuration
+  const finderSteps: FinderStep[] = [
+    {
+      id: "budget",
+      question: "What's your budget? 💰",
+      options: [
+        { value: "any", label: "Any budget", icon: "✅" },
+        { value: "budget", label: "Budget", icon: "💵" },
+        { value: "mid", label: "Mid-Range", icon: "💳" },
+        { value: "premium", label: "Premium", icon: "👑" },
+      ],
+      filterFn: (product: AirFryer, value: string) => {
+        if (value === "any") return true;
+        return product.priceRange === value;
+      },
+    },
+    {
+      id: "capacity",
+      question: "Preferred capacity? 📏",
+      options: [
+        { value: "any", label: "Any size", icon: "✅" },
+        { value: "small", label: "Small (4-6 qt)", icon: "🪶" },
+        { value: "medium", label: "Medium (6-8 qt)", icon: "📦" },
+        { value: "large", label: "Large (8+ qt)", icon: "🏠" },
+      ],
+      filterFn: (product: AirFryer, value: string) => {
+        if (value === "any") return true;
+        if (value === "small") return product.capacityQt < 6;
+        if (value === "medium") return product.capacityQt >= 6 && product.capacityQt <= 8;
+        if (value === "large") return product.capacityQt > 8;
+        return true;
+      },
+    },
+    {
+      id: "features",
+      question: "Important features? 🎯",
+      options: [
+        { value: "any", label: "Any features", icon: "✅" },
+        { value: "dualzone", label: "Dual Zone", icon: "🔄" },
+        { value: "rotisserie", label: "Rotisserie", icon: "🔄" },
+        { value: "oven", label: "Oven Style", icon: "🪟" },
+      ],
+      filterFn: (product: AirFryer, value: string) => {
+        if (value === "any") return true;
+        if (value === "dualzone") return product.hasDualZone;
+        if (value === "rotisserie") return product.hasRotisserie;
+        if (value === "oven") return product.isOvenStyle;
+        return true;
+      },
+    },
+  ];
+
+  const resultConfig: FinderResultConfig = {
+    getName: (p: AirFryer) => `${p.brand} ${p.model}`,
+    getPrice: (p: AirFryer) => p.price,
+    getRating: (p: AirFryer) => p.rating,
+    getSummary: (p: AirFryer) => p.bestFor,
+    getAsin: (p: AirFryer) => p.amazonAsin || null,
+    displayFields: [
+      { label: "Capacity", getValue: (p: AirFryer) => `${p.capacityQt} qt` },
+      { label: "Wattage", getValue: (p: AirFryer) => `${p.wattage}W` },
+      { label: "Max Temp", getValue: (p: AirFryer) => `${p.tempMaxF}°F` },
+    ],
+  };
 
   return (
     <div className="bg-white">
@@ -77,6 +143,17 @@ export default function AirFryersContent() {
           </div>
         </section>
       )}
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-200">
+        <ProductFinder
+          title="Find Your Perfect Air Fryer"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={airFryers}
+          resultConfig={resultConfig}
+        />
+      </section>
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
