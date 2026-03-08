@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: 'The Family Pick — Data-Driven Baby & Pet Product Comparisons',
   description: 'Expert comparisons of baby gear (monitors, strollers, car seats, high chairs) and pet tech (feeders, cameras, trackers, grooming tools). Evidence-based reviews for families.',
   alternates: {
-    canonical: 'https://thefamilypick.com',
+    canonical: 'https://www.thefamilypick.com',
   },
   openGraph: {
     title: 'The Family Pick — Data-Driven Baby & Pet Product Comparisons',
     description: 'Expert comparisons of baby gear and pet technology products with detailed buying guides.',
     type: 'website',
-    url: 'https://thefamilypick.com',
+    url: 'https://www.thefamilypick.com',
   },
 };
 

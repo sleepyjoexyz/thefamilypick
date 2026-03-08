@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service | The Family Pick",
   description: "Terms of Service for The Family Pick. Review our terms and conditions for using our website.",
-  alternates: { canonical: "https://thefamilypick.com/terms" },
+  alternates: { canonical: "https://www.thefamilypick.com/terms" },
 };
 
 export default function TermsPage() {

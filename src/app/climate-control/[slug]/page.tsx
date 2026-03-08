@@ -35,13 +35,13 @@ export async function generateMetadata(
     title: `${article.title} | The Family Pick`,
     description: article.description,
     alternates: {
-      canonical: `https://thefamilypick.com/climate-control/${slug}`,
+      canonical: `https://www.thefamilypick.com/climate-control/${slug}`,
     },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
-      url: `https://thefamilypick.com/climate-control/${slug}`,
+      url: `https://www.thefamilypick.com/climate-control/${slug}`,
     },
   };
 }
@@ -55,9 +55,9 @@ export default async function ArticlePage({ params }: PageProps) {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Climate Control", url: "https://thefamilypick.com/climate-control" },
-    { name: article.title, url: `https://thefamilypick.com/climate-control/${slug}` }
+    { name: "Home", url: "https://www.thefamilypick.com" },
+    { name: "Climate Control", url: "https://www.thefamilypick.com/climate-control" },
+    { name: article.title, url: `https://www.thefamilypick.com/climate-control/${slug}` }
   ];
 
   return (

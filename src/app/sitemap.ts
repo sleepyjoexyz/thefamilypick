@@ -10,7 +10,7 @@ import { getAllPetCameraArticleSlugs } from '@/data/pet-camera-articles';
 import { getAllGPSTrackerArticleSlugs } from '@/data/gps-tracker-articles';
 import { getAllGroomingToolArticleSlugs } from '@/data/grooming-tool-articles';
 
-const baseUrl = 'https://thefamilypick.com';
+const baseUrl = 'https://www.thefamilypick.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Category pages

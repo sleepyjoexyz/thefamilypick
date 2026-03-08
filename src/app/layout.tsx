@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'The Family Pick — Data-Driven Baby & Pet Product Comparisons',
   description:
     'Expert comparisons of baby gear (monitors, strollers, car seats, high chairs) and pet technology (feeders, cameras, trackers, grooming tools). Evidence-based reviews and buying guides for families.',
-  metadataBase: new URL('https://thefamilypick.com'),
+  metadataBase: new URL('https://www.thefamilypick.com'),
   keywords: [
     'baby gear',
     'pet tech',
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://thefamilypick.com',
+    url: 'https://www.thefamilypick.com',
     siteName: 'The Family Pick',
     title: 'The Family Pick — Data-Driven Baby & Pet Product Comparisons',
     description:
       'Expert comparisons of baby gear and pet technology products with detailed buying guides.',
     images: [
       {
-        url: 'https://thefamilypick.com/og-image.png',
+        url: 'https://www.thefamilypick.com/og-image.png',
         width: 1200,
         height: 630,
         alt: 'The Family Pick',

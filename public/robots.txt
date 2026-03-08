@@ -3,4 +3,4 @@ Allow: /
 Disallow: /private/
 Disallow: /*.json$
 
-Sitemap: https://thefamilypick.com/sitemap.xml
+Sitemap: https://www.thefamilypick.com/sitemap.xml

@@ -53,8 +53,8 @@ export default function CarSeatsContent() {
   }, [seatType, priceRange, sideImpactProtection, installMethod, sortBy]);
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Car Seats", url: "https://thefamilypick.com/car-seats" }
+    { name: "Home", url: "https://www.thefamilypick.com" },
+    { name: "Car Seats", url: "https://www.thefamilypick.com/car-seats" }
   ];
 
   const productListItems = carSeats.map((p) => ({

@@ -36,13 +36,13 @@ export async function generateMetadata(
     title: `${article.title} | The Family Pick`,
     description: article.description,
     alternates: {
-      canonical: `https://thefamilypick.com/air-fryers/${slug}`,
+      canonical: `https://www.thefamilypick.com/air-fryers/${slug}`,
     },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
-      url: `https://thefamilypick.com/air-fryers/${slug}`,
+      url: `https://www.thefamilypick.com/air-fryers/${slug}`,
     },
   };
 }
@@ -56,9 +56,9 @@ export default async function ArticlePage({ params }: PageProps) {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Air Fryers", url: "https://thefamilypick.com/air-fryers" },
-    { name: article.title, url: `https://thefamilypick.com/air-fryers/${slug}` }
+    { name: "Home", url: "https://www.thefamilypick.com" },
+    { name: "Air Fryers", url: "https://www.thefamilypick.com/air-fryers" },
+    { name: article.title, url: `https://www.thefamilypick.com/air-fryers/${slug}` }
   ];
 
   return (

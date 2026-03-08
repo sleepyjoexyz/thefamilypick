@@ -35,13 +35,13 @@ export async function generateMetadata(
     title: `${article.title} | The Family Pick`,
     description: article.description,
     alternates: {
-      canonical: `https://thefamilypick.com/electric-toothbrushes/${slug}`,
+      canonical: `https://www.thefamilypick.com/electric-toothbrushes/${slug}`,
     },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
-      url: `https://thefamilypick.com/electric-toothbrushes/${slug}`,
+      url: `https://www.thefamilypick.com/electric-toothbrushes/${slug}`,
     },
   };
 }
@@ -55,9 +55,9 @@ export default async function ArticlePage({ params }: PageProps) {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Electric Toothbrushes", url: "https://thefamilypick.com/electric-toothbrushes" },
-    { name: article.title, url: `https://thefamilypick.com/electric-toothbrushes/${slug}` }
+    { name: "Home", url: "https://www.thefamilypick.com" },
+    { name: "Electric Toothbrushes", url: "https://www.thefamilypick.com/electric-toothbrushes" },
+    { name: article.title, url: `https://www.thefamilypick.com/electric-toothbrushes/${slug}` }
   ];
 
   return (

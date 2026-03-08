@@ -63,8 +63,8 @@ export default function BabyMonitorsContent() {
   }, [monitorType, wifiRequired, priceRange, panTiltZoom, hasApp, sortBy]);
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Baby Monitors", url: "https://thefamilypick.com/baby-monitors" }
+    { name: "Home", url: "https://www.thefamilypick.com" },
+    { name: "Baby Monitors", url: "https://www.thefamilypick.com/baby-monitors" }
   ];
 
   const productListItems = babyMonitors.map((p) => ({

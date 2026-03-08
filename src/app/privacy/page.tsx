@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy | The Family Pick",
   description: "Privacy policy for The Family Pick. Learn how we collect, use, and protect your information.",
-  alternates: { canonical: "https://thefamilypick.com/privacy" },
+  alternates: { canonical: "https://www.thefamilypick.com/privacy" },
 };
 
 export default function PrivacyPage() {

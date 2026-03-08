@@ -40,13 +40,13 @@ export async function generateMetadata(
     title: `${article.title} | The Family Pick`,
     description: article.description,
     alternates: {
-      canonical: `https://thefamilypick.com/automatic-feeders/${slug}`,
+      canonical: `https://www.thefamilypick.com/automatic-feeders/${slug}`,
     },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
-      url: `https://thefamilypick.com/automatic-feeders/${slug}`,
+      url: `https://www.thefamilypick.com/automatic-feeders/${slug}`,
     },
   };
 }
@@ -60,9 +60,9 @@ export default async function ArticlePage({ params }: PageProps) {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Automatic Feeders", url: "https://thefamilypick.com/automatic-feeders" },
-    { name: article.title, url: `https://thefamilypick.com/automatic-feeders/${slug}` }
+    { name: "Home", url: "https://www.thefamilypick.com" },
+    { name: "Automatic Feeders", url: "https://www.thefamilypick.com/automatic-feeders" },
+    { name: article.title, url: `https://www.thefamilypick.com/automatic-feeders/${slug}` }
   ];
 
   return (
@@ -70,7 +70,7 @@ export default async function ArticlePage({ params }: PageProps) {
       <ArticleSchema
         title={article.title}
         description={article.description}
-        url={`https://thefamilypick.com/automatic-feeders/${slug}`}
+        url={`https://www.thefamilypick.com/automatic-feeders/${slug}`}
         datePublished="2025-03-06"
         dateModified="2026-03-06"
       />

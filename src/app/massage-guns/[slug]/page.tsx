@@ -35,13 +35,13 @@ export async function generateMetadata(
     title: `${article.title} | The Family Pick`,
     description: article.description,
     alternates: {
-      canonical: `https://thefamilypick.com/massage-guns/${slug}`,
+      canonical: `https://www.thefamilypick.com/massage-guns/${slug}`,
     },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
-      url: `https://thefamilypick.com/massage-guns/${slug}`,
+      url: `https://www.thefamilypick.com/massage-guns/${slug}`,
     },
   };
 }
@@ -55,9 +55,9 @@ export default async function ArticlePage({ params }: PageProps) {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Massage Guns", url: "https://thefamilypick.com/massage-guns" },
-    { name: article.title, url: `https://thefamilypick.com/massage-guns/${slug}` }
+    { name: "Home", url: "https://www.thefamilypick.com" },
+    { name: "Massage Guns", url: "https://www.thefamilypick.com/massage-guns" },
+    { name: article.title, url: `https://www.thefamilypick.com/massage-guns/${slug}` }
   ];
 
   return (

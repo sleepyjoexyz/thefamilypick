@@ -35,13 +35,13 @@ export async function generateMetadata(
     title: `${article.title} | The Family Pick`,
     description: article.description,
     alternates: {
-      canonical: `https://thefamilypick.com/robot-vacuums/${slug}`,
+      canonical: `https://www.thefamilypick.com/robot-vacuums/${slug}`,
     },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
-      url: `https://thefamilypick.com/robot-vacuums/${slug}`,
+      url: `https://www.thefamilypick.com/robot-vacuums/${slug}`,
     },
   };
 }
@@ -55,9 +55,9 @@ export default async function ArticlePage({ params }: PageProps) {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Robot Vacuums", url: "https://thefamilypick.com/robot-vacuums" },
-    { name: article.title, url: `https://thefamilypick.com/robot-vacuums/${slug}` }
+    { name: "Home", url: "https://www.thefamilypick.com" },
+    { name: "Robot Vacuums", url: "https://www.thefamilypick.com/robot-vacuums" },
+    { name: article.title, url: `https://www.thefamilypick.com/robot-vacuums/${slug}` }
   ];
 
   return (

@@ -40,13 +40,13 @@ export async function generateMetadata(
     title: `${article.title} | The Family Pick`,
     description: article.description,
     alternates: {
-      canonical: `https://thefamilypick.com/baby-monitors/${slug}`,
+      canonical: `https://www.thefamilypick.com/baby-monitors/${slug}`,
     },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
-      url: `https://thefamilypick.com/baby-monitors/${slug}`,
+      url: `https://www.thefamilypick.com/baby-monitors/${slug}`,
     },
   };
 }
@@ -60,9 +60,9 @@ export default async function ArticlePage({ params }: PageProps) {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://thefamilypick.com" },
-    { name: "Baby Monitors", url: "https://thefamilypick.com/baby-monitors" },
-    { name: article.title, url: `https://thefamilypick.com/baby-monitors/${slug}` }
+    { name: "Home", url: "https://www.thefamilypick.com" },
+    { name: "Baby Monitors", url: "https://www.thefamilypick.com/baby-monitors" },
+    { name: article.title, url: `https://www.thefamilypick.com/baby-monitors/${slug}` }
   ];
 
   return (
@@ -70,7 +70,7 @@ export default async function ArticlePage({ params }: PageProps) {
       <ArticleSchema
         title={article.title}
         description={article.description}
-        url={`https://thefamilypick.com/baby-monitors/${slug}`}
+        url={`https://www.thefamilypick.com/baby-monitors/${slug}`}
         datePublished="2025-03-06"
         dateModified="2026-03-06"
       />

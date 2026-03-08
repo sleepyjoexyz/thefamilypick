@@ -6,12 +6,12 @@ export function WebSiteSchema() {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "The Family Pick",
-      "url": "https://thefamilypick.com",
+      "url": "https://www.thefamilypick.com",
       "description": "Data-driven baby gear and pet tech product comparisons",
       "publisher": {
         "@type": "Organization",
         "name": "The Family Pick",
-        "url": "https://thefamilypick.com"
+        "url": "https://www.thefamilypick.com"
       }
     })}} />
   );
@@ -45,7 +45,7 @@ export function ArticleSchema({ title, description, url, datePublished, dateModi
       "datePublished": datePublished,
       "dateModified": dateModified,
       "author": { "@type": "Organization", "name": "The Family Pick" },
-      "publisher": { "@type": "Organization", "name": "The Family Pick", "url": "https://thefamilypick.com" }
+      "publisher": { "@type": "Organization", "name": "The Family Pick", "url": "https://www.thefamilypick.com" }
     })}} />
   );
 }
