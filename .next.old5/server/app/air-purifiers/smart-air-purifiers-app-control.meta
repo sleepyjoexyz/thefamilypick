@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/air-purifiers/layout,_N_T_/air-purifiers/[slug]/layout,_N_T_/air-purifiers/[slug]/page,_N_T_/air-purifiers/smart-air-purifiers-app-control"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/air-purifiers/$d$slug/__PAGE__",
+    "/air-purifiers/$d$slug",
+    "/air-purifiers",
+    "/_index",
+    "/_head"
+  ]
+}

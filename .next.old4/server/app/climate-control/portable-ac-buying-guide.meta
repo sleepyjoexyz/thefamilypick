@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/climate-control/layout,_N_T_/climate-control/[slug]/layout,_N_T_/climate-control/[slug]/page,_N_T_/climate-control/portable-ac-buying-guide"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/climate-control/$d$slug/__PAGE__",
+    "/climate-control/$d$slug",
+    "/climate-control",
+    "/_index",
+    "/_head"
+  ]
+}

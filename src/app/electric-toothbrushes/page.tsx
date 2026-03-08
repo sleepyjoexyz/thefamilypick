@@ -29,8 +29,20 @@ export default function ElectricToothbrushesContent() {
     return result;
   }, [sortBy]);
 
-
-
+  const finderSteps: FinderStep[] = [
+    { id: "budget", question: "Budget? 💰", options: [{ value: "any", label: "Any", icon: "✅" }, { value: "budget", label: "Budget", icon: "💵" }, { value: "mid", label: "Mid", icon: "💳" }, { value: "premium", label: "Premium", icon: "👑" }], filterFn: (p: ElectricToothbrush, v: string) => v === "any" || p.priceRange === v },
+  ];
+  const resultConfig: FinderResultConfig = {
+    getName: (p: ElectricToothbrush) => `${p.brand} ${p.model}`,
+    getPrice: (p: ElectricToothbrush) => p.price,
+    getRating: (p: ElectricToothbrush) => p.rating,
+    getSummary: (p: ElectricToothbrush) => p.bestFor,
+    getAsin: (p: ElectricToothbrush) => p.amazonAsin || null,
+    displayFields: [
+      { label: "Type", getValue: (p: ElectricToothbrush) => p.type },
+      { label: "Modes", getValue: (p: ElectricToothbrush) => `${p.cleaningModes}` },
+    ],
+  };
 
   return (
     <div className="bg-white">
@@ -81,6 +93,17 @@ export default function ElectricToothbrushesContent() {
           </div>
         </section>
       )}
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-200">
+        <ProductFinder
+          title="Find Your Perfect Toothbrush"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={electricToothbrushes}
+          resultConfig={resultConfig}
+        />
+      </section>
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">

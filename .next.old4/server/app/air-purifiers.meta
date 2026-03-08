@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/air-purifiers/layout,_N_T_/air-purifiers/page,_N_T_/air-purifiers"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/air-purifiers/__PAGE__",
+    "/air-purifiers",
+    "/_index",
+    "/_head"
+  ]
+}

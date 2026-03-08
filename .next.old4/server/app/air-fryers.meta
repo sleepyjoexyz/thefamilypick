@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/air-fryers/layout,_N_T_/air-fryers/page,_N_T_/air-fryers"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/air-fryers/__PAGE__",
+    "/air-fryers",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/automatic-feeders/layout,_N_T_/automatic-feeders/[slug]/layout,_N_T_/automatic-feeders/[slug]/page,_N_T_/automatic-feeders/smart-vs-basic-automatic-feeder"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/automatic-feeders/$d$slug/__PAGE__",
+    "/automatic-feeders/$d$slug",
+    "/automatic-feeders",
+    "/_index",
+    "/_head"
+  ]
+}

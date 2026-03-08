@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/massage-guns/layout,_N_T_/massage-guns/[slug]/layout,_N_T_/massage-guns/[slug]/page,_N_T_/massage-guns/best-massage-guns-under-200"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/massage-guns/$d$slug/__PAGE__",
+    "/massage-guns/$d$slug",
+    "/massage-guns",
+    "/_index",
+    "/_head"
+  ]
+}

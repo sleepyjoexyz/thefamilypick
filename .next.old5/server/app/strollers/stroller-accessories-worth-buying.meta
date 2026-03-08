@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/strollers/layout,_N_T_/strollers/[slug]/layout,_N_T_/strollers/[slug]/page,_N_T_/strollers/stroller-accessories-worth-buying"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/strollers/$d$slug/__PAGE__",
+    "/strollers/$d$slug",
+    "/strollers",
+    "/_index",
+    "/_head"
+  ]
+}

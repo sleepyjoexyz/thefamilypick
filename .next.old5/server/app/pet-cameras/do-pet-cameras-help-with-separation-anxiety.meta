@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/pet-cameras/layout,_N_T_/pet-cameras/[slug]/layout,_N_T_/pet-cameras/[slug]/page,_N_T_/pet-cameras/do-pet-cameras-help-with-separation-anxiety"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/pet-cameras/$d$slug/__PAGE__",
+    "/pet-cameras/$d$slug",
+    "/pet-cameras",
+    "/_index",
+    "/_head"
+  ]
+}

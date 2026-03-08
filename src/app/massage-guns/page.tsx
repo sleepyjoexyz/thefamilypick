@@ -32,6 +32,8 @@ export default function MassageGunsContent() {
 
 
 
+  const finderSteps: FinderStep[] = [{ id: "q1", question: "Search by 🔍", options: [{ value: "any", label: "Any", icon: "✅" }], filterFn: () => true }];
+  const resultConfig: FinderResultConfig = { getName: (p: any) => `${p.brand} ${p.model}`, getPrice: (p: any) => p.price, getRating: (p: any) => p.rating, getSummary: (p: any) => p.summary || p.bestFor || "", getAsin: (p: any) => p.amazonAsin || null, displayFields: [] };
   return (
     <div className="bg-white">
       {/* Breadcrumbs */}
@@ -81,6 +83,17 @@ export default function MassageGunsContent() {
           </div>
         </section>
       )}
+
+      {/* ProductFinder */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-200">
+        <ProductFinder
+          title="Find Your Perfect Match"
+          subtitle="Answer a few quick questions to see your top matches"
+          steps={finderSteps}
+          products={massageGuns}
+          resultConfig={resultConfig}
+        />
+      </section>
 
       {/* Filters */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">

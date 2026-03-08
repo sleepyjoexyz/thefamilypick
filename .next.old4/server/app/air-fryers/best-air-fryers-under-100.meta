@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/air-fryers/layout,_N_T_/air-fryers/[slug]/layout,_N_T_/air-fryers/[slug]/page,_N_T_/air-fryers/best-air-fryers-under-100"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/air-fryers/$d$slug/__PAGE__",
+    "/air-fryers/$d$slug",
+    "/air-fryers",
+    "/_index",
+    "/_head"
+  ]
+}

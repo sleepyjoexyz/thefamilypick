@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/baby-monitors/layout,_N_T_/baby-monitors/page,_N_T_/baby-monitors"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/baby-monitors/__PAGE__",
+    "/baby-monitors",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/grooming-tools/layout,_N_T_/grooming-tools/[slug]/layout,_N_T_/grooming-tools/[slug]/page,_N_T_/grooming-tools/best-deshedding-tools-by-coat-type"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/grooming-tools/$d$slug/__PAGE__",
+    "/grooming-tools/$d$slug",
+    "/grooming-tools",
+    "/_index",
+    "/_head"
+  ]
+}

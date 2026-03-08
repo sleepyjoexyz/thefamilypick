@@ -1,0 +1,291 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/air-fryers/[slug]",
+      "regex": "^/air\\-fryers/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/air\\-fryers/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/air-purifiers/[slug]",
+      "regex": "^/air\\-purifiers/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/air\\-purifiers/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/automatic-feeders/[slug]",
+      "regex": "^/automatic\\-feeders/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/automatic\\-feeders/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/baby-monitors/[slug]",
+      "regex": "^/baby\\-monitors/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/baby\\-monitors/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/car-seats/[slug]",
+      "regex": "^/car\\-seats/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/car\\-seats/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/climate-control/[slug]",
+      "regex": "^/climate\\-control/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/climate\\-control/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/electric-toothbrushes/[slug]",
+      "regex": "^/electric\\-toothbrushes/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/electric\\-toothbrushes/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/gps-trackers/[slug]",
+      "regex": "^/gps\\-trackers/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/gps\\-trackers/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/grooming-tools/[slug]",
+      "regex": "^/grooming\\-tools/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/grooming\\-tools/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/high-chairs/[slug]",
+      "regex": "^/high\\-chairs/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/high\\-chairs/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/massage-guns/[slug]",
+      "regex": "^/massage\\-guns/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/massage\\-guns/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/pet-cameras/[slug]",
+      "regex": "^/pet\\-cameras/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/pet\\-cameras/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/robot-vacuums/[slug]",
+      "regex": "^/robot\\-vacuums/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/robot\\-vacuums/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/security-cameras/[slug]",
+      "regex": "^/security\\-cameras/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/security\\-cameras/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/strollers/[slug]",
+      "regex": "^/strollers/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/strollers/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/air-fryers",
+      "regex": "^/air\\-fryers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/air\\-fryers(?:/)?$"
+    },
+    {
+      "page": "/air-purifiers",
+      "regex": "^/air\\-purifiers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/air\\-purifiers(?:/)?$"
+    },
+    {
+      "page": "/api/comments",
+      "regex": "^/api/comments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/comments(?:/)?$"
+    },
+    {
+      "page": "/automatic-feeders",
+      "regex": "^/automatic\\-feeders(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/automatic\\-feeders(?:/)?$"
+    },
+    {
+      "page": "/baby-monitors",
+      "regex": "^/baby\\-monitors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/baby\\-monitors(?:/)?$"
+    },
+    {
+      "page": "/car-seats",
+      "regex": "^/car\\-seats(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/car\\-seats(?:/)?$"
+    },
+    {
+      "page": "/climate-control",
+      "regex": "^/climate\\-control(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/climate\\-control(?:/)?$"
+    },
+    {
+      "page": "/electric-toothbrushes",
+      "regex": "^/electric\\-toothbrushes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/electric\\-toothbrushes(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/gps-trackers",
+      "regex": "^/gps\\-trackers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gps\\-trackers(?:/)?$"
+    },
+    {
+      "page": "/grooming-tools",
+      "regex": "^/grooming\\-tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/grooming\\-tools(?:/)?$"
+    },
+    {
+      "page": "/high-chairs",
+      "regex": "^/high\\-chairs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/high\\-chairs(?:/)?$"
+    },
+    {
+      "page": "/massage-guns",
+      "regex": "^/massage\\-guns(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/massage\\-guns(?:/)?$"
+    },
+    {
+      "page": "/pet-cameras",
+      "regex": "^/pet\\-cameras(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pet\\-cameras(?:/)?$"
+    },
+    {
+      "page": "/robot-vacuums",
+      "regex": "^/robot\\-vacuums(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robot\\-vacuums(?:/)?$"
+    },
+    {
+      "page": "/security-cameras",
+      "regex": "^/security\\-cameras(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/security\\-cameras(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/strollers",
+      "regex": "^/strollers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/strollers(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

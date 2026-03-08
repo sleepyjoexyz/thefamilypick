@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/baby-monitors/layout,_N_T_/baby-monitors/[slug]/layout,_N_T_/baby-monitors/[slug]/page,_N_T_/baby-monitors/smart-baby-monitor-features-worth-paying-for"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/baby-monitors/$d$slug/__PAGE__",
+    "/baby-monitors/$d$slug",
+    "/baby-monitors",
+    "/_index",
+    "/_head"
+  ]
+}

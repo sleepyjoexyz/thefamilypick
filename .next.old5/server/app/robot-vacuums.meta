@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/robot-vacuums/layout,_N_T_/robot-vacuums/page,_N_T_/robot-vacuums"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/robot-vacuums/__PAGE__",
+    "/robot-vacuums",
+    "/_index",
+    "/_head"
+  ]
+}

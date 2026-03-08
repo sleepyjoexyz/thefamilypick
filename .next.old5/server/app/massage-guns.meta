@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/massage-guns/layout,_N_T_/massage-guns/page,_N_T_/massage-guns"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/massage-guns/__PAGE__",
+    "/massage-guns",
+    "/_index",
+    "/_head"
+  ]
+}

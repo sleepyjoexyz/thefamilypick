@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/robot-vacuums/layout,_N_T_/robot-vacuums/[slug]/layout,_N_T_/robot-vacuums/[slug]/page,_N_T_/robot-vacuums/best-robot-vacuums-under-500"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/robot-vacuums/$d$slug/__PAGE__",
+    "/robot-vacuums/$d$slug",
+    "/robot-vacuums",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/328e232b7dcb29a3.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"hCurFP6vqgVtfXUmC_lIR","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"air-purifiers","paramType":null,"paramKey":"air-purifiers","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"hepa-filter-types-explained","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

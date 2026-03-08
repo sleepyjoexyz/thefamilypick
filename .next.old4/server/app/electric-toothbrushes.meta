@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/electric-toothbrushes/layout,_N_T_/electric-toothbrushes/page,_N_T_/electric-toothbrushes"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/electric-toothbrushes/__PAGE__",
+    "/electric-toothbrushes",
+    "/_index",
+    "/_head"
+  ]
+}

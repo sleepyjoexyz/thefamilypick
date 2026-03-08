@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/pet-cameras/layout,_N_T_/pet-cameras/page,_N_T_/pet-cameras"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/pet-cameras/__PAGE__",
+    "/pet-cameras",
+    "/_index",
+    "/_head"
+  ]
+}
