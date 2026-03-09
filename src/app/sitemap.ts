@@ -9,6 +9,13 @@ import { getAllAutoFeederArticleSlugs } from '@/data/automatic-feeder-articles';
 import { getAllPetCameraArticleSlugs } from '@/data/pet-camera-articles';
 import { getAllGPSTrackerArticleSlugs } from '@/data/gps-tracker-articles';
 import { getAllGroomingToolArticleSlugs } from '@/data/grooming-tool-articles';
+import { getAllAirFryerArticleSlugs } from '@/data/air-fryer-articles';
+import { getAllAirPurifierArticleSlugs } from '@/data/air-purifier-articles';
+import { getAllClimateControlArticleSlugs } from '@/data/climate-control-articles';
+import { getAllElectricToothbrushArticleSlugs } from '@/data/electric-toothbrush-articles';
+import { getAllMassageGunArticleSlugs } from '@/data/massage-gun-articles';
+import { getAllRobotVacuumArticleSlugs } from '@/data/robot-vacuum-articles';
+import { getAllSecurityCameraArticleSlugs } from '@/data/security-camera-articles';
 
 const baseUrl = 'https://www.thefamilypick.com';
 
@@ -69,6 +76,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/air-fryers`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/air-purifiers`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/climate-control`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/electric-toothbrushes`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/massage-guns`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/robot-vacuums`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/security-cameras`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
   ];
 
   // Article pages
@@ -80,6 +129,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const petCameraSlugs = getAllPetCameraArticleSlugs();
   const gpsTrackerSlugs = getAllGPSTrackerArticleSlugs();
   const groomingToolSlugs = getAllGroomingToolArticleSlugs();
+  const airFryerSlugs = getAllAirFryerArticleSlugs();
+  const airPurifierSlugs = getAllAirPurifierArticleSlugs();
+  const climateControlSlugs = getAllClimateControlArticleSlugs();
+  const electricToothbrushSlugs = getAllElectricToothbrushArticleSlugs();
+  const massageGunSlugs = getAllMassageGunArticleSlugs();
+  const robotVacuumSlugs = getAllRobotVacuumArticleSlugs();
+  const securityCameraSlugs = getAllSecurityCameraArticleSlugs();
 
   const babyMonitorArticles = babyMonitorSlugs.map((slug) => ({
     url: `${baseUrl}/baby-monitors/${slug}`,
@@ -137,6 +193,55 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const airFryerArticles = airFryerSlugs.map((slug) => ({
+    url: `${baseUrl}/air-fryers/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  const airPurifierArticles = airPurifierSlugs.map((slug) => ({
+    url: `${baseUrl}/air-purifiers/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  const climateControlArticles = climateControlSlugs.map((slug) => ({
+    url: `${baseUrl}/climate-control/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  const electricToothbrushArticles = electricToothbrushSlugs.map((slug) => ({
+    url: `${baseUrl}/electric-toothbrushes/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  const massageGunArticles = massageGunSlugs.map((slug) => ({
+    url: `${baseUrl}/massage-guns/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  const robotVacuumArticles = robotVacuumSlugs.map((slug) => ({
+    url: `${baseUrl}/robot-vacuums/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  const securityCameraArticles = securityCameraSlugs.map((slug) => ({
+    url: `${baseUrl}/security-cameras/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
   return [
     ...categoryPages,
     ...babyMonitorArticles,
@@ -147,5 +252,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...petCameraArticles,
     ...gpsTrackerArticles,
     ...groomingToolArticles,
+    ...airFryerArticles,
+    ...airPurifierArticles,
+    ...climateControlArticles,
+    ...electricToothbrushArticles,
+    ...massageGunArticles,
+    ...robotVacuumArticles,
+    ...securityCameraArticles,
   ];
 }
