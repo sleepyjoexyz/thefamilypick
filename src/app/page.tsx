@@ -19,35 +19,31 @@ export default function Home() {
 
   return (
     <main className="bg-white">
-      {/* Slim Hero Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="text-left mb-6">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">The Family Pick</h1>
-          <p className="text-xl text-gray-600 font-medium mb-4">Today's Best Family Deals</p>
-          <p className="text-gray-700 font-semibold mb-6">
-            {filteredDeals.length} deals available
-          </p>
-        </div>
-
-        {/* Category Filter Buttons */}
-        <div className="flex gap-3 flex-wrap">
-          {(['All', 'Baby Gear', 'Pet Tech'] as const).map((category) => (
-            <button
-              key={category}
-              onClick={() => setSelectedCategory(category)}
-              className={`px-4 py-2 rounded-full font-medium text-sm transition-colors ${
-                selectedCategory === category
-                  ? category === 'All'
-                    ? 'bg-gray-900 text-white'
-                    : category === 'Baby Gear'
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-green-600 text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
-            >
-              {category}
-            </button>
-          ))}
+      {/* Hero + Filters — single line */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="flex items-center flex-wrap gap-3">
+          <h1 className="text-lg font-bold text-gray-900">The Family Pick</h1>
+          <span className="text-sm text-gray-500">—</span>
+          <span className="text-sm text-gray-600">Today's Best Family Deals: <span className="font-semibold">{filteredDeals.length} available</span></span>
+          <div className="flex gap-2 ml-auto">
+            {(['All', 'Baby Gear', 'Pet Tech'] as const).map((category) => (
+              <button
+                key={category}
+                onClick={() => setSelectedCategory(category)}
+                className={`px-3 py-1 rounded-full font-medium text-xs transition-colors ${
+                  selectedCategory === category
+                    ? category === 'All'
+                      ? 'bg-gray-900 text-white'
+                      : category === 'Baby Gear'
+                        ? 'bg-blue-600 text-white'
+                        : 'bg-green-600 text-white'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
         </div>
       </section>
 
