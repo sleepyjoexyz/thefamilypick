@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between" aria-label="Main navigation">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-between" aria-label="Main navigation">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <div className="text-2xl font-bold text-blue-600">The Family Pick</div>
