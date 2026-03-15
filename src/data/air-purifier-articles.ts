@@ -1013,6 +1013,115 @@ Smart air purifier features provide genuine benefits only for allergy sufferers 
 
 A non-smart purifier from a trusted brand (Coway, Blueair, IQAir) delivers the same clean air at lower cost and no privacy concerns. The core function—filtering air—is identical whether the app exists or not.`,
   },
+
+  "how-to-choose-right-air-purifier-room-size": {
+    slug: "how-to-choose-right-air-purifier-room-size",
+    title: "How to Choose the Right Air Purifier for Your Room Size",
+    description: "Learn how to match an air purifier to your room using CADR ratings, room size calculations, and air changes per hour. Includes filter cost analysis and placement tips.",
+    category: "air-purifiers",
+    content: `## Why Room Size Matters for Air Purifiers
+
+An air purifier that's too small for your room won't clean the air effectively. One that's too large wastes energy and money. The key is matching the purifier's cleaning capacity to your room's air volume.
+
+## Understanding CADR (Clean Air Delivery Rate)
+
+CADR is the single most important number when choosing an air purifier. It measures how many cubic feet of clean air the purifier delivers per minute, tested against three particle types: smoke (smallest), dust (medium), and pollen (largest).
+
+A purifier with a smoke CADR of 200 cleans 200 cubic feet of air per minute of smoke-sized particles. Higher CADR means faster, more effective cleaning.
+
+CADR is tested and certified by AHAM (Association of Home Appliance Manufacturers). Look for the AHAM Verified seal. If a purifier doesn't list CADR, be skeptical of its performance claims.
+
+## Calculating Your Room Size
+
+### Step 1: Measure Floor Area
+Measure your room's length and width in feet. Multiply them. A room that's 15 feet by 12 feet = 180 square feet.
+
+### Step 2: Account for Ceiling Height
+Standard ceilings are 8 feet. If yours are higher (9, 10, or vaulted), you need more purification capacity. Multiply floor area by ceiling height to get cubic feet: 180 sq ft x 8 ft = 1,440 cubic feet.
+
+### Step 3: Match to CADR
+The general AHAM guideline: your purifier's smoke CADR should be at least 2/3 of your room's floor area in square feet. For a 180 sq ft room: minimum smoke CADR = 120.
+
+This guideline assumes standard 8-foot ceilings and delivers approximately 4.8 air changes per hour (ACH), which is sufficient for general air quality improvement.
+
+## Air Changes Per Hour (ACH): The Real Metric
+
+ACH tells you how many times per hour the purifier completely replaces the air in your room. Different needs require different ACH levels.
+
+General air quality improvement: 3-4 ACH. Allergy relief: 5-6 ACH. Smoke or heavy pollutant removal: 6-8 ACH. Medical-grade air purification: 8-12 ACH.
+
+### How to Calculate ACH
+ACH = (CADR x 60) / Room Volume in cubic feet.
+
+Example: Purifier with CADR 200, room volume 1,440 cubic feet: ACH = (200 x 60) / 1,440 = 8.3 ACH. This purifier delivers 8.3 complete air changes per hour in that room, suitable for allergy relief and moderate smoke conditions.
+
+### Working Backward from Desired ACH
+If you know your target ACH: Required CADR = (Target ACH x Room Volume) / 60.
+
+Example: 5 ACH target, 1,440 cubic feet room: Required CADR = (5 x 1,440) / 60 = 120. You need a purifier with at least 120 smoke CADR for this room and use case.
+
+## Quick Reference: Room Size to CADR
+
+Small bedroom (100-150 sq ft): CADR 75-100. Standard bedroom (150-250 sq ft): CADR 100-170. Living room (250-400 sq ft): CADR 170-270. Large open space (400-600 sq ft): CADR 270-400. Very large room (600+ sq ft): CADR 400+ or multiple units.
+
+These assume 8-foot ceilings and 4-5 ACH (good general purification). For allergy or smoke needs, increase CADR by 25-50%.
+
+## Placement Strategy
+
+Where you place the purifier affects performance as much as size selection.
+
+Place the purifier in the room where you spend the most time. If that's a bedroom, put it in the bedroom. If it's a home office, put it there. Don't assume one purifier in the living room will clean your entire home; it won't.
+
+Position the purifier with 1-2 feet of clearance on all sides. Air needs to flow freely into and out of the unit. Against a wall is fine; in a corner or behind furniture restricts airflow.
+
+Place it away from windows and doors. Open windows introduce outdoor air faster than the purifier can clean it. If you need fresh air, close windows while the purifier runs.
+
+Elevation matters: for floor models, keep on the floor. For tabletop models, place at breathing height (desk or nightstand). Some purifiers are designed for floor placement and have upward airflow; others work better elevated.
+
+Don't place it near the kitchen if cooking odors are your concern. Instead, address cooking odors with a range hood and use the purifier in bedrooms and living areas for ambient air quality.
+
+## Filter Cost: The Hidden Expense
+
+The purchase price is not the total cost. HEPA filters need replacement every 6-12 months, and they're not cheap.
+
+### Calculating Annual Filter Cost
+Typical HEPA filter replacement: $30-80 per filter, replaced every 6-12 months. Activated carbon filters (for odors): $15-40, replaced every 3-6 months. Pre-filters (washable): free if included, $10-20 if disposable.
+
+Annual filter cost ranges: budget purifiers ($100-200 purchase): $50-100/year in filters. Mid-range purifiers ($200-400 purchase): $60-120/year. Premium purifiers ($400-800 purchase): $80-150/year.
+
+### 2-Year Total Cost of Ownership
+When comparing purifiers, calculate: purchase price + (annual filter cost x 2). A $150 purifier with $80/year filters costs $310 over two years. A $300 purifier with $50/year filters costs $400 over two years. The cheaper purifier may have lower total cost despite lower upfront price.
+
+## When One Purifier Isn't Enough
+
+If your room is larger than the purifier's rated coverage, you have two options: buy a larger purifier (more powerful motor and filter), or use two smaller purifiers placed on opposite sides of the room.
+
+Two smaller purifiers can be more effective than one large purifier in an L-shaped room, a room with poor air circulation, or a very large open-plan space. They distribute cleaning more evenly across the space.
+
+Signs your current purifier isn't enough: you still smell odors after running the purifier for 30+ minutes, allergy symptoms persist despite running the purifier, or the purifier runs on high constantly without achieving satisfactory air quality.
+
+## Common Mistakes
+
+Buying based on room size claims alone: manufacturers often overstate coverage. Check the CADR number, not just "covers 300 sq ft." Ignoring filter costs: a cheap purifier with expensive filters costs more long-term. Calculate 2-year total cost. Placing the purifier in a corner: restricted airflow reduces performance significantly. Running the purifier on low speed all the time: low speed = low CADR. Use medium or high when air quality is poor, then switch to low for maintenance. Keeping windows open while running the purifier: outdoor air enters faster than the purifier can clean it. Close windows for effective purification. Not replacing filters on schedule: a clogged HEPA filter restricts airflow and reduces CADR. Follow the manufacturer's replacement schedule.
+
+## FAQ
+
+**Q: Can one air purifier clean my entire house?**
+No. Air purifiers are most effective in a single room with the door closed. They clean the air in the room they're in, not adjacent rooms. For whole-house purification, you need multiple units or a whole-house system integrated with your HVAC.
+
+**Q: Is a higher CADR always better?**
+For your room, yes, up to a point. A very high CADR in a small room is wasteful (you're paying for capacity you don't need) but not harmful. Match CADR to your room size and desired ACH.
+
+**Q: Do I need an air purifier if I have central HVAC with a filter?**
+HVAC filters capture large particles but are not as effective as dedicated HEPA purifiers for fine particles (smoke, allergens, PM2.5). If you have allergies or air quality concerns, a standalone purifier is a worthwhile addition.
+
+**Q: How do I know when to replace the filter?**
+Most modern purifiers have a filter replacement indicator (light or app notification). If yours doesn't, follow the manufacturer's schedule (usually 6-12 months). If you notice reduced airflow or persistent odors, the filter may need early replacement.
+
+**Q: What's the electricity cost of running an air purifier?**
+Most residential purifiers use 30-70 watts on medium speed (similar to a light bulb). Running 24/7 costs approximately $3-7 per month in electricity. Not a significant expense.`,
+  },
+
 };
 
 export function getAirPurifierArticle(slug: string): AirPurifierArticle | null {

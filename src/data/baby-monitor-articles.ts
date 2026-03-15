@@ -1849,6 +1849,85 @@ For homes over 4,000 sq ft with multiple floors, closed-system monitors become i
 \`\`\``
   },
 
+  "how-to-set-up-wifi-baby-monitor-securely": {
+    slug: "how-to-set-up-wifi-baby-monitor-securely",
+    title: "How to Set Up a WiFi Baby Monitor Securely (Step-by-Step)",
+    description: "Step-by-step guide to setting up a WiFi baby monitor securely. Covers WiFi setup, app pairing, camera positioning, privacy settings, and alert configuration.",
+    category: "baby-monitors",
+    content: `## What You Need Before Starting
+
+Before unboxing, make sure you have: a stable WiFi network (2.4GHz preferred for baby monitors), a smartphone with the manufacturer's app downloaded, a power outlet near where you want to mount the camera, and your WiFi network name and password ready.
+
+Most WiFi baby monitors connect via 2.4GHz WiFi, not 5GHz. Check your router settings: if you have a dual-band router broadcasting separate 2.4GHz and 5GHz networks, connect the monitor to the 2.4GHz network. If your router combines both bands under one name, the monitor should auto-select 2.4GHz during setup.
+
+## Step 1: Unbox and Charge
+
+Remove the camera, power cable, mounting hardware, and any included documentation. Plug the camera into power and let it boot up. Most cameras show an LED light pattern (blinking, solid, or color change) when ready for setup. This typically takes 1-3 minutes.
+
+Some cameras have rechargeable batteries; charge fully before first use (2-4 hours). Others are power-cable-only and must remain plugged in.
+
+## Step 2: Download the Manufacturer App
+
+Download the official app from the App Store or Google Play. Create an account using your email. Use a strong, unique password (not one you use elsewhere). Enable two-factor authentication (2FA) immediately if the app offers it. This is critical for preventing unauthorized access to your baby's camera feed.
+
+## Step 3: Add the Camera to Your App
+
+Open the app and follow the "Add Device" or "Set Up New Camera" flow. The app will typically ask you to scan a QR code on the camera or enter a serial number. Then it will search for the camera on your WiFi network.
+
+Common connection methods: QR code scan (camera reads a QR code from your phone screen), Bluetooth pairing (phone connects to camera via Bluetooth first, then transfers WiFi credentials), or manual WiFi entry (you type your WiFi network name and password into the app).
+
+If the camera doesn't connect on first attempt: verify you're on 2.4GHz WiFi, move the camera closer to your router temporarily, restart the camera and try again. Most connection failures are WiFi band issues.
+
+## Step 4: Position the Camera
+
+Camera placement affects both monitoring quality and safety.
+
+Height: mount the camera at least 3 feet above the crib, angled downward. Wall mounting is ideal because it keeps the camera out of reach. Never place the camera inside the crib or within arm's reach of the baby. Cord safety is critical. Camera power cables are strangulation hazards. Route all cords behind furniture, through wall-mounted cord covers, or use cordless battery cameras if cord management is difficult.
+
+Field of view: position the camera so you can see the baby's face and chest. Test the view in the app before final mounting. Most cameras have 110-160 degree fields of view; wider angles let you see the entire crib from a single camera.
+
+Night vision: after mounting, test the camera at night with the room lights off. Infrared night vision should show a clear image of the crib. If the image is too dark, move the camera closer or check that night vision is enabled in settings.
+
+## Step 5: Secure Your Privacy Settings
+
+WiFi baby monitors are IoT devices connected to the internet. Without proper security, they can be accessed by unauthorized users.
+
+Change the default camera password immediately. Many cameras ship with default passwords like "admin" or "123456." Set a strong, unique password. Enable two-factor authentication (2FA) on your account. This requires a second verification step (usually a code sent to your phone) when logging in. Disable remote access if you don't need it. Remote access allows viewing from outside your home network, but also opens a potential entry point. If you only monitor from home, turn it off. Keep firmware updated. Camera manufacturers release security patches; enable automatic updates if available, or check manually monthly. Disable UPnP on your router. Universal Plug and Play can expose devices to external access. Disable it in your router settings (usually under Advanced or Security).
+
+## Step 6: Configure Alerts and Notifications
+
+Most WiFi baby monitors offer configurable alerts.
+
+Motion detection: enable motion alerts for the crib area. Most cameras let you define a detection zone so movement outside the crib (like a curtain blowing) doesn't trigger alerts. Sound detection: enable sound alerts. Set sensitivity to medium initially; too high triggers on ambient noise, too low misses crying. Adjust based on your experience. Temperature and humidity: some cameras include environmental sensors. Set alerts for temperatures outside 68-72 degrees F (the recommended range for infant sleep). Schedule alerts: if you don't need notifications during hours when you're in the room, set a schedule to avoid alert fatigue.
+
+## Step 7: Test Everything
+
+Before relying on the monitor overnight, run a full test. Place a stuffed animal in the crib and verify: live video shows clearly on your phone, night vision activates automatically in darkness, motion detection triggers when you move the stuffed animal, sound detection triggers when you make noise near the camera, alerts arrive on your phone within a few seconds, two-way audio works (speak into the app and verify sound comes from the camera speaker).
+
+Walk around your house with your phone and verify the video stream maintains connection in every room you'll typically be in. If the stream drops in certain areas, consider a WiFi extender near the nursery.
+
+## Troubleshooting Common Issues
+
+Camera disconnects frequently: usually a WiFi signal strength issue. Move the router closer, use a WiFi extender, or switch to a wired Ethernet connection if the camera supports it. Video is laggy or buffered: reduce video quality in the app settings (720p instead of 1080p). Lower quality streams faster. Also check if other devices are consuming bandwidth. Night vision is grainy: normal for infrared. If excessively grainy, clean the camera lens and ensure no light sources are reflecting directly into the lens. App crashes during monitoring: update the app and camera firmware. Clear the app cache. If persistent, try uninstalling and reinstalling the app. Alerts are too frequent: narrow the motion detection zone, lower sound sensitivity, or set alert schedules.
+
+## FAQ
+
+**Q: Is a WiFi baby monitor safe from hackers?**
+No device is 100% secure, but following the security steps above (strong password, 2FA, firmware updates, disabled UPnP) significantly reduces risk. Non-WiFi monitors using dedicated radio frequencies (like DECT) are inherently more secure since they don't connect to the internet.
+
+**Q: Will the baby monitor slow down my WiFi?**
+Minimally. A single camera streaming 1080p video uses about 2-4 Mbps. If your internet is 50+ Mbps, you won't notice. Multiple cameras or very slow internet may cause buffering.
+
+**Q: Can I view the monitor on multiple phones?**
+Most apps support multiple logged-in devices. Both parents can view simultaneously by logging into the same account on separate phones. Some cameras support shared access (separate accounts with viewer permissions).
+
+**Q: How do I know if the camera firmware is up to date?**
+Check in the app settings under "Device Info" or "Firmware Update." Most apps show the current version and whether an update is available. Enable auto-update if offered.
+
+**Q: Should I turn off the baby monitor when not in use?**
+Not necessary for safety, but you can to save energy and reduce WiFi traffic. Most cameras are designed for 24/7 operation. If the camera has a physical privacy shutter, close it when not monitoring for added peace of mind.`,
+  },
+
 };
 
 export function getBabyMonitorArticle(slug: string): BabyMonitorArticle | undefined {

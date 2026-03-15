@@ -1158,6 +1158,102 @@ Many pet owners use both:
 
 The best robot vacuums for pet hair have three critical features: anti-tangle brushes, high suction (3500+ Pa), and large, sealed dustbins. Secondary features (mopping, obstacle avoidance) are nice but not essential. Maintenance is significant in pet homes—expect weekly brush cleaning and filter replacement every 4-10 weeks. For light shedding, budget options work fine. For medium-to-heavy shedding, invest in a mid-range or premium model with anti-tangle design. Consider a hybrid approach (robot + traditional handheld) if shedding is extreme. The right robot vacuum reduces cleaning burden significantly in pet homes but requires realistic expectations about maintenance time and costs.`,
   },
+
+  "how-to-set-up-robot-vacuum-first-time": {
+    slug: "how-to-set-up-robot-vacuum-first-time",
+    title: "How to Set Up Your Robot Vacuum for the First Time",
+    description: "Complete guide to setting up a robot vacuum from unboxing to first clean. Covers charging, app setup, mapping, no-go zones, scheduling, and pet owner tips.",
+    category: "robot-vacuums",
+    content: `## Before You Start: Prepare Your Space
+
+Before powering on your robot vacuum, spend 10 minutes preparing your home. Pick up loose items from the floor: charging cables, small toys, socks, and lightweight rugs that could jam the brush roller or get dragged. Tuck curtains up so they don't trigger obstacle sensors. Move pet food and water bowls to elevated surfaces during the first mapping run.
+
+Check under furniture for items that might be just low enough for the vacuum to reach but high enough to trap it. Robot vacuums commonly get stuck under couches, bed frames, and dressers where clearance is tight. If your vacuum is 3.5 inches tall, anything under 3.5 inches of clearance is a potential trap.
+
+## Step 1: Unbox and Assemble
+
+Remove the vacuum, charging dock, power cable, side brushes, and any accessories from the box. Most vacuums ship with side brushes detached; snap them onto the underside of the unit (usually a single snap-fit or screw per brush).
+
+Remove all protective films, tape, and shipping materials. Check for a dust cover over the charging contacts and remove it.
+
+## Step 2: Position the Charging Dock
+
+Place the charging dock against a wall on a hard, flat surface. Leave at least 1.5 feet of clear space on each side and 4 feet of clear space in front. The vacuum needs room to approach, align, and dock. Avoid placing the dock on thick carpet (the vacuum may struggle to climb onto it), near stairs (risk of falling), in direct sunlight (affects infrared sensors), or behind furniture (blocks navigation).
+
+Plug in the dock and verify the power indicator light turns on.
+
+## Step 3: Charge Fully
+
+Place the vacuum on the charging dock. Align the charging contacts on the bottom of the vacuum with the contacts on the dock. Most vacuums indicate charging status via LED lights or a display.
+
+Full charge time: typically 3-5 hours for the first charge. Don't interrupt the first charge; a full initial charge helps calibrate the battery.
+
+## Step 4: Download the App and Connect
+
+Download the manufacturer's app (iRobot Home, Roborock, Ecovacs Home, etc.) from your app store. Create an account and follow the in-app setup wizard.
+
+Connection process varies by brand, but typically: the vacuum creates a temporary WiFi hotspot, your phone connects to it, you enter your home WiFi credentials through the app, and the vacuum joins your home network.
+
+If connection fails: ensure you're using 2.4GHz WiFi (most robot vacuums don't support 5GHz), move the vacuum closer to your router for initial setup, restart both the vacuum and your phone, and try again.
+
+## Step 5: First Mapping Run
+
+Start the first cleaning run from the app. During this initial run, the vacuum explores your home and creates a map. This is the most important run; let it complete without interruption.
+
+For LiDAR-equipped vacuums: the vacuum will systematically navigate room by room, building a precise floor plan. This usually takes 30-60 minutes for a typical home. For camera-based vacuums: navigation may be less methodical during the first run. The map improves over subsequent runs. For bump-and-go vacuums: these don't create maps. They navigate randomly and improve coverage over time.
+
+During the mapping run: don't move furniture, don't pick up the vacuum, don't block doorways. Let it explore naturally. If it gets stuck, free it and let it continue.
+
+## Step 6: Review and Edit the Map
+
+After the first run, open the app and review the generated map. Most mapping vacuums let you label rooms (kitchen, bedroom, living room) so you can send the vacuum to specific areas later. Verify room boundaries are correct; you may need to merge or split rooms where the vacuum misjudged walls.
+
+## Step 7: Set No-Go Zones
+
+No-go zones prevent the vacuum from entering specific areas. Common uses: around pet food bowls, near delicate furniture legs, around floor-standing speakers, near tangled cables you can't move, and along the edge of stairs (if the cliff sensors need backup).
+
+In the app, draw rectangular or line-based no-go zones on your map. Test them by running the vacuum near the zone; it should turn away at the boundary.
+
+If your vacuum doesn't support app-based no-go zones, use physical barriers: magnetic strips (included with some models), small furniture barriers, or physical gates.
+
+## Step 8: Set a Schedule
+
+Schedule regular cleaning runs through the app. Recommended starting schedule: 3 times per week for most homes, daily for homes with pets or high foot traffic, weekday mornings while you're at work, or weekend afternoons if you prefer to be home.
+
+Choose a time when the house is quiet and people are away or in other rooms. Robot vacuums are 60-80 dB; noticeable but not disruptive in adjacent rooms.
+
+## Step 9: Establish a Maintenance Routine
+
+After each run: empty the dustbin (or check the self-emptying dock if equipped). Weekly: check the brush roller for hair wrapping, wipe sensors with a dry cloth. Monthly: deep clean the brush roller, wash the filter, check side brushes for wear. Every 3-6 months: replace the filter and side brushes.
+
+## Tips for Pet Owners
+
+Pre-clean before the first run: pick up pet toys, bones, and any items your pet leaves on the floor. Run the vacuum while pets are in another room during the first few runs so they can acclimate to the sound. Check the brush roller after every run during the first week; pet hair wraps quickly. Set the vacuum to maximum suction mode if available. Consider a model with a rubber brush roller (tangles less than bristle brushes with pet hair).
+
+Watch for pet accidents: if your pet has an indoor accident and the vacuum runs over it, the mess spreads everywhere. Some premium vacuums have obstacle avoidance that detects pet waste; if yours doesn't, check floors before scheduled runs.
+
+## Common Mistakes
+
+Not preparing the floor: loose items jam brushes and waste cleaning time. Starting with a dead battery: always fully charge before the first run; interrupted mapping creates incomplete maps. Moving the dock after setup: the vacuum returns to where the dock was during mapping. Moving it confuses navigation. Overcrowding the schedule: daily runs aren't necessary for most homes and accelerate brush and filter wear. Running on very thick rugs: some vacuums struggle with thick pile carpet. If the vacuum gets stuck repeatedly, set a no-go zone for thick rugs and vacuum them manually.
+
+## FAQ
+
+**Q: How long does the first mapping run take?**
+Typically 30-60 minutes for a 1,500-2,000 sq ft home. Larger homes or homes with many rooms may take longer. The vacuum will return to its dock when finished.
+
+**Q: Can I use the vacuum on multiple floors?**
+Yes, most mapping vacuums support multiple floor maps. Carry the vacuum to a different floor, start a new mapping run, and it will create a separate map. You select the active floor in the app.
+
+**Q: Why does my vacuum keep getting stuck?**
+Common causes: loose cables on the floor, furniture with clearance too close to vacuum height, thick rug transitions, and dark-colored floors (confuse cliff sensors). Remove obstacles and adjust furniture as needed.
+
+**Q: How often should I run my robot vacuum?**
+2-3 times per week for most homes. Pet owners and high-traffic homes benefit from daily runs. Adjust based on how much debris you notice between runs.
+
+**Q: Does the robot vacuum replace a regular vacuum?**
+For daily maintenance, yes. For deep cleaning (upholstery, stairs, hard-to-reach areas), you'll still need a traditional vacuum or handheld. Robot vacuums handle floor surfaces; they can't do vertical surfaces, furniture, or tight corners.`,
+  },
+
 };
 
 export function getRobotVacuumArticle(slug: string): Article | null {

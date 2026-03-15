@@ -2051,6 +2051,99 @@ Measure your vehicle first. In a 45-inch back seat, two narrow seats will fit; t
 \`\`\``
   },
 
+  "how-to-install-car-seat-latch-vs-seatbelt": {
+    slug: "how-to-install-car-seat-latch-vs-seatbelt",
+    title: "How to Install a Car Seat: LATCH vs Seatbelt Method Step-by-Step",
+    description: "Complete guide to installing a car seat safely using LATCH or seatbelt. Learn both methods, when to use each, the 1-inch test, recline angles, and common installation mistakes.",
+    category: "car-seats",
+    content: `## Understanding LATCH vs Seatbelt: Which Should You Use?
+
+### LATCH System (Lower Anchors and Tethers for Children)
+
+LATCH is a dedicated connection system built into vehicles manufactured after 2002. It uses metal anchors hidden in the crease where your car seat back meets the seat cushion.
+
+Pros: no seatbelt threading required, often faster to install, built specifically for child safety seats, works even if your seatbelt is awkwardly positioned. Cons: limited to rear outboard seats in most cars, some vehicles have weak or poorly positioned anchors, combined weight limit usually car seat + child under 65 lbs (check your manual).
+
+### Seatbelt Method
+
+The seatbelt method uses your vehicle's existing lap/shoulder belt to secure the car seat. Every seating position with a seatbelt can use this method.
+
+Pros: works in any seating position with a seatbelt, no weight limit concerns beyond the car seat's own limit, universally compatible. Cons: threading the belt correctly is trickier, some seatbelt designs make tight installation difficult, requires locking the seatbelt (pulling it all the way out to engage the locking mechanism).
+
+### When to Use Which
+
+Use LATCH when: your child is under the weight limit, you're installing in an outboard rear seat, and the LATCH anchors are accessible. Use seatbelt when: your child exceeds the LATCH weight limit, you're installing in the center rear seat (most cars don't have center LATCH), or the LATCH anchors are difficult to reach. Never use both simultaneously unless your car seat manual specifically instructs it.
+
+## LATCH Installation: Step-by-Step
+
+### Step 1: Find the Lower Anchors
+Feel in the crease between the seat back and seat cushion of your vehicle's rear outboard seats. You'll find two metal bars or loops, one on each side, about 11 inches apart. Some vehicles have covers or caps over the anchors.
+
+### Step 2: Attach the Car Seat Connectors
+Your car seat has two LATCH connectors (hooks or clips) on short straps at the base. Open each connector and attach it to the corresponding lower anchor. You should hear or feel a click when each connector locks onto the anchor.
+
+### Step 3: Press and Tighten
+Place the car seat firmly against the vehicle seat back. Press down on the car seat with your knee or body weight while pulling the LATCH strap to tighten. The goal is to remove all slack so the car seat is snug against the vehicle seat.
+
+### Step 4: The 1-Inch Test
+Grab the car seat at the belt path (where the LATCH strap runs) and try to move it side to side and front to back. It should not move more than 1 inch in any direction. If it moves more than 1 inch, tighten the LATCH strap further and retest.
+
+### Step 5: Attach the Top Tether (Forward-Facing Only)
+If installing forward-facing, connect the top tether strap (at the back of the car seat) to the tether anchor point behind your vehicle's rear seat. This prevents the car seat from rotating forward in a crash. The tether anchor is usually on the back of the seat, on the ceiling of the cargo area, or on the floor behind the seat.
+
+## Seatbelt Installation: Step-by-Step
+
+### Step 1: Route the Seatbelt
+Thread the vehicle's lap/shoulder belt through the correct belt path on your car seat. Rear-facing seats and forward-facing seats have different belt paths, always check the car seat manual for exact routing.
+
+### Step 2: Lock the Seatbelt
+Pull the seatbelt all the way out until it clicks into locking mode. This prevents the belt from extending further. Slowly let the belt retract while holding the car seat in position. If your vehicle has a locking latch plate (a flat metal piece where belt meets buckle), it locks automatically. If it has a sliding latch plate, you may need a locking clip.
+
+### Step 3: Buckle and Tighten
+Buckle the seatbelt, then push down on the car seat while pulling the shoulder belt to remove slack. The belt should be tight with no looseness.
+
+### Step 4: The 1-Inch Test
+Same as LATCH: grab the car seat at the belt path and check for movement. Less than 1 inch in any direction means a secure installation.
+
+### Step 5: Top Tether (Forward-Facing Only)
+Connect the top tether just like with LATCH installation.
+
+## Checking Recline Angle
+
+### Rear-Facing Seats
+Rear-facing car seats must recline at the correct angle to keep the baby's airway open. Too upright and the baby's head falls forward, restricting breathing. Too reclined and the seat won't protect properly in a crash.
+
+Most car seats have a built-in recline indicator (a bubble level or colored zone on the side). The indicator should show the seat is within the acceptable range. If your vehicle seat is too upright, use a tightly rolled towel or pool noodle under the front edge of the car seat base to achieve the correct angle.
+
+### Forward-Facing Seats
+Forward-facing seats should be more upright than rear-facing. Most don't need recline adjustment; they sit naturally at the correct angle against the vehicle seat back.
+
+## Common Installation Mistakes
+
+Not tightening enough: the 1-inch test fails more often than you'd expect. Really lean into the car seat while tightening. Using the wrong belt path: rear-facing and forward-facing belt paths are different on the same car seat. Check the labels on the car seat. Forgetting the top tether: forward-facing seats without a connected top tether can rotate dangerously in a crash. Always connect it. Using LATCH in the center seat: most vehicles don't have LATCH anchors in the center position. Check your vehicle manual. Exceeding LATCH weight limits: many parents don't realize LATCH has a combined weight limit (car seat + child). Check both the car seat and vehicle manuals. Not locking the seatbelt: if the seatbelt isn't in locking mode, the car seat will be loose. Pull it all the way out first. Twisted straps: LATCH straps and seatbelts should lie flat, not twisted. Twists reduce effectiveness.
+
+## Rear-Facing vs Forward-Facing Installation Differences
+
+Rear-facing: recline angle is critical, belt path is lower on the car seat, no top tether needed, harness straps should be at or below the child's shoulders. Forward-facing: more upright position, belt path is higher on the car seat, top tether required, harness straps should be at or above the child's shoulders.
+
+## FAQ
+
+**Q: Can I use LATCH and the seatbelt at the same time?**
+No, unless your car seat manual specifically says otherwise. Using both can interfere with proper installation and may not improve safety. Choose one method.
+
+**Q: How do I know if my LATCH installation is tight enough?**
+The 1-inch test: grab the car seat at the belt path and try to move it. If it shifts more than 1 inch side-to-side or front-to-back, it needs tightening.
+
+**Q: When should my child switch from rear-facing to forward-facing?**
+Keep children rear-facing as long as possible, until they reach the maximum height or weight limit for rear-facing on their car seat. Most convertible car seats allow rear-facing up to 40-50 lbs. The AAP recommends rear-facing until at least age 2, and longer if possible.
+
+**Q: Is the center seat safer than the side seats?**
+Yes, the center rear seat is statistically the safest position because it's farthest from any point of impact. However, a properly installed car seat in any rear position is safe. If you can't get a tight installation in the center, use an outboard seat instead.
+
+**Q: Can I install a car seat in the front passenger seat?**
+Only as a last resort, and never with an active front airbag for rear-facing seats. Front passenger airbags can be fatal to rear-facing infants. If you must use the front seat (single-cab truck, for example), disable the passenger airbag first.`,
+  },
+
 };
 
 export function getCarSeatArticle(slug: string): CarSeatArticle | undefined {
