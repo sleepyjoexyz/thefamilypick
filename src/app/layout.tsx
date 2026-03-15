@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   description:
     'Expert comparisons of baby gear (monitors, strollers, car seats, high chairs) and pet technology (feeders, cameras, trackers, grooming tools). Evidence-based reviews and buying guides for families.',
   metadataBase: new URL('https://www.thefamilypick.com'),
+  alternates: {
+    canonical: 'https://www.thefamilypick.com',
+  },
   keywords: [
     'baby gear',
     'pet tech',
