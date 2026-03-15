@@ -1524,7 +1524,7 @@ Audio and video monitors serve different needs. Audio monitors are cost-effectiv
 The best monitor for your family isn't automatically the most expensive or feature-rich; it's the one that matches your lifestyle, budget, and genuine needs. Many families find an audio-only monitor or a hybrid approach (audio primary, occasional video checking) sufficient.
 
 Start with audio. If you find yourself wishing you could see your baby or you're away from home frequently, upgrade to video. Most parents never regret starting simple; many regret over-complicating their monitoring setup.`,
-,
+  },
   "nanit-pro-vs-infant-optics-dxr8-pro": { slug: "nanit-pro-vs-infant-optics-dxr8-pro", title: "Nanit Pro vs Infant Optics DXR-8 Pro: WiFi Smart Monitor vs Non-WiFi Champion", description: "Compare Nanit Pro WiFi monitor vs Infant Optics DXR-8 Pro non-WiFi monitor. See specs, features, price, and which is best for your family.", category: "baby-monitors", content: `## Comparison
 
 Nanit Pro: \$299, 1080p, WiFi, remote viewing, sleep tracking.
@@ -1555,8 +1555,7 @@ Large homes need 1000+ foot range to overcome thick walls.
 2. VTech RM5764 - 1000ft
 3. Nanit Pro - Unlimited WiFi
 
-Test range before buying.` }
-  },
+Test range before buying.` },
 };
 
 export function getBabyMonitorArticle(slug: string): BabyMonitorArticle | undefined {
