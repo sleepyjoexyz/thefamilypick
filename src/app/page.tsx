@@ -1,62 +1,62 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Metadata } from 'next';
 import Link from 'next/link';
 import DealCard from '@/components/DealCard';
 import { mockDeals } from '@/data/mockDeals';
-
-// Note: Metadata cannot be exported from client components
-// See layout.tsx for SEO metadata
+import { dealCategories } from '@/lib/dealCategories';
 
 export default function Home() {
-  const [selectedCategory, setSelectedCategory] = useState<'All' | 'Baby Gear' | 'Pet Tech'>('All');
-
-  const filteredDeals =
-    selectedCategory === 'All'
-      ? mockDeals
-      : mockDeals.filter((deal) => deal.category === selectedCategory);
+  const MAX_DEALS_PER_CATEGORY = 6;
 
   return (
     <main className="bg-white">
-      {/* Hero + Filters — single line */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      {/* Hero Section */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex items-center flex-wrap gap-3">
           <h1 className="text-lg font-bold text-gray-900">The Family Pick</h1>
           <span className="text-sm text-gray-500">—</span>
-          <span className="text-sm text-gray-600">Today's Best Family Deals: <span className="font-semibold">{filteredDeals.length} available</span></span>
-          <div className="flex gap-2 ml-auto">
-            {(['All', 'Baby Gear', 'Pet Tech'] as const).map((category) => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`px-3 py-1 rounded-full font-medium text-xs transition-colors ${
-                  selectedCategory === category
-                    ? category === 'All'
-                      ? 'bg-gray-900 text-white'
-                      : category === 'Baby Gear'
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-green-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
+          <span className="text-sm text-gray-600">Today's Best Family Deals: <span className="font-semibold">{mockDeals.length} available</span></span>
+          <Link href="/deals" className="ml-auto px-4 py-2 bg-gray-900 text-white rounded-full text-sm font-medium hover:bg-gray-800 transition-colors">
+            Browse All Deals
+          </Link>
         </div>
       </section>
 
-      {/* Deals Grid (2/3 of viewport) */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
-          {filteredDeals.map((deal) => (
-            <DealCard key={deal.id} {...deal} />
-          ))}
-        </div>
-      </section>
+      {/* Category Sections with Deals */}
+      {dealCategories.map((cat) => {
+        const allCategoryDeals = mockDeals.filter((d) => d.category === cat.name);
+        const displayedDeals = allCategoryDeals.slice(0, MAX_DEALS_PER_CATEGORY);
 
-      {/* Browse Categories Section (1/3 of viewport) */}
+        if (allCategoryDeals.length === 0) return null;
+
+        return (
+          <section key={cat.slug} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-xl font-bold text-gray-900">
+                {cat.emoji} {cat.name} Deals
+                <span className="text-sm font-normal text-gray-500 ml-2">({allCategoryDeals.length})</span>
+              </h2>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-4">
+              {displayedDeals.map((deal) => (
+                <DealCard key={deal.id} {...deal} />
+              ))}
+            </div>
+            {allCategoryDeals.length > MAX_DEALS_PER_CATEGORY && (
+              <div className="text-center">
+                <Link
+                  href={`/deals/${cat.slug}`}
+                  className="inline-block text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
+                >
+                  Find more {cat.name.toLowerCase()} deals →
+                </Link>
+              </div>
+            )}
+          </section>
+        );
+      })}
+
+      {/* Browse Categories Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Browse Categories</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
