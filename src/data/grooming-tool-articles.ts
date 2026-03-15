@@ -1655,6 +1655,303 @@ The most important insight: **Don't groom by breed name; groom by coat type.** T
 
 Long double-coat owners: Be realistic about commitment. These coats require either daily home brushing or professional grooming every 4-6 weeks. Anything less results in matting that requires shaving. Budget your time and money accordingly.`,
   },
+  "summer-grooming-guide-heavy-shedding-season": {
+    slug: "summer-grooming-guide-heavy-shedding-season",
+    title: "Summer Dog Grooming Guide: Managing Heavy Shedding Season",
+    description:
+      "Master summer dog grooming during peak shedding season. Learn about coat blow cycles, deshedding tools, bathing frequency, and when NOT to shave double-coated dogs.",
+    category: "grooming-tools",
+    content: `## Introduction
+
+Summer brings peak shedding season for most dogs. As temperatures rise and daylight extends, dogs' bodies respond by preparing for seasonal coat changes. This cycle, called the coat blow, results in massive fur loss—sometimes so severe that pet owners think their dogs are sick.
+
+Understanding the seasonal shedding cycle and having the right tools and techniques prevents matting, keeps dogs comfortable in heat, and manages the actual fur volume. This guide covers the science of summer shedding and practical strategies for grooming through the season.
+
+## The Coat Blow: Seasonal Shedding Explained
+
+### What Triggers Coat Blow?
+
+Dogs with double coats (Huskies, Golden Retrievers, German Shepherds, Corgis, Malamutes) shed seasonally. Coat blow is triggered by:
+
+1. **Increasing daylight** (photoperiod) — longer days signal the need for lighter coats
+2. **Rising temperatures** — body signals reduced need for insulation
+3. **Decreasing humidity** — sometimes triggers undercoat release
+
+The coat blow typically begins in late spring (May-June) and peaks in mid-summer (July-August). It can last 4-8 weeks.
+
+### Coat Blow vs Normal Shedding
+
+**Normal shedding:** Gradual hair loss year-round. A few hairs when you brush.
+
+**Coat blow:** Massive shedding event. Brushing removes handfuls. The undercoat releases en masse. Dogs look visibly thinner over weeks. Can produce 1-2 lbs of fur per week in large double-coated dogs.
+
+### Which Dogs Experience Heavy Coat Blow?
+
+**Heavy coat blow breeds:**
+- Huskies and Malamutes
+- German Shepherds
+- Golden and Labrador Retrievers
+- Corgis and Dachshunds
+- Pomeranians and other Spitz breeds
+- Bernese Mountain Dogs
+
+**Light coat blow or no coat blow:**
+- Single-coat breeds (Poodles, Doodles, Boxers, Weimaraners, Vizslas)
+- Short-coat breeds (Pit Bulls, Bulldogs, Beagles)
+- Terriers
+
+**Exception:** Poodles and Doodles don't shed but still require summer grooming (shorter clips, more frequent baths to prevent matting).
+
+## Deshedding Tools: What Actually Works
+
+Not all brushes are equal during coat blow. Most household brushes (slicker brushes, pin brushes) remove surface hair but fail to reach the shedding undercoat.
+
+### Essential Summer Deshedding Tools
+
+**Undercoat Rake ($30-60)** — The single best tool for coat blow. Teeth penetrate through guard hairs and comb out undercoat. Brands: FURminator, Chris Christensen, Oster.
+
+**How to use:** Long, firm strokes against the direction of hair growth. Start at the skin level. Work through sections methodically. You'll be shocked at how much fur comes out.
+
+**Slicker Brush ($20-40)** — Fine, short wires remove tangles and detached undercoat. Use after the rake to catch remaining loose fur.
+
+**High-Velocity Dryer ($100-300)** — Professional tool that dries and blows out loose undercoat simultaneously. Often finds additional shedding the rake missed. Game-changer for heavy shedders.
+
+**De-Shedding Shampoo ($10-20 per bottle)** — Conditioning products that loosen undercoat during bathing. Used with proper technique, removes additional shedding. Brands: FURminator, Hydra Shampoo, Chris Christensen.
+
+**FURminator deshedding tool ($40-80)** — Electric tool. Vibrates rapidly and removes undercoat. Divisive in grooming community—some swear by it, others say it's no better than a good rake. Try before buying.
+
+**Vacuum-Groomer ($60-200)** — Vacuums attached to grooming tools. Captures fur during brushing. Reduces cleanup; captures more undercoat than manual brushing alone. Brands: Oneisall, Grooming Vacuum.
+
+### Tools NOT Worth Using During Coat Blow
+
+**de-matting combs** — During heavy coat blow, de-matting causes pain and breaks hair. Skip them.
+
+**Metal combs** — Too fine; teeth clog immediately with undercoat.
+
+**Bristle brushes** — Don't penetrate to undercoat; mostly worthless during coat blow.
+
+## Bathing During Coat Blow: Frequency and Technique
+
+### Why Bathe During Coat Blow?
+
+Hot water and shampoo loosen the undercoat, making deshedding more effective. A bath followed by drying followed by brushing removes 30-50% more undercoat than dry brushing alone.
+
+### Optimal Bathing Frequency
+
+- **Heavy shedders during coat blow:** 1-2 times per week
+- **Normal shedding season:** Every 4-6 weeks
+- **Between coat blows:** Every 8-12 weeks
+
+**Reality check:** Weekly bathing year-round damages skin and coat. During coat blow only, weekly is appropriate to manage shedding.
+
+### Bathing Technique for Deshedding
+
+1. **Warm (not hot) water** — Warm opens hair follicles; overly hot damages skin
+2. **De-shedding shampoo** — Use a conditioner-rich formula; leave on for 5-10 minutes to loosen undercoat
+3. **Lukewarm rinse** — Thorough rinse removes loose undercoat
+4. **Conditioner soak** — 5-10 minutes of conditioner further loosens undercoat
+5. **Final rinse** — Ensure no product remains
+
+### Post-Bath Drying Strategy
+
+**Towel dry first** — Remove excess water to prevent over-drying sensitive skin.
+
+**High-velocity dryer (professional method)** — Forces air through coat and ejects loose undercoat. Most effective but requires equipment ($100-300).
+
+**Regular blow dryer** — Home dryer works but is slower and less effective. Medium heat only; high heat damages coat.
+
+**Air dry with immediate brushing** — Post-bath is ideal time to brush; coat is soft and loose undercoat comes out easily.
+
+## Bathing Frequency and Skin Health Concerns
+
+### Can You Bathe Too Often?
+
+Yes, but weekly bathing during coat blow is acceptable if:
+- You use a pH-balanced, conditioner-rich shampoo
+- You thoroughly condition
+- Your dog's skin is healthy (no dermatitis)
+
+**Signs of over-bathing damage:**
+- Dry, flaky skin
+- Itching and scratching
+- Dull, brittle hair
+- Skin irritation or redness
+
+If you see these signs, reduce bathing frequency and use heavier conditioners.
+
+### Post-Coat-Blow Bathing Reset
+
+After coat blow ends (typically September), resume normal bathing schedule (every 6-8 weeks). Your dog's skin will appreciate the break.
+
+## The Critical Rule: When NOT to Shave Double-Coated Dogs
+
+### Why NOT Shaving
+
+Many owners mistakenly shave double-coated dogs in summer, believing it will keep them cooler. This is harmful for several reasons:
+
+**1. Double coats regulate temperature both ways**
+- In heat: The undercoat creates an insulating air layer that keeps heat out
+- In cold: The undercoat retains body heat
+- Shaving removes this insulation, making dogs MORE uncomfortable in both heat and cold
+
+**2. Regrowth is unpredictable**
+- Double coat guard hairs and undercoat grow at different rates
+- Shaved coats often regrow unevenly, creating a permanently damaged texture
+- Some dogs never fully restore coat quality after shaving
+
+**3. Sun damage**
+- Shaved skin is susceptible to sunburn and UV damage
+- Guard hairs protect skin; removing them leaves dogs vulnerable
+
+**4. Increased overheating risk**
+- Removing the insulation layer actually increases risk of heat exhaustion
+- Dogs lose their natural cooling system
+
+### When Shaving IS Appropriate
+
+**Matted beyond repair:** If a dog's coat is severely matted and cannot be brushed out without causing pain, a "puppy cut" (short clip, not full shave) is more humane than leaving mats.
+
+**Medical necessity:** Skin conditions, injuries, or surgical recovery may require shaving per veterinarian recommendation.
+
+**Non-double-coat breeds:** Single-coat breeds (Poodles, Doodles, some terriers) can be shaved or clipped without coat damage.
+
+**Personal grooming preference:** Some owners choose short clips for aesthetic reasons. If you shave a double-coat, accept that the coat will never be the same.
+
+## Summer Grooming by Breed: Coat-Specific Strategies
+
+### Heavy Double-Coat Shedders (Huskies, Malamutes, German Shepherds)
+
+**Coat blow frequency:** Intense; lasts 6-8 weeks
+
+**Summer grooming plan:**
+- Bathe weekly during coat blow; every 3 weeks after
+- Undercoat rake or FURminator 2-3 times per week during blow
+- High-velocity dryer weekly (professional grooming) or hire groomer for 2-3 sessions
+- Brush daily to catch loose hair before it tangles
+- DO NOT shave; clip only if medically necessary
+
+**Expected shedding:** 1-2 lbs per week during coat blow
+
+### Moderate Shedders (Golden Retrievers, Labs, Corgis)
+
+**Coat blow frequency:** Moderate; lasts 4-6 weeks
+
+**Summer grooming plan:**
+- Bathe every 2 weeks during coat blow
+- Undercoat rake 1-2 times per week
+- Regular grooming session mid-coat blow
+- Brush 3-4 times per week during blow, weekly after
+- DO NOT shave; maintain full coat
+
+**Expected shedding:** 0.5-1 lb per week during coat blow
+
+### Light Shedders (some terriers, short-coats)
+
+**Coat blow frequency:** Minimal; subtle
+
+**Summer grooming plan:**
+- Bathe every 4-6 weeks
+- Brush 1-2 times per week (maintenance, not heavy deshedding)
+- No undercoat rake necessary; regular brush sufficient
+
+**Expected shedding:** Hair around house mostly normal; slight increase in summer
+
+### Non-Shedding Breeds (Poodles, Doodles)
+
+**Coat blow:** None; non-shedding coats require different management
+
+**Summer grooming plan:**
+- Shorter clip (1.5-2 inches) for comfort
+- Bathe every 4 weeks (cooling effect)
+- Brush 2-3 times per week to prevent matting
+- Summer clip prevents overheating better than full-length coat
+
+## Grooming Timeline for Summer Coat Blow
+
+### Late May - Early June (Coat Blow Begins)
+
+- Start undercoat rake 1-2 times per week
+- Begin weekly bathing with de-shedding shampoo
+- Schedule first professional grooming appointment
+
+### Mid-June to Early August (Peak Coat Blow)
+
+- Bathe weekly
+- Rake or deshed 2-3 times weekly
+- Professional grooming every 3-4 weeks if heavy shedder
+- Brush daily to manage loose hair
+- Monitor for matting; address immediately
+
+### Late August - September (Coat Blow Winds Down)
+
+- Reduce grooming frequency gradually
+- Switch to normal bathing schedule (every 6 weeks)
+- Final professional grooming to remove remaining loose undercoat
+- Resume normal brushing (1-2 times per week)
+
+## Home Grooming vs Professional Grooming During Coat Blow
+
+### DIY Approach
+
+**Pros:**
+- Costs only tool investment ($100-300 one-time)
+- Immediate response to shedding
+- Builds bond with dog
+- No scheduling hassles
+
+**Cons:**
+- Time-intensive (2-3 hours weekly)
+- Misses undercoat that professionals catch with high-velocity dryers
+- Risk of improper technique causing skin irritation
+- Challenging on wiggly dogs
+
+### Professional Grooming Approach
+
+**Pros:**
+- High-velocity drying removes maximum undercoat
+- Skilled handling prevents injury
+- 1-2 sessions per season = minimal time commitment
+- Results often exceed home grooming
+
+**Cons:**
+- Expensive ($100-300 per appointment)
+- Scheduling constraints
+- Still need home maintenance between appointments
+
+### Hybrid Approach (Best for Most Owners)
+
+- **Professional grooming:** 2-3 appointments during peak coat blow (early July, mid-August, early September)
+- **Home grooming:** Weekly undercoat raking and regular brushing between appointments
+- **Cost:** $300-900 total for season + $100-200 in tools
+- **Time:** 1-2 hours per week home care, one appointment per month
+
+## FAQ
+
+**Q: My dog seems hot in summer. Should I shave them?**
+No. Double coats insulate against heat. Groom thoroughly to remove loose undercoat, provide shade and water, limit outdoor time in peak heat. Shaving actually increases overheating risk.
+
+**Q: How much shedding is normal in summer?**
+Light shedders: Noticeable but manageable. Moderate shedders: Visible hair around house, frequent vacuuming. Heavy shedders: 1+ lbs per week, significant cleanup.
+
+**Q: Can I prevent coat blow?**
+No. It's a natural biological response to daylight and temperature. You can only manage it by deshedding frequently.
+
+**Q: My dog's coat seems matted. What should I do?**
+Try gentle de-matting with conditioner and a de-matting comb. If severe, see a groomer before attempting to brush. Wet matted coats are more painful to remove than dry ones.
+
+**Q: Should I use a metal comb during coat blow?**
+No. Metal combs clog immediately with loose undercoat. Use an undercoat rake (larger teeth, wider spacing) or slicker brush instead.
+
+**Q: How long should coat blow last?**
+Typically 4-8 weeks. If shedding persists past September, consult a vet (could indicate thyroid issues or allergies).
+
+## Conclusion
+
+Summer coat blow is a normal seasonal event, not a sign of disease. Heavy double-coated shedders require weekly bathing, frequent deshedding, and professional grooming 2-3 times during peak season. The critical rule: never shave double-coated dogs for summer; instead, groom thoroughly to remove the undercoat and keep the insulating double coat intact.
+
+The right tools (undercoat rake, slicker brush, quality shampoo) and consistent grooming (weekly bathing, 2-3 times per week brushing) manage shedding effectively. Most importantly, resist the temptation to shave your double-coated dog. That coat is there to keep them comfortable—trust it, manage it, and your dog will get through summer happily.`,
+  },
+
 };
 
 export function getGroomingToolArticle(slug: string): GroomingToolArticle | undefined {
