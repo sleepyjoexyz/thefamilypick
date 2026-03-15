@@ -73,8 +73,8 @@ export default async function ArticlePage({ params }: PageProps) {
         title={article.title}
         description={article.description}
         url={`https://www.thefamilypick.com/pet-cameras/${slug}`}
-        datePublished="2025-03-06"
-        dateModified="2026-03-06"
+        datePublished="2026-03-15"
+        dateModified="2026-03-15"
       />
       {/* Breadcrumbs */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
@@ -101,57 +101,32 @@ export default async function ArticlePage({ params }: PageProps) {
       </section>
 
       {/* Recommended Products */}
+
+      {/* Related Articles */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          Featured Pet Cameras
-        </h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {petCameras.slice(0, 4).map((camera) => (
-            <div
-              key={camera.id}
-              className="bg-gray-50 rounded-lg p-6 border border-gray-200"
-            >
-              <h3 className="font-bold text-lg text-gray-900 mb-2">
-                {camera.brand} {camera.model}
-              </h3>
-              <p className="text-gray-600 mb-3 text-sm">{camera.summary}</p>
-              <div className="flex justify-between items-center mb-4">
-                <span className="text-2xl font-bold text-gray-900">
-                  ${camera.price}
-                </span>
-                <span className="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">
-                  {camera.rating.toFixed(1)}★
-                </span>
-              </div>
-              <div className="text-xs text-gray-600 mb-4 space-y-1">
-                <p>
-                  {camera.resolution} • {camera.fieldOfView}° FOV
-                </p>
-                <p>
-                  {camera.treatDispenser ? "✓ Treat Dispenser" : "No Treat Dispenser"}
-                  {camera.laserToy ? " • ✓ Laser Toy" : ""}
-                </p>
-              </div>
-              {camera.amazonAsin && getAmazonLink(camera.amazonAsin) ? (
-                <a
-                  href={getAmazonLink(camera.amazonAsin) || undefined}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block w-full text-center bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+          {getAllPetCameraArticleSlugs()
+            .filter((s) => s !== slug)
+            .slice(0, 4)
+            .map((relatedSlug) => {
+              const related = getPetCameraArticle(relatedSlug);
+              if (!related) return null;
+              return (
+                <Link
+                  key={relatedSlug}
+                  href={`/pet-cameras/${relatedSlug}`}
+                  className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
                 >
-                  View on Amazon
-                </a>
-              ) : null}
-            </div>
-          ))}
-        </div>
-        <div className="mt-8 text-center">
-          <Link
-            href="/pet-cameras"
-            className="inline-block bg-gray-200 text-gray-900 px-6 py-3 rounded-lg hover:bg-gray-300 transition-colors font-medium"
-          >
-            View All Pet Cameras
-          </Link>
+                  <h3 className="font-semibold text-blue-600 hover:underline">
+                    {related.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 mt-2 line-clamp-2">
+                    {related.description}
+                  </p>
+                </Link>
+              );
+            })}
         </div>
       </section>
 

@@ -62,6 +62,14 @@ export default async function ArticlePage({ params }: PageProps) {
 
   return (
     <div className="bg-white">
+      <ArticleSchema
+        title={article.title}
+        description={article.description}
+        url={`https://www.thefamilypick.com/robot-vacuums/${slug}`}
+        datePublished="2026-03-15"
+        dateModified="2026-03-15"
+      />
+
       {/* Breadcrumbs */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
         <Breadcrumbs
@@ -101,10 +109,30 @@ export default async function ArticlePage({ params }: PageProps) {
 
       {/* Related Articles */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Articles</h2>
-        <Link href="/robot-vacuums" className="text-blue-600 hover:underline">
-          ← Back to Robot Vacuums
-        </Link>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {getAllRobotVacuumArticleSlugs()
+            .filter((s) => s !== slug)
+            .slice(0, 4)
+            .map((relatedSlug) => {
+              const related = getRobotVacuumArticle(relatedSlug);
+              if (!related) return null;
+              return (
+                <Link
+                  key={relatedSlug}
+                  href={`/robot-vacuums/${relatedSlug}`}
+                  className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
+                >
+                  <h3 className="font-semibold text-blue-600 hover:underline">
+                    {related.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 mt-2 line-clamp-2">
+                    {related.description}
+                  </p>
+                </Link>
+              );
+            })}
+        </div>
       </section>
     </div>
   );

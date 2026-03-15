@@ -72,8 +72,8 @@ export default async function ArticlePage({ params }: PageProps) {
         title={article.title}
         description={article.description}
         url={`https://www.thefamilypick.com/grooming-tools/${slug}`}
-        datePublished="2025-03-06"
-        dateModified="2026-03-06"
+        datePublished="2026-03-15"
+        dateModified="2026-03-15"
       />
       {/* Breadcrumbs */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
@@ -134,39 +134,27 @@ export default async function ArticlePage({ params }: PageProps) {
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Link
-            href="/grooming-tools/vacuum-groomer-vs-traditional-clippers"
-            className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-          >
-            <h3 className="font-semibold text-blue-600 hover:underline">
-              Vacuum Groomers vs Traditional Clippers
-            </h3>
-            <p className="text-sm text-gray-600 mt-2">
-              Mess-free grooming comparison. Shedding control, cleanup time, and pet comfort.
-            </p>
-          </Link>
-          <Link
-            href="/grooming-tools/best-cordless-dog-clippers"
-            className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-          >
-            <h3 className="font-semibold text-blue-600 hover:underline">
-              Best Cordless Dog Clippers
-            </h3>
-            <p className="text-sm text-gray-600 mt-2">
-              Easy at-home grooming. Battery life, power, and ease of use comparison.
-            </p>
-          </Link>
-          <Link
-            href="/grooming-tools/nail-grinder-vs-traditional-trimmers"
-            className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-          >
-            <h3 className="font-semibold text-blue-600 hover:underline">
-              Nail Grinders vs Nail Trimmers
-            </h3>
-            <p className="text-sm text-gray-600 mt-2">
-              Safety and comfort comparison. Which tool is best for anxious pets.
-            </p>
-          </Link>
+          {getAllGroomingToolArticleSlugs()
+            .filter((s) => s !== slug)
+            .slice(0, 4)
+            .map((relatedSlug) => {
+              const related = getGroomingToolArticle(relatedSlug);
+              if (!related) return null;
+              return (
+                <Link
+                  key={relatedSlug}
+                  href={`/grooming-tools/${relatedSlug}`}
+                  className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
+                >
+                  <h3 className="font-semibold text-blue-600 hover:underline">
+                    {related.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 mt-2 line-clamp-2">
+                    {related.description}
+                  </p>
+                </Link>
+              );
+            })}
         </div>
       </section>
 

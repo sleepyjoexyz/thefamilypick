@@ -72,8 +72,8 @@ export default async function ArticlePage({ params }: PageProps) {
         title={article.title}
         description={article.description}
         url={`https://www.thefamilypick.com/baby-monitors/${slug}`}
-        datePublished="2025-03-06"
-        dateModified="2026-03-06"
+        datePublished="2026-03-15"
+        dateModified="2026-03-15"
       />
 
       {/* Breadcrumbs */}
@@ -135,50 +135,27 @@ export default async function ArticlePage({ params }: PageProps) {
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Link
-            href="/baby-monitors/wifi-vs-non-wifi-baby-monitor"
-            className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-          >
-            <h3 className="font-semibold text-blue-600 hover:underline">
-              WiFi vs Non-WiFi Baby Monitors
-            </h3>
-            <p className="text-sm text-gray-600 mt-2">
-              Compare privacy, security, and reliability of connected vs closed-system monitors
-            </p>
-          </Link>
-          <Link
-            href="/baby-monitors/best-baby-monitors-for-twins"
-            className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-          >
-            <h3 className="font-semibold text-blue-600 hover:underline">
-              Best Baby Monitors for Twins
-            </h3>
-            <p className="text-sm text-gray-600 mt-2">
-              Multi-camera setups and split-screen solutions for monitoring multiple babies
-            </p>
-          </Link>
-          <Link
-            href="/baby-monitors/baby-monitor-security-guide"
-            className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-          >
-            <h3 className="font-semibold text-blue-600 hover:underline">
-              Baby Monitor Security Guide
-            </h3>
-            <p className="text-sm text-gray-600 mt-2">
-              Encryption, hacking prevention, and safe setup practices for WiFi monitors
-            </p>
-          </Link>
-          <Link
-            href="/baby-monitors/smart-baby-monitor-features-worth-paying-for"
-            className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
-          >
-            <h3 className="font-semibold text-blue-600 hover:underline">
-              Smart Features Worth Paying For
-            </h3>
-            <p className="text-sm text-gray-600 mt-2">
-              Which features justify premium prices vs marketing hype
-            </p>
-          </Link>
+          {getAllBabyMonitorArticleSlugs()
+            .filter((s) => s !== slug)
+            .slice(0, 4)
+            .map((relatedSlug) => {
+              const related = getBabyMonitorArticle(relatedSlug);
+              if (!related) return null;
+              return (
+                <Link
+                  key={relatedSlug}
+                  href={`/baby-monitors/${relatedSlug}`}
+                  className="p-4 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-md transition"
+                >
+                  <h3 className="font-semibold text-blue-600 hover:underline">
+                    {related.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 mt-2 line-clamp-2">
+                    {related.description}
+                  </p>
+                </Link>
+              );
+            })}
         </div>
       </section>
 
