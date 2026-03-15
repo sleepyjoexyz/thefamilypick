@@ -49,6 +49,11 @@ export const metadata: Metadata = {
     description:
       'Expert comparisons of baby gear and pet technology products with detailed buying guides.',
   },
+  manifest: '/manifest.json',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({

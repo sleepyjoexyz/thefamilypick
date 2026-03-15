@@ -1,0 +1,21 @@
+{
+  "name": "The Family Pick",
+  "short_name": "FamilyPick",
+  "description": "Data-Driven Baby & Pet Product Comparisons",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#F97316",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
