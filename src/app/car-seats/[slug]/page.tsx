@@ -10,6 +10,7 @@ import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 import { ArticleSchema } from "@/components/JsonLd";
 import MarkdownContent from "@/components/MarkdownContent";
+import CrossCategoryLinks from "@/components/CrossCategoryLinks";
 
 interface PageProps {
   params: Promise<{
@@ -100,6 +101,10 @@ export default async function ArticlePage({ params }: PageProps) {
       </section>
 
       {/* Comments */}
+      {/* Cross-Category Links */}
+      <CrossCategoryLinks currentCategory="car-seats" />
+
+
       <Comments pagePath={`/car-seats/${slug}`} siteName="thefamilypick" />
 
       {/* Related Articles */}

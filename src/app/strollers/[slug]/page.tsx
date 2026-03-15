@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleSchema } from "@/components/JsonLd";
+import CrossCategoryLinks from "@/components/CrossCategoryLinks";
 interface PageProps {
   params: Promise<{
     slug: string;
@@ -142,6 +143,10 @@ export default async function ArticlePage({ params }: PageProps) {
       </section>
 
       {/* Comments */}
+      {/* Cross-Category Links */}
+      <CrossCategoryLinks currentCategory="strollers" />
+
+
       <Comments pagePath={`/strollers/${slug}`} siteName="thefamilypick" />
     </article>
   );

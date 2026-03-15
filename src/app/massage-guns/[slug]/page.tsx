@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleSchema } from "@/components/JsonLd";
+import CrossCategoryLinks from "@/components/CrossCategoryLinks";
 interface PageProps {
   params: Promise<{
     slug: string;
@@ -105,6 +106,10 @@ export default async function ArticlePage({ params }: PageProps) {
       </article>
 
       {/* Comments Section */}
+      {/* Cross-Category Links */}
+      <CrossCategoryLinks currentCategory="massage-guns" />
+
+
       <Comments pagePath={`/massage-guns/${slug}`} siteName="thefamilypick" />
 
       {/* Related Articles */}

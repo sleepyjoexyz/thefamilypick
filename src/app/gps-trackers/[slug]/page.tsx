@@ -10,6 +10,7 @@ import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 import { ArticleSchema } from "@/components/JsonLd";
 import MarkdownContent from "@/components/MarkdownContent";
+import CrossCategoryLinks from "@/components/CrossCategoryLinks";
 
 interface PageProps {
   params: Promise<{
@@ -175,6 +176,10 @@ export default async function ArticlePage({ params }: PageProps) {
 
       {/* Disclaimer */}
       {/* Comments */}
+      {/* Cross-Category Links */}
+      <CrossCategoryLinks currentCategory="gps-trackers" />
+
+
       <Comments pagePath={`/gps-trackers/${slug}`} siteName="thefamilypick" />
 
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">

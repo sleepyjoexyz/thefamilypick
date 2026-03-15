@@ -11,6 +11,7 @@ import { Metadata, ResolvingMetadata } from "next";
 import { getAmazonLink } from "@/lib/utils";
 import { ArticleSchema } from "@/components/JsonLd";
 import MarkdownContent from "@/components/MarkdownContent";
+import CrossCategoryLinks from "@/components/CrossCategoryLinks";
 
 interface PageProps {
   params: Promise<{
@@ -132,6 +133,10 @@ export default async function ArticlePage({ params }: PageProps) {
 
       {/* Navigation */}
       {/* Comments */}
+      {/* Cross-Category Links */}
+      <CrossCategoryLinks currentCategory="pet-cameras" />
+
+
       <Comments pagePath={`/pet-cameras/${slug}`} siteName="thefamilypick" />
 
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
