@@ -1932,7 +1932,7 @@ Start with a slow feeder and observe for one week. If vomiting doesn't decrease,
 
 ---
 
-\`\`\`
+\`\`\``,
   },
   "cat-ignores-automatic-feeder": {
     slug: "cat-ignores-automatic-feeder",
