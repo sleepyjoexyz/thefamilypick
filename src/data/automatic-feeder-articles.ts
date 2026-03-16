@@ -1932,7 +1932,228 @@ Start with a slow feeder and observe for one week. If vomiting doesn't decrease,
 
 ---
 
-\`\`\``
+\`\`\`
+  },
+  "cat-ignores-automatic-feeder": {
+    slug: "cat-ignores-automatic-feeder",
+    title: "My Cat Ignores the Automatic Feeder — How to Train Them to Use It",
+    description:
+      "Cat won't eat from automatic feeder? Learn why cats resist, step-by-step training method, quietest models, and when to call the vet for food anxiety.",
+    category: "automatic-feeders",
+    content: `## Introduction
+
+You bought the sleek automatic feeder expecting it to solve mealtime chaos. Instead, your cat treats it like a foreign object: ignores it, paws at it, or actively avoids eating from it. Meanwhile, you're scrambling to hand-feed them again.
+
+This is not unusual. Cats are creatures of habit and novelty-averse. A new feeder disrupts their routine and triggers suspicion. But cats can be trained to use an automatic feeder—it just takes patience and the right method. This guide walks through why cats resist, how to gradually introduce the feeder, and which models are quietest for sensitive cats.
+
+## Why Cats Ignore Automatic Feeders
+
+### 1. Neophobia (Fear of New Things)
+
+Cats are neophobic. They fear novel objects, especially ones that disrupt their normal routine. If your cat has eaten from the same bowl in the same spot for years, an unfamiliar plastic container that beeps or dispenses food appears as a threat.
+
+**What's different to your cat:**
+- The shape and texture (plastic vs ceramic)
+- The location (moved across the room)
+- The smell (unfamiliar material)
+- The sound (electric motor, beeping)
+- The ritual (they don't control the timing anymore)
+
+Even if the food inside is identical, the delivery mechanism matters.
+
+### 2. Sound Sensitivity
+
+Automatic feeders make noise: a beep when it's time to dispense, a motor sound as food drops, a lid closing. For noise-sensitive cats, this is startling or anxiety-inducing. Some cats will flee the room when the feeder goes off, then return to eat only when silence returns.
+
+Cats with prior trauma (abuse, loud noise events) or senior cats with heightened anxiety are more susceptible.
+
+### 3. Bowl Shape or Material
+
+The feeder's bowl is often smaller, deeper, or a different material than your cat's normal bowl. Some cats have whisker sensitivity—their whiskers touching the bowl sides during eating is uncomfortable. A tight, deep bowl exacerbates this.
+
+### 4. Loss of Control
+
+Cats like to control when they eat. With a manual bowl, they graze when hungry. With an automatic feeder, food appears on a schedule they don't control. Some cats develop anxiety around this loss of agency.
+
+### 5. Bad First Experience
+
+If the first experience with the feeder is traumatic (a loud noise, food spilling, a sudden beep), the cat associates it with danger. Even if it later operates smoothly, the first impression sticks.
+
+## Step-by-Step Training Method (7–14 Days)
+
+### Phase 1: Introduction Without Food (Days 1–2)
+
+**Goal:** Your cat sees the feeder as a neutral object, not a threat.
+
+1. Place the unplugged feeder in the room where your cat normally eats
+2. Leave it there for 24 hours without touching it or plugging it in
+3. Feed your cat's normal meal in their regular bowl, not in the feeder
+4. Let your cat sniff and investigate the feeder at their own pace
+5. Don't force interaction—just let it sit
+
+**What to expect:** Your cat will likely ignore it, sniff cautiously, or investigate. That's success. No fear is the goal.
+
+### Phase 2: Empty Feeder Exploration (Days 3–4)
+
+1. Plug in the feeder but don't fill it yet (so it won't dispense automatically)
+2. Place a small amount of their regular kibble or a few treats directly in the feeder bowl
+3. Let them eat from it like a regular bowl (no automatic dispensing)
+4. Feed their normal meal this way
+5. Praise gently ("good cat") and leave the room to reduce pressure
+
+**Key point:** The feeder is just a bowl right now. No surprise noise, no automation.
+
+**What to expect:** Most cats will eat if food is already in the bowl. This builds positive association: feeder = food source.
+
+### Phase 3: Introduce Soft Sounds (Days 5–6)
+
+1. Use the feeder's quiet mode or manual dispense button (most models have this)
+2. Manually trigger a single quiet dispense while your cat is in the room but not right at the feeder
+3. Immediately put some kibble in the bowl
+4. Step back and let them eat
+5. Repeat this 2–3 times per day
+
+**Why this works:** They hear the sound in a positive context (food arrives immediately after). The sound becomes a cue: "food is coming."
+
+**What to expect:** Some cats will flinch at the sound. That's normal. They'll quickly learn the sound predicts food.
+
+### Phase 4: Increase Automation (Days 7–10)
+
+1. Set the feeder to dispense at a time when your cat normally eats (e.g., breakfast time)
+2. Be in the room when it goes off, so your cat doesn't face the sudden noise alone
+3. When the feeder beeps/dispenses, praise your cat immediately: "Good!" or treats
+4. Stand nearby but don't interfere—let them approach and eat
+5. Repeat at the regular feeding time
+
+**What to expect:** Some cats will approach and eat immediately. Others will wait until you're out of the room. Both are fine. They're learning the schedule.
+
+### Phase 5: Establish Routine (Days 11–14)
+
+1. Set the feeder to dispense at regular meal times (e.g., 8 AM and 5 PM)
+2. Continue being in the room for the first few dispenses
+3. Gradually step back: be in the room but across the room, then out of sight but nearby, then in another room
+4. Keep the feeder in the same location every day
+5. Measure portions so your cat eats at predictable times
+
+**What to expect:** By day 14, most cats accept the feeder as part of their meal routine. They'll hear the beep and head to the bowl.
+
+## Special Handling for Sensitive or Anxious Cats
+
+### For Noise-Sensitive Cats
+
+- **Use the quietest feeder available** (see recommendations below; some models under 60 dB)
+- **Place the feeder away from high-traffic areas** to reduce startle response from activity around it
+- **Use treats to reward** every time the feeder makes noise, creating a strong positive association
+- **Feed them treats by hand near the feeder** first, then gradually near the bowl, so they relax around it
+- **Try a non-beeping feeder** (some models dispense without alerting the cat; the cat discovers the food on their own)
+
+### For Highly Anxious Cats
+
+- **Extend the training to 3–4 weeks** (don't rush)
+- **Use very high-value treats** (wet food, freeze-dried meat) to create strong motivation
+- **Feed them their first meal of the day from the feeder** when they're hungriest and most motivated to eat
+- **Try pheromone spray** (Feliway) around the feeder to reduce anxiety
+- **Consider a vet check:** if your cat refuses food for more than 24 hours or shows extreme stress, rule out medical issues or consider anti-anxiety medication from your vet
+
+### For Senior Cats
+
+- **Go slower:** older cats need more time to adapt to changes
+- **Increase food motivation:** senior cats sometimes eat less; use their favorite flavor to encourage feeder use
+- **Consider a shallow feeder bowl** (or place a shallow bowl inside the feeder) to avoid forcing them to bend deeply
+- **Monitor weight:** make sure they're actually eating enough
+
+## Feeder Placement Tips
+
+**Best location:**
+- Away from the litter box (cats don't like eating near where they eliminate)
+- In a quiet corner or low-traffic area (not near the washing machine or near doors where loud noises happen)
+- On a level, non-slippery surface (not on tile if your cat slips easily)
+- Away from other pets if you have them (creates a calm eating space)
+
+**Bad location:**
+- Right next to the litter box
+- In the kitchen under cabinets that bang
+- In a high-traffic hallway
+- In a basement with furnaces or loud appliances
+- Directly under windows where outdoor noise startles the cat
+
+## Which Feeders Are Quietest?
+
+If your cat is sensitive to noise, these models operate at the lowest noise levels:
+
+- **Cat Mate C20 (~40 dB):** Passive slow feeder with NO motor noise. No electricity at all. Quietest possible option.
+- **Cat Mate C500 (~45 dB):** Two-bowl feeder with battery-powered timer. Quiet beep, soft bowl rotation. Good for multi-cat households.
+- **PetDiner Automatic Feeder (~55 dB):** Quieter dispense motor than average. Gentle beep option.
+- **Sure Petcare Microchip Feeder (~50 dB):** Designed for gentle operation. Minimal beeping.
+- **Orsda Automatic Feeder (~60 dB):** Budget option with quieter motor than most models.
+
+**Loud feeders to avoid if your cat is noise-sensitive:**
+- Petmate 5-Meal (70+ dB, loud motor)
+- Aikiou Automatic Feeder (very loud beep)
+- Some generic Amazon brand feeders (loud dispensing mechanism)
+
+## When to Call the Vet
+
+If your cat exhibits any of the following, consult a veterinarian:
+
+- **Refuses to eat from the feeder for more than 24 hours** while food sits in the bowl (suggests severe anxiety, not just feeder resistance)
+- **Vomiting or diarrhea** after the feeder introduction (could be stress response or coincidental illness)
+- **Weight loss** over 1–2 weeks (sign they're not eating enough from the feeder)
+- **Extreme stress behaviors:** hiding all day, not grooming, excessive vocalization (beyond normal adjustment period)
+- **Previously had eating disorder or food anxiety** and the feeder seems to trigger regression
+- **Very old cat (15+)** who suddenly stops eating with the feeder change (may have underlying health issue exacerbated by stress)
+
+Your vet can rule out medical issues, prescribe anti-anxiety medication if needed, or recommend a different feeding approach for your specific cat.
+
+## Common Mistakes to Avoid
+
+**Mistake 1: Using the feeder too soon**
+If you introduce the auto-dispense function on day 1, your cat gets a scary surprise. Go slow: manual bowl → soft sounds → automation.
+
+**Mistake 2: Leaving the feeder unplugged "as a test"**
+The cat learns the feeder is just a bowl. When you suddenly plug it in and it beeps, they're shocked. Instead, plug it in early (phase 2) but don't set auto-dispense until phase 4.
+
+**Mistake 3: Expecting change in a few days**
+Most cats need 7–14 days minimum. Anxious cats need 3–4 weeks. Pushing faster causes regression.
+
+**Mistake 4: Not adjusting bowl material**
+If your cat has whisker sensitivity, they'll resist a deep bowl. Use the shallowest bowl possible or place a wider, shallower bowl inside the feeder bowl.
+
+**Mistake 5: Punishing refusal or frustration**
+If your cat pawing at the feeder and you scold them, you reinforce that the feeder is bad. Instead, calmly remove the feeder, go back a step, and re-introduce.
+
+**Mistake 6: Changing the feeder placement mid-training**
+Cats learn a location. If the feeder moves from the kitchen to the living room halfway through training, start over at phase 1. Consistency matters.
+
+## FAQ
+
+**Q: How long should I leave food in the feeder if my cat doesn't eat it?**
+If manual food sits in the bowl for more than 2 hours, discard it (it dries out and smells stale). If the feeder dispenses automatically and food sits for 4+ hours, discard it too. Don't leave wet food in an automatic feeder for more than 1–2 hours. Reintroduce food at the next meal time.
+
+**Q: What if I have two cats and one will use the feeder but the other won't?**
+Great! One cat adapting is progress. The non-adopter may eventually copy the other cat's behavior. Alternatively, feed the resistant cat separately from the feeder (hand-feed or use a regular bowl) while the other uses the automatic feeder. No rule says all cats must use the same feeder.
+
+**Q: Can I use the feeder to help my cat lose weight, even if they're resistant?**
+Weight loss is important, but forcing the feeder on a reluctant cat creates negative associations and potential eating disorders. Gradually introduce it (this guide), and pair with exercise. If the cat still resists after 4 weeks, use portion control with a manual bowl instead. Weight loss will be slower but safer.
+
+**Q: Should I remove the feeder if my cat hates it?**
+After 2 weeks of consistent training, if your cat still refuses to eat from it, remove it for a week. Then retry the training from phase 1. Sometimes a break resets their psychology. If they still refuse after a second attempt, accept that feeder isn't right for your cat and use a manual bowl with portion control.
+
+**Q: My cat will only eat from the feeder if I stand nearby. Is that normal?**
+Yes, initially. Gradually increase your distance over a week: first, stand 3 feet away, then across the room, then just outside the door. Most cats will eat independently within 10–14 days.
+
+**Q: Can I use wet food in the feeder?**
+Most automatic feeders are designed for dry kibble only. Some models (Cat Mate C500, Sure Petcare) can handle small amounts of wet food, but it must be portioned carefully and eaten within 1–2 hours (wet food dries out and becomes unpalatable). Best practice: stick with kibble for automatic feeders. Use wet food for hand-fed meals only.
+
+## Training Success Checklist
+
+- [ ] Day 1–2: Feeder sits unplugged in the room, cat investigates freely
+- [ ] Day 3–4: Small amount of kibble in the feeder bowl (no automation), cat eats from it
+- [ ] Day 5–6: Manual dispense or soft mode on; cat hears sound + gets food immediately
+- [ ] Day 7–10: Auto-dispense at meal time; you're present but not intervening
+- [ ] Day 11–14: Cat approaches feeder when it dispenses; you can step away
+
+If all checkpoints pass, your cat is trained. Maintain consistent meal times for 2–3 more weeks to solidify the habit.`,
   },
 
 };
