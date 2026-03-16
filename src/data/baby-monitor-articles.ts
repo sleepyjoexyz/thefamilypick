@@ -2255,6 +2255,45 @@ For most new parents in spring 2026, the **Infant Optics DXR-8 Pro** at $130-140
 The best monitor is the one that lets you sleep. Everything else is a feature.`
   },
 
+  "best-baby-monitor-summer-travel-portable-2026": {
+    slug: "best-baby-monitor-summer-travel-portable-2026",
+    title: "Best Portable Baby Monitors for Summer Travel (2026)",
+    description: "Compact, travel-friendly baby monitors for hotel rooms, vacation rentals, and grandparent visits. Wi-Fi and non-Wi-Fi options compared for summer 2026.",
+    category: "baby-monitors",
+    content: `## Why You Need a Travel Baby Monitor
+
+Home baby monitors with large parent units and dedicated cameras are not practical for travel. Hotel rooms have limited outlets, vacation rentals have unpredictable Wi-Fi, and airline carry-on space is precious. A travel baby monitor needs to be compact, work reliably in unfamiliar environments, and set up in under two minutes.
+
+## Wi-Fi vs Non-Wi-Fi for Travel
+
+### Wi-Fi Monitors (Phone-Based)
+Wi-Fi monitors use your smartphone as the parent unit, eliminating extra hardware. The tradeoff: they depend entirely on the local Wi-Fi network. Hotel Wi-Fi is notoriously unreliable and often blocks peer-to-peer device connections. Vacation rental routers vary wildly in quality. If your Wi-Fi monitor loses connection at 2 AM, you are troubleshooting network issues instead of sleeping.
+
+### Non-Wi-Fi (FHSS/DECT) Monitors
+Dedicated-frequency monitors create their own connection independent of Wi-Fi. They work identically in any location because they do not depend on local infrastructure. Range is typically 600-1000 feet, more than enough for any hotel or rental. The downside: you carry a separate parent unit.
+
+### Recommendation for Travel
+Non-Wi-Fi for reliability. The frustration of debugging hotel Wi-Fi at midnight outweighs the convenience of using your phone.
+
+## Top Portable Monitors for Summer Travel
+
+### Infant Optics DXR-8 Pro
+At just 7 oz for the camera unit, the DXR-8 Pro packs easily in a diaper bag. The 5-inch parent unit adds weight but provides a dedicated, always-on display without draining your phone battery. FHSS technology means zero dependence on Wi-Fi. The magnetic camera base attaches to metal surfaces like hotel room lamps or shelf brackets without needing a mount.
+
+### Eufy SpaceView Pro
+The SpaceView Pro camera weighs under 6 oz and the wide-angle lens reduces the need for precise positioning in unfamiliar rooms. The 5-inch parent unit has an 8-hour battery in eco mode, lasting through a full night without charging. No Wi-Fi required, no app needed, no account creation. Plug in and it works.
+
+### VTech RM5754 (Budget Travel Pick)
+At under $60, the VTech RM5754 is affordable enough to designate as a travel-only monitor. The 5-inch screen, two-way talk, and temperature sensor cover essential features. Battery life is shorter at 5 hours in eco mode, but the light weight (5 oz camera) and simple setup make it ideal for families who travel frequently and want a dedicated kit.
+
+## Packing Tips
+
+Wrap the camera in a soft cloth inside a ziplock bag. Bring a 10-foot USB cable and a multi-port USB charger to avoid hunting for outlets in hotel rooms. Pack a small piece of painter's tape for positioning the camera on shelves or headboards. Test the monitor before the first nap at your destination to verify range covers your planned locations.
+
+## Bottom Line
+
+The Infant Optics DXR-8 Pro offers the best balance of portability and image quality. The Eufy SpaceView Pro wins on battery life for long nights away from outlets. The VTech RM5754 is the right choice if you want a cheap, dedicated travel monitor you will not stress about losing or damaging. All three work without Wi-Fi, which is the single most important feature for travel reliability.`,
+  },
 };
 
 export function getBabyMonitorArticle(slug: string): BabyMonitorArticle | undefined {
