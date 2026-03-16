@@ -7,6 +7,7 @@ import { strollers, Stroller } from "@/data/strollers";
 import { strollerArticles } from "@/data/stroller-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 import Link from "next/link";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function StrollersContent() {
   const [strollerType, setStrollerType] = useState<string>("all");
@@ -165,6 +166,9 @@ export default function StrollersContent() {
           manufacturer specifications, real-world testing, and parent feedback.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* ProductFinder */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

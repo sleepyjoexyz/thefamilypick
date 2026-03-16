@@ -8,6 +8,7 @@ import { AirPurifier } from "@/data/air-purifiers";
 import { airPurifierArticles } from "@/data/air-purifier-articles";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function AirPurifiersContent() {
   const [sortBy, setSortBy] = useState<string>("name");
@@ -56,6 +57,9 @@ export default function AirPurifiersContent() {
           product for your needs with our detailed comparison of prices, features, and ratings.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(airPurifierArticles).length > 0 && (

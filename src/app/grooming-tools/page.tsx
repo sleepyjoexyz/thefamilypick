@@ -8,6 +8,7 @@ import { groomingToolArticles } from "@/data/grooming-tool-articles";
 import { GroomingTool } from "@/data/grooming-tools";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function GroomingToolsContent() {
   const [toolType, setToolType] = useState<string>("all");
@@ -85,6 +86,9 @@ export default function GroomingToolsContent() {
           Our methodology is based on manufacturer specifications, user ratings, durability testing, and real-world grooming performance data.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(groomingToolArticles).length > 0 && (

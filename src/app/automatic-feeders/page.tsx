@@ -8,6 +8,7 @@ import { automaticFeederArticles } from "@/data/automatic-feeder-articles";
 import { AutoFeeder } from "@/data/automatic-feeders";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function AutomaticFeedersContent() {
   const [feederType, setFeederType] = useState<string>("all");
@@ -163,6 +164,9 @@ export default function AutomaticFeedersContent() {
           Our methodology is based on manufacturer specifications, user ratings, real-world performance data, and durability testing.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(automaticFeederArticles).length > 0 && (

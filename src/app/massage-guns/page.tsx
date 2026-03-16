@@ -8,6 +8,7 @@ import { MassageGun } from "@/data/massage-guns";
 import { massageGunArticles } from "@/data/massage-gun-articles";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function MassageGunsContent() {
   const [sortBy, setSortBy] = useState<string>("name");
@@ -58,6 +59,9 @@ export default function MassageGunsContent() {
           product for your needs with our detailed comparison of prices, features, and ratings.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(massageGunArticles).length > 0 && (

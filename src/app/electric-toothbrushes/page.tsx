@@ -8,6 +8,7 @@ import { ElectricToothbrush } from "@/data/electric-toothbrushes";
 import { electricToothbrushArticles } from "@/data/electric-toothbrush-articles";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function ElectricToothbrushesContent() {
   const [sortBy, setSortBy] = useState<string>("name");
@@ -68,6 +69,9 @@ export default function ElectricToothbrushesContent() {
           product for your needs with our detailed comparison of prices, features, and ratings.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(electricToothbrushArticles).length > 0 && (

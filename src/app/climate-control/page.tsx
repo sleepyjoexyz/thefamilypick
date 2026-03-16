@@ -8,6 +8,7 @@ import { ClimateDevice } from "@/data/climate-control";
 import { climateControlArticles } from "@/data/climate-control-articles";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function ClimateControlContent() {
   const [sortBy, setSortBy] = useState<string>("name");
@@ -68,6 +69,9 @@ export default function ClimateControlContent() {
           product for your needs with our detailed comparison of prices, features, and ratings.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(climateControlArticles).length > 0 && (

@@ -8,6 +8,7 @@ import { SecurityCamera } from "@/data/security-cameras";
 import { securityCameraArticles } from "@/data/security-camera-articles";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function SecurityCamerasContent() {
   const [sortBy, setSortBy] = useState<string>("name");
@@ -58,6 +59,9 @@ export default function SecurityCamerasContent() {
           product for your needs with our detailed comparison of prices, features, and ratings.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(securityCameraArticles).length > 0 && (

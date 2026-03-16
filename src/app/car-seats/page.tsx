@@ -8,6 +8,7 @@ import { carSeatArticles } from "@/data/car-seat-articles";
 import { CarSeat } from "@/data/car-seats";
 import Link from "next/link";
 import { getAmazonLink, formatPrice } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function CarSeatsContent() {
   const [seatType, setSeatType] = useState<string>("all");
@@ -190,6 +191,9 @@ export default function CarSeatsContent() {
           </div>
         )}
       </section>
+      <DealsBanner />
+
+
 
       {/* ProductFinder */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

@@ -8,6 +8,7 @@ import { AirFryer } from "@/data/air-fryers";
 import { airFryerArticles } from "@/data/air-fryer-articles";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function AirFryersContent() {
   const [sortBy, setSortBy] = useState<string>("name");
@@ -118,6 +119,9 @@ export default function AirFryersContent() {
           product for your needs with our detailed comparison of prices, features, and ratings.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(airFryerArticles).length > 0 && (

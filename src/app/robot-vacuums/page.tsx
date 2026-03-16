@@ -8,6 +8,7 @@ import { RobotVacuum } from "@/data/robot-vacuums";
 import { robotVacuumArticles } from "@/data/robot-vacuum-articles";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function RobotVacuumsContent() {
   const [sortBy, setSortBy] = useState<string>("name");
@@ -58,6 +59,9 @@ export default function RobotVacuumsContent() {
           product for your needs with our detailed comparison of prices, features, and ratings.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(robotVacuumArticles).length > 0 && (

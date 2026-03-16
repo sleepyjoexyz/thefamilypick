@@ -8,6 +8,7 @@ import { petCameras, PetCamera } from "@/data/pet-cameras";
 import { petCameraArticles } from "@/data/pet-camera-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function PetCamerasContent() {
   const [priceRange, setPriceRange] = useState<string>("all");
@@ -101,6 +102,9 @@ export default function PetCamerasContent() {
           camera is right for your home.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* ProductFinder */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-200">

@@ -8,6 +8,7 @@ import { BabyMonitor } from "@/data/baby-monitors";
 import Link from "next/link";
 import { babyMonitorArticles } from "@/data/baby-monitor-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function BabyMonitorsContent() {
   const [monitorType, setMonitorType] = useState<string>("all");
@@ -185,6 +186,9 @@ export default function BabyMonitorsContent() {
           Our methodology is based on manufacturer specifications, user ratings, security certifications, and real-world performance data.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(babyMonitorArticles).length > 0 && (

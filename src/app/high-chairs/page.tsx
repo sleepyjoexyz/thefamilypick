@@ -7,6 +7,7 @@ import { highChairs, HighChair } from "@/data/high-chairs";
 import { highChairArticles } from "@/data/high-chair-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function HighChairsContent() {
   const [priceRange, setPriceRange] = useState<string>("all");
@@ -188,6 +189,9 @@ export default function HighChairsContent() {
           </div>
         </div>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Link */}
       {Object.keys(highChairArticles).length > 0 && (

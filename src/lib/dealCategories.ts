@@ -4,22 +4,25 @@ export interface DealCategory {
   emoji: string;       // Category emoji
   color: string;       // Tailwind color class for badges
   description: string; // SEO meta description for the category deal page
+  relatedCategories?: string[];
 }
 
 export const dealCategories: DealCategory[] = [
   {
-    name: 'Baby Gear',
-    slug: 'baby-gear',
-    emoji: '👶',
-    color: 'blue',
-    description: 'Best baby gear deals today — save on monitors, strollers, car seats & more. Updated daily.',
+    name: "Baby Gear",
+    slug: "baby-gear",
+    emoji: "👶",
+    color: "blue",
+    description: "Best baby gear deals today — save on monitors, strollers, car seats & more. Updated daily.",
+    relatedCategories: ["baby-monitors", "strollers", "car-seats", "high-chairs"],
   },
   {
-    name: 'Pet Tech',
-    slug: 'pet-tech',
-    emoji: '🐾',
-    color: 'green',
-    description: 'Best pet tech deals today — save on feeders, cameras, GPS trackers & more. Updated daily.',
+    name: "Pet Tech",
+    slug: "pet-tech",
+    emoji: "🐾",
+    color: "green",
+    description: "Best pet tech deals today — save on feeders, cameras, GPS trackers & more. Updated daily.",
+    relatedCategories: ["automatic-feeders", "pet-cameras", "gps-trackers", "grooming-tools"],
   },
 ];
 

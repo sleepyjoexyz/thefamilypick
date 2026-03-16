@@ -8,6 +8,7 @@ import { gpsTrackerArticles } from "@/data/gps-tracker-articles";
 import { GPSTracker } from "@/data/gps-trackers";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import DealsBanner from '@/components/DealsBanner';
 
 export default function GPSTrackersContent() {
   const [trackingType, setTrackingType] = useState<string>("all");
@@ -163,6 +164,9 @@ export default function GPSTrackersContent() {
           Our methodology is based on manufacturer specifications, user ratings, range testing, battery life verification, and subscription cost analysis.
         </p>
       </section>
+      <DealsBanner />
+
+
 
       {/* Articles Section */}
       {Object.keys(gpsTrackerArticles).length > 0 && (
