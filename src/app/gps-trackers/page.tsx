@@ -9,6 +9,7 @@ import { GPSTracker } from "@/data/gps-trackers";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
+import ProductImage from "@/components/ProductImage";
 
 export default function GPSTrackersContent() {
   const [trackingType, setTrackingType] = useState<string>("all");
@@ -385,13 +386,10 @@ export default function GPSTrackersContent() {
               <div key={tracker.id} className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
                 {/* Image */}
                 <div className="bg-gray-100 h-48 flex items-center justify-center">
-                  <img
-                    src={tracker.imageUrl}
-                    alt={`${tracker.brand} ${tracker.model}`}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1611003228941-98852ba62227?w=400";
-                    }}
+                  <ProductImage
+                    imageUrl={tracker.imageUrl}
+                    alt={tracker.model}
+                    brand={tracker.brand}
                   />
                 </div>
 

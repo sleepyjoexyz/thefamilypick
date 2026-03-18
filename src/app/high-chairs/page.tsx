@@ -8,6 +8,7 @@ import { highChairArticles } from "@/data/high-chair-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
 import DealsBanner from '@/components/DealsBanner';
+import ProductImage from "@/components/ProductImage";
 
 export default function HighChairsContent() {
   const [priceRange, setPriceRange] = useState<string>("all");
@@ -438,11 +439,11 @@ export default function HighChairsContent() {
                 className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
               >
                 <div className="bg-gray-100 h-48 flex items-center justify-center">
-                  <img
-                    src={product.imageUrl}
-                    alt={`${product.brand} ${product.model}`}
-                    className="h-full w-full object-cover"
-                  />
+                  <ProductImage
+                  imageUrl={product.imageUrl}
+                  alt={product.model}
+                  brand={product.brand}
+                />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold text-lg text-gray-900">

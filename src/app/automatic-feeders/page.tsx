@@ -9,6 +9,7 @@ import { AutoFeeder } from "@/data/automatic-feeders";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
+import ProductImage from "@/components/ProductImage";
 
 export default function AutomaticFeedersContent() {
   const [feederType, setFeederType] = useState<string>("all");
@@ -384,13 +385,10 @@ export default function AutomaticFeedersContent() {
               <div key={feeder.id} className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
                 {/* Image */}
                 <div className="bg-gray-100 h-48 flex items-center justify-center">
-                  <img
-                    src={feeder.imageUrl}
-                    alt={`${feeder.brand} ${feeder.model}`}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1587300411107-ec5ff141dd27?w=400";
-                    }}
+                  <ProductImage
+                    imageUrl={feeder.imageUrl}
+                    alt={feeder.model}
+                    brand={feeder.brand}
                   />
                 </div>
 

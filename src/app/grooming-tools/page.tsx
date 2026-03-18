@@ -9,6 +9,7 @@ import { GroomingTool } from "@/data/grooming-tools";
 import Link from "next/link";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
+import ProductImage from "@/components/ProductImage";
 
 export default function GroomingToolsContent() {
   const [toolType, setToolType] = useState<string>("all");
@@ -313,13 +314,10 @@ export default function GroomingToolsContent() {
               <div key={tool.id} className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
                 {/* Image */}
                 <div className="bg-gray-100 h-48 flex items-center justify-center">
-                  <img
-                    src={tool.imageUrl}
-                    alt={`${tool.brand} ${tool.model}`}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1585314355797-a2c08b56e0e3?w=400";
-                    }}
+                  <ProductImage
+                    imageUrl={tool.imageUrl}
+                    alt={tool.model}
+                    brand={tool.brand}
                   />
                 </div>
 

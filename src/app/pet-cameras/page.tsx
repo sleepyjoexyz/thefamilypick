@@ -9,6 +9,7 @@ import { petCameraArticles } from "@/data/pet-camera-articles";
 import { getAmazonLink } from "@/lib/utils";
 import Link from "next/link";
 import DealsBanner from '@/components/DealsBanner';
+import ProductImage from "@/components/ProductImage";
 
 export default function PetCamerasContent() {
   const [priceRange, setPriceRange] = useState<string>("all");
@@ -369,10 +370,10 @@ export default function PetCamerasContent() {
               className="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow"
             >
               <div className="aspect-square bg-gray-100 flex items-center justify-center">
-                <img
-                  src={camera.imageUrl}
-                  alt={`${camera.brand} ${camera.model}`}
-                  className="w-full h-full object-cover"
+                <ProductImage
+                  imageUrl={camera.imageUrl}
+                  alt={camera.model}
+                  brand={camera.brand}
                 />
               </div>
               <div className="p-4">

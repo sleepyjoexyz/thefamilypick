@@ -9,6 +9,7 @@ import Link from "next/link";
 import { babyMonitorArticles } from "@/data/baby-monitor-articles";
 import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
+import ProductImage from "@/components/ProductImage";
 
 export default function BabyMonitorsContent() {
   const [monitorType, setMonitorType] = useState<string>("all");
@@ -436,13 +437,10 @@ export default function BabyMonitorsContent() {
               <div key={monitor.id} className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
                 {/* Image */}
                 <div className="bg-gray-100 h-48 flex items-center justify-center">
-                  <img
-                    src={monitor.imageUrl}
-                    alt={`${monitor.brand} ${monitor.model}`}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1585691261385-35c1ad5f9e3e?w=400";
-                    }}
+                  <ProductImage
+                    imageUrl={monitor.imageUrl}
+                    alt={monitor.model}
+                    brand={monitor.brand}
                   />
                 </div>
 
