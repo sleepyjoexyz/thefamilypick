@@ -405,7 +405,7 @@ Choose mini if: You travel frequently, need portability first, want light recove
 
   "massage-gun-safety-when-not-to-use": {
     slug: "massage-gun-safety-when-not-to-use",
-    title: "Massage Gun Safety: When NOT to Use One and Injury Prevention Guide",
+    title: "Massage Gun Safety: When NOT to Use One and Injury",
     description:
       "Learn the safety considerations for massage guns, when they're dangerous, and how to avoid overuse injuries. Understand conditions where massage guns should never be used.",
     category: "massage-guns",
@@ -731,7 +731,7 @@ Massage guns are safe when used properly on appropriate areas with correct durat
 
   "massage-gun-attachment-heads-explained": {
     slug: "massage-gun-attachment-heads-explained",
-    title: "Massage Gun Attachment Heads Explained: Which One to Use and When",
+    title: "Massage Gun Attachment Heads Explained: Which One to Use",
     description:
       "Understand massage gun attachment types, their purposes, which muscles they target, and how to choose the right head for your needs.",
     category: "massage-guns",

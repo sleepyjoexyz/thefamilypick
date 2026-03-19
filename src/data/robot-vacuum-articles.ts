@@ -9,7 +9,7 @@ export interface Article {
 export const robotVacuumArticles: Record<string, Article> = {
   "lidar-vs-camera-navigation": {
     slug: "lidar-vs-camera-navigation",
-    title: "LiDAR vs Camera Navigation in Robot Vacuums: Which Maps Better?",
+    title: "LiDAR vs Camera Navigation in Robot Vacuums: Which Maps",
     description:
       "Compare LiDAR, camera, and gyroscope navigation systems in robot vacuums to understand which mapping technology works best for your home.",
     category: "robot-vacuums",
@@ -529,7 +529,7 @@ For most people, buying a dedicated robot vacuum and keeping a handheld mop sepa
 
   "robot-vacuum-maintenance-guide": {
     slug: "robot-vacuum-maintenance-guide",
-    title: "Robot Vacuum Maintenance Guide: Filters, Brushes, and Wheels Keep It Running",
+    title: "Robot Vacuum Maintenance Guide: Filters, Brushes, and",
     description:
       "Learn the maintenance schedule, replacement parts, and longevity strategies to keep your robot vacuum performing well for 5+ years without mechanical failure.",
     category: "robot-vacuums",
@@ -1373,7 +1373,7 @@ Whatever you choose, run it daily during spring shedding season. The best robot 
   },
   "shark-vs-roomba-robot-vacuum-families-2026": {
     slug: "shark-vs-roomba-robot-vacuum-families-2026",
-    title: "Shark AI Ultra vs iRobot Roomba j7+: Best Robot Vacuum for Families in 2026",
+    title: "Shark AI Ultra vs iRobot Roomba j7+: Best Robot Vacuum",
     description: "Compare the Shark AI Ultra and iRobot Roomba j7+ for family homes. Covers suction power, obstacle avoidance, self-empty bases, pet hair performance, and pricing.",
     category: "robot-vacuums",
     content: `## The Family Robot Vacuum Showdown

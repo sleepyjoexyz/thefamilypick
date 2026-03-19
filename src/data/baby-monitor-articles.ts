@@ -9,7 +9,7 @@ export interface BabyMonitorArticle {
 export const babyMonitorArticles: Record<string, BabyMonitorArticle> = {
   "wifi-vs-non-wifi-baby-monitor": {
     slug: "wifi-vs-non-wifi-baby-monitor",
-    title: "WiFi vs Non-WiFi Baby Monitors: Privacy, Security, and Reliability",
+    title: "WiFi vs Non-WiFi Baby Monitors: Privacy, Security, and",
     description:
       "Compare WiFi-enabled and closed-system baby monitors. Understand privacy risks, reliability differences, range limitations, and which type suits your family.",
     category: "baby-monitors",
@@ -387,7 +387,7 @@ All approaches are effective; choose based on your budget, privacy preference, a
   },
   "baby-monitor-security-guide": {
     slug: "baby-monitor-security-guide",
-    title: "Baby Monitor Security Guide: Encryption, Hacking Prevention, and Safe Setup",
+    title: "Baby Monitor Security Guide: Encryption, Hacking",
     description:
       "Secure your baby monitor against hacking. Learn encryption standards, password best practices, network security, firmware updates, and red flags to avoid.",
     category: "baby-monitors",
@@ -657,7 +657,7 @@ Your child's privacy and home security are worth the effort of proper setup and 
   },
   "smart-baby-monitor-features-worth-paying-for": {
     slug: "smart-baby-monitor-features-worth-paying-for",
-    title: "Smart Baby Monitor Features Worth Paying For (And Which You Can Skip)",
+    title: "Smart Baby Monitor Features Worth Paying For (And Which",
     description:
       "Analyze premium features in baby monitors. Which features (AI sleep tracking, cry detection, pan/tilt/zoom) justify the cost? Which are marketing gimmicks?",
     category: "baby-monitors",
@@ -1060,7 +1060,7 @@ Remember: The best baby monitor is the one you'll actually use. An affordable mo
 
   "baby-monitor-range-interference": {
     slug: "baby-monitor-range-interference",
-    title: "Baby Monitor Range and Interference: Why Your Signal Cuts Out and How to Fix It",
+    title: "Baby Monitor Range and Interference: Why Your Signal Cuts",
     description:
       "Understand baby monitor range limitations, interference sources, and practical solutions. Learn which monitors have the best range and how to optimize your setup.",
     category: "baby-monitors",
@@ -1276,7 +1276,7 @@ Start with realistic range expectations (30-50% of manufacturer claims), test yo
 
   "audio-only-vs-video-baby-monitors": {
     slug: "audio-only-vs-video-baby-monitors",
-    title: "Audio-Only vs Video Baby Monitors: Do You Really Need the Camera?",
+    title: "Audio-Only vs Video Baby Monitors: Do You Really Need the",
     description:
       "Compare audio-only and video monitors. Understand when each is sufficient, cost differences, and whether video monitoring improves parenting outcomes.",
     category: "baby-monitors",
@@ -1525,7 +1525,7 @@ The best monitor for your family isn't automatically the most expensive or featu
 
 Start with audio. If you find yourself wishing you could see your baby or you're away from home frequently, upgrade to video. Most parents never regret starting simple; many regret over-complicating their monitoring setup.`,
   },
-  "nanit-pro-vs-infant-optics-dxr8-pro": { slug: "nanit-pro-vs-infant-optics-dxr8-pro", title: "Nanit Pro vs Infant Optics DXR-8 Pro: WiFi Smart Monitor vs Non-WiFi Champion", description: "Compare Nanit Pro WiFi monitor vs Infant Optics DXR-8 Pro non-WiFi monitor. See specs, features, price, and which is best for your family.", category: "baby-monitors", content: `## Comparison
+  "nanit-pro-vs-infant-optics-dxr8-pro": { slug: "nanit-pro-vs-infant-optics-dxr8-pro", title: "Nanit Pro vs Infant Optics DXR-8 Pro: WiFi Smart Monitor", description: "Compare Nanit Pro WiFi monitor vs Infant Optics DXR-8 Pro non-WiFi monitor. See specs, features, price, and which is best for your family.", category: "baby-monitors", content: `## Comparison
 
 Nanit Pro: \$299, 1080p, WiFi, remote viewing, sleep tracking.
 
@@ -1534,7 +1534,7 @@ Infant Optics DXR-8 Pro: \$149, 720p, no WiFi, 1000ft range, privacy-focused.
 ## Verdict
 
 Nanit for remote monitoring. Infant Optics for privacy and simplicity.` },
-  "best-non-wifi-baby-monitors": { slug: "best-non-wifi-baby-monitors", title: "5 Best Non-WiFi Baby Monitors in 2026: No Internet, No Hacking Risk", description: "Best non-WiFi baby monitors for privacy and reliability.", category: "baby-monitors", content: `## Top 5 Non-WiFi Monitors
+  "best-non-wifi-baby-monitors": { slug: "best-non-wifi-baby-monitors", title: "5 Best Non-WiFi Baby Monitors in 2026: No Internet, No", description: "Best non-WiFi baby monitors for privacy and reliability.", category: "baby-monitors", content: `## Top 5 Non-WiFi Monitors
 
 1. Infant Optics DXR-8 Pro - \$149
 2. eufy SpaceView Pro - \$129
@@ -1556,7 +1556,7 @@ Large homes need 1000+ foot range to overcome thick walls.
 3. Nanit Pro - Unlimited WiFi
 
 Test range before buying.` },
-  "infant-optics-dxr8-pro-vs-hellobaby-hb6550": { slug: "infant-optics-dxr8-pro-vs-hellobaby-hb6550", title: "Infant Optics DXR-8 Pro vs HelloBaby HB6550: Budget vs Premium Baby Monitor Showdown", description: "Compare the Infant Optics DXR-8 Pro and HelloBaby HB6550 baby monitors. Specs, video quality, range, and which is the better value for your family.", category: "baby-monitors", content: `## The Budget Decision
+  "infant-optics-dxr8-pro-vs-hellobaby-hb6550": { slug: "infant-optics-dxr8-pro-vs-hellobaby-hb6550", title: "Infant Optics DXR-8 Pro vs HelloBaby HB6550: Budget vs", description: "Compare the Infant Optics DXR-8 Pro and HelloBaby HB6550 baby monitors. Specs, video quality, range, and which is the better value for your family.", category: "baby-monitors", content: `## The Budget Decision
 
 Choosing between a premium and budget baby monitor is one of the most common dilemmas for new parents. The Infant Optics DXR-8 Pro ($179) represents the gold standard in non-WiFi monitoring, while the HelloBaby HB6550 ($59) has become the best-selling budget option on Amazon. But does spending 3x more actually get you a better monitor?
 
@@ -1929,7 +1929,7 @@ Not necessary for safety, but you can to save energy and reduce WiFi traffic. Mo
   },
   "baby-monitor-keeps-losing-signal": {
     slug: "baby-monitor-keeps-losing-signal",
-    title: "Why Does My Baby Monitor Keep Losing Signal? Troubleshooting Dropped Connections",
+    title: "Why Does My Baby Monitor Keep Losing Signal?",
     description:
       "Baby monitor keeps disconnecting? Learn why WiFi signals drop, how to stop static and video loss, and which monitors have the most reliable connection strength.",
     category: "baby-monitors",
@@ -2296,7 +2296,7 @@ The Infant Optics DXR-8 Pro offers the best balance of portability and image qua
   },
   "complete-guide-baby-monitors-2026": {
     slug: "complete-guide-baby-monitors-2026",
-    title: "The Complete Guide to Baby Monitors in 2026: Every Type Explained",
+    title: "Baby Monitors in 2026: Every Type Explained",
     description: "Everything you need to know about baby monitors in 2026 — WiFi vs non-WiFi, video vs audio-only, range, night vision, and which features actually matter for your family.",
     category: "baby-monitors",
     content: `## Introduction

@@ -9,7 +9,7 @@ export interface StrollerArticle {
 export const strollerArticles: Record<string, StrollerArticle> = {
   "full-size-vs-lightweight-stroller": {
     slug: "full-size-vs-lightweight-stroller",
-    title: "Full-Size vs Lightweight Strollers: Which Is Right for Your Family?",
+    title: "Full-Size vs Lightweight Strollers: Which Is Right for",
     description:
       "Compare full-size and lightweight strollers. Learn the trade-offs between storage capacity, maneuverability, comfort, and portability to make the best choice for your lifestyle.",
     category: "strollers",
@@ -136,7 +136,7 @@ Neither is objectively better; the choice depends on your lifestyle. Urban, trav
 
   "best-strollers-under-500": {
     slug: "best-strollers-under-500",
-    title: "Best Strollers Under $500: Premium Features at Mid-Range Prices",
+    title: "Best Strollers Under $500: Premium Features at Mid-Range",
     description:
       "Find the best value strollers under $500. Compare features, storage, suspension, and car seat compatibility at budget-friendly prices without sacrificing quality.",
     category: "strollers",
@@ -300,7 +300,7 @@ None of these choices are wrong. All offer proven features, reliable brands, and
 
   "jogging-stroller-buying-guide": {
     slug: "jogging-stroller-buying-guide",
-    title: "Jogging Stroller Buying Guide: What Separates Quality from Gimmick",
+    title: "Jogging Stroller Buying Guide: What Separates Quality",
     description:
       "Learn what makes a jogging stroller safe and effective for running. Compare suspension, wheels, brakes, and features that matter for serious runners vs casual joggers.",
     category: "strollers",
@@ -492,7 +492,7 @@ Never compromise on the three defining features: fixed front wheel, responsive s
 
   "stroller-car-seat-compatibility-guide": {
     slug: "stroller-car-seat-compatibility-guide",
-    title: "Stroller and Car Seat Compatibility: Travel Systems Explained",
+    title: "Stroller and Car Seat Compatibility: Travel Systems",
     description:
       "Understand stroller and car seat compatibility. Learn how travel systems work, adapter requirements, and which stroller-car seat combinations offer seamless integration.",
     category: "strollers",
@@ -902,7 +902,7 @@ Start by mapping your typical day: Where do you spend most time? How often do yo
 
   "stroller-accessories-worth-buying": {
     slug: "stroller-accessories-worth-buying",
-    title: "Stroller Accessories Worth Buying: Organizers, Footmuffs, Cup Holders & More",
+    title: "Stroller Accessories Worth Buying: Organizers, Footmuffs,",
     description:
       "Essential and nice-to-have stroller accessories that improve functionality, comfort, and convenience. Learn which add-ons justify their cost and which are marketing gimmicks.",
     category: "strollers",
@@ -1522,7 +1522,7 @@ The BOB Wayfinder handles genuine sand the best, but weighs more. The UPPAbaby R
   },
   "ultimate-stroller-guide-choosing-right-one-2026": {
     slug: "ultimate-stroller-guide-choosing-right-one-2026",
-    title: "The Ultimate Stroller Guide 2026: How to Pick the Right One for Your Family",
+    title: "The Ultimate Stroller Guide 2026: How to Pick the Right",
     description: "Full-length stroller buying guide covering every type — umbrella, jogger, full-size, double, travel system — plus terrain advice, fold types, and what features justify the price.",
     category: "strollers",
     content: `## Introduction

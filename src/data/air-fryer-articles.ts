@@ -593,7 +593,7 @@ Don't be swayed by marketing claims about air fryer "technology." The real value
 
   "air-fryer-cleaning-and-longevity": {
     slug: "air-fryer-cleaning-and-longevity",
-    title: "Air Fryer Cleaning Guide and Longevity Tips: Keep Your Unit Running for Years",
+    title: "Air Fryer Cleaning Guide and Longevity Tips: Keep Your",
     description:
       "Learn proper air fryer cleaning methods, maintenance schedules, and how to extend the lifespan of your unit without damaging the non-stick coating.",
     category: "air-fryers",
@@ -778,7 +778,7 @@ Proper air fryer maintenance requires only 10 minutes per week. Daily wipe-downs
 
   "best-air-fryer-accessories-worth-buying": {
     slug: "best-air-fryer-accessories-worth-buying",
-    title: "Best Air Fryer Accessories Worth Buying: Liners, Racks, and More",
+    title: "Best Air Fryer Accessories Worth Buying: Liners, Racks,",
     description:
       "Discover which air fryer accessories genuinely improve cooking and longevity, which are gimmicks, and how much each costs to help you prioritize purchases.",
     category: "air-fryers",

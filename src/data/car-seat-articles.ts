@@ -448,7 +448,7 @@ Measure your vehicle before purchasing, test-fit if possible, and prioritize saf
 
   "car-seat-installation-guide": {
     slug: "car-seat-installation-guide",
-    title: "Complete Car Seat Installation Guide: LATCH vs Seatbelt and Common Mistakes",
+    title: "Complete Car Seat Installation Guide: LATCH vs Seatbelt",
     description:
       "Master car seat installation with our comprehensive guide. Learn LATCH vs seatbelt methods, correct belt routing, angle adjustment, and how to avoid the 7 most common installation mistakes.",
     category: "car-seats",
@@ -751,7 +751,7 @@ Master these five steps and you'll avoid 90% of common installation mistakes. If
 
   "when-to-switch-car-seat-stages": {
     slug: "when-to-switch-car-seat-stages",
-    title: "When to Switch Car Seats: Transition Timeline and Safety Guidelines",
+    title: "When to Switch Car Seats: Transition Timeline and Safety",
     description:
       "Learn the car seat transition timeline: when to move from infant to convertible, rear-facing to forward-facing, and convertible to booster seats. Includes weight, height, and age guidelines.",
     category: "car-seats",
@@ -1087,7 +1087,7 @@ Never transition early based solely on age or desire for comfort. Prioritize saf
 
   "car-seat-installation-mistakes": {
     slug: "car-seat-installation-mistakes",
-    title: "Car Seat Installation Mistakes: Common Errors That Compromise Safety",
+    title: "Car Seat Installation Mistakes: Common Errors That",
     description:
       "Identify and fix common car seat installation errors. Learn what mistakes 70% of parents make and how to install correctly for maximum safety.",
     category: "car-seats",
@@ -1336,7 +1336,7 @@ Most importantly: Correct installation today protects your child in tomorrow's c
 
   "rear-facing-vs-forward-facing-transition": {
     slug: "rear-facing-vs-forward-facing-transition",
-    title: "When to Switch from Rear-Facing to Forward-Facing: The Safety Evidence",
+    title: "When to Switch from Rear-Facing to Forward-Facing: The",
     description:
       "Understand when to transition from rear-facing to forward-facing car seats. Review the safety evidence and learn what experts recommend for protecting your child's developing spine.",
     category: "car-seats",
@@ -1542,7 +1542,7 @@ The best car seat is one you'll use correctly, consistently, and without resentm
 
   "car-seat-safety-ratings-explained": {
     slug: "car-seat-safety-ratings-explained",
-    title: "Car Seat Safety Ratings Explained: NHTSA, IIHS & What Tests Actually Measure",
+    title: "Car Seat Safety Ratings Explained: NHTSA, IIHS & What",
     description:
       "Understand how car seats are rated for safety. Learn what NHTSA and IIHS testing measures, how to interpret ratings, and which tests matter most.",
     category: "car-seats",
@@ -2053,7 +2053,7 @@ Measure your vehicle first. In a 45-inch back seat, two narrow seats will fit; t
 
   "how-to-install-car-seat-latch-vs-seatbelt": {
     slug: "how-to-install-car-seat-latch-vs-seatbelt",
-    title: "How to Install a Car Seat: LATCH vs Seatbelt Method Step-by-Step",
+    title: "How to Install a Car Seat: LATCH vs Seatbelt Method",
     description: "Complete guide to installing a car seat safely using LATCH or seatbelt. Learn both methods, when to use each, the 1-inch test, recline angles, and common installation mistakes.",
     category: "car-seats",
     content: `## Understanding LATCH vs Seatbelt: Which Should You Use?
@@ -2395,7 +2395,7 @@ Boosters are for children age 4+ and minimum 40 lbs. Infants and toddlers requir
   },
   "graco-4ever-vs-chicco-nextfit-convertible-car-seat": {
     slug: "graco-4ever-vs-chicco-nextfit-convertible-car-seat",
-    title: "Graco 4Ever DLX vs Chicco NextFit Zip: Which Convertible Car Seat Wins?",
+    title: "Graco 4Ever DLX vs Chicco NextFit Zip: Which Convertible",
     description: "Head-to-head comparison of the Graco 4Ever DLX and Chicco NextFit Zip convertible car seats. Covers safety ratings, installation, weight limits, comfort, and value.",
     category: "car-seats",
     content: `## Why These Two?
@@ -2497,7 +2497,7 @@ The Britax Cool Flow line directly addresses summer heat with engineered ventila
   },
   "car-seat-buying-guide-infant-to-booster-2026": {
     slug: "car-seat-buying-guide-infant-to-booster-2026",
-    title: "Car Seat Buying Guide 2026: From Infant to Booster, Everything You Need to Know",
+    title: "Car Seat Buying Guide 2026: From Infant to Booster,",
     description: "A comprehensive guide to car seats in 2026 — infant seats, convertibles, boosters, installation methods, expiration dates, and how to choose the right seat for every stage.",
     category: "car-seats",
     content: `## Introduction

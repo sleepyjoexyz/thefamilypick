@@ -9,7 +9,7 @@ export interface GroomingToolArticle {
 export const groomingToolArticles: Record<string, GroomingToolArticle> = {
   "vacuum-groomer-vs-traditional-clippers": {
     slug: "vacuum-groomer-vs-traditional-clippers",
-    title: "Vacuum Groomers vs Traditional Clippers: Mess-Free Grooming Comparison",
+    title: "Vacuum Groomers vs Traditional Clippers: Mess-Free",
     description:
       "Compare vacuum grooming systems to traditional clippers. Understand shedding control, cleanup time, pet comfort, and which is best for your home and dog's coat type.",
     category: "grooming-tools",
@@ -174,7 +174,7 @@ For most households with active shedding breeds, a vacuum groomer saves time and
 
   "best-deshedding-tools-by-coat-type": {
     slug: "best-deshedding-tools-by-coat-type",
-    title: "Best Deshedding Tools by Coat Type: Short, Medium, Long & Double Coats",
+    title: "Best Deshedding Tools by Coat Type: Short, Medium, Long &",
     description:
       "Choose the right deshedding tool for your dog's coat type. Compare undercoat rakes, slicker brushes, and dematting combs for short, medium, long, and double-coated breeds.",
     category: "grooming-tools",
@@ -376,7 +376,7 @@ Deshedding is an investment of time, but the payoff in a cleaner home and health
 
   "dog-nail-grinding-vs-clipping": {
     slug: "dog-nail-grinding-vs-clipping",
-    title: "Dog Nail Grinding vs Clipping: Safety, Comfort & Technique Comparison",
+    title: "Dog Nail Grinding vs Clipping: Safety, Comfort &",
     description:
       "Compare nail grinding to traditional clipping. Understand safety risks, pet comfort, sealing versus cutting, and which method is best for your dog's nails.",
     category: "grooming-tools",
@@ -632,7 +632,7 @@ If your dog has experienced clipper injuries, nail splitting, or anxiety around 
 
   "home-grooming-starter-kit-guide": {
     slug: "home-grooming-starter-kit-guide",
-    title: "Home Grooming Starter Kit Guide: Essential Tools for Beginners",
+    title: "Home Grooming Starter Kit Guide: Essential Tools for",
     description:
       "Build your first dog grooming kit. Learn which tools are essential, which are optional, and how to start grooming your dog at home without professional equipment.",
     category: "grooming-tools",
@@ -935,7 +935,7 @@ The key to success: start simple, acclimate your dog slowly, and don't rush. A d
 
   "professional-vs-home-grooming-cost-analysis": {
     slug: "professional-vs-home-grooming-cost-analysis",
-    title: "Professional Grooming vs Home Grooming: Complete Cost Analysis and Time Investment",
+    title: "Professional Grooming vs Home Grooming: Complete Cost",
     description:
       "Compare professional vs home grooming costs. Calculate 5-year expenses, time investment, quality outcomes, and the break-even point for home grooming equipment.",
     category: "grooming-tools",
@@ -1283,7 +1283,7 @@ The decision ultimately depends on your time availability, number of dogs, and t
 
   "grooming-tools-long-haired-vs-short-haired-breeds": {
     slug: "grooming-tools-long-haired-vs-short-haired-breeds",
-    title: "Grooming Tools for Long-Haired vs Short-Haired Breeds: Coat-Specific Tool Selection",
+    title: "Grooming Tools for Long-Haired vs Short-Haired Breeds:",
     description:
       "Choose the right grooming tools for your dog's coat type. Learn breed-specific requirements, essential tools for each coat type, and common mistakes pet owners make.",
     category: "grooming-tools",

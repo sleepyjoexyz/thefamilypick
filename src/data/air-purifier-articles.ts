@@ -214,7 +214,7 @@ The best air purifier for allergies combines three factors: appropriate CADR for
 
   "air-purifier-running-costs": {
     slug: "air-purifier-running-costs",
-    title: "The True Cost of Owning an Air Purifier: Filters, Energy, and Maintenance",
+    title: "The True Cost of Owning an Air Purifier: Filters, Energy,",
     description:
       "Compare upfront, filter replacement, energy consumption, and maintenance costs across budget and premium air purifier models.",
     category: "air-purifiers",
@@ -519,7 +519,7 @@ Air purifiers genuinely help with wildfire smoke. Choose one with CADR smoke 300
 
   "air-purifier-placement-strategy": {
     slug: "air-purifier-placement-strategy",
-    title: "Air Purifier Placement Strategy for Maximum Effectiveness: Where to Put It",
+    title: "Air Purifier Placement Strategy for Maximum",
     description:
       "Learn how to position air purifiers in your home for optimal air circulation and fastest pollutant removal. Understand placement mistakes that waste performance.",
     category: "air-purifiers",
@@ -769,7 +769,7 @@ Placement determines purifier effectiveness more than the model you buy. Positio
 
   "smart-air-purifiers-app-control": {
     slug: "smart-air-purifiers-app-control",
-    title: "Smart Air Purifiers With App Control: Worth It or Just Complexity?",
+    title: "Smart Air Purifiers With App Control: Worth It or Just",
     description:
       "Evaluate smart air purifiers with app connectivity, real-time AQI data, and automation. Understand the benefits, privacy concerns, and whether smart features justify the premium price.",
     category: "air-purifiers",

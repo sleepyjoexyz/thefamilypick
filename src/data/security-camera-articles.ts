@@ -12,7 +12,7 @@ export const securityCameraArticles: Record<
 > = {
   "wired-vs-battery-security-cameras": {
     slug: "wired-vs-battery-security-cameras",
-    title: "Wired vs Battery Security Cameras: Which Setup Is Right for You?",
+    title: "Wired vs Battery Security Cameras: Which Setup Is Right",
     description:
       "Understand the trade-offs between wired and battery security cameras. Compare installation complexity, reliability, maintenance, and costs.",
     category: "security-cameras",
@@ -688,7 +688,7 @@ For most homeowners: Start with outdoor (front door), then add 1-2 interior came
 
   "security-camera-resolution-guide": {
     slug: "security-camera-resolution-guide",
-    title: "1080p vs 2K vs 4K Security Cameras: How Much Resolution Do You Need?",
+    title: "1080p vs 2K vs 4K Security Cameras: How Much Resolution",
     description:
       "Compare security camera resolutions. Understand real-world image quality differences, storage impact, bandwidth requirements, and when each resolution makes sense.",
     category: "security-cameras",
@@ -1005,7 +1005,7 @@ Yes. A camera with a 1/1.2" sensor at 1080p often outperforms a 1/2.5" sensor at
 
   "security-camera-placement-guide": {
     slug: "security-camera-placement-guide",
-    title: "Security Camera Placement Strategy Guide: Optimal Angles and Coverage",
+    title: "Security Camera Placement Strategy Guide: Optimal Angles",
     description:
       "Learn strategic camera placement for maximum coverage and evidence capture. Understand blind spots, field of view, and multi-camera positioning for whole-home security.",
     category: "security-cameras",
@@ -1360,7 +1360,7 @@ Camera placement strategy requires understanding field of view, optimal heights,
 
   "security-camera-local-vs-cloud-storage": {
     slug: "security-camera-local-vs-cloud-storage",
-    title: "Local Storage vs Cloud Storage for Security Cameras: Data Security and Accessibility",
+    title: "Local Storage vs Cloud Storage for Security Cameras: Data",
     description:
       "Compare local and cloud video storage for security cameras. Understand privacy risks, data security, accessibility trade-offs, and hybrid approaches.",
     category: "security-cameras",
@@ -1878,7 +1878,7 @@ The key to summer camera success: deploy vacation mode features before you leave
   },
   "wyze-cam-vs-ring-indoor-camera-baby-room-2026": {
     slug: "wyze-cam-vs-ring-indoor-camera-baby-room-2026",
-    title: "Wyze Cam v4 vs Ring Indoor Cam (2nd Gen): Best Budget Camera for Baby\'s Room",
+    title: "Wyze Cam v4 vs Ring Indoor Cam (2nd Gen): Best Budget",
     description: "Compare the Wyze Cam v4 and Ring Indoor Cam for baby monitoring. Covers night vision, two-way audio, storage costs, privacy features, and which camera fits your setup.",
     category: "security-cameras",
     content: `## Two Budget Cameras, Different Ecosystems

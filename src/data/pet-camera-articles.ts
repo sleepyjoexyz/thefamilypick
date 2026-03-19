@@ -299,7 +299,7 @@ Don't force a pet camera to do security's job, and don't use a security system a
 
   "do-pet-cameras-help-with-separation-anxiety": {
     slug: "do-pet-cameras-help-with-separation-anxiety",
-    title: "Do Pet Cameras Help with Separation Anxiety? What Science Says",
+    title: "Do Pet Cameras Help with Separation Anxiety? What Science",
     description:
       "Explore whether pet cameras and remote interaction can actually reduce separation anxiety. Learn behavioral science, what works, and when to seek professional help.",
     category: "pet-cameras",
@@ -708,7 +708,7 @@ For serious behavior analysis or multiple cameras, budget $60-120/year in cloud 
 
   "night-vision-pet-cameras-ir-vs-starlight": {
     slug: "night-vision-pet-cameras-ir-vs-starlight",
-    title: "Night Vision in Pet Cameras: Infrared vs Starlight Technology Compared",
+    title: "Night Vision in Pet Cameras: Infrared vs Starlight",
     description:
       "Compare infrared and starlight night vision technologies in pet cameras. Understand image quality, false alarms, battery drain, and which low-light technology is best for your pet monitoring.",
     category: "pet-cameras",
@@ -1008,7 +1008,7 @@ Many pet owners find a combination of both technologies provides the best monito
 
   "multi-pet-monitoring-camera-setup": {
     slug: "multi-pet-monitoring-camera-setup",
-    title: "Multi-Pet Monitoring with Cameras: Setup Guide for Multiple Dogs and Cats",
+    title: "Multi-Pet Monitoring with Cameras: Setup Guide for",
     description:
       "Design a multi-camera pet monitoring system for households with multiple pets. Learn camera placement, app organization, alert management, and managing different pet behaviors across rooms.",
     category: "pet-cameras",

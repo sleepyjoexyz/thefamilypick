@@ -9,7 +9,7 @@ export interface ClimateControlArticle {
 export const climateControlArticles: Record<string, ClimateControlArticle> = {
   "portable-ac-buying-guide": {
     slug: "portable-ac-buying-guide",
-    title: "Portable AC Buying Guide: BTU, Single Hose vs Dual Hose, and What Actually Matters",
+    title: "Portable AC Buying Guide: BTU, Single Hose vs Dual Hose,",
     description:
       "Learn how portable ACs work, how to size BTU for your room, the difference between single and dual hose efficiency, and what matters most when choosing one.",
     category: "climate-control",
@@ -333,7 +333,7 @@ Window ACs are 10–20% more efficient than portable ACs and have lower operatin
 
   "space-heater-energy-costs": {
     slug: "space-heater-energy-costs",
-    title: "How Much Does It Cost to Run a Space Heater? Energy Calculator",
+    title: "How Much Does It Cost to Run a Space Heater? Energy",
     description:
       "Calculate the true electricity cost of running a space heater, compare to central heating, and learn which types use the least energy.",
     category: "climate-control",
@@ -490,7 +490,7 @@ A 1,500W space heater costs $1.56–$4.68 per day depending on usage (8–24 hou
 
   "dehumidifier-vs-humidifier-guide": {
     slug: "dehumidifier-vs-humidifier-guide",
-    title: "Dehumidifier vs Humidifier: Choosing the Right One for Your Home",
+    title: "Dehumidifier vs Humidifier: Choosing the Right One for",
     description:
       "Understand humidity problems, when to use dehumidifiers vs humidifiers, health impacts of each, and how to choose the right device for your climate and home.",
     category: "climate-control",

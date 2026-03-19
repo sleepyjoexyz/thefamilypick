@@ -12,7 +12,7 @@ export const electricToothbrushArticles: Record<
 > = {
   "sonic-vs-oscillating-toothbrush": {
     slug: "sonic-vs-oscillating-toothbrush",
-    title: "Sonic vs Oscillating Electric Toothbrushes: Which Cleans Better?",
+    title: "Sonic vs Oscillating Electric Toothbrushes: Which Cleans",
     description:
       "Compare sonic and oscillating electric toothbrush technology. Learn how each works, which cleans better, and which is gentler on gums.",
     category: "electric-toothbrushes",
@@ -782,7 +782,7 @@ Track your own behavior without an app if you must, but don't assume an app will
 
   "electric-toothbrush-battery-types-longevity": {
     slug: "electric-toothbrush-battery-types-longevity",
-    title: "Electric Toothbrush Battery Types and Longevity: What's Inside and How Long They Last",
+    title: "Electric Toothbrush Battery Types and Longevity: What's",
     description:
       "Understand electric toothbrush battery types (lithium-ion, NiMH), how long batteries last, degradation over time, and how to extend battery lifespan.",
     category: "electric-toothbrushes",

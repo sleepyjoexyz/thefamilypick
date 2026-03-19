@@ -362,7 +362,7 @@ For multi-child families, wood is the better long-term investment despite higher
   },
   "high-chair-safety-checklist": {
     slug: "high-chair-safety-checklist",
-    title: "High Chair Safety Checklist: Harness, Stability & Recall Info",
+    title: "High Chair Safety Checklist: Harness, Stability & Recall",
     description:
       "Complete safety guide for high chairs including harness types, stability testing, recall history, and inspection checklists for families.",
     category: "high-chairs",
@@ -564,7 +564,7 @@ Parents who take 5-10 minutes weekly to inspect their high chair and maintain aw
   },
   "when-to-start-using-a-high-chair": {
     slug: "when-to-start-using-a-high-chair",
-    title: "When to Start Using a High Chair: Developmental Readiness Guide",
+    title: "When to Start Using a High Chair: Developmental Readiness",
     description:
       "Learn when babies are developmentally ready for high chairs, what signs indicate readiness, and how to transition from infant feeding to independent sitting.",
     category: "high-chairs",
@@ -773,7 +773,7 @@ The progression from bottle/breast to high chair eating typically takes 6-12 mon
 
   "portable-high-chairs-for-travel": {
     slug: "portable-high-chairs-for-travel",
-    title: "Portable High Chairs for Travel and Restaurants: Options That Go With You",
+    title: "Portable High Chairs for Travel and Restaurants: Options",
     description:
       "Find the best portable high chairs for travel, restaurants, and on-the-go feeding. Compare clip-on chairs, booster seats, and travel-friendly options with pros and cons.",
     category: "high-chairs",
@@ -1034,7 +1034,7 @@ Most families find that a combination (a home high chair plus a lightweight port
 
   "high-chair-to-booster-seat-transition": {
     slug: "high-chair-to-booster-seat-transition",
-    title: "Transitioning from High Chair to Booster Seat: Timing, Safety & Best Practices",
+    title: "Transitioning from High Chair to Booster Seat: Timing,",
     description:
       "Learn when and how to transition from high chairs to booster seats. Understand readiness signs, safety requirements, and which booster seats are best for your toddler.",
     category: "high-chairs",

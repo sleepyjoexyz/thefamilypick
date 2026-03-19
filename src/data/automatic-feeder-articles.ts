@@ -9,7 +9,7 @@ export interface AutoFeederArticle {
 export const automaticFeederArticles: Record<string, AutoFeederArticle> = {
   "smart-vs-basic-automatic-feeder": {
     slug: "smart-vs-basic-automatic-feeder",
-    title: "Smart WiFi Automatic Feeders vs Basic Timed Feeders: Features, Cost, and Convenience",
+    title: "Smart WiFi Automatic Feeders vs Basic Timed Feeders:",
     description:
       "Compare WiFi-enabled smart feeders with traditional timed feeders. Understand app control benefits, connectivity requirements, pricing, and which type suits your pet and lifestyle.",
     category: "automatic-feeders",
@@ -439,7 +439,7 @@ Start with any reliable feeder, establish a consistent feeding schedule (4-5 mea
   },
   "automatic-feeder-portion-control-guide": {
     slug: "automatic-feeder-portion-control-guide",
-    title: "Automatic Pet Feeder Portion Control Guide: Weight Management and Calorie Counting",
+    title: "Automatic Pet Feeder Portion Control Guide: Weight",
     description:
       "Master portion control with automatic feeders. Learn to calculate ideal portion sizes, adjust for your pet's age and activity level, and track feeding data for optimal weight management.",
     category: "automatic-feeders",
@@ -766,7 +766,7 @@ Remember: healthy weight management adds years to your pet's life and improves q
   },
   "gravity-vs-timed-pet-feeder": {
     slug: "gravity-vs-timed-pet-feeder",
-    title: "Gravity Pet Feeders vs. Timed Automatic Feeders: Which is More Reliable?",
+    title: "Gravity Pet Feeders vs. Timed Automatic Feeders: Which is",
     description:
       "Compare gravity-fed and timed automatic pet feeders. Understand reliability, maintenance, use cases, and which type suits different feeding needs and pet behaviors.",
     category: "automatic-feeders",
@@ -1118,7 +1118,7 @@ If you must choose one: gravity feeders win for reliability and longevity, while
 
   "wet-food-automatic-feeder-guide": {
     slug: "wet-food-automatic-feeder-guide",
-    title: "Automatic Pet Feeders for Wet Food: How They Work and Best Wet Food Options",
+    title: "Automatic Pet Feeders for Wet Food: How They Work and",
     description:
       "Learn how automatic wet food feeders work and whether they're right for your pet. Understand food freshness, storage challenges, bacterial growth, and the best wet food feeders available.",
     category: "automatic-feeders",
@@ -1377,7 +1377,7 @@ If you're committed to an all-wet-food diet and work full day, invest in a therm
 
   "multi-pet-feeding-station-guide": {
     slug: "multi-pet-feeding-station-guide",
-    title: "Multi-Pet Feeding Stations: Managing Different Diets and Microchip Feeders",
+    title: "Multi-Pet Feeding Stations: Managing Different Diets and",
     description:
       "Design a multi-pet feeding station for households with multiple cats or dogs on different diets. Learn about microchip feeders, separate stations, and strategies to prevent food conflicts.",
     category: "automatic-feeders",
@@ -1936,7 +1936,7 @@ Start with a slow feeder and observe for one week. If vomiting doesn't decrease,
   },
   "cat-ignores-automatic-feeder": {
     slug: "cat-ignores-automatic-feeder",
-    title: "My Cat Ignores the Automatic Feeder — How to Train Them to Use It",
+    title: "My Cat Ignores the Automatic Feeder — How to Train Them",
     description:
       "Cat won't eat from automatic feeder? Learn why cats resist, step-by-step training method, quietest models, and when to call the vet for food anxiety.",
     category: "automatic-feeders",
