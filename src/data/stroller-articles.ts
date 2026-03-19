@@ -1627,6 +1627,86 @@ Most families end up owning two strollers: a full-size for daily use and a light
 
 Test drive before you buy. Fold it with one hand. Push it over a threshold. Load the basket. Check the recline. The stroller that feels right in the store will feel right on the sidewalk. Ignore the brand hype and buy for your actual life — your neighborhood, your car trunk, your daily routine.`,
   },
+  "best-lightweight-stroller-travel-airplane-2026": {
+    slug: "best-lightweight-stroller-travel-airplane-2026",
+    title: "Best Lightweight Travel Strollers for Flying (2026)",
+    description: "Ultra-compact strollers that fit in overhead bins and weigh under 15 lbs. Perfect for airport travel with babies and toddlers.",
+    content: `## Introduction
+
+Air travel with a baby is stressful without lugging a 25-pound stroller through the airport. A lightweight travel stroller is one of the smartest investments for families who fly regularly. The best models fold to overhead bin size, weigh under 15 pounds, and collapse smaller than a carry-on.
+
+This guide reviews top lightweight travel strollers for 2026, including overhead bin fit, real-world weight, airline compatibility, and top picks for different scenarios.
+
+## Overhead Bin Requirements
+
+Most airlines allow one carry-on. A stroller folded to less than 22" × 14" × 9" should fit overhead bins. However, gate-checking is common—the agent decides if it fits.
+
+**Airlines with Frequent Acceptance:**
+- Southwest, United, Delta accept lightweight strollers (95%+ of the time)
+- American Airlines (regional jets have smaller bins)
+- Spirit Airlines (bins reserved for luggage)
+
+**Best Practice:**
+1. Fold your stroller before boarding
+2. Bring it to the gate
+3. If cabin space is full, it gets gate-checked free and returned at baggage claim
+
+## Top 5 Lightweight Travel Strollers
+
+### 1. GB Pockit - $199
+**Best Overall Lightweight Travel Stroller**
+
+The GB Pockit is the gold standard for ultra-compact travel. It weighs 9.2 pounds and folds to 15" × 13" × 7.5"—smaller than carry-on luggage. Simple design means fewer parts to break.
+
+**Specifications:**
+- Weight: 9.2 lbs
+- Folded: 15" × 13" × 7.5"
+- Age range: 6 months to 45 lbs
+- Canopy: Minimal (UV protection only)
+- Storage: Small basket under seat
+- One-hand fold: Yes
+- Fits overhead bin: Yes, easily
+
+**Pros:**
+- Incredibly compact and light
+- One-hand fold (2 seconds)
+- Fits easily in overhead bins
+- Durable aluminum frame
+- Good for traveling parents
+
+**Cons:**
+- Minimal canopy (basic UV, no rain)
+- Small storage
+- Bumpy on rough sidewalks
+- Not ideal for longer walks
+
+**Best For:** International flights, tight apartments, compact-size priority
+
+## Frequently Asked Questions
+
+**Q: What's the lightest stroller that fits overhead bins?**
+A: GB Pockit at 9.2 lbs, folding to 15" × 13" × 7.5".
+
+**Q: Can I bring an infant car seat and stroller?**
+A: Yes, gate-check both, or use stroller with car seat adapters.
+
+**Q: Is a lightweight stroller good for daily use?**
+A: For short trips, yes. For longer walks or rough terrain, no.
+
+**Q: Which lightweight stroller is best for newborns?**
+A: Babyzen YOYO2 (with adapters) or Uppababy G-Luxe (3+ months).
+
+**Q: Do lightweight strollers work on rough sidewalks?**
+A: Mountain Buggy Nano and Uppababy G-Luxe handle bumpy terrain better.
+
+**Q: What about rain?**
+A: Babyzen YOYO2 and Uppababy G-Luxe have better canopies. Most brands sell rain covers ($20–30).
+
+## Bottom Line
+
+For frequent fliers, the GB Pockit wins for compact size ($199). The Babyzen YOYO2 adds comfort for $299. Mountain Buggy Nano offers smooth ride without premium pricing ($249). All fold to overhead bin size and weigh under 15 pounds.`,
+    category: "strollers",
+  },
 };
 
 export function getStrollerArticle(slug: string): StrollerArticle | null {

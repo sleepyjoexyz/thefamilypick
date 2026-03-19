@@ -1445,7 +1445,130 @@ As of early 2026, the Shark AI Ultra with self-empty base runs approximately $40
 **Choose the iRobot Roomba j7+ if:** your home has lots of floor clutter (toys, cables, pet accidents), you want best-in-class obstacle avoidance, quieter operation, and you prefer iRobot's polished app experience.
 
 For most families, the Shark AI Ultra offers better value. For families with toddlers and multiple pets creating floor chaos, the Roomba j7+'s object recognition is worth the premium.`
-  }
+  },
+  "robot-vacuum-maintenance-guide-filters-brushes-2026": {
+    slug: "robot-vacuum-maintenance-guide-filters-brushes-2026",
+    title: "Robot Vacuum Maintenance: Filters & Brushes Guide",
+    description: "Keep your robot vacuum running like new. Complete maintenance schedule for filters, brushes, sensors, and batteries across Roomba, Shark, and Roborock models.",
+    content: `## Introduction
+
+A robot vacuum is brilliant convenience—until it stops working. Most fail prematurely due to poor maintenance, not manufacturing defects. A $400 investment can deliver 5+ years of service with proper care.
+
+This guide covers maintenance tasks for Roomba, Shark, and Roborock. You'll learn which parts wear out first, when to replace them, typical costs, and whether DIY is worth it versus replacement.
+
+## Monthly Maintenance Tasks
+
+### Empty the Dustbin After Every Run
+
+A full dustbin reduces suction and damages the motor. Empty it after each session.
+
+**Cost:** Free
+
+### Check and Clean the Sensors
+
+Dusty sensors lead to missed spots and navigation errors. Use a soft, dry microfiber cloth to wipe sensors weekly to bi-weekly.
+
+**Cost:** Free
+
+### Wipe the Wheels
+
+Dust and hair wrap around wheel axles. Flip the vacuum and wipe each wheel weekly.
+
+**Cost:** Free
+
+### Inspect the Cliff Detection Sensors
+
+Dust on these sensors causes false "cliff" readings. Wipe with a microfiber cloth bi-weekly.
+
+**Cost:** Free
+
+## Quarterly Maintenance Tasks
+
+### Clean the Main Brush
+
+The main rotating brush collects debris. Remove the brush, wipe dust with a cloth, and check for cracks every 3 months.
+
+**Roomba:** Main brush replacement every 6–12 months ($35–50)
+**Shark:** Every 6 months ($25–40)
+**Roborock:** Every 4–6 months ($30–45)
+
+### Clean Side Brush(es)
+
+Side brushes sweep debris toward the main brush. Clean and check for bent bristles every 3 months.
+
+**Typical Replacement Cost:** $15–25 per brush
+
+### Clean the Filter
+
+Tap filters gently to dislodge dust every 3 months. Never wash—water damages the micromesh.
+
+**Typical Replacement Cost:** $20–50
+
+## Bi-Annual Maintenance Tasks
+
+### Replace the Filter (if needed)
+
+Replace if cleaning doesn't restore suction.
+
+**Signs You Need a New Filter:**
+- Suction noticeably weaker after cleaning
+- Filter permanently gray or discolored
+- Filter bristles matted or broken
+
+**Roomba:** $40–60 (HEPA filters are expensive)
+**Shark:** $20–35
+**Roborock:** $25–40
+
+### Replace Brushes (if needed)
+
+Signs of wear:
+- Bristles visibly short or missing
+- Brush doesn't spin freely
+- Vacuuming leaves debris
+
+**Cost:** $30–50 for main brush, $15–25 per side brush
+
+## Annual Maintenance Tasks
+
+### Deep Clean the Entire Robot
+
+Empty dustbin, remove all brushes, clean sensors and wheels, wipe dock contacts, check app map.
+
+**Cost:** Free
+
+### Inspect Battery Health
+
+Most batteries last 2–3 years. Check in the app for battery health.
+
+**Signs of Degradation:**
+- Shorter cleaning runs
+- Longer charging times
+- Robot shuts down unexpectedly
+
+**Replacement Cost:** $100–200
+
+## Frequently Asked Questions
+
+**Q: Can I use third-party brushes to save money?**
+A: Third-party parts are 20–40% cheaper but wear faster. OEM parts last longer and maintain warranty.
+
+**Q: My robot is losing suction. Is it dying?**
+A: Probably not. Clean the filter first, then replace it if needed. Replace brushes next. Only then consider motor failure.
+
+**Q: How often should I replace the battery?**
+A: Most last 2–3 years. If your vacuum is younger and declining, a problem exists elsewhere.
+
+**Q: What happens without maintenance?**
+A: Without maintenance, most fail within 2–3 years. Maintenance extends life to 5+ years.
+
+**Q: Is repair worth it or should I replace?**
+A: If repair costs exceed $150 and the vacuum is 5+ years old, replacement is better.
+
+## Bottom Line
+
+Robot vacuum maintenance is simple: empty the bin, clean sensors and wheels monthly, replace filters and brushes every 6–12 months, and watch battery health. Most owners spend under $200 per year on maintenance.`,
+    category: "robot-vacuums",
+  },
 };
 
 export function getRobotVacuumArticle(slug: string): Article | null {

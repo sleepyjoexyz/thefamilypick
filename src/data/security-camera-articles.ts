@@ -1937,7 +1937,56 @@ Wyze works with Alexa and Google Home. It does not have native HomeKit support (
 
 **Choose Ring Indoor Cam if:** you are already invested in Ring/Alexa ecosystem, you want seamless integration with an Echo Show as a monitor display, or you prefer Ring's unified app for all home security cameras.
 
-For pure baby monitoring on a budget, Wyze Cam v4 is hard to beat. The local storage option, physical privacy shutter, and lower ongoing costs make it the stronger pick for most families.`
+For pure baby monitoring on a budget, Wyze Cam v4 is hard to beat. The local storage option, physical privacy shutter, and lower ongoing costs make it the stronger pick for most families.
+
+## Privacy and Security: Which Camera Protects Your Family Better?
+
+Beyond motion detection and video quality, the security posture of your camera matters:
+
+**Wyze Cam Privacy Features:**
+- AES-128 encryption for video streams
+- Optional local-only recording (no cloud sync required)
+- Limited data collection and minimal analytics tracking
+- No subscription required for basic features
+
+**Ring Indoor Camera Privacy Features:**
+- End-to-end encryption option (available with subscription)
+- Amazon integration means data flows through AWS infrastructure
+- More comprehensive activity analytics
+- Requires Amazon account; data retention tied to Amazon ecosystem
+
+**Key Consideration:** Wyze offers stronger privacy defaults without requiring paid subscriptions, while Ring prioritizes ecosystem integration.
+
+## Night Vision Quality Comparison
+
+| Feature | Wyze Cam | Ring Indoor Camera |
+|---------|----------|-------------------|
+| Night Vision Type | Infrared LEDs | IR LEDs + AI enhancement |
+| Clarity at 15+ feet | Good (monochrome) | Very good (AI-enhanced) |
+| Color Night Vision | No | Yes (Ring Pro only) |
+| Performance in Low Light | 8-12 feet clarity | 12-18 feet clarity |
+| False Alarm Rate | Higher in dark rooms | Lower due to AI filtering |
+
+Ring's AI enhancement produces fewer false positives, which is critical for baby rooms where shadows from nightlights should not trigger alerts.
+
+## Smart Home Integration: Alexa vs Google Home
+
+Your existing smart home ecosystem should influence your camera choice:
+
+**Wyze Cam + Google Home:** Native integration, voice commands, Chromecast support, and Google Home routines.
+
+**Ring Indoor Camera + Alexa:** Seamless Echo integration, Drop-in calling, Alexa Guard automation, and Ring-specific routines.
+
+If you have both platforms, choose based on your primary smart home system.
+
+## Storage Costs: Cloud vs Local Recording
+
+| Storage Option | Wyze | Ring |
+|----------------|------|------|
+| Free Tier | 14-day cloud | Recent events only |
+| Paid Plan | $1.99/month per camera | $3.99/month per camera |
+| Local Storage | microSD card ($10-$50 one-time) | Not available on basic model |
+| Best For | Budget-conscious families | Ring ecosystem users |`
   }
 };
 

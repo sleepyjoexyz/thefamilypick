@@ -8,9 +8,10 @@ import Comments from "@/components/Comments";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
-import { ArticleSchema } from "@/components/JsonLd";
+import { ArticleSchema, FAQSchema } from "@/components/JsonLd";
 import MarkdownContent from "@/components/MarkdownContent";
 import CrossCategoryLinks from "@/components/CrossCategoryLinks";
+import { extractFAQs } from "@/lib/faqUtils";
 
 interface PageProps {
   params: Promise<{
@@ -60,6 +61,8 @@ export default async function ArticlePage({ params }: PageProps) {
   if (!article) {
     notFound();
   }
+
+  const faqs = extractFAQs(article.content);
 
   const breadcrumbItems = [
     { name: "Home", url: "https://www.thefamilypick.com" },
