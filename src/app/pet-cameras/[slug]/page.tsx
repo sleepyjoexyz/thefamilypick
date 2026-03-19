@@ -75,7 +75,7 @@ export default async function ArticlePage({ params }: PageProps) {
         description={article.description}
         url={`https://www.thefamilypick.com/pet-cameras/${slug}`}
         datePublished="2026-03-15"
-        dateModified="2026-03-15"
+        dateModified="2026-03-18"
       />
       {/* Breadcrumbs */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">

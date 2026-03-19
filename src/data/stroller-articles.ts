@@ -694,9 +694,9 @@ The key is understanding compatibility requirements before purchasing—not afte
 
   "double-strollers-side-by-side-vs-tandem": {
     slug: "double-strollers-side-by-side-vs-tandem",
-    title: "Double Strollers: Side-by-Side vs Tandem Design and Real-World Trade-Offs",
+    title: "Double Strollers: Side-by-Side vs Tandem Guide",
     description:
-      "Compare side-by-side and tandem double strollers for twins or multiple children. Understand width, maneuverability, visibility, and which design suits different family situations.",
+      "Compare side-by-side vs tandem strollers for twins. Understand width, maneuverability, visibility differences. Find the right fit now.",
     category: "strollers",
     content: `## Introduction
 

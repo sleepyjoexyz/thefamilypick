@@ -74,7 +74,7 @@ export default async function ArticlePage({ params }: PageProps) {
         description={article.description}
         url={`https://www.thefamilypick.com/baby-monitors/${slug}`}
         datePublished="2026-03-15"
-        dateModified="2026-03-15"
+        dateModified="2026-03-18"
       />
 
       {/* Breadcrumbs */}

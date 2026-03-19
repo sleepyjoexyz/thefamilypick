@@ -154,9 +154,9 @@ Measure your kitchen dimensions, identify available storage, and select the type
   },
   "wooden-vs-plastic-high-chairs": {
     slug: "wooden-vs-plastic-high-chairs",
-    title: "Wood vs Plastic High Chairs: Durability, Cleaning & Aesthetics",
+    title: "Wood vs Plastic High Chairs: Durability Guide",
     description:
-      "Compare wooden high chairs versus plastic models across durability, cleaning, maintenance, aesthetics, and long-term value for families.",
+      "Comparing wooden and plastic high chairs? See durability, cleaning, maintenance costs. Discover which material is best for your family.",
     category: "high-chairs",
     content: `## Introduction
 
