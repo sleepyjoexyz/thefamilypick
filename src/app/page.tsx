@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import DealCard from '@/components/DealCard';
+import EmailSignup from '@/components/EmailSignup';
 import { mockDeals } from '@/data/mockDeals';
 import { dealCategories } from '@/lib/dealCategories';
 
@@ -21,6 +22,8 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      <EmailSignup />
 
       {/* Category Sections with Deals */}
       {dealCategories.map((cat) => {
