@@ -155,7 +155,7 @@ export default function AirPurifiersContent() {
                         <a
                           href={amazonLink}
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="sponsored noopener noreferrer"
                           className="text-blue-600 hover:underline font-medium"
                         >
                           View on Amazon →

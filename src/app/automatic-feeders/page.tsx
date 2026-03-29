@@ -356,7 +356,7 @@ export default function AutomaticFeedersContent() {
                         <a
                           href={amazonLink}
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="sponsored noopener noreferrer"
                           className="text-blue-600 hover:underline font-medium"
                         >
                           View on Amazon →
@@ -445,7 +445,7 @@ export default function AutomaticFeedersContent() {
                     <a
                       href={amazonLink}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="sponsored noopener noreferrer"
                       className="block w-full px-4 py-2 bg-blue-600 text-white text-center font-semibold rounded hover:bg-blue-700 transition"
                     >
                       View on Amazon

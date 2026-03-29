@@ -378,7 +378,7 @@ export default function CarSeatsContent() {
                         <a
                           href={amazonLink}
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="sponsored noopener noreferrer"
                           className="text-orange-600 hover:underline text-xs font-semibold"
                         >
                           View
@@ -476,7 +476,7 @@ export default function CarSeatsContent() {
                     <a
                       href={getAmazonLink(product.amazonAsin) || "#"}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="sponsored noopener noreferrer"
                       className="flex-1 bg-orange-500 text-white px-3 py-2 rounded text-center text-sm font-semibold hover:bg-orange-600"
                     >
                       View on Amazon

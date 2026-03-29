@@ -342,7 +342,7 @@ export default function PetCamerasContent() {
                       <a
                         href={getAmazonLink(camera.amazonAsin) || "#"}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="sponsored noopener noreferrer"
                         className="text-blue-600 hover:underline text-xs font-medium"
                       >
                         View
@@ -423,7 +423,7 @@ export default function PetCamerasContent() {
                   <a
                     href={getAmazonLink(camera.amazonAsin) || "#"}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="sponsored noopener noreferrer"
                     className="block w-full text-center bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium mb-2"
                   >
                     View on Amazon

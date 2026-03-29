@@ -410,7 +410,7 @@ export default function HighChairsContent() {
                         <a
                           href={amazonLink}
                           target="_blank"
-                          rel="noopener noreferrer"
+                          rel="sponsored noopener noreferrer"
                           className="text-orange-600 hover:underline font-semibold"
                         >
                           View
@@ -486,7 +486,7 @@ export default function HighChairsContent() {
                     <a
                       href={amazonLink}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="sponsored noopener noreferrer"
                       className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-center transition-colors"
                     >
                       View on Amazon
