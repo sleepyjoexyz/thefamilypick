@@ -10,6 +10,7 @@ export interface Deal {
   amazonUrl: string;
   timeLeft: string;
   imageAlt: string;
+  imageUrl: string;
 }
 
 export const mockDeals: Deal[] = [
@@ -24,7 +25,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Graco+4Ever+DLX+Convertible+Car+Seat&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Graco 4Ever DLX Convertible Ca"
+    "imageAlt": "Graco 4Ever DLX Convertible Ca",
+    "imageUrl": "https://m.media-amazon.com/images/I/811s9g4fftL._AC_SL300_.jpg"
   },
   {
     "id": "bg-002",
@@ -37,7 +39,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=UPPAbaby+Vista+V2+Stroller&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "UPPAbaby Vista V2 Stroller"
+    "imageAlt": "UPPAbaby Vista V2 Stroller",
+    "imageUrl": "https://m.media-amazon.com/images/I/61CXZQdFSVL._AC_SL300_.jpg"
   },
   {
     "id": "bg-003",
@@ -50,7 +53,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Chicco+Polly+Double-Fold+High+Chair&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Chicco Polly Double-Fold High "
+    "imageAlt": "Chicco Polly Double-Fold High ",
+    "imageUrl": "https://m.media-amazon.com/images/I/61qq-y9v27L._AC_SL300_.jpg"
   },
   {
     "id": "bg-004",
@@ -63,7 +67,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Nanit+Pro+Camera+++Sound+and+Activity+Monitor&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Nanit Pro Camera + Sound & Act"
+    "imageAlt": "Nanit Pro Camera + Sound & Act",
+    "imageUrl": "https://m.media-amazon.com/images/I/61cqkZ6CHoL._AC_SL300_.jpg"
   },
   {
     "id": "bg-005",
@@ -76,7 +81,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Motorola+MBP867+Parent+Monitor+with+2+Cameras&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Motorola MBP867 Parent Monitor"
+    "imageAlt": "Motorola MBP867 Parent Monitor",
+    "imageUrl": "https://m.media-amazon.com/images/I/61lHNKzGcrL._AC_SL300_.jpg"
   },
   {
     "id": "bg-006",
@@ -89,7 +95,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=BabyBjorn+Mini+Baby+Carrier&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "BabyBjorn Mini Baby Carrier"
+    "imageAlt": "BabyBjorn Mini Baby Carrier",
+    "imageUrl": "https://m.media-amazon.com/images/I/71olMh4bLsL._AC_SL300_.jpg"
   },
   {
     "id": "bg-007",
@@ -102,7 +109,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Britax+Marathon+ClickTight+Car+Seat&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Britax Marathon ClickTight Car"
+    "imageAlt": "Britax Marathon ClickTight Car",
+    "imageUrl": "https://m.media-amazon.com/images/I/81dPPKgnEjL._AC_SL300_.jpg"
   },
   {
     "id": "bg-008",
@@ -115,7 +123,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Hatch+Rest++Sound+Machine+and+Night+Light&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Hatch Rest+ Sound Machine & Ni"
+    "imageAlt": "Hatch Rest+ Sound Machine & Ni",
+    "imageUrl": "https://m.media-amazon.com/images/I/61ywgG8LjOL._AC_SL300_.jpg"
   },
   {
     "id": "bg-009",
@@ -128,7 +137,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Munchkin+Latch+Bottle+Feeding+System&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Munchkin Latch Bottle Feeding "
+    "imageAlt": "Munchkin Latch Bottle Feeding ",
+    "imageUrl": "https://m.media-amazon.com/images/I/614hnzgOzpL._AC_SL300_.jpg"
   },
   {
     "id": "bg-010",
@@ -141,7 +151,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=4moms+mamaRoo+Sleep+Bouncer&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "4moms mamaRoo Sleep Bouncer"
+    "imageAlt": "4moms mamaRoo Sleep Bouncer",
+    "imageUrl": "https://m.media-amazon.com/images/I/41rBMT5sHGL._AC_SL300_.jpg"
   },
   {
     "id": "bg-011",
@@ -154,7 +165,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Graco+Travel+Lite+Crib+with+Mattress&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Graco Travel Lite Crib with Ma"
+    "imageAlt": "Graco Travel Lite Crib with Ma",
+    "imageUrl": "https://m.media-amazon.com/images/I/61iusq4EkwL._AC_SL300_.jpg"
   },
   {
     "id": "bg-012",
@@ -167,7 +179,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=UPPAbaby+Mesa+Infant+Car+Seat&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "UPPAbaby Mesa Infant Car Seat"
+    "imageAlt": "UPPAbaby Mesa Infant Car Seat",
+    "imageUrl": "https://m.media-amazon.com/images/I/61pGF8ubr5L._AC_SL300_.jpg"
   },
   {
     "id": "bg-013",
@@ -180,7 +193,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Chicco+KeyFit+35+Infant+Car+Seat&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Chicco KeyFit 35 Infant Car Se"
+    "imageAlt": "Chicco KeyFit 35 Infant Car Se",
+    "imageUrl": "https://m.media-amazon.com/images/I/81ewQREbreL._AC_SL300_.jpg"
   },
   {
     "id": "bg-014",
@@ -193,7 +207,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Nanit+Dream+Sock+-+Sleep+Tracking+Wearable&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Nanit Dream Sock - Sleep Track"
+    "imageAlt": "Nanit Dream Sock - Sleep Track",
+    "imageUrl": "https://m.media-amazon.com/images/I/61-JrCA9rDL._AC_SL300_.jpg"
   },
   {
     "id": "bg-015",
@@ -206,7 +221,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Motorola+MBP887+Advanced+WiFi+Video+Baby+Monitor&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Motorola MBP887 Advanced WiFi "
+    "imageAlt": "Motorola MBP887 Advanced WiFi ",
+    "imageUrl": "https://m.media-amazon.com/images/I/71-EtQ7fa4L._AC_SL300_.jpg"
   },
   {
     "id": "bg-016",
@@ -219,7 +235,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=BabyBjorn+Bouncer+Balance+Soft+Cotton&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "BabyBjorn Bouncer Balance Soft"
+    "imageAlt": "BabyBjorn Bouncer Balance Soft",
+    "imageUrl": "https://m.media-amazon.com/images/I/61XS-3NqoBL._AC_SL300_.jpg"
   },
   {
     "id": "bg-017",
@@ -232,7 +249,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Britax+B-Mobile+Stroller&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Britax B-Mobile Stroller"
+    "imageAlt": "Britax B-Mobile Stroller",
+    "imageUrl": "https://m.media-amazon.com/images/I/61A1yZ29zrL._AC_SL300_.jpg"
   },
   {
     "id": "pt-001",
@@ -245,7 +263,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=40-Lb+VICTOR+Super+Premium+Dog+Food&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "40-Lb VICTOR Super Premium Dog"
+    "imageAlt": "40-Lb VICTOR Super Premium Dog",
+    "imageUrl": "https://m.media-amazon.com/images/I/819FWihRctL._AC_SL300_.jpg"
   },
   {
     "id": "pt-002",
@@ -258,7 +277,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Furbo+Dog+Camera+with+Treat+Toss&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Furbo Dog Camera with Treat To"
+    "imageAlt": "Furbo Dog Camera with Treat To",
+    "imageUrl": "https://m.media-amazon.com/images/I/616wRFOTA5L._AC_SL300_.jpg"
   },
   {
     "id": "pt-003",
@@ -271,7 +291,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=PetSafe+Smart+Feed+Automatic+Pet+Feeder&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "PetSafe Smart Feed Automatic P"
+    "imageAlt": "PetSafe Smart Feed Automatic P",
+    "imageUrl": "https://m.media-amazon.com/images/I/61ibQm-eVDL._AC_SL300_.jpg"
   },
   {
     "id": "pt-004",
@@ -284,7 +305,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Fi+Smart+Dog+Collar+GPS+Tracker&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Fi Smart Dog Collar GPS Tracke"
+    "imageAlt": "Fi Smart Dog Collar GPS Tracke",
+    "imageUrl": "https://m.media-amazon.com/images/I/71pnXb7zzCL._AC_SL300_.jpg"
   },
   {
     "id": "pt-005",
@@ -297,7 +319,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Whistle+GO+Explore+GPS+Pet+Tracker&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Whistle GO Explore GPS Pet Tra"
+    "imageAlt": "Whistle GO Explore GPS Pet Tra",
+    "imageUrl": "https://m.media-amazon.com/images/I/71rGP5YET1L._AC_SL300_.jpg"
   },
   {
     "id": "pt-006",
@@ -310,7 +333,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=iRobot+Roomba+j7++Robot+Vacuum+(Pet+Owners)&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "iRobot Roomba j7+ Robot Vacuum"
+    "imageAlt": "iRobot Roomba j7+ Robot Vacuum",
+    "imageUrl": "https://m.media-amazon.com/images/I/81kgWA895qL._AC_SL300_.jpg"
   },
   {
     "id": "pt-007",
@@ -323,7 +347,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Catit+Multi-Feeder+Automatic+Pet+Feeder&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Catit Multi-Feeder Automatic P"
+    "imageAlt": "Catit Multi-Feeder Automatic P",
+    "imageUrl": "https://m.media-amazon.com/images/I/51aXC2VIHJL._AC_SL300_.jpg"
   },
   {
     "id": "pt-008",
@@ -336,7 +361,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Litter-Robot+4+Automatic+Cat+Litter+Box&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Litter-Robot 4 Automatic Cat L"
+    "imageAlt": "Litter-Robot 4 Automatic Cat L",
+    "imageUrl": "https://m.media-amazon.com/images/I/71BxmMN2zxL._AC_SL300_.jpg"
   },
   {
     "id": "pt-009",
@@ -349,7 +375,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Petcube+Play+2+Pet+Camera+with+Night+Vision&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Petcube Play 2 Pet Camera with"
+    "imageAlt": "Petcube Play 2 Pet Camera with",
+    "imageUrl": "https://m.media-amazon.com/images/I/71dFPMVRBfL._AC_SL300_.jpg"
   },
   {
     "id": "pt-010",
@@ -362,7 +389,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=PetSafe+Drinkwell+Multi-Tier+Water+Fountain&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "PetSafe Drinkwell Multi-Tier W"
+    "imageAlt": "PetSafe Drinkwell Multi-Tier W",
+    "imageUrl": "https://m.media-amazon.com/images/I/71hZb0s3hlL._AC_SL300_.jpg"
   },
   {
     "id": "pt-011",
@@ -375,7 +403,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Fi+Series+3+Smart+Pet+Collar+GPS&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Fi Series 3 Smart Pet Collar G"
+    "imageAlt": "Fi Series 3 Smart Pet Collar G",
+    "imageUrl": "https://m.media-amazon.com/images/I/71pnXb7zzCL._AC_SL300_.jpg"
   },
   {
     "id": "pt-012",
@@ -388,7 +417,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Whistle+3+GPS+Pet+Tracker&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Whistle 3 GPS Pet Tracker"
+    "imageAlt": "Whistle 3 GPS Pet Tracker",
+    "imageUrl": "https://m.media-amazon.com/images/I/71rGP5YET1L._AC_SL300_.jpg"
   },
   {
     "id": "pt-013",
@@ -401,7 +431,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=iRobot+Roomba+i7++for+Pet+Hair&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "iRobot Roomba i7+ for Pet Hair"
+    "imageAlt": "iRobot Roomba i7+ for Pet Hair",
+    "imageUrl": "https://m.media-amazon.com/images/I/81moQ3jdfAL._AC_SL300_.jpg"
   },
   {
     "id": "pt-014",
@@ -414,7 +445,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Catit+Flower+Fountain+Water+Bowl&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Catit Flower Fountain Water Bo"
+    "imageAlt": "Catit Flower Fountain Water Bo",
+    "imageUrl": "https://m.media-amazon.com/images/I/61BhM8Zl27L._AC_SL300_.jpg"
   },
   {
     "id": "pt-015",
@@ -427,7 +459,8 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=Petcube+Cam+WiFi+Pet+Camera&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "Petcube Cam WiFi Pet Camera"
+    "imageAlt": "Petcube Cam WiFi Pet Camera",
+    "imageUrl": "https://m.media-amazon.com/images/I/71dFPMVRBfL._AC_SL300_.jpg"
   },
   {
     "id": "pt-016",
@@ -440,6 +473,7 @@ export const mockDeals: Deal[] = [
     "sourceUrl": "https://slickdeals.net/",
     "amazonUrl": "https://www.amazon.com/s?k=PetSafe+SureFlap+Microchip+Cat+Door&tag=rogeti02-20",
     "timeLeft": "Today only",
-    "imageAlt": "PetSafe SureFlap Microchip Cat"
+    "imageAlt": "PetSafe SureFlap Microchip Cat",
+    "imageUrl": "https://m.media-amazon.com/images/I/61pjlvzBA1L._AC_SL300_.jpg"
   }
 ];
