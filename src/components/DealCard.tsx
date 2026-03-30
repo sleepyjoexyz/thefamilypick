@@ -1,9 +1,11 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 
 interface DealCardProps {
   id: string;
   title: string;
-  category: 'Baby Gear' | 'Pet Tech';
+  category: string;
   originalPrice: number;
   dealPrice: number;
   percentOff: number;
@@ -14,6 +16,16 @@ interface DealCardProps {
   imageAlt: string;
   imageUrl: string;
 }
+
+const categoryIcons: Record<string, string> = {
+  'Baby Gear': '\u{1F37C}',
+  'Pet Tech': '\u{1F43E}',
+};
+
+const categoryColors: Record<string, string> = {
+  'Baby Gear': 'bg-pink-50 text-pink-600',
+  'Pet Tech': 'bg-emerald-50 text-emerald-600',
+};
 
 export default function DealCard({
   title,
@@ -27,7 +39,9 @@ export default function DealCard({
   imageAlt,
   imageUrl,
 }: DealCardProps) {
-  const isBaby = category === 'Baby Gear';
+  const [imgError, setImgError] = useState(false);
+  const icon = categoryIcons[category] || '\u{1F4E6}';
+  const colorClass = categoryColors[category] || 'bg-gray-50 text-gray-600';
 
   return (
     <a
@@ -36,17 +50,25 @@ export default function DealCard({
       rel="sponsored noopener noreferrer"
       className="block bg-white rounded border border-gray-200 overflow-hidden hover:shadow-md transition-shadow"
     >
-      {/* Product image */}
       <div className="bg-gray-50 aspect-square flex items-center justify-center overflow-hidden">
-        {imageUrl ? (
-          <img src={imageUrl} alt={imageAlt} className="w-full h-full object-contain p-2" loading="lazy" />
+        {imageUrl && !imgError ? (
+          <img
+            src={imageUrl}
+            alt={imageAlt}
+            className="w-full h-full object-contain p-2"
+            loading="lazy"
+            onError={() => setImgError(true)}
+          />
         ) : (
-          <span className="text-[10px] text-gray-300">{imageAlt}</span>
+          <div className="flex flex-col items-center justify-center gap-1">
+            <span className="text-4xl">{icon}</span>
+            <span className="text-[9px] text-gray-400 text-center px-2 line-clamp-2">{imageAlt}</span>
+          </div>
         )}
       </div>
       <div className="p-2">
         <div className="flex items-center justify-between mb-1">
-          <span className={`text-[10px] font-semibold px-1 py-0.5 rounded ${isBaby ? 'bg-blue-50 text-blue-600' : 'bg-green-50 text-green-600'}`}>
+          <span className={`text-[10px] font-semibold px-1 py-0.5 rounded ${colorClass}`}>
             {category}
           </span>
           <span className="bg-red-50 text-red-600 text-[10px] font-bold px-1 py-0.5 rounded">
