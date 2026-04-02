@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import DealCard from '@/components/DealCard';
-import EmailSignup from '@/components/EmailSignup';
 import { mockDeals } from '@/data/mockDeals';
 import { dealCategories } from '@/lib/dealCategories';
 import { DealSchema } from '@/components/DealSchema';
@@ -67,7 +66,6 @@ export default function DealsPage() {
         );
       })}
 
-      <EmailSignup />
 
       {/* SEO footer text */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-100">
