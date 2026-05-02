@@ -50,6 +50,17 @@ export async function generateMetadata(
       description: article.description,
       type: "article",
       url: `https://www.thefamilypick.com/grooming-tools/${slug}`,
+
+    images: [
+      {
+        url: 'https://www.thefamilypick.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'The Family Pick',
+      },
+    ],
+    locale: 'en_US',
+    siteName: 'The Family Pick',
     },
   };
 }
