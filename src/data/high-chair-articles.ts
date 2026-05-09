@@ -1034,7 +1034,7 @@ Most families find that a combination (a home high chair plus a lightweight port
 
   "high-chair-to-booster-seat-transition": {
     slug: "high-chair-to-booster-seat-transition",
-    title: "Transitioning from High Chair to Booster Seat: Timing,",
+    title: "Transitioning from High Chair to Booster Seat",
     description:
       "Learn when and how to transition from high chairs to booster seats. Understand readiness signs, safety requirements, and which booster seats are best for your toddler.",
     category: "high-chairs",

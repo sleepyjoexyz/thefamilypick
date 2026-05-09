@@ -632,7 +632,7 @@ If your dog has experienced clipper injuries, nail splitting, or anxiety around 
 
   "home-grooming-starter-kit-guide": {
     slug: "home-grooming-starter-kit-guide",
-    title: "Home Grooming Starter Kit Guide: Essential Tools for",
+    title: "Home Grooming Starter Kit: Essential Tools",
     description:
       "Build your first dog grooming kit. Learn which tools are essential, which are optional, and how to start grooming your dog at home without professional equipment.",
     category: "grooming-tools",
@@ -1283,7 +1283,7 @@ The decision ultimately depends on your time availability, number of dogs, and t
 
   "grooming-tools-long-haired-vs-short-haired-breeds": {
     slug: "grooming-tools-long-haired-vs-short-haired-breeds",
-    title: "Grooming Tools for Long-Haired vs Short-Haired Breeds:",
+    title: "Grooming Tools: Long-Haired vs Short-Haired Breeds",
     description:
       "Choose the right grooming tools for your dog's coat type. Learn breed-specific requirements, essential tools for each coat type, and common mistakes pet owners make.",
     category: "grooming-tools",
@@ -1954,7 +1954,7 @@ The right tools (undercoat rake, slicker brush, quality shampoo) and consistent 
 
   "best-pet-clippers-for-thick-coats": {
     slug: "best-pet-clippers-for-thick-coats",
-    title: "Best Pet Clippers for Thick Coats: Power, Blade Quality & Comfort",
+    title: "Best Pet Clippers for Thick Coats: Power & Blades",
     description:
       "Find the best clippers for thick-coated dogs. Compare corded vs cordless, blade types, and features to choose clippers that handle dense coats efficiently without pulling or damaging hair.",
     category: "grooming-tools",

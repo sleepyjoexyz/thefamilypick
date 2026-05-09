@@ -529,7 +529,7 @@ For most people, buying a dedicated robot vacuum and keeping a handheld mop sepa
 
   "robot-vacuum-maintenance-guide": {
     slug: "robot-vacuum-maintenance-guide",
-    title: "Robot Vacuum Maintenance Guide: Filters, Brushes, and",
+    title: "Robot Vacuum Maintenance: Filters, Brushes & More",
     description:
       "Learn the maintenance schedule, replacement parts, and longevity strategies to keep your robot vacuum performing well for 5+ years without mechanical failure.",
     category: "robot-vacuums",

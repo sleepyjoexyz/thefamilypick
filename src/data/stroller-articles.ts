@@ -9,7 +9,7 @@ export interface StrollerArticle {
 export const strollerArticles: Record<string, StrollerArticle> = {
   "full-size-vs-lightweight-stroller": {
     slug: "full-size-vs-lightweight-stroller",
-    title: "Full-Size vs Lightweight Strollers: Which Is Right for",
+    title: "Full-Size vs Lightweight Strollers: Which to Pick",
     description:
       "Compare full-size and lightweight strollers. Learn the trade-offs between storage capacity, maneuverability, comfort, and portability to make the best choice for your lifestyle.",
     category: "strollers",
@@ -902,7 +902,7 @@ Start by mapping your typical day: Where do you spend most time? How often do yo
 
   "stroller-accessories-worth-buying": {
     slug: "stroller-accessories-worth-buying",
-    title: "Stroller Accessories Worth Buying: Organizers, Footmuffs,",
+    title: "Stroller Accessories: Organizers, Footmuffs & More",
     description:
       "Essential and nice-to-have stroller accessories that improve functionality, comfort, and convenience. Learn which add-ons justify their cost and which are marketing gimmicks.",
     category: "strollers",
@@ -1142,7 +1142,7 @@ Start with your base stroller and identify actual friction points over the first
   },
   "best-stroller-for-summer-heat-2026": {
     slug: "best-stroller-for-summer-heat-2026",
-    title: "Best Strollers for Summer Heat 2026: UV Protection and Ventilation",
+    title: "Best Strollers for Summer Heat 2026: UV & Airflow",
     description:
       "Find the best strollers designed for summer heat with superior UV protection, breathable seating, and cooling features. Learn what makes a stroller truly summer-ready for your family.",
     category: "strollers",
@@ -1863,7 +1863,7 @@ You sacrifice premium materials and superior suspension compared to $350+ stroll
 
   "lightweight-vs-full-size-stroller-detailed": {
     slug: "lightweight-vs-full-size-stroller-detailed",
-    title: "Lightweight vs Full-Size Strollers: Which Type Is Right for Your Family?",
+    title: "Lightweight vs Full-Size Strollers: Which to Choose?",
     description:
       "Complete comparison of lightweight and full-size strollers. Understand real differences in weight, comfort, portability, and which matches your lifestyle and needs.",
     category: "strollers",

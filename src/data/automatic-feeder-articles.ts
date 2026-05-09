@@ -9,7 +9,7 @@ export interface AutoFeederArticle {
 export const automaticFeederArticles: Record<string, AutoFeederArticle> = {
   "smart-vs-basic-automatic-feeder": {
     slug: "smart-vs-basic-automatic-feeder",
-    title: "Smart WiFi Automatic Feeders vs Basic Timed Feeders:",
+    title: "Smart WiFi vs Basic Timed Pet Feeders",
     description:
       "Compare WiFi-enabled smart feeders with traditional timed feeders. Understand app control benefits, connectivity requirements, pricing, and which type suits your pet and lifestyle.",
     category: "automatic-feeders",
@@ -191,7 +191,7 @@ The best choice depends on your lifestyle, pet's needs, technical comfort level,
   },
   "best-automatic-feeders-for-cats": {
     slug: "best-automatic-feeders-for-cats",
-    title: "Best Automatic Pet Feeders for Cats: Portion Control and Weight Management Guide",
+    title: "Best Automatic Cat Feeders: Portion Control & Weight",
     description:
       "Discover the best automatic feeders specifically designed for cats. Learn about portion control for weight management, how to prevent overeating, and which features matter most for feline health.",
     category: "automatic-feeders",
@@ -1118,7 +1118,7 @@ If you must choose one: gravity feeders win for reliability and longevity, while
 
   "wet-food-automatic-feeder-guide": {
     slug: "wet-food-automatic-feeder-guide",
-    title: "Automatic Pet Feeders for Wet Food: How They Work and",
+    title: "Automatic Pet Feeders for Wet Food: How They Work",
     description:
       "Learn how automatic wet food feeders work and whether they're right for your pet. Understand food freshness, storage challenges, bacterial growth, and the best wet food feeders available.",
     category: "automatic-feeders",
@@ -1377,7 +1377,7 @@ If you're committed to an all-wet-food diet and work full day, invest in a therm
 
   "multi-pet-feeding-station-guide": {
     slug: "multi-pet-feeding-station-guide",
-    title: "Multi-Pet Feeding Stations: Managing Different Diets and",
+    title: "Multi-Pet Feeding Stations: Managing Different Diets",
     description:
       "Design a multi-pet feeding station for households with multiple cats or dogs on different diets. Learn about microchip feeders, separate stations, and strategies to prevent food conflicts.",
     category: "automatic-feeders",

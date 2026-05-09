@@ -778,7 +778,7 @@ Proper air fryer maintenance requires only 10 minutes per week. Daily wipe-downs
 
   "best-air-fryer-accessories-worth-buying": {
     slug: "best-air-fryer-accessories-worth-buying",
-    title: "Best Air Fryer Accessories Worth Buying: Liners, Racks,",
+    title: "Best Air Fryer Accessories: Liners, Racks & More",
     description:
       "Discover which air fryer accessories genuinely improve cooking and longevity, which are gimmicks, and how much each costs to help you prioritize purchases.",
     category: "air-fryers",

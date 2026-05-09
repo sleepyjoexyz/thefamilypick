@@ -1008,7 +1008,7 @@ Many pet owners find a combination of both technologies provides the best monito
 
   "multi-pet-monitoring-camera-setup": {
     slug: "multi-pet-monitoring-camera-setup",
-    title: "Multi-Pet Monitoring with Cameras: Setup Guide for",
+    title: "Multi-Pet Monitoring Cameras: Setup Guide",
     description:
       "Design a multi-camera pet monitoring system for households with multiple pets. Learn camera placement, app organization, alert management, and managing different pet behaviors across rooms.",
     category: "pet-cameras",

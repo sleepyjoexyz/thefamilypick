@@ -1087,7 +1087,7 @@ Never transition early based solely on age or desire for comfort. Prioritize saf
 
   "car-seat-installation-mistakes": {
     slug: "car-seat-installation-mistakes",
-    title: "Car Seat Installation Mistakes: Common Errors That",
+    title: "Car Seat Installation Mistakes: Common Errors",
     description:
       "Identify and fix common car seat installation errors. Learn what mistakes 70% of parents make and how to install correctly for maximum safety.",
     category: "car-seats",
@@ -1336,7 +1336,7 @@ Most importantly: Correct installation today protects your child in tomorrow's c
 
   "rear-facing-vs-forward-facing-transition": {
     slug: "rear-facing-vs-forward-facing-transition",
-    title: "When to Switch from Rear-Facing to Forward-Facing: The",
+    title: "When to Switch from Rear-Facing to Forward-Facing",
     description:
       "Understand when to transition from rear-facing to forward-facing car seats. Review the safety evidence and learn what experts recommend for protecting your child's developing spine.",
     category: "car-seats",
@@ -2458,7 +2458,7 @@ Both are excellent, well-tested seats. You won't go wrong with either — the be
   },
   "best-car-seat-summer-road-trip-safety-2026": {
     slug: "best-car-seat-summer-road-trip-safety-2026",
-    title: "Best Car Seats for Summer Road Trips: Heat Safety and Comfort (2026)",
+    title: "Best Car Seats for Summer Road Trips 2026",
     description: "How to keep car seats safe in summer heat, plus the best car seats with breathable fabrics and temperature-regulating features for long road trips.",
     category: "car-seats",
     content: `## The Hidden Danger: Hot Car Seats
@@ -2497,7 +2497,7 @@ The Britax Cool Flow line directly addresses summer heat with engineered ventila
   },
   "car-seat-buying-guide-infant-to-booster-2026": {
     slug: "car-seat-buying-guide-infant-to-booster-2026",
-    title: "Car Seat Buying Guide 2026: From Infant to Booster,",
+    title: "Car Seat Buying Guide 2026: Infant to Booster",
     description: "A comprehensive guide to car seats in 2026 — infant seats, convertibles, boosters, installation methods, expiration dates, and how to choose the right seat for every stage.",
     category: "car-seats",
     content: `## Introduction

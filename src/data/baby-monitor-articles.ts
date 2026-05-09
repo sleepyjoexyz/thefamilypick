@@ -9,7 +9,7 @@ export interface BabyMonitorArticle {
 export const babyMonitorArticles: Record<string, BabyMonitorArticle> = {
   "wifi-vs-non-wifi-baby-monitor": {
     slug: "wifi-vs-non-wifi-baby-monitor",
-    title: "WiFi vs Non-WiFi Baby Monitors: Privacy, Security, and",
+    title: "WiFi vs Non-WiFi Baby Monitors: Privacy & Security",
     description:
       "Compare WiFi-enabled and closed-system baby monitors. Understand privacy risks, reliability differences, range limitations, and which type suits your family.",
     category: "baby-monitors",
@@ -1276,7 +1276,7 @@ Start with realistic range expectations (30-50% of manufacturer claims), test yo
 
   "audio-only-vs-video-baby-monitors": {
     slug: "audio-only-vs-video-baby-monitors",
-    title: "Audio-Only vs Video Baby Monitors: Do You Really Need the",
+    title: "Audio-Only vs Video Baby Monitors: Which to Pick",
     description:
       "Compare audio-only and video monitors. Understand when each is sufficient, cost differences, and whether video monitoring improves parenting outcomes.",
     category: "baby-monitors",
@@ -1545,7 +1545,7 @@ Nanit for remote monitoring. Infant Optics for privacy and simplicity.` },
 ## Benefits
 
 No internet, no hacking, complete privacy.` },
-  "baby-monitor-for-large-house": { slug: "baby-monitor-for-large-house", title: "Best Baby Monitor for Large Houses: Tested Through Thick Walls and Multiple Floors", description: "Find the best baby monitor for large homes and multi-story houses with excellent range.", category: "baby-monitors", content: `## Range Challenge
+  "baby-monitor-for-large-house": { slug: "baby-monitor-for-large-house", title: "Best Baby Monitors for Large Houses: Range Tested", description: "Find the best baby monitor for large homes and multi-story houses with excellent range.", category: "baby-monitors", content: `## Range Challenge
 
 Large homes need 1000+ foot range to overcome thick walls.
 

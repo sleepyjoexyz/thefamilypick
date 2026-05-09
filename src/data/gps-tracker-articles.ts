@@ -9,7 +9,7 @@ export interface GPSTrackerArticle {
 export const gpsTrackerArticles: Record<string, GPSTrackerArticle> = {
   "gps-vs-bluetooth-pet-tracker": {
     slug: "gps-vs-bluetooth-pet-tracker",
-    title: "GPS vs Bluetooth Pet Trackers: Range, Battery, and",
+    title: "GPS vs Bluetooth Pet Trackers: Range & Battery",
     description:
       "Compare GPS and Bluetooth pet trackers. Understand range limitations, battery life, subscription requirements, and which type is best for your dog or cat.",
     category: "gps-trackers",
@@ -141,7 +141,7 @@ The best pet tracker depends on your pet's lifestyle, your geographic location, 
 
   "best-gps-trackers-for-cats": {
     slug: "best-gps-trackers-for-cats",
-    title: "Best GPS Trackers for Cats: Lightweight, Waterproof, and Cat-Specific Picks",
+    title: "Best GPS Trackers for Cats: Lightweight & Waterproof",
     description:
       "Find the best GPS trackers for cats. Learn about lightweight models, waterproof designs, collar-friendly options, and trackers that work for indoor/outdoor cats.",
     category: "gps-trackers",
@@ -647,7 +647,7 @@ Calculate your specific needs, consider your pet's actual outdoor exposure, and 
 
   "gps-pet-fence-vs-traditional-fence": {
     slug: "gps-pet-fence-vs-traditional-fence",
-    title: "GPS Pet Fence vs Traditional Fence: Virtual Boundaries,",
+    title: "GPS Pet Fence vs Traditional Fence: Pros & Cons",
     description:
       "Compare GPS virtual pet fences with traditional physical fences. Understand how geofencing works, training requirements, reliability, escape prevention, and which is right for your pet.",
     category: "gps-trackers",

@@ -41,7 +41,7 @@ export async function generateMetadata(
   }
 
   return {
-    title: `${article.title} | The Family Pick`,
+    title: article.title,
     description: article.description,
     alternates: {
       canonical: `https://www.thefamilypick.com/pet-cameras/${slug}`,
