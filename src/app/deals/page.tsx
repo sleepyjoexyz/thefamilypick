@@ -7,7 +7,7 @@ import { DealSchema } from '@/components/DealSchema';
 
 export const metadata: Metadata = {
   title: "Today's Best Family Deals | The Family Pick",
-  description: "Browse today's best deals on baby gear, pet tech, and family essentials. Updated daily with the biggest savings from Amazon, Slickdeals, and more.",
+  description: "Editor's picks of baby gear and pet tech on Amazon — refreshed regularly. Click through to see the current Amazon price.",
   alternates: { canonical: 'https://www.thefamilypick.com/deals' },
 };
 
@@ -70,8 +70,9 @@ export default function DealsPage() {
       {/* SEO footer text */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-gray-100">
         <p className="text-xs text-gray-400">
-          Deals are sourced from Amazon, Slickdeals, and Reddit. Prices and availability may change.
-          As an Amazon Associate, The Family Pick earns from qualifying purchases.
+          Featured products are editor-selected and link to Amazon. Click through to see the current
+          Amazon price — availability and pricing on Amazon may change at any time. As an Amazon
+          Associate, The Family Pick earns from qualifying purchases.
         </p>
       </section>
     </main>
