@@ -19,7 +19,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B0D47LKJ35?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'ieGeek Baby Monitor with',
-    imageUrl: 'https://m.media-amazon.com/images/I/61isazN0N5L._AC_SL1500_.jpg',
     coupon: '',
   },
   {
@@ -30,7 +29,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B0DYV9THYM?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Jartoo 2K 5.5\" Video',
-    imageUrl: 'https://m.media-amazon.com/images/I/61bCnBB5IuL._AC_SL1500_.jpg',
     coupon: '',
   },
   {
@@ -41,7 +39,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B0829PMJ8D?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'BOB Gear Revolution Flex',
-    imageUrl: 'https://m.media-amazon.com/images/I/81Zca7wbEyL._AC_SL1500_.jpg',
     coupon: '',
   },
   {
@@ -52,7 +49,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B0B11PY5HC?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'HelloBaby Video Baby Monitor',
-    imageUrl: 'https://m.media-amazon.com/images/I/61o50NyJv0L._AC_SL1500_.jpg',
     coupon: '',
   },
   {
@@ -63,7 +59,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B0B316NPZ6?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'HelloBaby HB30 Video Baby',
-    imageUrl: 'https://m.media-amazon.com/images/I/61UkKnokZKL._AC_SL1500_.jpg',
     coupon: '',
   },
   {
@@ -74,7 +69,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B09FS5ZVXK?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Veeconn Dog Clippers Grooming',
-    imageUrl: 'https://m.media-amazon.com/images/I/61UhaX2liOL._AC_SL1500_.jpg',
     coupon: '',
   },
   {
@@ -85,7 +79,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B0D6Z74WJY?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Tractive Smart Dog GPS',
-    imageUrl: 'https://m.media-amazon.com/images/I/81K7-pn8RnL._AC_SL1500_.jpg',
     coupon: '',
   },
   {
@@ -96,7 +89,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B0D6Z4L6BW?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Tractive Smart Dog GPS',
-    imageUrl: 'https://m.media-amazon.com/images/I/81-GYvLKAJL._AC_SL1500_.jpg',
     coupon: '',
   },
   {
@@ -107,7 +99,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B0DZF21KRY?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Tractive Smart Dog GPS',
-    imageUrl: 'https://m.media-amazon.com/images/I/71x61cPEX+L._AC_SL1500_.jpg',
     coupon: '',
   },
   {
@@ -118,7 +109,6 @@ export const mockDeals: Deal[] = [
     amazonUrl: 'https://www.amazon.com/dp/B0953SDCRG?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'PETLIBRO Automatic Cat Feeder',
-    imageUrl: 'https://m.media-amazon.com/images/I/71o4Rw9o-+L._AC_SL1500_.jpg',
     coupon: '',
   },
 ];
