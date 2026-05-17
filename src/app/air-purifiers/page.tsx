@@ -7,7 +7,7 @@ import { airPurifiers } from "@/data/air-purifiers";
 import { AirPurifier } from "@/data/air-purifiers";
 import { airPurifierArticles } from "@/data/air-purifier-articles";
 import Link from "next/link";
-import { getAmazonLink, formatRating, getPriceTier } from "@/lib/utils";
+import { getAmazonLink, formatRating, formatPrice } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
 
 export default function AirPurifiersContent() {
@@ -144,7 +144,7 @@ export default function AirPurifiersContent() {
                     <td className="px-4 py-3 text-gray-900 font-medium">
                       {product.brand} {product.model}
                     </td>
-                    <td className="px-4 py-3 text-gray-900 font-semibold">{getPriceTier(product.price)}</td>
+                    <td className="px-4 py-3 text-gray-900 font-semibold">{formatPrice(product.price)}</td>
                     <td className="px-4 py-3">
                       <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
                         ★ {formatRating(product.rating)}

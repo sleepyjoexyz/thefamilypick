@@ -7,7 +7,7 @@ import { gpsTrackers } from "@/data/gps-trackers";
 import { gpsTrackerArticles } from "@/data/gps-tracker-articles";
 import { GPSTracker } from "@/data/gps-trackers";
 import Link from "next/link";
-import { getAmazonLink, formatRating, getPriceTier } from "@/lib/utils";
+import { getAmazonLink, formatRating, formatPrice } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
 import ProductImage from "@/components/ProductImage";
 
@@ -343,7 +343,7 @@ export default function GPSTrackersContent() {
                       {tracker.brand} {tracker.model}
                     </td>
                     <td className="px-4 py-3 text-gray-600">{tracker.trackingType}</td>
-                    <td className="px-4 py-3 text-gray-900 font-semibold">{getPriceTier(tracker.price)}</td>
+                    <td className="px-4 py-3 text-gray-900 font-semibold">{formatPrice(tracker.price)}</td>
                     <td className="px-4 py-3">
                       <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
                         ★ {formatRating(tracker.rating)}
@@ -399,7 +399,7 @@ export default function GPSTrackersContent() {
                     {tracker.brand} {tracker.model}
                   </h3>
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-2xl font-bold text-gray-900">{getPriceTier(tracker.price)}</span>
+                    <span className="text-2xl font-bold text-gray-900">{formatPrice(tracker.price)}</span>
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-semibold bg-yellow-100 text-yellow-800">
                       ★ {formatRating(tracker.rating)}
                     </span>

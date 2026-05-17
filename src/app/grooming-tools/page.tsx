@@ -7,7 +7,7 @@ import { groomingTools } from "@/data/grooming-tools";
 import { groomingToolArticles } from "@/data/grooming-tool-articles";
 import { GroomingTool } from "@/data/grooming-tools";
 import Link from "next/link";
-import { getAmazonLink, formatRating, getPriceTier } from "@/lib/utils";
+import { getAmazonLink, formatRating, formatPrice } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
 import ProductImage from "@/components/ProductImage";
 
@@ -265,7 +265,7 @@ export default function GroomingToolsContent() {
                       {tool.brand} {tool.model}
                     </td>
                     <td className="px-4 py-3 text-gray-600 capitalize">{tool.toolType.replace("-", " ")}</td>
-                    <td className="px-4 py-3 text-gray-900 font-semibold">{getPriceTier(tool.price)}</td>
+                    <td className="px-4 py-3 text-gray-900 font-semibold">{formatPrice(tool.price)}</td>
                     <td className="px-4 py-3">
                       <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
                         ★ {formatRating(tool.rating)}
@@ -327,7 +327,7 @@ export default function GroomingToolsContent() {
                     {tool.brand} {tool.model}
                   </h3>
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-2xl font-bold text-gray-900">{getPriceTier(tool.price)}</span>
+                    <span className="text-2xl font-bold text-gray-900">{formatPrice(tool.price)}</span>
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-semibold bg-yellow-100 text-yellow-800">
                       ★ {formatRating(tool.rating)}
                     </span>

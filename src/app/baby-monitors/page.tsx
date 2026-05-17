@@ -7,7 +7,7 @@ import { babyMonitors } from "@/data/baby-monitors";
 import { BabyMonitor } from "@/data/baby-monitors";
 import Link from "next/link";
 import { babyMonitorArticles } from "@/data/baby-monitor-articles";
-import { getAmazonLink, formatRating, getPriceTier } from "@/lib/utils";
+import { getAmazonLink, formatRating, formatPrice } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
 import ProductImage from "@/components/ProductImage";
 
@@ -381,7 +381,7 @@ export default function BabyMonitorsContent() {
                       {monitor.brand} {monitor.model}
                     </td>
                     <td className="px-4 py-3 text-gray-600 capitalize">{monitor.monitorType}</td>
-                    <td className="px-4 py-3 text-gray-900 font-semibold">{getPriceTier(monitor.price)}</td>
+                    <td className="px-4 py-3 text-gray-900 font-semibold">{formatPrice(monitor.price)}</td>
                     <td className="px-4 py-3">
                       <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
                         ★ {formatRating(monitor.rating)}
@@ -450,7 +450,7 @@ export default function BabyMonitorsContent() {
                     {monitor.brand} {monitor.model}
                   </h3>
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-2xl font-bold text-gray-900">{getPriceTier(monitor.price)}</span>
+                    <span className="text-2xl font-bold text-gray-900">{formatPrice(monitor.price)}</span>
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-semibold bg-yellow-100 text-yellow-800">
                       ★ {formatRating(monitor.rating)}
                     </span>
