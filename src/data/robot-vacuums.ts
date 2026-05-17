@@ -346,7 +346,7 @@ export const robotVacuums: RobotVacuum[] = [
       "Build quality concerns vs premium brands",
     ],
     bestFor: "Budget seekers wanting self-empty and LiDAR navigation",
-    amazonAsin: "B0D2R88GYB",
+    amazonAsin: null,
     rating: 4.2,
     imageAlt: "Ecovacs Deebot N10 Plus budget self-emptying vacuum",
     lastVerified: null,

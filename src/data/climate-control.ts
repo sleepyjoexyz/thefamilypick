@@ -243,7 +243,7 @@ export const climateDevices: ClimateDevice[] = [
       "Takes significant floor space",
     ],
     bestFor: "Design-conscious buyers who prioritize quiet, efficient cooling",
-    amazonAsin: "B0DVBL912R",
+    amazonAsin: null,
     rating: 4.8,
     imageAlt: "De'Longhi Pinguino PAC EL98 premium portable air conditioner",
     lastVerified: null,

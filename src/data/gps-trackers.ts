@@ -81,7 +81,7 @@ export const gpsTrackers: GPSTracker[] = [
     model: "Health 2.0",
     price: 119,
     rating: 4.4,
-    amazonAsin: "B077LL1XZ3",
+    amazonAsin: null,
     imageUrl: "https://images.unsplash.com/photo-1633722715463-d30628cfa7a8?w=400",
     trackingType: "GPS+LTE",
     petType: "dog",

@@ -120,7 +120,7 @@ export const petCameras: PetCamera[] = [
     model: "Life",
     price: 149,
     rating: 4.2,
-    amazonAsin: "B0B151K8ZJ",
+    amazonAsin: null,
     imageUrl: "https://via.placeholder.com/400x300?text=Pawbo+Life",
     resolution: "1080p",
     fieldOfView: 160,
