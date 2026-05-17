@@ -58,7 +58,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Tech-savvy users who want premium features, app tracking, and professional-grade oscillating technology",
-    amazonAsin: "B0BZQYXKQ2",
+    amazonAsin: "B0B5HSNPNH",
     rating: 4.7,
     imageAlt: "Oral-B iO Series 9 electric toothbrush with app display",
     lastVerified: null,
@@ -97,7 +97,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Users wanting premium Oral-B technology without paying for all Series 9 features; good mid-premium option",
-    amazonAsin: "B09VCGZ6FT",
+    amazonAsin: "B0DCCJZC9F",
     rating: 4.6,
     imageAlt: "Oral-B iO Series 7 rechargeable electric toothbrush",
     lastVerified: null,
@@ -136,7 +136,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Budget-conscious buyers wanting proven oscillating technology without premium features or smart connectivity",
-    amazonAsin: "B0BYH4N9LZ",
+    amazonAsin: "B0GQWSKBLD",
     rating: 4.3,
     imageAlt: "Oral-B iO Series 4 budget electric toothbrush",
     lastVerified: null,
@@ -176,7 +176,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Price-conscious buyers who want a basic, reliable oscillating toothbrush without frills",
-    amazonAsin: "B00PWQPJPU",
+    amazonAsin: "B01AKGRTUM",
     rating: 4.0,
     imageAlt: "Oral-B Pro 1000 entry-level electric toothbrush",
     lastVerified: null,
@@ -215,7 +215,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Premium sonic technology seekers; those preferring Philips over Oral-B; app-enabled brushing tracking",
-    amazonAsin: "B08L2WJGXV",
+    amazonAsin: "B0CM44GT41",
     rating: 4.7,
     imageAlt: "Philips Sonicare DiamondClean 9500 premium sonic toothbrush",
     lastVerified: null,
@@ -254,7 +254,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Budget-to-mid buyers wanting reliable sonic technology without paying for app features",
-    amazonAsin: "B07K3LF3TT",
+    amazonAsin: "B078GVDB18",
     rating: 4.5,
     imageAlt: "Philips Sonicare ProtectiveClean 6100 sonic toothbrush",
     lastVerified: null,
@@ -293,7 +293,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Budget buyers wanting entry-level sonic technology; good alternative to Oral-B Pro 1000",
-    amazonAsin: "B076TPXWYC",
+    amazonAsin: "B0GQWSKBLD",
     rating: 4.2,
     imageAlt: "Philips Sonicare 4100 budget sonic toothbrush",
     lastVerified: null,
@@ -333,7 +333,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Budget travelers; those who hate charging appliances; minimalist brushers wanting basic sonic vibration",
-    amazonAsin: "B00K0DRZH4",
+    amazonAsin: "B0GQWSKBLD",
     rating: 3.8,
     imageAlt: "Philips One by Sonicare battery-powered sonic toothbrush",
     lastVerified: null,
@@ -373,7 +373,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Subscription-model fans; those who like automatic refills; minimalist toothbrush users",
-    amazonAsin: "B07YZR2M3B",
+    amazonAsin: "B0DLJ5BKQ7",
     rating: 4.1,
     imageAlt: "Quip Smart Electric subscription toothbrush",
     lastVerified: null,
@@ -412,7 +412,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Families with kids (app gamification helps); budget-conscious smart toothbrush buyers; Colgate brand loyalty",
-    amazonAsin: "B083NLQ6ZJ",
+    amazonAsin: "B07KCC24P7",
     rating: 4.2,
     imageAlt: "Hum by Colgate smart electric toothbrush",
     lastVerified: null,
@@ -453,7 +453,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Combo users wanting toothbrush + flosser in one; people with braces, implants, or gum disease; no-separate-devices enthusiasts",
-    amazonAsin: "B08G8KVL4K",
+    amazonAsin: "B08WSTTCMG",
     rating: 4.4,
     imageAlt: "Waterpik Sonic-Fusion 2.0 toothbrush and water flosser combo",
     lastVerified: null,
@@ -532,7 +532,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Budget shoppers on Amazon; those wanting decent specs at rock-bottom price; no frills necessary",
-    amazonAsin: "B07M5G6R7Q",
+    amazonAsin: "B0FQJX3G3M",
     rating: 4.2,
     imageAlt: "AquaSonic Black Series budget sonic toothbrush",
     lastVerified: null,
@@ -571,7 +571,7 @@ export const electricToothbrushes: ElectricToothbrush[] = [
     ],
     bestFor:
       "Parents wanting kids to develop good brushing habits; families using Sonicare for adults; gamification-loving children",
-    amazonAsin: "B08FN4F3LF",
+    amazonAsin: "B072YVWBXH",
     rating: 4.4,
     imageAlt: "Philips Sonicare Kids 3+ electric toothbrush for children",
     lastVerified: null,
