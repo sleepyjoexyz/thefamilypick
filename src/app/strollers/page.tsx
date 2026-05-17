@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { strollers, Stroller } from "@/data/strollers";
 import { strollerArticles } from "@/data/stroller-articles";
-import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import { getAmazonLink, formatRating, getPriceTier } from "@/lib/utils";
 import Link from "next/link";
 import DealsBanner from '@/components/DealsBanner';
 
@@ -333,7 +333,7 @@ export default function StrollersContent() {
                     {stroller.brand} {stroller.model}
                   </td>
                   <td className="px-6 py-4 text-sm text-gray-600">
-                    {formatPrice(stroller.price)}
+                    {getPriceTier(stroller.price)}
                   </td>
                   <td className="px-6 py-4 text-sm text-gray-600">
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">

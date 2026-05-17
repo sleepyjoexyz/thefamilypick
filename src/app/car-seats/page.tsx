@@ -7,7 +7,7 @@ import { carSeats } from "@/data/car-seats";
 import { carSeatArticles } from "@/data/car-seat-articles";
 import { CarSeat } from "@/data/car-seats";
 import Link from "next/link";
-import { getAmazonLink, formatPrice } from "@/lib/utils";
+import { getAmazonLink, getPriceTier } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
 
 export default function CarSeatsContent() {
@@ -344,7 +344,7 @@ export default function CarSeatsContent() {
                       {product.brand} {product.model}
                     </td>
                     <td className="border border-gray-300 px-4 py-2 text-right">
-                      {formatPrice(product.price)}
+                      {getPriceTier(product.price)}
                     </td>
                     <td className="border border-gray-300 px-4 py-2 text-center text-xs">
                       <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded">
@@ -419,7 +419,7 @@ export default function CarSeatsContent() {
                 <div className="grid grid-cols-2 gap-2 text-sm">
                   <div>
                     <p className="font-semibold text-gray-700">Price</p>
-                    <p className="text-gray-600">{formatPrice(product.price)}</p>
+                    <p className="text-gray-600">{getPriceTier(product.price)}</p>
                   </div>
                   <div>
                     <p className="font-semibold text-gray-700">Type</p>

@@ -7,7 +7,7 @@ import { automaticFeeders } from "@/data/automatic-feeders";
 import { automaticFeederArticles } from "@/data/automatic-feeder-articles";
 import { AutoFeeder } from "@/data/automatic-feeders";
 import Link from "next/link";
-import { getAmazonLink, formatPrice, formatRating } from "@/lib/utils";
+import { getAmazonLink, formatRating, getPriceTier } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
 import ProductImage from "@/components/ProductImage";
 
@@ -342,7 +342,7 @@ export default function AutomaticFeedersContent() {
                       {feeder.brand} {feeder.model}
                     </td>
                     <td className="px-4 py-3 text-gray-600 capitalize">{feeder.feederType}</td>
-                    <td className="px-4 py-3 text-gray-900 font-semibold">{formatPrice(feeder.price)}</td>
+                    <td className="px-4 py-3 text-gray-900 font-semibold">{getPriceTier(feeder.price)}</td>
                     <td className="px-4 py-3">
                       <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
                         ★ {formatRating(feeder.rating)}
@@ -398,7 +398,7 @@ export default function AutomaticFeedersContent() {
                     {feeder.brand} {feeder.model}
                   </h3>
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-2xl font-bold text-gray-900">{formatPrice(feeder.price)}</span>
+                    <span className="text-2xl font-bold text-gray-900">{getPriceTier(feeder.price)}</span>
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-sm font-semibold bg-yellow-100 text-yellow-800">
                       ★ {formatRating(feeder.rating)}
                     </span>
