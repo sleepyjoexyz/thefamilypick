@@ -2,17 +2,11 @@ export interface Deal {
   id: string;
   title: string;
   category: 'Baby Gear' | 'Pet Tech';
-  // Legacy price fields — retained on existing rows but no longer required
-  // for new entries and no longer displayed (Amazon Operating Agreement).
-  originalPrice?: number;
-  dealPrice?: number;
-  percentOff?: number;
   source: string;
-  sourceUrl?: string;
   amazonUrl: string;
   timeLeft?: string;
   imageAlt: string;
-  imageUrl: string;
+  imageUrl?: string;
   coupon?: string;
 }
 
@@ -21,11 +15,7 @@ export const mockDeals: Deal[] = [
     id: 'BG-001',
     title: 'ieGeek Baby Monitor with 2K HD Resolution, Pan-Til',
     category: 'Baby Gear',
-    originalPrice: 129.99,
-    dealPrice: 89.99,
-    percentOff: 31,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B0D47LKJ35?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B0D47LKJ35?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'ieGeek Baby Monitor with',
@@ -36,11 +26,7 @@ export const mockDeals: Deal[] = [
     id: 'BG-002',
     title: 'Jartoo 2K 5.5\" Video Baby Monitor with Camera and',
     category: 'Baby Gear',
-    originalPrice: 169.99,
-    dealPrice: 129.99,
-    percentOff: 24,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B0DYV9THYM?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B0DYV9THYM?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Jartoo 2K 5.5\" Video',
@@ -51,11 +37,7 @@ export const mockDeals: Deal[] = [
     id: 'BG-003',
     title: 'BOB Gear Revolution Flex 3.0 Jogging Stroller, Gra',
     category: 'Baby Gear',
-    originalPrice: 649.99,
-    dealPrice: 519.99,
-    percentOff: 20,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B0829PMJ8D?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B0829PMJ8D?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'BOB Gear Revolution Flex',
@@ -66,11 +48,7 @@ export const mockDeals: Deal[] = [
     id: 'BG-004',
     title: 'HelloBaby Video Baby Monitor with Camera and Audio',
     category: 'Baby Gear',
-    originalPrice: 44.59,
-    dealPrice: 39.99,
-    percentOff: 10,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B0B11PY5HC?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B0B11PY5HC?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'HelloBaby Video Baby Monitor',
@@ -81,11 +59,7 @@ export const mockDeals: Deal[] = [
     id: 'BG-005',
     title: 'HelloBaby HB30 Video Baby Monitor with Digital Cam',
     category: 'Baby Gear',
-    originalPrice: 33.39,
-    dealPrice: 29.99,
-    percentOff: 10,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B0B316NPZ6?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B0B316NPZ6?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'HelloBaby HB30 Video Baby',
@@ -96,11 +70,7 @@ export const mockDeals: Deal[] = [
     id: 'PT-001',
     title: 'Veeconn Dog Clippers Grooming Kit Hair Clipper-Low',
     category: 'Pet Tech',
-    originalPrice: 29.99,
-    dealPrice: 19.22,
-    percentOff: 36,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B09FS5ZVXK?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B09FS5ZVXK?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Veeconn Dog Clippers Grooming',
@@ -111,11 +81,7 @@ export const mockDeals: Deal[] = [
     id: 'PT-002',
     title: 'Tractive Smart Dog GPS Tracker - Live Pet Tracker',
     category: 'Pet Tech',
-    originalPrice: 79.0,
-    dealPrice: 55.3,
-    percentOff: 30,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B0D6Z74WJY?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B0D6Z74WJY?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Tractive Smart Dog GPS',
@@ -126,11 +92,7 @@ export const mockDeals: Deal[] = [
     id: 'PT-003',
     title: 'Tractive Smart Dog GPS Tracker - Live Pet Tracker',
     category: 'Pet Tech',
-    originalPrice: 79.0,
-    dealPrice: 55.3,
-    percentOff: 30,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B0D6Z4L6BW?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B0D6Z4L6BW?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Tractive Smart Dog GPS',
@@ -141,11 +103,7 @@ export const mockDeals: Deal[] = [
     id: 'PT-004',
     title: 'Tractive Smart Dog GPS Tracker with 6 Month Subscr',
     category: 'Pet Tech',
-    originalPrice: 99.0,
-    dealPrice: 73.79,
-    percentOff: 25,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B0DZF21KRY?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B0DZF21KRY?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Tractive Smart Dog GPS',
@@ -156,11 +114,7 @@ export const mockDeals: Deal[] = [
     id: 'PT-005',
     title: 'PETLIBRO Automatic Cat Feeder - 3L Programmable Pe',
     category: 'Pet Tech',
-    originalPrice: 69.98,
-    dealPrice: 54.96,
-    percentOff: 21,
     source: 'Amazon',
-    sourceUrl: 'https://www.amazon.com/dp/B0953SDCRG?tag=rogeti02-20',
     amazonUrl: 'https://www.amazon.com/dp/B0953SDCRG?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
     imageAlt: 'PETLIBRO Automatic Cat Feeder',
