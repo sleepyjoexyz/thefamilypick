@@ -26,14 +26,14 @@ export const mockDeals: Deal[] = [
   },
   {
     id: 'BG-002',
-    title: 'Jartoo 2K 5.5\" Video Baby Monitor with Camera and',
+    title: 'Jartoo 2K 5.5" Video Baby Monitor with Camera and ',
     category: 'Baby Gear',
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0DYV9THYM?tag=rogeti02-20',
     imageUrl: 'https://m.media-amazon.com/images/I/61bCnBB5IuL._AC_SL1500_.jpg',
     price: 129.99,
     timeLeft: 'Limited Time Deal',
-    imageAlt: 'Jartoo 2K 5.5\" Video',
+    imageAlt: 'Jartoo 2K 5.5" Video',
     coupon: '',
   },
   {
@@ -86,7 +86,7 @@ export const mockDeals: Deal[] = [
   },
   {
     id: 'PT-002',
-    title: 'Tractive Smart Dog GPS Tracker - Live Pet Tracker',
+    title: 'Tractive Smart Dog GPS Tracker | Live Pet Tracker ',
     category: 'Pet Tech',
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0D6Z74WJY?tag=rogeti02-20',
@@ -98,7 +98,7 @@ export const mockDeals: Deal[] = [
   },
   {
     id: 'PT-003',
-    title: 'Tractive Smart Dog GPS Tracker - Live Pet Tracker',
+    title: 'Tractive Smart Dog GPS Tracker | Live Pet Tracker ',
     category: 'Pet Tech',
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0D6Z4L6BW?tag=rogeti02-20',
@@ -122,7 +122,7 @@ export const mockDeals: Deal[] = [
   },
   {
     id: 'PT-005',
-    title: 'PETLIBRO Automatic Cat Feeder - 3L Programmable Pe',
+    title: 'PETLIBRO Automatic Cat Feeder – 3L Programmable Pe',
     category: 'Pet Tech',
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0953SDCRG?tag=rogeti02-20',
