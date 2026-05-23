@@ -79,7 +79,7 @@ export const mockDeals: Deal[] = [
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0CHM81YY4?tag=rogeti02-20',
     imageUrl: 'https://m.media-amazon.com/images/I/61eT3HwpZeL._AC_SL1500_.jpg',
-    price: 17.96,
+    price: 49.96,
     timeLeft: 'Limited Time Deal',
     imageAlt: 'TP-Link Tapo C225 2K Pet Camera',
     coupon: '',
