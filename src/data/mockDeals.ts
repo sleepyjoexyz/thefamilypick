@@ -14,14 +14,14 @@ export interface Deal {
 export const mockDeals: Deal[] = [
   {
     id: 'BG-001',
-    title: 'eufy Baby Monitor C10 with 2K HD Camera, 351° Panoramic',
+    title: 'Nanit Pro Smart Baby Monitor - Camera & Floor Stand, 1080p',
     category: 'Baby Gear',
     source: 'Amazon',
-    amazonUrl: 'https://www.amazon.com/dp/B0GBX3R3XK?tag=rogeti02-20',
-    imageUrl: 'https://m.media-amazon.com/images/I/31x1r+sOxZL._AC_SL1500_.jpg',
-    price: 142.48,
+    amazonUrl: 'https://www.amazon.com/dp/B0FTSL4FXJ?tag=rogeti02-20',
+    imageUrl: 'https://m.media-amazon.com/images/I/61cqkZ6CHoL._SL1500_.jpg',
+    price: 289.99,
     timeLeft: 'Limited Time Deal',
-    imageAlt: 'eufy Baby Monitor C10 2K HD',
+    imageAlt: 'Nanit Pro Smart Baby Monitor Floor Stand',
     coupon: '',
   },
   {
@@ -79,7 +79,7 @@ export const mockDeals: Deal[] = [
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B09GDQZLD1?tag=rogeti02-20',
     imageUrl: 'https://m.media-amazon.com/images/I/616wRFOTA5L._AC_SL1500_.jpg',
-    price: 164.0,
+    price: 184.0,
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Furbo 360 Dog Camera Treat Dispenser',
     coupon: '',
