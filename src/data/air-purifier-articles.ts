@@ -521,7 +521,7 @@ Air purifiers genuinely help with wildfire smoke. Choose one with CADR smoke 300
     slug: "air-purifier-placement-strategy",
     title: "Air Purifier Placement Strategy for Maximum",
     description:
-      "Learn how to position air purifiers in your home for optimal air circulation and fastest pollutant removal. Understand placement mistakes that waste performance.",
+      "Learn how to position air purifiers in your home for optimal air circulation and fastest pollutant removal. Understand placement mistakes that waste.",
     category: "air-purifiers",
     content: `## Introduction
 
@@ -771,7 +771,7 @@ Placement determines purifier effectiveness more than the model you buy. Positio
     slug: "smart-air-purifiers-app-control",
     title: "Smart Air Purifiers With App Control: Worth It or Just",
     description:
-      "Evaluate smart air purifiers with app connectivity, real-time AQI data, and automation. Understand the benefits, privacy concerns, and whether smart features justify the premium price.",
+      "Evaluate smart air purifiers with app connectivity, real-time AQI data, and automation. Understand the benefits, privacy concerns.",
     category: "air-purifiers",
     content: `## Introduction
 
@@ -1017,7 +1017,7 @@ A non-smart purifier from a trusted brand (Coway, Blueair, IQAir) delivers the s
   "how-to-choose-right-air-purifier-room-size": {
     slug: "how-to-choose-right-air-purifier-room-size",
     title: "How to Choose the Right Air Purifier for Your Room Size",
-    description: "Learn how to match an air purifier to your room using CADR ratings, room size calculations, and air changes per hour. Includes filter cost analysis and placement tips.",
+    description: "Learn how to match an air purifier to your room using CADR ratings, room size calculations, and air changes per hour.",
     category: "air-purifiers",
     content: `## Why Room Size Matters for Air Purifiers
 
@@ -1125,7 +1125,7 @@ Most residential purifiers use 30-70 watts on medium speed (similar to a light b
     slug: "best-air-purifier-for-wildfire-smoke-season-2026",
     title: "Best Air Purifiers for Wildfire Smoke Season 2026",
     description:
-      "Protect your home from wildfire smoke with the best air purifiers for 2026. Learn about CADR ratings for smoke, activated carbon filters, and which models handle seasonal air quality crises.",
+      "Protect your home from wildfire smoke with the best air purifiers for 2026. Learn about CADR ratings for smoke, activated carbon filters.",
     category: "air-purifiers",
     content: `## Introduction
 

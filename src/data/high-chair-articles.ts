@@ -775,7 +775,7 @@ The progression from bottle/breast to high chair eating typically takes 6-12 mon
     slug: "portable-high-chairs-for-travel",
     title: "Portable High Chairs for Travel and Restaurants: Options",
     description:
-      "Find the best portable high chairs for travel, restaurants, and on-the-go feeding. Compare clip-on chairs, booster seats, and travel-friendly options with pros and cons.",
+      "Find the best portable high chairs for travel, restaurants, and on-the-go feeding. Compare clip-on chairs, booster seats.",
     category: "high-chairs",
     content: `## Introduction
 
@@ -1036,7 +1036,7 @@ Most families find that a combination (a home high chair plus a lightweight port
     slug: "high-chair-to-booster-seat-transition",
     title: "Transitioning from High Chair to Booster Seat",
     description:
-      "Learn when and how to transition from high chairs to booster seats. Understand readiness signs, safety requirements, and which booster seats are best for your toddler.",
+      "Learn when and how to transition from high chairs to booster seats. Understand readiness signs, safety requirements.",
     category: "high-chairs",
     content: `## Introduction
 

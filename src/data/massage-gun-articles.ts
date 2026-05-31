@@ -11,7 +11,7 @@ export const massageGunArticles: Record<string, MassageGunArticle> = {
     slug: "theragun-vs-hypervolt",
     title: "Theragun vs Hypervolt: Which Percussion Massager Wins?",
     description:
-      "Head-to-head comparison of Theragun and Hypervolt massage guns. Compare specs, grip design, app features, noise, and price to find the best fit for your recovery needs.",
+      "Head-to-head comparison of Theragun and Hypervolt massage guns. Compare specs, grip design, app features, noise.",
     category: "massage-guns",
     content: `## Introduction
 
@@ -407,7 +407,7 @@ Choose mini if: You travel frequently, need portability first, want light recove
     slug: "massage-gun-safety-when-not-to-use",
     title: "Massage Gun Safety: When NOT to Use One and Injury",
     description:
-      "Learn the safety considerations for massage guns, when they're dangerous, and how to avoid overuse injuries. Understand conditions where massage guns should never be used.",
+      "Learn the safety considerations for massage guns, when they're dangerous, and how to avoid overuse injuries. Understand conditions where massage guns should.",
     category: "massage-guns",
     content: `## Introduction
 

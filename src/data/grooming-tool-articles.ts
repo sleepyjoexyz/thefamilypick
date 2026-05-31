@@ -11,7 +11,7 @@ export const groomingToolArticles: Record<string, GroomingToolArticle> = {
     slug: "vacuum-groomer-vs-traditional-clippers",
     title: "Vacuum Groomers vs Traditional Clippers: Mess-Free",
     description:
-      "Compare vacuum grooming systems to traditional clippers. Understand shedding control, cleanup time, pet comfort, and which is best for your home and dog's coat type.",
+      "Compare vacuum grooming systems to traditional clippers. Understand shedding control, cleanup time, pet comfort.",
     category: "grooming-tools",
     content: `## Introduction
 
@@ -176,7 +176,7 @@ For most households with active shedding breeds, a vacuum groomer saves time and
     slug: "best-deshedding-tools-by-coat-type",
     title: "Best Deshedding Tools by Coat Type: Short, Medium, Long &",
     description:
-      "Choose the right deshedding tool for your dog's coat type. Compare undercoat rakes, slicker brushes, and dematting combs for short, medium, long, and double-coated breeds.",
+      "Choose the right deshedding tool for your dog's coat type. Compare undercoat rakes, slicker brushes, and dematting combs for short, medium, long.",
     category: "grooming-tools",
     content: `## Introduction
 
@@ -634,7 +634,7 @@ If your dog has experienced clipper injuries, nail splitting, or anxiety around 
     slug: "home-grooming-starter-kit-guide",
     title: "Home Grooming Starter Kit: Essential Tools",
     description:
-      "Build your first dog grooming kit. Learn which tools are essential, which are optional, and how to start grooming your dog at home without professional equipment.",
+      "Build your first dog grooming kit. Learn which tools are essential, which are optional, and how to start grooming your dog at home without professional.",
     category: "grooming-tools",
     content: `## Introduction
 
@@ -1285,7 +1285,7 @@ The decision ultimately depends on your time availability, number of dogs, and t
     slug: "grooming-tools-long-haired-vs-short-haired-breeds",
     title: "Grooming Tools: Long-Haired vs Short-Haired Breeds",
     description:
-      "Choose the right grooming tools for your dog's coat type. Learn breed-specific requirements, essential tools for each coat type, and common mistakes pet owners make.",
+      "Choose the right grooming tools for your dog's coat type. Learn breed-specific requirements, essential tools for each coat type.",
     category: "grooming-tools",
     content: `## Introduction
 
@@ -1659,7 +1659,7 @@ Long double-coat owners: Be realistic about commitment. These coats require eith
     slug: "summer-grooming-guide-heavy-shedding-season",
     title: "Summer Dog Grooming Guide: Managing Heavy Shedding Season",
     description:
-      "Master summer dog grooming during peak shedding season. Learn about coat blow cycles, deshedding tools, bathing frequency, and when NOT to shave double-coated dogs.",
+      "Master summer dog grooming during peak shedding season. Learn about coat blow cycles, deshedding tools, bathing frequency.",
     category: "grooming-tools",
     content: `## Introduction
 
@@ -1956,7 +1956,7 @@ The right tools (undercoat rake, slicker brush, quality shampoo) and consistent 
     slug: "best-pet-clippers-for-thick-coats",
     title: "Best Pet Clippers for Thick Coats: Power & Blades",
     description:
-      "Find the best clippers for thick-coated dogs. Compare corded vs cordless, blade types, and features to choose clippers that handle dense coats efficiently without pulling or damaging hair.",
+      "Find the best clippers for thick-coated dogs. Compare corded vs cordless, blade types, and features to choose clippers that handle dense coats efficiently.",
     category: "grooming-tools",
     content: `## Introduction
 

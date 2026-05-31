@@ -1374,7 +1374,7 @@ Whatever you choose, run it daily during spring shedding season. The best robot 
   "shark-vs-roomba-robot-vacuum-families-2026": {
     slug: "shark-vs-roomba-robot-vacuum-families-2026",
     title: "Shark AI Ultra vs iRobot Roomba j7+: Best Robot Vacuum",
-    description: "Compare the Shark AI Ultra and iRobot Roomba j7+ for family homes. Covers suction power, obstacle avoidance, self-empty bases, pet hair performance, and pricing.",
+    description: "Compare the Shark AI Ultra and iRobot Roomba j7+ for family homes. Covers suction power, obstacle avoidance, self-empty bases, pet hair performance.",
     category: "robot-vacuums",
     content: `## The Family Robot Vacuum Showdown
 

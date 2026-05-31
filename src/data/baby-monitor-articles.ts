@@ -1062,7 +1062,7 @@ Remember: The best baby monitor is the one you'll actually use. An affordable mo
     slug: "baby-monitor-range-interference",
     title: "Baby Monitor Range and Interference: Why Your Signal Cuts",
     description:
-      "Understand baby monitor range limitations, interference sources, and practical solutions. Learn which monitors have the best range and how to optimize your setup.",
+      "Understand baby monitor range limitations, interference sources, and practical solutions. Learn which monitors have the best range and how to optimize.",
     category: "baby-monitors",
     content: `## Introduction
 
@@ -2297,7 +2297,7 @@ The Infant Optics DXR-8 Pro offers the best balance of portability and image qua
   "complete-guide-baby-monitors-2026": {
     slug: "complete-guide-baby-monitors-2026",
     title: "Baby Monitors in 2026: Every Type Explained",
-    description: "Everything you need to know about baby monitors in 2026 — WiFi vs non-WiFi, video vs audio-only, range, night vision, and which features actually matter for your family.",
+    description: "Everything you need to know about baby monitors in 2026 — WiFi vs non-WiFi, video vs audio-only, range, night vision.",
     category: "baby-monitors",
     content: `## Introduction
 
@@ -2389,7 +2389,7 @@ Start with what solves your specific situation — small apartment vs large hous
   "best-baby-monitor-under-100-budget-picks-2026": {
     slug: "best-baby-monitor-under-100-budget-picks-2026",
     title: "Best Baby Monitors Under $100 (2026)",
-    description: "Top-rated budget baby monitors that deliver great video quality, night vision, and two-way talk without breaking the bank. Our picks for value-conscious parents.",
+    description: "Top-rated budget baby monitors that deliver great video quality, night vision, and two-way talk without breaking the bank.",
     content: `## Introduction
 
 Finding the right baby monitor doesn't require spending $300+. In 2026, budget-friendly options deliver impressive features that rival premium models just years ago. This guide walks parents through the best baby monitors under $100, helping you choose quality without the premium price tag.

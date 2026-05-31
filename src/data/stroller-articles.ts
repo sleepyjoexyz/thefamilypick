@@ -11,7 +11,7 @@ export const strollerArticles: Record<string, StrollerArticle> = {
     slug: "full-size-vs-lightweight-stroller",
     title: "Full-Size vs Lightweight Strollers: Which to Pick",
     description:
-      "Compare full-size and lightweight strollers. Learn the trade-offs between storage capacity, maneuverability, comfort, and portability to make the best choice for your lifestyle.",
+      "Compare full-size and lightweight strollers. Learn the trade-offs between storage capacity, maneuverability, comfort.",
     category: "strollers",
     content: `## Introduction
 
@@ -138,7 +138,7 @@ Neither is objectively better; the choice depends on your lifestyle. Urban, trav
     slug: "best-strollers-under-500",
     title: "Best Strollers Under $500: Premium Features at Mid-Range",
     description:
-      "Find the best value strollers under $500. Compare features, storage, suspension, and car seat compatibility at budget-friendly prices without sacrificing quality.",
+      "Find the best value strollers under $500. Compare features, storage, suspension, and car seat compatibility at budget-friendly prices without sacrificing.",
     category: "strollers",
     content: `## Introduction
 
@@ -302,7 +302,7 @@ None of these choices are wrong. All offer proven features, reliable brands, and
     slug: "jogging-stroller-buying-guide",
     title: "Jogging Stroller Buying Guide: What Separates Quality",
     description:
-      "Learn what makes a jogging stroller safe and effective for running. Compare suspension, wheels, brakes, and features that matter for serious runners vs casual joggers.",
+      "Learn what makes a jogging stroller safe and effective for running. Compare suspension, wheels, brakes.",
     category: "strollers",
     content: `## Introduction
 
@@ -494,7 +494,7 @@ Never compromise on the three defining features: fixed front wheel, responsive s
     slug: "stroller-car-seat-compatibility-guide",
     title: "Stroller and Car Seat Compatibility: Travel Systems",
     description:
-      "Understand stroller and car seat compatibility. Learn how travel systems work, adapter requirements, and which stroller-car seat combinations offer seamless integration.",
+      "Understand stroller and car seat compatibility. Learn how travel systems work, adapter requirements.",
     category: "strollers",
     content: `## Introduction
 
@@ -904,7 +904,7 @@ Start by mapping your typical day: Where do you spend most time? How often do yo
     slug: "stroller-accessories-worth-buying",
     title: "Stroller Accessories: Organizers, Footmuffs & More",
     description:
-      "Essential and nice-to-have stroller accessories that improve functionality, comfort, and convenience. Learn which add-ons justify their cost and which are marketing gimmicks.",
+      "Essential and nice-to-have stroller accessories that improve functionality, comfort, and convenience. Learn which add-ons justify their cost and which are.",
     category: "strollers",
     content: `## Introduction
 
@@ -1144,7 +1144,7 @@ Start with your base stroller and identify actual friction points over the first
     slug: "best-stroller-for-summer-heat-2026",
     title: "Best Strollers for Summer Heat 2026: UV & Airflow",
     description:
-      "Find the best strollers designed for summer heat with superior UV protection, breathable seating, and cooling features. Learn what makes a stroller truly summer-ready for your family.",
+      "Find the best strollers designed for summer heat with superior UV protection, breathable seating, and cooling features.",
     category: "strollers",
     content: `## Introduction
 
@@ -1523,7 +1523,7 @@ The BOB Wayfinder handles genuine sand the best, but weighs more. The UPPAbaby R
   "ultimate-stroller-guide-choosing-right-one-2026": {
     slug: "ultimate-stroller-guide-choosing-right-one-2026",
     title: "The Ultimate Stroller Guide 2026: How to Pick the Right",
-    description: "Full-length stroller buying guide covering every type — umbrella, jogger, full-size, double, travel system — plus terrain advice, fold types, and what features justify the price.",
+    description: "Full-length stroller buying guide covering every type — umbrella, jogger, full-size, double, travel system — plus terrain advice, fold types.",
     category: "strollers",
     content: `## Introduction
 
@@ -1865,7 +1865,7 @@ You sacrifice premium materials and superior suspension compared to $350+ stroll
     slug: "lightweight-vs-full-size-stroller-detailed",
     title: "Lightweight vs Full-Size Strollers: Which to Choose?",
     description:
-      "Complete comparison of lightweight and full-size strollers. Understand real differences in weight, comfort, portability, and which matches your lifestyle and needs.",
+      "Complete comparison of lightweight and full-size strollers. Understand real differences in weight, comfort, portability.",
     category: "strollers",
     content: `## Introduction
 

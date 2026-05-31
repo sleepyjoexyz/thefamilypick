@@ -184,7 +184,7 @@ Neither choice is "wrong"—both paths are safe when properly installed. Your de
     slug: "best-car-seats-for-small-cars",
     title: "Best Car Seats for Small Cars and Narrow Back Seats",
     description:
-      "Find car seats that fit in compact vehicles. Discover the narrowest, most space-efficient car seats ideal for compact cars, sedans, and vehicles with tight back seat space.",
+      "Find car seats that fit in compact vehicles. Discover the narrowest, most space-efficient car seats ideal for compact cars, sedans.",
     category: "car-seats",
     content: `## Introduction
 
@@ -450,7 +450,7 @@ Measure your vehicle before purchasing, test-fit if possible, and prioritize saf
     slug: "car-seat-installation-guide",
     title: "Complete Car Seat Installation Guide: LATCH vs Seatbelt",
     description:
-      "Master car seat installation with our comprehensive guide. Learn LATCH vs seatbelt methods, correct belt routing, angle adjustment, and how to avoid the 7 most common installation mistakes.",
+      "Master car seat installation with our comprehensive guide. Learn LATCH vs seatbelt methods, correct belt routing, angle adjustment.",
     category: "car-seats",
     content: `## Introduction
 
@@ -753,7 +753,7 @@ Master these five steps and you'll avoid 90% of common installation mistakes. If
     slug: "when-to-switch-car-seat-stages",
     title: "When to Switch Car Seats: Transition Timeline and Safety",
     description:
-      "Learn the car seat transition timeline: when to move from infant to convertible, rear-facing to forward-facing, and convertible to booster seats. Includes weight, height, and age guidelines.",
+      "Learn the car seat transition timeline: when to move from infant to convertible, rear-facing to forward-facing, and convertible to booster seats.",
     category: "car-seats",
     content: `## Introduction
 
@@ -1338,7 +1338,7 @@ Most importantly: Correct installation today protects your child in tomorrow's c
     slug: "rear-facing-vs-forward-facing-transition",
     title: "When to Switch from Rear-Facing to Forward-Facing",
     description:
-      "Understand when to transition from rear-facing to forward-facing car seats. Review the safety evidence and learn what experts recommend for protecting your child's developing spine.",
+      "Understand when to transition from rear-facing to forward-facing car seats. Review the safety evidence and learn what experts recommend for protecting.",
     category: "car-seats",
     content: `## Introduction
 
@@ -2054,7 +2054,7 @@ Measure your vehicle first. In a 45-inch back seat, two narrow seats will fit; t
   "how-to-install-car-seat-latch-vs-seatbelt": {
     slug: "how-to-install-car-seat-latch-vs-seatbelt",
     title: "How to Install a Car Seat: LATCH vs Seatbelt Method",
-    description: "Complete guide to installing a car seat safely using LATCH or seatbelt. Learn both methods, when to use each, the 1-inch test, recline angles, and common installation mistakes.",
+    description: "Complete guide to installing a car seat safely using LATCH or seatbelt. Learn both methods, when to use each, the 1-inch test, recline angles.",
     category: "car-seats",
     content: `## Understanding LATCH vs Seatbelt: Which Should You Use?
 
@@ -2147,7 +2147,7 @@ Only as a last resort, and never with an active front airbag for rear-facing sea
     slug: "car-seat-doesnt-fit-small-car",
     title: "Car Seat Doesn't Fit My Small Car — What to Do",
     description:
-      "Car seat too wide for compact car? Learn which slim car seats actually fit, measurement guide, installation tips for tight spaces, and when rear-facing really isn't possible.",
+      "Car seat too wide for compact car? Learn which slim car seats actually fit, measurement guide, installation tips for tight spaces.",
     category: "car-seats",
     content: `## Introduction
 
@@ -2396,7 +2396,7 @@ Boosters are for children age 4+ and minimum 40 lbs. Infants and toddlers requir
   "graco-4ever-vs-chicco-nextfit-convertible-car-seat": {
     slug: "graco-4ever-vs-chicco-nextfit-convertible-car-seat",
     title: "Graco 4Ever DLX vs Chicco NextFit Zip: Which Convertible",
-    description: "Head-to-head comparison of the Graco 4Ever DLX and Chicco NextFit Zip convertible car seats. Covers safety ratings, installation, weight limits, comfort, and value.",
+    description: "Head-to-head comparison of the Graco 4Ever DLX and Chicco NextFit Zip convertible car seats. Covers safety ratings, installation, weight limits, comfort.",
     category: "car-seats",
     content: `## Why These Two?
 
@@ -2498,7 +2498,7 @@ The Britax Cool Flow line directly addresses summer heat with engineered ventila
   "car-seat-buying-guide-infant-to-booster-2026": {
     slug: "car-seat-buying-guide-infant-to-booster-2026",
     title: "Car Seat Buying Guide 2026: Infant to Booster",
-    description: "A comprehensive guide to car seats in 2026 — infant seats, convertibles, boosters, installation methods, expiration dates, and how to choose the right seat for every stage.",
+    description: "A comprehensive guide to car seats in 2026 — infant seats, convertibles, boosters, installation methods, expiration dates.",
     category: "car-seats",
     content: `## Introduction
 

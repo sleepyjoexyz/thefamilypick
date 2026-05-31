@@ -206,7 +206,7 @@ Space heaters work for large rooms when expectations are realistic. A single 150
     slug: "portable-ac-vs-window-ac",
     title: "Portable AC vs Window AC: Which Should You Buy?",
     description:
-      "Compare portable and window air conditioners on efficiency, installation, noise, portability, and restrictions. Find out which is truly better and when portable is your only option.",
+      "Compare portable and window air conditioners on efficiency, installation, noise, portability, and restrictions.",
     category: "climate-control",
     content: `## Introduction
 
@@ -819,7 +819,7 @@ Humidity problems depend on your climate and season. Use a dehumidifier if humid
     slug: "smart-thermostat-integration-portable-ac",
     title: "Smart Thermostat Integration With Portable AC: Does It Work?",
     description:
-      "Understand how smart thermostats integrate with portable air conditioners, automation benefits, compatibility issues, and whether smart control is worth the cost.",
+      "Understand how smart thermostats integrate with portable air conditioners, automation benefits, compatibility issues.",
     category: "climate-control",
     content: `## Introduction
 

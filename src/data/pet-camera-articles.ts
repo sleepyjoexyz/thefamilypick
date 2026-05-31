@@ -11,7 +11,7 @@ export const petCameraArticles: Record<string, PetCameraArticle> = {
     slug: "best-pet-cameras-with-treat-dispenser",
     title: "Best Pet Cameras with Treat Dispensers: Worth the Premium?",
     description:
-      "Compare interactive pet cameras with built-in treat dispensers. Learn how they work, whether they're worth the cost, and how to use them for training and engagement.",
+      "Compare interactive pet cameras with built-in treat dispensers. Learn how they work, whether they're worth the cost.",
     category: "pet-cameras",
     content: `## Introduction
 
@@ -301,7 +301,7 @@ Don't force a pet camera to do security's job, and don't use a security system a
     slug: "do-pet-cameras-help-with-separation-anxiety",
     title: "Do Pet Cameras Help with Separation Anxiety? What Science",
     description:
-      "Explore whether pet cameras and remote interaction can actually reduce separation anxiety. Learn behavioral science, what works, and when to seek professional help.",
+      "Explore whether pet cameras and remote interaction can actually reduce separation anxiety. Learn behavioral science, what works.",
     category: "pet-cameras",
     content: `## Introduction
 
@@ -710,7 +710,7 @@ For serious behavior analysis or multiple cameras, budget $60-120/year in cloud 
     slug: "night-vision-pet-cameras-ir-vs-starlight",
     title: "Night Vision in Pet Cameras: Infrared vs Starlight",
     description:
-      "Compare infrared and starlight night vision technologies in pet cameras. Understand image quality, false alarms, battery drain, and which low-light technology is best for your pet monitoring.",
+      "Compare infrared and starlight night vision technologies in pet cameras. Understand image quality, false alarms, battery drain.",
     category: "pet-cameras",
     content: `## Introduction
 
@@ -1010,7 +1010,7 @@ Many pet owners find a combination of both technologies provides the best monito
     slug: "multi-pet-monitoring-camera-setup",
     title: "Multi-Pet Monitoring Cameras: Setup Guide",
     description:
-      "Design a multi-camera pet monitoring system for households with multiple pets. Learn camera placement, app organization, alert management, and managing different pet behaviors across rooms.",
+      "Design a multi-camera pet monitoring system for households with multiple pets. Learn camera placement, app organization, alert management.",
     category: "pet-cameras",
     content: `## Introduction
 

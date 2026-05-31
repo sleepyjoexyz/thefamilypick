@@ -11,7 +11,7 @@ export const automaticFeederArticles: Record<string, AutoFeederArticle> = {
     slug: "smart-vs-basic-automatic-feeder",
     title: "Smart WiFi vs Basic Timed Pet Feeders",
     description:
-      "Compare WiFi-enabled smart feeders with traditional timed feeders. Understand app control benefits, connectivity requirements, pricing, and which type suits your pet and lifestyle.",
+      "Compare WiFi-enabled smart feeders with traditional timed feeders. Understand app control benefits, connectivity requirements, pricing.",
     category: "automatic-feeders",
     content: `## Introduction
 
@@ -193,7 +193,7 @@ The best choice depends on your lifestyle, pet's needs, technical comfort level,
     slug: "best-automatic-feeders-for-cats",
     title: "Best Automatic Cat Feeders: Portion Control & Weight",
     description:
-      "Discover the best automatic feeders specifically designed for cats. Learn about portion control for weight management, how to prevent overeating, and which features matter most for feline health.",
+      "Discover the best automatic feeders specifically designed for cats. Learn about portion control for weight management, how to prevent overeating.",
     category: "automatic-feeders",
     content: `## Introduction
 
@@ -441,7 +441,7 @@ Start with any reliable feeder, establish a consistent feeding schedule (4-5 mea
     slug: "automatic-feeder-portion-control-guide",
     title: "Automatic Pet Feeder Portion Control Guide: Weight",
     description:
-      "Master portion control with automatic feeders. Learn to calculate ideal portion sizes, adjust for your pet's age and activity level, and track feeding data for optimal weight management.",
+      "Master portion control with automatic feeders. Learn to calculate ideal portion sizes, adjust for your pet's age and activity level.",
     category: "automatic-feeders",
     content: `## Introduction
 
@@ -768,7 +768,7 @@ Remember: healthy weight management adds years to your pet's life and improves q
     slug: "gravity-vs-timed-pet-feeder",
     title: "Gravity Pet Feeders vs. Timed Automatic Feeders: Which is",
     description:
-      "Compare gravity-fed and timed automatic pet feeders. Understand reliability, maintenance, use cases, and which type suits different feeding needs and pet behaviors.",
+      "Compare gravity-fed and timed automatic pet feeders. Understand reliability, maintenance, use cases.",
     category: "automatic-feeders",
     content: `## Introduction
 
@@ -1120,7 +1120,7 @@ If you must choose one: gravity feeders win for reliability and longevity, while
     slug: "wet-food-automatic-feeder-guide",
     title: "Automatic Pet Feeders for Wet Food: How They Work",
     description:
-      "Learn how automatic wet food feeders work and whether they're right for your pet. Understand food freshness, storage challenges, bacterial growth, and the best wet food feeders available.",
+      "Learn how automatic wet food feeders work and whether they're right for your pet. Understand food freshness, storage challenges, bacterial growth.",
     category: "automatic-feeders",
     content: `## Introduction
 
@@ -1379,7 +1379,7 @@ If you're committed to an all-wet-food diet and work full day, invest in a therm
     slug: "multi-pet-feeding-station-guide",
     title: "Multi-Pet Feeding Stations: Managing Different Diets",
     description:
-      "Design a multi-pet feeding station for households with multiple cats or dogs on different diets. Learn about microchip feeders, separate stations, and strategies to prevent food conflicts.",
+      "Design a multi-pet feeding station for households with multiple cats or dogs on different diets. Learn about microchip feeders, separate stations.",
     category: "automatic-feeders",
     content: `## Introduction
 

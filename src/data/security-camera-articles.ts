@@ -690,7 +690,7 @@ For most homeowners: Start with outdoor (front door), then add 1-2 interior came
     slug: "security-camera-resolution-guide",
     title: "1080p vs 2K vs 4K Security Cameras: How Much Resolution",
     description:
-      "Compare security camera resolutions. Understand real-world image quality differences, storage impact, bandwidth requirements, and when each resolution makes sense.",
+      "Compare security camera resolutions. Understand real-world image quality differences, storage impact, bandwidth requirements.",
     category: "security-cameras",
     content: `## Introduction
 
@@ -1007,7 +1007,7 @@ Yes. A camera with a 1/1.2" sensor at 1080p often outperforms a 1/2.5" sensor at
     slug: "security-camera-placement-guide",
     title: "Security Camera Placement Strategy Guide: Optimal Angles",
     description:
-      "Learn strategic camera placement for maximum coverage and evidence capture. Understand blind spots, field of view, and multi-camera positioning for whole-home security.",
+      "Learn strategic camera placement for maximum coverage and evidence capture. Understand blind spots, field of view.",
     category: "security-cameras",
     content: `## Introduction
 
@@ -1648,7 +1648,7 @@ Cloud storage offers convenience and remote access at the cost of privacy and on
     slug: "best-outdoor-security-camera-summer-2026",
     title: "Best Outdoor Security Cameras for Summer 2026",
     description:
-      "Protect your home this summer with the best outdoor security cameras. Learn about weather resistance, extended battery life, and vacation mode features perfect for summer travel.",
+      "Protect your home this summer with the best outdoor security cameras. Learn about weather resistance, extended battery life.",
     category: "security-cameras",
     content: `## Introduction
 
@@ -1879,7 +1879,7 @@ The key to summer camera success: deploy vacation mode features before you leave
   "wyze-cam-vs-ring-indoor-camera-baby-room-2026": {
     slug: "wyze-cam-vs-ring-indoor-camera-baby-room-2026",
     title: "Wyze Cam v4 vs Ring Indoor Cam (2nd Gen): Best Budget",
-    description: "Compare the Wyze Cam v4 and Ring Indoor Cam for baby monitoring. Covers night vision, two-way audio, storage costs, privacy features, and which camera fits your setup.",
+    description: "Compare the Wyze Cam v4 and Ring Indoor Cam for baby monitoring. Covers night vision, two-way audio, storage costs, privacy features.",
     category: "security-cameras",
     content: `## Two Budget Cameras, Different Ecosystems
 
