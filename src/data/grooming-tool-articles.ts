@@ -1925,7 +1925,7 @@ Many owners mistakenly shave double-coated dogs in summer, believing it will kee
 - **Cost:** $300-900 total for season + $100-200 in tools
 - **Time:** 1-2 hours per week home care, one appointment per month
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: My dog seems hot in summer. Should I shave them?**
 No. Double coats insulate against heat. Groom thoroughly to remove loose undercoat, provide shade and water, limit outdoor time in peak heat. Shaving actually increases overheating risk.

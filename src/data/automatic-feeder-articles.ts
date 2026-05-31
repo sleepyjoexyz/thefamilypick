@@ -1890,7 +1890,7 @@ We tested three fast-eating cats (each with a history of post-meal vomiting) usi
 
 **Best for Single Cat + Modest Improvement:** 5-Meal Carousel — Affordable, five meals per day, easy setup.
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: Will a slow-feed feeder actually stop vomiting?**
 Not always, but often. If vomiting is caused by eating too fast, slower feeding significantly reduces it. If vomiting is caused by food allergies, digestive issues, or medical conditions, a slow feeder won't help (see a vet). For pure speed-eating vomiting, slow feeders work in 60–80% of cases.
@@ -1936,7 +1936,7 @@ Start with a slow feeder and observe for one week. If vomiting doesn't decrease,
   },
   "cat-ignores-automatic-feeder": {
     slug: "cat-ignores-automatic-feeder",
-    title: "My Cat Ignores the Automatic Feeder — How to Train Them",
+    title: "Cat Ignores the Automatic Feeder? How to Fix It in 14 Days",
     description:
       "Cat won't eat from automatic feeder? Learn why cats resist, step-by-step training method, quietest models, and when to call the vet for food anxiety.",
     category: "automatic-feeders",
@@ -2125,7 +2125,7 @@ If your cat pawing at the feeder and you scold them, you reinforce that the feed
 **Mistake 6: Changing the feeder placement mid-training**
 Cats learn a location. If the feeder moves from the kitchen to the living room halfway through training, start over at phase 1. Consistency matters.
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: How long should I leave food in the feeder if my cat doesn't eat it?**
 If manual food sits in the bowl for more than 2 hours, discard it (it dries out and smells stale). If the feeder dispenses automatically and food sits for 4+ hours, discard it too. Don't leave wet food in an automatic feeder for more than 1–2 hours. Reintroduce food at the next meal time.

@@ -1310,7 +1310,7 @@ Even with a summer-optimized stroller, additional steps improve comfort:
 - **UPPAbaby Vista v2** ($1,099) — Best all-around summer stroller
 - **Silver Cross Wayfarer** ($1,199) — Premium British engineering
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: Can I add an extra canopy or shade extension to my existing stroller?**
 Yes. Aftermarket canopy extensions ($40-$80) fit most strollers. They're affordable ways to upgrade older strollers for summer.
@@ -1441,7 +1441,7 @@ Spring is a good time for stroller deals. Target and Amazon run baby-category pr
 
 **Registry tip:** Add your preferred stroller to both Amazon and Target registries. The completion discount (10-15%) applies to the remaining items, including strollers. If neither registry is discounted enough, Babylist often has competitive pricing on premium brands.
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: Can I use a jogging stroller as my only stroller?**
 

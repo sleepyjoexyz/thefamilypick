@@ -1721,7 +1721,7 @@ This is where the three options diverge dramatically.
 - You do not mind charging every 2-3 weeks
 - Weight (37g) is not a concern (medium to large dogs)
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: Can cats wear these trackers?**
 A: AirTag works for cats with a third-party collar holder. Fi Series 3 is dog-only (collar design). Whistle makes a cat-specific version (Whistle GO Explore for Cats, lighter weight).

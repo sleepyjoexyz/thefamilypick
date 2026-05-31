@@ -1851,7 +1851,7 @@ Summer entertainment requires liability monitoring. Cameras positioned to catch 
 **Logitech Circle View Wired Pro** ($279) — Wired = always powered. Best for homes with outdoor outlet access.
 **Reolink Argus 4 Pro + Solar** ($250 total) — Battery + solar means no wiring needed; survives full vacation.
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: Can I leave outdoor cameras running 24/7 on battery?**
 No. Continuous recording drains batteries in 1-2 weeks. Vacation mode with motion-only recording extends to 2-4 months.

@@ -1236,7 +1236,7 @@ Watch for pet accidents: if your pet has an indoor accident and the vacuum runs 
 
 Not preparing the floor: loose items jam brushes and waste cleaning time. Starting with a dead battery: always fully charge before the first run; interrupted mapping creates incomplete maps. Moving the dock after setup: the vacuum returns to where the dock was during mapping. Moving it confuses navigation. Overcrowding the schedule: daily runs aren't necessary for most homes and accelerate brush and filter wear. Running on very thick rugs: some vacuums struggle with thick pile carpet. If the vacuum gets stuck repeatedly, set a no-go zone for thick rugs and vacuum them manually.
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: How long does the first mapping run take?**
 Typically 30-60 minutes for a 1,500-2,000 sq ft home. Larger homes or homes with many rooms may take longer. The vacuum will return to its dock when finished.
@@ -1335,7 +1335,7 @@ Dogs and cats shed their winter coats between March and June. During this period
 
 Consider running the vacuum while you and your pets are out of the house. This avoids the stress some animals feel from the noise and gives the vacuum unobstructed access to all floor space.
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: Will a robot vacuum scratch my hardwood floors?**
 

@@ -1104,7 +1104,7 @@ Signs your current purifier isn't enough: you still smell odors after running th
 
 Buying based on room size claims alone: manufacturers often overstate coverage. Check the CADR number, not just "covers 300 sq ft." Ignoring filter costs: a cheap purifier with expensive filters costs more long-term. Calculate 2-year total cost. Placing the purifier in a corner: restricted airflow reduces performance significantly. Running the purifier on low speed all the time: low speed = low CADR. Use medium or high when air quality is poor, then switch to low for maintenance. Keeping windows open while running the purifier: outdoor air enters faster than the purifier can clean it. Close windows for effective purification. Not replacing filters on schedule: a clogged HEPA filter restricts airflow and reduces CADR. Follow the manufacturer's replacement schedule.
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: Can one air purifier clean my entire house?**
 No. Air purifiers are most effective in a single room with the door closed. They clean the air in the room they're in, not adjacent rooms. For whole-house purification, you need multiple units or a whole-house system integrated with your HVAC.
@@ -1299,7 +1299,7 @@ Real-time air quality awareness helps optimize purifier use and decisions about 
 | Dyson Pure Hot+Cool | 300 | Strong | $599 | 150-250 sq ft |
 | Rabbit Air MinusA2 | 300+ | Strong | $399 | 150-250 sq ft |
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: Do air purifiers protect against wildfire smoke?**
 Yes, with caveats. A high-CADR purifier with activated carbon removes most PM2.5 and VOCs from smoke. Effectiveness depends on sealing windows/doors and running the purifier consistently.

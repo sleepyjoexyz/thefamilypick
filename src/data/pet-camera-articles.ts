@@ -1610,7 +1610,7 @@ We set up all six cameras in three different homes to test real-world performanc
 
 **Best for Rooms > 300 sq ft:** Cheerble (160° FOV) — Covers the most area in one camera.
 
-## FAQ
+## Frequently Asked Questions
 
 **Q: Do treat dispensers work with all treat types?**
 No. Most work with small, hard, kibble-like treats (0.25"–0.5" size). Soft treats or wet food jam the dispenser. Check the product specs for recommended treat size and hardness. Many owners use training treats or small kibble bits.
