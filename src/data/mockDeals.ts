@@ -14,12 +14,14 @@ export interface Deal {
 export const mockDeals: Deal[] = [
   {
     id: 'BG-001',
-    title: 'Nanit Pro Smart Baby Monitor - Camera & Wall Mount, 1080p',
+    title: 'eufy Baby Monitor C10 Video Baby Monitor, 720p, 5" Screen',
     category: 'Baby Gear',
     source: 'Amazon',
-    amazonUrl: 'https://www.amazon.com/dp/B0FTSJQPWT?tag=rogeti02-20',
+    amazonUrl: 'https://www.amazon.com/dp/B0FQ9MNH2Q?tag=rogeti02-20',
+    imageUrl: 'https://m.media-amazon.com/images/I/51hYtHVIGBL._AC_SL1500_.jpg',
+    price: 129.99,
     timeLeft: 'Limited Time Deal',
-    imageAlt: 'Nanit Pro Smart Baby Monitor Wall Mount',
+    imageAlt: 'eufy Baby Monitor C10 Video Monitor',
     coupon: '',
   },
   {
@@ -94,14 +96,14 @@ export const mockDeals: Deal[] = [
   },
   {
     id: 'PT-003',
-    title: 'Furbo 360° Dog Camera, 1080p Treat Toss, 2-Way Audio',
+    title: 'Petcube Cam 360 Pet Monitoring Camera, AI Pet Alerts',
     category: 'Pet Tech',
     source: 'Amazon',
-    amazonUrl: 'https://www.amazon.com/dp/B09GDQZLD1?tag=rogeti02-20',
-    imageUrl: 'https://m.media-amazon.com/images/I/616wRFOTA5L._AC_SL1500_.jpg',
-    price: 199.00,
+    amazonUrl: 'https://www.amazon.com/dp/B0CH1D594H?tag=rogeti02-20',
+    imageUrl: 'https://m.media-amazon.com/images/I/61t8RtAHw4L._AC_SL1500_.jpg',
+    price: 46.99,
     timeLeft: 'Limited Time Deal',
-    imageAlt: 'Furbo 360 Dog Camera White',
+    imageAlt: 'Petcube Cam 360 Pet Camera',
     coupon: '',
   },
   {
