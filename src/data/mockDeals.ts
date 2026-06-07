@@ -78,6 +78,8 @@ export const mockDeals: Deal[] = [
     category: 'Pet Tech',
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0FTBCL13P?tag=rogeti02-20',
+    imageUrl: 'https://m.media-amazon.com/images/I/71MgDW2qP9L._AC_SL1500_.jpg',
+    price: 64.13,
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Furbo 360 Dog Camera Mini Bundle',
     coupon: '',
