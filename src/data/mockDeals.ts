@@ -14,14 +14,14 @@ export interface Deal {
 export const mockDeals: Deal[] = [
   {
     id: 'BG-001',
-    title: 'eufy Baby Monitor C10 Video Baby Monitor, 720p, 5" Screen',
+    title: 'eufy Baby Monitor C10 with 2K HD Camera, 4.5" Display, Pan-Tilt, Night Vision',
     category: 'Baby Gear',
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0FQ9MNH2Q?tag=rogeti02-20',
     imageUrl: 'https://m.media-amazon.com/images/I/51hYtHVIGBL._AC_SL1500_.jpg',
-    price: 129.99,
+    price: 99.99,
     timeLeft: 'Limited Time Deal',
-    imageAlt: 'eufy Baby Monitor C10 Video Monitor',
+    imageAlt: 'eufy Baby Monitor C10 2K HD Camera',
     coupon: '',
   },
   {
