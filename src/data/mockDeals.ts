@@ -91,7 +91,7 @@ export const mockDeals: Deal[] = [
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0D6Z74WJY?tag=rogeti02-20',
     imageUrl: 'https://m.media-amazon.com/images/I/71xoxtxLzoL._AC_SL1500_.jpg',
-    price: 55.30,
+    price: 65.69,
     timeLeft: 'Limited Time Deal',
     imageAlt: 'Tractive Smart Dog GPS Tracker',
     coupon: '',
