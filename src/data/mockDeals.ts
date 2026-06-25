@@ -14,7 +14,7 @@ export interface Deal {
 export const mockDeals: Deal[] = [
   {
     id: 'BG-001',
-    title: 'eufy Baby Monitor C10 with 2K HD Camera, 4.5" Display, Pan-Tilt, Night Vision',
+    title: 'eufy Baby Monitor C10 with 2K HD Camera, 4.5\" Display, Pan-Tilt, Night Vision',
     category: 'Baby Gear',
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0FQ9MNH2Q?tag=rogeti02-20',
@@ -26,14 +26,14 @@ export const mockDeals: Deal[] = [
   },
   {
     id: 'BG-002',
-    title: 'Jartoo 2K 5.5" Video Baby Monitor with Camera',
+    title: 'Jartoo 2K 5.5\" Video Baby Monitor with Camera',
     category: 'Baby Gear',
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0DYV9THYM?tag=rogeti02-20',
     imageUrl: 'https://m.media-amazon.com/images/I/61bCnBB5IuL._AC_SL1500_.jpg',
     price: 129.99,
     timeLeft: 'Limited Time Deal',
-    imageAlt: 'Jartoo 2K 5.5" Video Baby Monitor',
+    imageAlt: 'Jartoo 2K 5.5\" Video Baby Monitor',
     coupon: '',
   },
   {
@@ -50,14 +50,12 @@ export const mockDeals: Deal[] = [
   },
   {
     id: 'BG-004',
-    title: 'HelloBaby Video Baby Monitor with Camera and Audio',
+    title: '2K Baby Monitor with Camera and Audio Wireless, No WiFi Needed, Night Vision',
     category: 'Baby Gear',
     source: 'Amazon',
-    amazonUrl: 'https://www.amazon.com/dp/B0B11PY5HC?tag=rogeti02-20',
-    imageUrl: 'https://m.media-amazon.com/images/I/61o50NyJv0L._AC_SL1500_.jpg',
-    price: 39.99,
+    amazonUrl: 'https://www.amazon.com/dp/B0G3XXXYNN?tag=rogeti02-20',
     timeLeft: 'Limited Time Deal',
-    imageAlt: 'HelloBaby Video Baby Monitor',
+    imageAlt: '2K Wireless Baby Monitor Camera No-WiFi Night Vision',
     coupon: '',
   },
   {
