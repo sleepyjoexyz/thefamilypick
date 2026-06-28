@@ -54,6 +54,8 @@ export const mockDeals: Deal[] = [
     category: 'Baby Gear',
     source: 'Amazon',
     amazonUrl: 'https://www.amazon.com/dp/B0G3XXXYNN?tag=rogeti02-20',
+    imageUrl: 'https://m.media-amazon.com/images/I/61ie67pwVsL._AC_SL1500_.jpg',
+    price: 139.99,
     timeLeft: 'Limited Time Deal',
     imageAlt: '2K Wireless Baby Monitor Camera No-WiFi Night Vision',
     coupon: '',
