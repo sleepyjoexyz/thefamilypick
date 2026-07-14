@@ -2,11 +2,14 @@
 
 import Link from 'next/link';
 import DealCard from '@/components/DealCard';
+import QuickPickCard from '@/components/QuickPickCard';
 import { mockDeals } from '@/data/mockDeals';
 import { dealCategories } from '@/lib/dealCategories';
+import { getQuickPicks } from '@/lib/quickPicks';
 
 export default function Home() {
   const MAX_DEALS_PER_CATEGORY = 6;
+  const quickPicks = getQuickPicks(40, 12);
 
   return (
     <main className="bg-white">
@@ -22,6 +25,24 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Quick Picks Under $40 — impulse-priced items surfaced above the fold.
+          Low-price products convert inside Amazon's 24h cookie far better than
+          the $150+ considered purchases that dominate the catalog. */}
+      {quickPicks.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xl font-bold text-gray-900">
+              ⚡ Quick Picks Under $40
+              <span className="text-sm font-normal text-gray-500 ml-2">Easy, fast buys under forty dollars</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+            {quickPicks.map((pick) => (
+              <QuickPickCard key={pick.id} pick={pick} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Category Sections with Deals */}
       {dealCategories.map((cat) => {
