@@ -179,7 +179,7 @@ export default function BabyMonitorsContent() {
       {/* Hero */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Best Baby Monitors Compared — 2025-2026
+          Best Baby Monitors of 2026: Reviews &amp; Buyer&apos;s Guide
         </h1>
         <p className="text-lg text-gray-600 mb-6">
           We've analyzed 13 baby monitors across all types and price points—from budget audio-only monitors to premium WiFi systems with AI sleep tracking. Compare specifications, features, prices, and ratings to find the monitor that matches your family's needs, privacy preferences, and budget.

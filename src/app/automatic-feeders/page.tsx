@@ -157,7 +157,7 @@ export default function AutomaticFeedersContent() {
       {/* Hero */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Best Automatic Pet Feeders Compared — 2025-2026
+          Best Automatic Pet Feeders of 2026: Reviews &amp; Buyer&apos;s Guide
         </h1>
         <p className="text-lg text-gray-600 mb-6">
           We've analyzed 10+ automatic feeders for cats and dogs across all types and price points—from basic timed models to smart WiFi-enabled systems with app control. Compare specifications, features, prices, and ratings to find the feeder that keeps your pet on schedule.
