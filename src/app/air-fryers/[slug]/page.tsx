@@ -120,6 +120,24 @@ export default async function ArticlePage({ params }: PageProps) {
         />
       </article>
 
+      {/* Buying-guide CTA — funnel research readers to the buyer-intent page (S2989, S2978 diag #5) */}
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            Ready to Choose an Air Fryer?
+          </h2>
+          <p className="text-gray-600 mb-6">
+            Compare our top-rated air fryers side by side — capacity, features, and price.
+          </p>
+          <Link
+            href="/air-fryers"
+            className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium"
+          >
+            See the Best Air Fryers &rarr;
+          </Link>
+        </div>
+      </section>
+
       {/* Comments Section */}
       {/* Cross-Category Links */}
       <CrossCategoryLinks currentCategory="air-fryers" />
