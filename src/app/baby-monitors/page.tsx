@@ -9,6 +9,7 @@ import Link from "next/link";
 import { babyMonitorArticles } from "@/data/baby-monitor-articles";
 import { getAmazonLink, formatRating, formatPrice } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
+import QuickPicksBand from "@/components/QuickPicksBand";
 import ProductImage from "@/components/ProductImage";
 
 export default function BabyMonitorsContent() {
@@ -188,6 +189,7 @@ export default function BabyMonitorsContent() {
         </p>
       </section>
       <DealsBanner />
+      <QuickPicksBand heading="⚡ Quick Picks Under $40" subtitle="Low-cost favorites people grab on Amazon in one click." />
 
 
 

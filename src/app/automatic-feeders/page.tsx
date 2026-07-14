@@ -9,6 +9,7 @@ import { AutoFeeder } from "@/data/automatic-feeders";
 import Link from "next/link";
 import { getAmazonLink, formatRating, formatPrice } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
+import QuickPicksBand from "@/components/QuickPicksBand";
 import ProductImage from "@/components/ProductImage";
 
 export default function AutomaticFeedersContent() {
@@ -166,6 +167,7 @@ export default function AutomaticFeedersContent() {
         </p>
       </section>
       <DealsBanner />
+      <QuickPicksBand heading="⚡ Quick Picks Under $40" subtitle="Low-cost favorites people grab on Amazon in one click." />
 
 
 

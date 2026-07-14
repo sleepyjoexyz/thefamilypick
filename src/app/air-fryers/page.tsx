@@ -9,6 +9,7 @@ import { airFryerArticles } from "@/data/air-fryer-articles";
 import Link from "next/link";
 import { getAmazonLink, formatRating, formatPrice } from "@/lib/utils";
 import DealsBanner from '@/components/DealsBanner';
+import QuickPicksBand from "@/components/QuickPicksBand";
 
 export default function AirFryersContent() {
   const [sortBy, setSortBy] = useState<string>("name");
@@ -120,6 +121,7 @@ export default function AirFryersContent() {
         </p>
       </section>
       <DealsBanner />
+      <QuickPicksBand heading="⚡ Quick Picks Under $40" subtitle="Low-cost favorites people grab on Amazon in one click." />
 
 
 
