@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { babyMonitors } from "@/data/baby-monitors";
@@ -12,10 +13,13 @@ import DealsBanner from '@/components/DealsBanner';
 import QuickPicksBand from "@/components/QuickPicksBand";
 import ProductImage from "@/components/ProductImage";
 
-export default function BabyMonitorsContent() {
+function BabyMonitorsContent() {
+  const searchParams = useSearchParams();
   const [monitorType, setMonitorType] = useState<string>("all");
   const [wifiRequired, setWifiRequired] = useState<string>("all");
-  const [priceRange, setPriceRange] = useState<string>("all");
+  const [priceRange, setPriceRange] = useState<string>(
+    searchParams.get("budget") === "budget" ? "budget" : "all"
+  );
   const [panTiltZoom, setPanTiltZoom] = useState<string>("all");
   const [hasApp, setHasApp] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("name");
@@ -525,4 +529,12 @@ export default function BabyMonitorsContent() {
     </div>
   );
 
+}
+
+export default function BabyMonitorsPage() {
+  return (
+    <Suspense fallback={null}>
+      <BabyMonitorsContent />
+    </Suspense>
+  );
 }

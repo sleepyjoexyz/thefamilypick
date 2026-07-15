@@ -183,7 +183,7 @@ export default async function ArticlePage({ params }: PageProps) {
             Compare our top-rated picks side by side, then filter to the best automatic feeders under $100 for your budget.
           </p>
           <Link
-            href="/automatic-feeders"
+            href="/automatic-feeders?budget=budget"
             className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium"
           >
             See the Best Automatic Feeders Under $100 &rarr;

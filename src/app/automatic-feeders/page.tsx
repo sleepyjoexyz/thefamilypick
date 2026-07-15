@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProductFinder, { FinderStep, FinderResultConfig } from "@/components/ProductFinder";
 import { automaticFeeders } from "@/data/automatic-feeders";
@@ -12,10 +13,13 @@ import DealsBanner from '@/components/DealsBanner';
 import QuickPicksBand from "@/components/QuickPicksBand";
 import ProductImage from "@/components/ProductImage";
 
-export default function AutomaticFeedersContent() {
+function AutomaticFeedersContent() {
+  const searchParams = useSearchParams();
   const [feederType, setFeederType] = useState<string>("all");
   const [petType, setPetType] = useState<string>("all");
-  const [priceRange, setPriceRange] = useState<string>("all");
+  const [priceRange, setPriceRange] = useState<string>(
+    searchParams.get("budget") === "budget" ? "budget" : "all"
+  );
   const [hasApp, setHasApp] = useState<string>("all");
   const [sortBy, setSortBy] = useState<string>("name");
 
@@ -471,4 +475,12 @@ export default function AutomaticFeedersContent() {
     </div>
   );
 
+}
+
+export default function AutomaticFeedersPage() {
+  return (
+    <Suspense fallback={null}>
+      <AutomaticFeedersContent />
+    </Suspense>
+  );
 }
