@@ -178,13 +178,16 @@ export default async function ArticlePage({ params }: PageProps) {
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-gray-200">
         <div className="text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            Ready to Compare Baby Monitors?
+            Ready to Choose a Baby Monitor?
           </h2>
+          <p className="text-gray-600 mb-6">
+            Compare our top-rated picks side by side, then filter to the best baby monitors under $150 for your budget.
+          </p>
           <Link
             href="/baby-monitors"
             className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium"
           >
-            View Full Comparison Table
+            See the Best Baby Monitors Under $150 &rarr;
           </Link>
         </div>
       </section>

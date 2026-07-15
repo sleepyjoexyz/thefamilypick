@@ -116,8 +116,10 @@ export default function AirFryersContent() {
           Best Air Fryers of 2026: Reviews &amp; Buyer&apos;s Guide
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-          We've analyzed and compared the top Air Fryers available today. Find the perfect
-          product for your needs with our detailed comparison of prices, features, and ratings.
+          We've analyzed 14 air fryers across all types and price points—from compact single-basket models to large dual-zone and multi-function units, spanning roughly $10 to $500. Compare specifications, capacity, features, prices, and ratings to find the air fryer that matches your kitchen, household size, and budget.
+        </p>
+        <p className="text-base text-gray-600 mb-6">
+          Our methodology is based on manufacturer specifications, user ratings, capacity and wattage data, and real-world cooking performance.
         </p>
       </section>
       <DealsBanner />
